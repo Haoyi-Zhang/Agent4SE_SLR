@@ -132,10 +132,6 @@
   
   Zelikman et al.
 
-* [2023/08] **CodeCoT: Tackling Code Syntax Errors in CoT Reasoning for Code Generation.** [[arXiv](https://arxiv.org/pdf/2308.08784)]
-  
-  Huang et al.
-
 * [2023/06] **SELFEVOLVE: A Code Evolution Framework via Large Language Models.** [[arXiv](https://arxiv.org/pdf/2306.02907)]
   
   Jiang et al.
@@ -199,10 +195,6 @@
 * [2024/01] **XUAT-Copilot: Multi-Agent Collaborative System for Automated User Acceptance Testing with Large Language Model.** [[arXiv](https://arxiv.org/pdf/2401.02705)]
   
   Wang et al.
-
-* [2023/10] **Testing the Limits: Unusual Text Inputs Generation for Mobile App Crash Detection with Large Language Model.** [[ICSE 2023](https://dl.acm.org/doi/pdf/10.1145/3597503.3639118)]
-  
-  Liu et al.
 
 * [2024/04] **LLM Agents can Autonomously Exploit One-day Vulnerabilities.** [[arXiv](https://arxiv.org/pdf/2404.08144)]
   
