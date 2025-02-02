@@ -63,9 +63,6 @@
 * [2024/02] **LDB: A Large Language Model Debugger via Verifying Runtime Execution Step by Step.** [[arXiv](https://arxiv.org/pdf/2402.16906)]  
   Zhong et al.
 
-* [2024/01] **CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.** [[ACL 2024](https://arxiv.org/pdf/2401.07339)]  
-  Zhang et al.
-
 * [2024/01] **Teaching Code LLMs to Use Autocompletion Tools in Repository-Level Code Generation.** [[arXiv](https://arxiv.org/pdf/2401.06391)]  
   Wang et al.
 
@@ -149,9 +146,6 @@
 
 * [2024/03] **AutoDev: Automated AI-Driven Development** [[arXiv](https://arxiv.org/pdf/2403.08299)]  
   Tufano et al.
-
-* [2024/03] **RepairAgent: An Autonomous, LLM-Based Agent for Program Repair.** [[ICSE 2025](https://arxiv.org/pdf/2403.17134)]  
-  Bouzenia et al.
 
 * [2024/03] **CoCoST: Automatic Complex Code Generation with Online Searching and Correctness Testing.** [[arXiv](https://arxiv.org/pdf/2403.13583)]  
   He et al.
@@ -242,10 +236,7 @@
 
 * [2024/05] **Iterative Experience Refinement of Software-Developing Agents.** [[arXiv](https://arxiv.org/pdf/2405.04219)]  
   Qian et al.
-
-* [2024/03] **MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue ReSolution.** [[arXiv](https://arxiv.org/pdf/2403.17927)]  
-  Tao et al.
-
+  
 * [2024/02] **CodeAgent: Collaborative Agents for Software Engineering.** [[arXiv](https://arxiv.org/pdf/2402.02172.pdf)]  
   Tang et al.
 
@@ -272,9 +263,6 @@
 
 * [2023/12] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation.** [[arXiv](https://arxiv.org/pdf/2312.13010)]  
   Huang et al.
-
-* [2023/05] **Self-Edit: Fault-Aware Code Editor for Code Generation.** [[ACL 2023](https://aclanthology.org/2023.acl-long.45v3.pdf)]  
-  Zhang et al.
 
 * [2023/03] **CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society.** [[NeurIPS 2023](https://arxiv.org/pdf/2303.17760)]  
   Li et al.
