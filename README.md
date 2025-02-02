@@ -360,10 +360,6 @@
   
   Talebirad et al.
 
-* [2023/04] **Self-collaboration Code Generation via ChatGPT.** [[arXiv](https://arxiv.org/pdf/2304.07590)]
-  
-  Dong et al.
-
 * [2024/04] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization.** [[arXiv](https://arxiv.org/pdf/2404.02183)]
   
   Ishibashi et al.
@@ -594,9 +590,6 @@
 * [2023/11] **Towards Responsible Generative AI: A Reference Architecture for Designing Foundation Model based Agents** [[arxiv](http://arxiv.org/abs/2311.13148v3)]  
   Qinghua Lu, Liming Zhu, Xiwei Xu, Zhenchang Xing, Stefan Harrer, Jon Whittle
 
-* [2023/11] **Autonomous Agents in Software Development: A Vision Paper** [[arxiv](http://arxiv.org/abs/2311.18440v1)]  
-  Zeeshan Rasheed, Muhammad Waseem, Kai-Kristian Kemell, Wang Xiaofeng, Anh Nguyen Duc, Kari Systä, Pekka Abrahamsson
-
 * [2023/12] **A Prompt Learning Framework for Source Code Summarization** [[arxiv](http://arxiv.org/abs/2312.16066v2)]  
   Tingting Xu, Yun Miao, Chunrong Fang, Hanwei Qian, Xia Feng, Zhenpeng Chen, Chong Wang, Jian Zhang, Weisong Sun, Zhenyu Chen, Yang Liu
 
@@ -605,9 +598,6 @@
 
 * [2023/12] **GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension** [[arxiv](http://arxiv.org/abs/2312.17294v1)]  
   Bohan Lyu, Xin Cong, Heyang Yu, Pan Yang, Yujia Qin, Yining Ye, Yaxi Lu, Zhong Zhang, Yukun Yan, Yankai Lin, Zhiyuan Liu, Maosong Sun
-
-* [2023/12] **The Tyranny of Possibilities in the Design of Task-Oriented LLM Systems: A Scoping Survey** [[arxiv](http://arxiv.org/abs/2312.17601v1)]  
-  Dhruv Dhamani, Mary Lou Maher
 
 * [2024/01] **Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security** [[arxiv](http://arxiv.org/abs/2401.05459v2)]  
   Yuanchun Li, Hao Wen, Weijun Wang, Xiangyu Li, Yizhen Yuan, Guohong Liu, Jiacheng Liu, Wenxing Xu, Xiang Wang, Yi Sun, Rui Kong, Yile Wang, Hanfei Geng, Jian Luan, Xuefeng Jin, Zilong Ye, Guanjing Xiong, Fan Zhang, Xiang Li, Mengwei Xu, Zhijun Li, Peng Li, Yang Liu, Ya-Qin Zhang, Yunxin Liu
