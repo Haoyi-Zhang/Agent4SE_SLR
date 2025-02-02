@@ -1,14 +1,5 @@
 # Agent4SE_SLR
 
-* [2024/01] **SpecGen: Automated Generation of Formal Program Specifications via Large Language Models.** [[arXiv](https://arxiv.org/pdf/2401.08807)]  
-  Ma et al.
-
-* [2023/10] **Advancing Requirements Engineering through Generative AI: Assessing the Role of LLMs.** [[arXiv](https://arxiv.org/pdf/2310.13976)]  
-  Arora et al.
-
-* [2024/11] **Planning-Driven Programming: A Large Language Model Programming Workflow.** [[arXiv](https://arxiv.org/pdf/2411.14503)]  
-  Lei et al.
-
 * [2024/11] **Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation.** [[arXiv](https://arxiv.org/pdf/2411.10753)]  
   Hou et al.
 
