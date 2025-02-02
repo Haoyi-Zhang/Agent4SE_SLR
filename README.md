@@ -120,7 +120,8 @@
 - **[ToolFactory: Automating Tool Generation by Leveraging LLM to Understand REST API Documentations.](https://arxiv.org/pdf/2406.05381)** - Sami et al. (2024/06)
 
 ### Automation of Development Workflows
-- **[More Agents Is All You Need.](https://arxiv.org/pdf/2402.05120)** - Li et al. (2024/02)
+- [2024/02] **More Agents Is All You Need.** [[TMLR](https://arxiv.org/pdf/2402.05120)]  
+  Li et al.
 
 ### Cross-Tool Integration
 - [2023/12] **GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension** [[arxiv](http://arxiv.org/abs/2312.17294v1)]  
