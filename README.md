@@ -384,10 +384,6 @@
   
   Li et al.
 
-* [2024/08] **SpecRover: Code Intent Extraction via LLMs** [[arXiv](https://arxiv.org/pdf/2408.02232)]
-  
-  Ruan et al.
-
 * [2024/07] **Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model.** [[arXiv](https://arxiv.org/pdf/2407.03037)]
   
   Liu et al.
