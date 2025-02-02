@@ -165,12 +165,6 @@
 * [2024/05] **Can Cooperative Multi-Agent Reinforcement Learning Boost Automatic Web Testing? An Exploratory Study.** [[ASE 2024](https://dl.acm.org/doi/10.1145/3691620.3694983)]  
   Fan et al.
 
-* [2024/05] **AirGapAgent: Protecting Privacy-Conscious Conversational Agents.** [[CCS 2024](https://arxiv.org/abs/2405.05175)]  
-  Bagdasarian et al.
-
-* [2024/05] **Repairing Bugs with the Introduction of New Variables: A Multi-Agent Large Language Model.** [[CCS 2024](https://dl.acm.org/doi/10.1145/3658644.3691412)]  
-  Zhang et al.
-
 * [2024/05] **SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code.** [[ICML 2024](https://dl.acm.org/doi/10.5555/3692070.3692846)]  
   Hu et al.
 
