@@ -39,90 +39,101 @@
 
 ## Code Generation and Improvement
 ### Automated Code Generation
-LLM agents used for generating code automatically based on given specifications or requirements.
+- **[Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation.](https://arxiv.org/pdf/2411.10753)** - Hou et al. (2024/11)
+- **[Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers.](https://arxiv.org/pdf/2410.15625)** - Wei et al. (2024/10)
 
 ### Code Optimization
-Enhancement of existing code through automatic refactoring and performance improvements.
+- **[Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers.](https://arxiv.org/pdf/2410.15625)** - Wei et al. (2024/10)
 
 ### Code Refactoring and Repair
 #### Code Refactoring
-LLM agents involved in restructuring and improving code without altering its functionality.
+- **[AutoDev: Automated AI-Driven Development](https://arxiv.org/pdf/2403.08299)** - Tufano et al. (2024/03)
 
 #### Bug Fixing
-LLM agents used to automatically identify and fix bugs in the code.
+- **[AGENTFL: Scaling LLM-based Fault Localization to Project-Level Context.](https://arxiv.org/pdf/2403.16362)** - Qin et al. (2024/03)
+- **[Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models.](https://arxiv.org/pdf/2307.00593)** - Tu et al. (2023/07)
+- **[Test-Case-Driven Programming Understanding in Large Language Models for Better Code Generation.](https://arxiv.org/pdf/2309.16120)** - Tian et al. (2023/09)
 
 ### Security and Vulnerability Repair
 #### Vulnerability Detection
-Using LLMs to identify security vulnerabilities in code.
+- **[LLM Agents can Autonomously Exploit One-day Vulnerabilities.](https://arxiv.org/pdf/2404.08144)** - Fang et al. (2024/04)
 
 #### Vulnerability Fixing
-LLM agents that automatically suggest fixes for identified vulnerabilities.
+- **[ACFIX: Guiding LLMs with Mined Common RBAC Practices for Context-Aware Repair of Access Control Vulnerabilities in Smart Contracts.](https://arxiv.org/pdf/2403.06838)** - Zhang et al. (2024/03)
 
 ## Agent Collaboration and Coordination
 ### Multi-Agent Collaboration
-Collaboration between multiple LLM agents to solve complex software development tasks.
+- **[Scaling Large-Language-Model-based Multi-Agent Collaboration](https://arxiv.org/pdf/2406.07155)** - Qian et al. (2024/06)
+- **[AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors.](https://arxiv.org/pdf/2308.10848)** - Chen et al. (2023/08)
+- **[Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents.](https://arxiv.org/pdf/2306.03314)** - Talebirad et al. (2023/06)
 
 ### Autonomous Multi-Agent Systems
-Autonomous systems where multiple agents work together without human intervention to accomplish software development tasks.
+- **[AutoAgents: A Framework for Automatic Agent Generation.](https://arxiv.org/pdf/2309.17288)** - Chen et al. (2023/09)
+- **[AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.](https://arxiv.org/pdf/2410.07706)** - Song et al. (2024/10)
 
 ### Cross-Agent Collaboration
-Collaboration between agents with different functionalities or specializations.
+- **[Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization.](https://arxiv.org/pdf/2310.02170)** - Liu et al. (2023/10)
+- **[Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models.](https://arxiv.org/pdf/2310.04406v3)** - Zhou et al. (2023/10)
 
 ## Software Testing, Debugging, and Quality Assurance
 ### Automated Testing
-LLM agents used to automatically generate and run software tests.
+- **[Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents.](https://ieeexplore.ieee.org/abstract/document/10638557)** - Yoon et al. (2023/11)
+- **[Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model.](https://arxiv.org/pdf/2407.03037)** - Liu et al. (2024/07)
 
 ### Bug Fixing and Fault Localization
 #### Fault Localization
-Identifying the root cause of bugs in software code using LLM-based agents.
+- **[AGENTFL: Scaling LLM-based Fault Localization to Project-Level Context.](https://arxiv.org/pdf/2403.16362)** - Qin et al. (2024/03)
 
 #### Automated Bug Fixing
-Using LLM agents to suggest or apply fixes automatically once bugs are identified.
+- **[AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation.](https://arxiv.org/pdf/2312.13010)** - Huang et al. (2023/12)
 
 ### Debugging Assistance
-LLM agents that help in the debugging process by providing explanations and suggestions.
+- **[INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.](https://arxiv.org/pdf/2311.09868)** - Wang et al. (2023/11)
 
 ### Code Quality Assurance
-LLM agents used to ensure the quality of the software code, focusing on maintainability, readability, and other quality attributes.
+- **[SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?](https://arxiv.org/pdf/2410.03859)** - Yang et al. (2024/10)
 
 ## Software Design and Architecture
 ### System and Software Design
-LLM agents that assist in designing software systems, recommending architecture, and structuring code.
+- **[CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents.](https://arxiv.org/pdf/2402.01411)** - Rasheed et al. (2024/02)
+- **[Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.](https://arxiv.org/pdf/2404.16045)** - Ataei et al. (2024/04)
 
 ### Modeling and Design Representation
-LLM agents used for creating formal design models, such as UML diagrams or architectural blueprints.
+- **[SWE-AGENT: AGENT-COMPUTER INTERFACES ENABLE AUTOMATED SOFTWARE ENGINEERING.](https://arxiv.org/pdf/2405.15793)** - Yang et al. (2024/05)
 
 ### Requirements Engineering
-LLM agents that help in gathering and formalizing software requirements for system design and development.
+- **[Prioritizing Software Requirements Using Large Language Models.](https://arxiv.org/pdf/2410.03859)** - Yang et al. (2024/10)
+- **[Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.](https://arxiv.org/pdf/2404.16045)** - Ataei et al. (2024/04)
 
 ## Human-AI Collaboration and Interaction
 ### Human-in-the-Loop Systems
-Systems where human input is combined with LLM agent outputs to guide software development.
+- **[Communicative Agents for Software Development.](https://arxiv.org/pdf/2307.07924)** - Qian et al. (2023/07)
 
 ### Interactive Coding
-LLM agents that collaborate with human developers in real-time for tasks like coding, debugging, and testing.
+- **[ChatDev: Communicative Agents for Software Development.](https://arxiv.org/pdf/2307.07924v5)** - Qian et al. (2023/07)
 
 ### Personalized and Explainable Systems
-LLM agents designed to provide personalized solutions and clear, understandable explanations to human users.
+- **[Better than Your Teacher: LLM Agents that Learn from Privileged AI Feedback.](https://arxiv.org/pdf/2410.05434)** - Choudhury et al. (2024/10)
 
 ## Tool Integration and Automation
 ### Tool-Augmented Development
-The use of LLM agents to integrate multiple tools for software development tasks.
+- **[ToolFactory: Automating Tool Generation by Leveraging LLM to Understand REST API Documentations.](https://arxiv.org/pdf/2406.05381)** - Sami et al. (2024/06)
 
 ### Automation of Development Workflows
-Using LLM agents to automate various stages of software development, such as code generation, testing, or deployment.
+- **[More Agents Is All You Need.](https://arxiv.org/pdf/2402.05120)** - Li et al. (2024/02)
 
 ### Cross-Tool Integration
-Connecting different tools and platforms via LLM agents to streamline development processes.
+- * [2023/12] **GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension** [[arxiv](http://arxiv.org/abs/2312.17294v1)]  
+  Bohan Lyu, Xin Cong, Heyang Yu, Pan Yang, Yujia Qin, Yining Ye, Yaxi Lu, Zhong Zhang, Yukun Yan, Yankai Lin, Zhiyuan Liu, Maosong Sun
 
 ## Evaluation and Benchmarking
 ### Performance Evaluation
-The process of assessing the performance of LLM agents on real-world software engineering tasks.
+- **[SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?](https://arxiv.org/pdf/2410.03859)** - Yang et al. (2024/10)
+- **[Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures.](http://arxiv.org/abs/2307.05360v3)** - Sayed Erfan Arefin et al. (2023/07)
 
 ### Benchmarking Frameworks
-Developing standardized evaluation frameworks for comparing the performance of different LLM-based agents across various software engineering tasks.
-
-
+- **[InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback.](https://arxiv.org/pdf/2306.14898)** - Yang et al. (2023/06)
+- **[MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use.](http://arxiv.org/abs/2310.03128v6)** - Yue Huang et al. (2023/10)
 
 
 
@@ -356,6 +367,50 @@ Developing standardized evaluation frameworks for comparing the performance of d
 
 * [2024/01] **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training** [[arxiv](http://arxiv.org/abs/2401.05566v3)]  
   Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 * [2024/01] **CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges** [[arxiv](http://arxiv.org/abs/2401.07339v2)]  
   Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, Zhi Jin
