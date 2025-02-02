@@ -1,0 +1,44 @@
+###Classification Standard
+
+1. **Code Generation and Improvement**
+   - Automated Code Generation
+   - Code Optimization
+   - Code Refactoring and Repair
+     - Code Refactoring
+     - Bug Fixing
+   - Security and Vulnerability Repair
+     - Vulnerability Detection
+     - Vulnerability Fixing
+
+2. **Agent Collaboration and Coordination**
+   - Multi-Agent Collaboration
+   - Autonomous Multi-Agent Systems
+   - Cross-Agent Collaboration
+
+3. **Software Testing, Debugging, and Quality Assurance**
+   - Automated Testing
+   - Bug Fixing and Fault Localization
+     - Fault Localization
+     - Automated Bug Fixing
+   - Debugging Assistance
+   - Code Quality Assurance
+
+4. **Software Design and Architecture**
+   - Code Design and Structuring
+   - Model-Driven Engineering
+   - Requirements Engineering
+
+5. **Human-AI Collaboration and Interaction**
+   - Human-in-the-Loop Systems
+   - Interactive Coding
+   - Personalized and Explainable Systems
+
+6. **Tool Integration and Automation**
+   - Tool-Augmented Development
+   - Automation of Development Workflows
+   - Cross-Tool Integration
+
+7. **Evaluation and Benchmarking**
+   - Performance Evaluation
+   - Benchmarking Frameworks
+
