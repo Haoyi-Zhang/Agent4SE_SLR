@@ -123,7 +123,7 @@
 - **[More Agents Is All You Need.](https://arxiv.org/pdf/2402.05120)** - Li et al. (2024/02)
 
 ### Cross-Tool Integration
-- * [2023/12] **GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension** [[arxiv](http://arxiv.org/abs/2312.17294v1)]  
+- [2023/12] **GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension** [[arxiv](http://arxiv.org/abs/2312.17294v1)]  
   Bohan Lyu, Xin Cong, Heyang Yu, Pan Yang, Yujia Qin, Yining Ye, Yaxi Lu, Zhong Zhang, Yukun Yan, Yankai Lin, Zhiyuan Liu, Maosong Sun
 
 ## Evaluation and Benchmarking
