@@ -1,5 +1,141 @@
 # Agent4SE_SLR
 
+# Table of Contents
+* [Code Generation and Improvement](#Code-Generation-and-Improvement)
+  * [Automated Code Generation](#Automated-Code-Generation)
+  * [Code Optimization](#Code-Optimization)
+  * [Code Refactoring and Repair](#Code-Refactoring-and-Repair)
+    * [Code Refactoring](#Code-Refactoring)
+    * [Bug Fixing](#Bug-Fixing)
+  * [Security and Vulnerability Repair](#Security-and-Vulnerability-Repair)
+    * [Vulnerability Detection](#Vulnerability-Detection)
+    * [Vulnerability Fixing](#Vulnerability-Fixing)
+* [Agent Collaboration and Coordination](#Agent-Collaboration-and-Coordination)
+  * [Multi-Agent Collaboration](#Multi-Agent-Collaboration)
+  * [Autonomous Multi-Agent Systems](#Autonomous-Multi-Agent-Systems)
+  * [Cross-Agent Collaboration](#Cross-Agent-Collaboration)
+* [Software Testing, Debugging, and Quality Assurance](#Software-Testing,-Debugging,-and-Quality-Assurance)
+  * [Automated Testing](#Automated-Testing)
+  * [Bug Fixing and Fault Localization](#Bug-Fixing-and-Fault-Localization)
+    * [Fault Localization](#Fault-Localization)
+    * [Automated Bug Fixing](#Automated-Bug-Fixing)
+  * [Debugging Assistance](#Debugging-Assistance)
+  * [Code Quality Assurance](#Code-Quality-Assurance)
+* [Software Design and Architecture](#Software-Design-and-Architecture)
+  * [System and Software Design](#System-and-Software-Design)
+  * [Modeling and Design Representation](#Modeling-and-Design-Representation)
+  * [Requirements Engineering](#Requirements-Engineering)
+* [Human-AI Collaboration and Interaction](#Human-AI-Collaboration-and-Interaction)
+  * [Human-in-the-Loop Systems](#Human-in-the-Loop-Systems)
+  * [Interactive Coding](#Interactive-Coding)
+  * [Personalized and Explainable Systems](#Personalized-and-Explainable-Systems)
+* [Tool Integration and Automation](#Tool-Integration-and-Automation)
+  * [Tool-Augmented Development](#Tool-Augmented-Development)
+  * [Automation of Development Workflows](#Automation-of-Development-Workflows)
+  * [Cross-Tool Integration](#Cross-Tool-Integration)
+* [Evaluation and Benchmarking](#Evaluation-and-Benchmarking)
+  * [Performance Evaluation](#Performance-Evaluation)
+  * [Benchmarking Frameworks](#Benchmarking-Frameworks)
+
+# Code Generation and Improvement
+## Automated Code Generation
+LLM agents used for generating code automatically based on given specifications or requirements.
+
+## Code Optimization
+Enhancement of existing code through automatic refactoring and performance improvements.
+
+## Code Refactoring and Repair
+### Code Refactoring
+LLM agents involved in restructuring and improving code without altering its functionality.
+
+### Bug Fixing
+LLM agents used to automatically identify and fix bugs in the code.
+
+## Security and Vulnerability Repair
+### Vulnerability Detection
+Using LLMs to identify security vulnerabilities in code.
+
+### Vulnerability Fixing
+LLM agents that automatically suggest fixes for identified vulnerabilities.
+
+# Agent Collaboration and Coordination
+## Multi-Agent Collaboration
+Collaboration between multiple LLM agents to solve complex software development tasks.
+
+## Autonomous Multi-Agent Systems
+Autonomous systems where multiple agents work together without human intervention to accomplish software development tasks.
+
+## Cross-Agent Collaboration
+Collaboration between agents with different functionalities or specializations.
+
+# Software Testing, Debugging, and Quality Assurance
+## Automated Testing
+LLM agents used to automatically generate and run software tests.
+
+## Bug Fixing and Fault Localization
+### Fault Localization
+Identifying the root cause of bugs in software code using LLM-based agents.
+
+### Automated Bug Fixing
+Using LLM agents to suggest or apply fixes automatically once bugs are identified.
+
+## Debugging Assistance
+LLM agents that help in the debugging process by providing explanations and suggestions.
+
+## Code Quality Assurance
+LLM agents used to ensure the quality of the software code, focusing on maintainability, readability, and other quality attributes.
+
+# Software Design and Architecture
+## System and Software Design
+LLM agents that assist in designing software systems, recommending architecture, and structuring code.
+
+## Modeling and Design Representation
+LLM agents used for creating formal design models, such as UML diagrams or architectural blueprints.
+
+## Requirements Engineering
+LLM agents that help in gathering and formalizing software requirements for system design and development.
+
+# Human-AI Collaboration and Interaction
+## Human-in-the-Loop Systems
+Systems where human input is combined with LLM agent outputs to guide software development.
+
+## Interactive Coding
+LLM agents that collaborate with human developers in real-time for tasks like coding, debugging, and testing.
+
+## Personalized and Explainable Systems
+LLM agents designed to provide personalized solutions and clear, understandable explanations to human users.
+
+# Tool Integration and Automation
+## Tool-Augmented Development
+The use of LLM agents to integrate multiple tools for software development tasks.
+
+## Automation of Development Workflows
+Using LLM agents to automate various stages of software development, such as code generation, testing, or deployment.
+
+## Cross-Tool Integration
+Connecting different tools and platforms via LLM agents to streamline development processes.
+
+# Evaluation and Benchmarking
+## Performance Evaluation
+The process of assessing the performance of LLM agents on real-world software engineering tasks.
+
+## Benchmarking Frameworks
+Developing standardized evaluation frameworks for comparing the performance of different LLM-based agents across various software engineering tasks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * [2024/11] **Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation.** [[arXiv](https://arxiv.org/pdf/2411.10753)]  
   Hou et al.
 
