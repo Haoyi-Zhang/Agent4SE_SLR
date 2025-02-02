@@ -504,7 +504,7 @@
   
   Mu et al.
 
-  * [2024/01] **Experimenting a New Programming Practice with LLMs.** [[arXiv](https://arxiv.org/pdf/2401.01062)]
+* [2024/01] **Experimenting a New Programming Practice with LLMs.** [[arXiv](https://arxiv.org/pdf/2401.01062)]
   
   Zhang et al.
 
