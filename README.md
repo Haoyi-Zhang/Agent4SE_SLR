@@ -9,9 +9,6 @@
 * [2024/10] **AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[arXiv](https://arxiv.org/pdf/2410.07706)]  
   Song et al.
 
-* [2024/10] **RLEF: GROUNDING CODE LLMS IN EXECUTION FEEDBACK WITH REINFORCEMENT LEARNING.** [[arXiv](https://arxiv.org/pdf/2410.02089)]  
-  Gehring et al.
-
 * [2024/10] **Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback.** [[arXiv](https://arxiv.org/pdf/2410.05434)]  
   Choudhury et al.
 
@@ -138,9 +135,6 @@
 * [2024/03] **Combining Fine-tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications.** [[arXiv](https://arxiv.org/pdf/2403.16073)]  
   Ma et al.
 
-* [2023/03] **Reflexion: Language Agents with Verbal Reinforcement Learning.** [[NeurIPS 2023](https://arxiv.org/pdf/2303.11366)]  
-  Shinn et al.
-
 * [2023/08] **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[arXiv](https://arxiv.org/pdf/2308.08155)]  
   Wu et al.
 
@@ -161,9 +155,6 @@
 
 * [2025/05] **Instruct or Interact? Exploring and Eliciting LLMs’ Capability in Code Snippet Adaptation Through Prompt Engineering.** [[ICSE 2025](https://arxiv.org/abs/2411.15501)]  
   Zhang et al.
-
-* [2024/05] **Can Cooperative Multi-Agent Reinforcement Learning Boost Automatic Web Testing? An Exploratory Study.** [[ASE 2024](https://dl.acm.org/doi/10.1145/3691620.3694983)]  
-  Fan et al.
 
 * [2024/05] **SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code.** [[ICML 2024](https://dl.acm.org/doi/10.5555/3692070.3692846)]  
   Hu et al.
@@ -467,10 +458,6 @@
 
 * [2024/09] **MarsCode Agent: AI-native Automated Bug Fixing** [[arxiv](http://arxiv.org/abs/2409.00899v2)]  
   Yizhou Liu, Pengfei Gao, Xinchen Wang, Jie Liu, Yexuan Shi, Zhao Zhang, Chao Peng
-
-* [2024/09] **Co-Learning: Code Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** [[arxiv](http://arxiv.org/abs/2409.00985v1)]  
-  Jiapeng Yu, Yuqian Wu, Yajing Zhan, Wenhao Guo, Zhou Xu, Raymond Lee
-
 
 * [2024/09] **Language Model Powered Digital Biology with BRAD** [[arxiv](http://arxiv.org/abs/2409.02864v3)]  
   Joshua Pickard, Ram Prakash, Marc Andrew Choi, Natalie Oliven, Cooper Stansbury, Jillian Cwycyshyn, Alex Gorodetsky, Alvaro Velasquez, Indika Rajapakse
