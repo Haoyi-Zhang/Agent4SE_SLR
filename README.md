@@ -357,9 +357,6 @@
 * [2023/10] **How to Teach Programming in the AI Era? Using LLMs as a Teachable Agent for Debugging** [[arxiv](http://arxiv.org/abs/2310.05292v5)]  
   Qianou Ma, Hua Shen, Kenneth Koedinger, Tongshuang Wu
 
-* [2023/10] **Static Code Analysis in the AI Era: An In-depth Exploration of the Concept, Function, and Potential of Intelligent Code Analysis Agents** [[arxiv](http://arxiv.org/abs/2310.08837v1)]  
-  Gang Fan, Xiaoheng Xie, Xunjin Zheng, Yinan Liang, Peng Di
-
 * [2023/10] **WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models** [[arxiv](http://arxiv.org/abs/2310.15991v3)]  
   Chenyuan Yang, Yinlin Deng, Runyu Lu, Jiayi Yao, Jiawei Liu, Reyhaneh Jabbarvand, Lingming Zhang
 
@@ -377,9 +374,6 @@
 
 * [2023/12] **GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension** [[arxiv](http://arxiv.org/abs/2312.17294v1)]  
   Bohan Lyu, Xin Cong, Heyang Yu, Pan Yang, Yujia Qin, Yining Ye, Yaxi Lu, Zhong Zhang, Yukun Yan, Yankai Lin, Zhiyuan Liu, Maosong Sun
-
-* [2024/01] **Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security** [[arxiv](http://arxiv.org/abs/2401.05459v2)]  
-  Yuanchun Li, Hao Wen, Weijun Wang, Xiangyu Li, Yizhen Yuan, Guohong Liu, Jiacheng Liu, Wenxing Xu, Xiang Wang, Yi Sun, Rui Kong, Yile Wang, Hanfei Geng, Jian Luan, Xuefeng Jin, Zilong Ye, Guanjing Xiong, Fan Zhang, Xiang Li, Mengwei Xu, Zhijun Li, Peng Li, Yang Liu, Ya-Qin Zhang, Yunxin Liu
 
 * [2024/01] **Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training** [[arxiv](http://arxiv.org/abs/2401.05566v3)]  
   Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez
@@ -408,17 +402,11 @@
 * [2024/02] **Solution-oriented Agent-based Models Generation with Verifier-assisted Iterative In-context Learning** [[arxiv](http://arxiv.org/abs/2402.02388v1)]  
   Tong Niu, Weihao Zhang, Rong Zhao
 
-* [2024/02] **The Foundations of Computational Management: A Systematic Approach to Task Automation for the Integration of Artificial Intelligence into Existing Workflows** [[arxiv](http://arxiv.org/abs/2402.05142v1)]  
-  Tamen Jadad-Garcia, Alejandro R. Jadad
-
 * [2024/02] **Understanding the Weakness of Large Language Model Agents within a Complex Android Environment** [[arxiv](http://arxiv.org/abs/2402.06596v1)]  
   Mingzhe Xing, Rongkai Zhang, Hui Xue, Qi Chen, Fan Yang, Zhen Xiao
 
 * [2024/02] **Effort and Size Estimation in Software Projects with Large Language Model-based Intelligent Interfaces** [[arxiv](http://arxiv.org/abs/2402.07158v2)]  
   Claudionor N. Coelho Jr, Hanchen Xiong, Tushar Karayil, Sree Koratala, Rex Shang, Jacob Bollinger, Mohamed Shabar, Syam Nair
-
-* [2024/02] **Rethinking Software Engineering in the Foundation Model Era: A Curated Catalogue of Challenges in the Development of Trustworthy FMware** [[arxiv](http://arxiv.org/abs/2402.15943v2)]  
-  Ahmed E. Hassan, Dayi Lin, Gopi Krishnan Rajbahadur, Keheliya Gallaba, Filipe R. Cogo, Boyuan Chen, Haoxiang Zhang, Kishanthan Thangarajah, Gustavo Ansaldi Oliva, Jiahuei Lin, Wali Mohammad Abdullah, Zhen Ming Jiang
 
 * [2024/02] **NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification** [[arxiv](http://arxiv.org/abs/2402.16910v2)]  
   Hanna Abi Akl
@@ -428,9 +416,6 @@
 
 * [2024/03] **Exploring LLM-based Agents for Root Cause Analysis** [[arxiv](http://arxiv.org/abs/2403.04123v1)]  
   Devjeet Roy, Xuchao Zhang, Rashi Bhave, Chetan Bansal, Pedro Las-Casas, Rodrigo Fonseca, Saravan Rajmohan
-
-* [2024/03] **System for systematic literature review using multiple AI agents: Concept and an empirical evaluation** [[arxiv](http://arxiv.org/abs/2403.08399v1)]  
-  Abdul Malik Sami, Zeeshan Rasheed, Kai-Kristian Kemell, Muhammad Waseem, Terhi Kilamo, Mika Saari, Anh Nguyen Duc, Kari Systä, Pekka Abrahamsson
 
 * [2024/03] **LLM-based agents for automating the enhancement of user story quality: An early report** [[arxiv](http://arxiv.org/abs/2403.09442v1)]  
   Zheying Zhang, Maruf Rayhan, Tomas Herda, Manuel Goisauf, Pekka Abrahamsson
@@ -473,9 +458,6 @@
 
 * [2024/04] **Prioritizing Software Requirements Using Large Language Models** [[arxiv](http://arxiv.org/abs/2405.01564v1)]  
   Malik Abdul Sami, Zeeshan Rasheed, Muhammad Waseem, Zheying Zhang, Tomas Herda, Pekka Abrahamsson
-
-* [2024/04] **LLM-Based Multi-Agent Systems for Software Engineering: Literature Review, Vision and the Road Ahead** [[arxiv](http://arxiv.org/abs/2404.04834v3)]  
-  Junda He, Christoph Treude, David Lo
 
 * [2024/04] **AI2Apps: A Visual IDE for Building LLM-based AI Agent Applications** [[arxiv](http://arxiv.org/abs/2404.04902v1)]  
   Xin Pang, Zhucong Li, Jiaxiang Chen, Yuan Cheng, Yinghui Xu, Yuan Qi
@@ -528,17 +510,11 @@
 * [2024/06] **LLM-Vectorizer: LLM-based Verified Loop Vectorizer** [[arxiv](http://arxiv.org/abs/2406.04693v1)]  
   Jubi Taneja, Avery Laird, Cong Yan, Madan Musuvathi, Shuvendu K. Lahiri
 
-* [2024/06] **A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning** [[arxiv](http://arxiv.org/abs/2406.05804v6)]  
-  Xinzhe Li
-
 * [2024/06] **A Tool for Test Case Scenarios Generation Using Large Language Models** [[arxiv](http://arxiv.org/abs/2406.07021v1)]  
   Abdul Malik Sami, Zeeshan Rasheed, Muhammad Waseem, Zheying Zhang, Herda Tomas, Pekka Abrahamsson
 
 * [2024/06] **Multi-Agent Software Development through Cross-Team Collaboration** [[arxiv](http://arxiv.org/abs/2406.08979v1)]  
   Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, Yufan Dang, Weize Chen, Cheng Yang
-
-* [2024/06] **Large Language Models as Software Components: A Taxonomy for LLM-Integrated Applications** [[arxiv](http://arxiv.org/abs/2406.10300v1)]  
-  Irene Weber
 
 * [2024/06] **miniCodeProps: a Minimal Benchmark for Proving Code Properties** [[arxiv](http://arxiv.org/abs/2406.11915v2)]  
   Evan Lohn, Sean Welleck
@@ -600,9 +576,6 @@
 * [2024/08] **ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems** [[arxiv](http://arxiv.org/abs/2408.02248v2)]  
   Andrew Zhu, Liam Dugan, Chris Callison-Burch
 
-* [2024/08] **From LLMs to LLM-based Agents for Software Engineering: A Survey of Current, Challenges and Future** [[arxiv](http://arxiv.org/abs/2408.02479v1)]  
-  Haolin Jin, Linghan Huang, Haipeng Cai, Jun Yan, Bo Li, Huaming Chen
-
 * [2024/08] **Automated Code Fix Suggestions for Accessibility Issues in Mobile Apps** [[arxiv](http://arxiv.org/abs/2408.03827v1)]  
   Forough Mehralian, Titus Barik, Jeff Nichols, Amanda Swearngin
 
@@ -645,8 +618,6 @@
 * [2024/09] **Co-Learning: Code Learning for Multi-Agent Reinforcement Collaborative Framework with Conversational Natural Language Interfaces** [[arxiv](http://arxiv.org/abs/2409.00985v1)]  
   Jiapeng Yu, Yuqian Wu, Yajing Zhan, Wenhao Guo, Zhou Xu, Raymond Lee
 
-* [2024/09] **Large Language Model-Based Agents for Software Engineering: A Survey** [[arxiv](http://arxiv.org/abs/2409.02977v1)]  
-  Junwei Liu, Kaixin Wang, Yixuan Chen, Xin Peng, Zhenpeng Chen, Lingming Zhang, Yiling Lou
 
 * [2024/09] **Language Model Powered Digital Biology with BRAD** [[arxiv](http://arxiv.org/abs/2409.02864v3)]  
   Joshua Pickard, Ram Prakash, Marc Andrew Choi, Natalie Oliven, Cooper Stansbury, Jillian Cwycyshyn, Alex Gorodetsky, Alvaro Velasquez, Indika Rajapakse
@@ -665,9 +636,6 @@
 
 * [2024/09] **SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories** [[arxiv](http://arxiv.org/abs/2409.07440v1)]  
   Ben Bogin, Kejuan Yang, Shashank Gupta, Kyle Richardson, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot
-
-* [2024/09] **Agents in Software Engineering: Survey, Landscape, and Vision** [[arxiv](http://arxiv.org/abs/2409.09030v2)]  
-  Yanlin Wang, Wanjun Zhong, Yanxian Huang, Ensheng Shi, Min Yang, Jiachi Chen, Hui Li, Yuchi Ma, Qianxiang Wang, Zibin Zheng
 
 * [2024/09] **Python Symbolic Execution with LLM-powered Code Generation** [[arxiv](http://arxiv.org/abs/2409.09271v1)]  
   Wenhan Wang, Kaibo Liu, An Ran Chen, Ge Li, Zhi Jin, Gang Huang, Lei Ma
@@ -791,9 +759,6 @@
 
 * [2024/11] **Instruct or Interact? Exploring and Eliciting LLMs' Capability in Code Snippet Adaptation Through Prompt Engineering** [[arxiv](http://arxiv.org/abs/2411.15501v1)]  
   Tanghaoran Zhang, Yue Yu, Xinjun Mao, Shangwen Wang, Kang Yang, Yao Lu, Zhang Zhang, Yuxin Zhao
-
-* [2024/11] **Specifications: The missing link to making the development of LLM systems an engineering discipline** [[arxiv](http://arxiv.org/abs/2412.05299v2)]  
-  Ion Stoica, Matei Zaharia, Joseph Gonzalez, Ken Goldberg, Koushik Sen, Hao Zhang, Anastasios Angelopoulos, Shishir G. Patil, Lingjiao Chen, Wei-Lin Chiang, Jared Q. Davis
 
 * [2024/11] **Using a Feedback Loop for LLM-based Infrastructure as Code Generation** [[arxiv](http://arxiv.org/abs/2411.19043v1)]  
   Mayur Amarnath Palavalli, Mark Santolucito
