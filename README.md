@@ -1,13 +1,5 @@
 # Agent4SE_SLR
 
-* [2024/05] **MARE: Multi-Agents Collaboration Framework for Requirements Engineering.** [[arXiv](https://arxiv.org/pdf/2405.03256)]
-  
-  Jin et al.
-
-* [2024/04] **Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.** [[arXiv](https://arxiv.org/pdf/2404.16045)]
-  
-  Ataei et al.
-
 * [2024/01] **SpecGen: Automated Generation of Formal Program Specifications via Large Language Models.** [[arXiv](https://arxiv.org/pdf/2401.08807)]
   
   Ma et al.
@@ -84,49 +76,9 @@
   
   Wang et al.
 
-* [2024/05] **Class-Level Code Generation from Natural Language Using Iterative, Tool-Enhanced Reasoning over Repository.** [[arXiv](https://arxiv.org/pdf/2405.01573)]
-  
-  Deshpande et al.
-
-* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://arxiv.org/pdf/2405.11403)]
-  
-  Islam et al.
-
-* [2024/05] **AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[arXiv](https://arxiv.org/pdf/2405.14906)]
-  
-  Lei et al.
-
-* [2024/04] **3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers.** [[arXiv](https://arxiv.org/pdf/2404.10362)]
-  
-  Fakhoury et al.
-
-* [2024/04] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization.** [[arXiv](https://arxiv.org/pdf/2404.02183)]
-  
-  Ishibashi et al.
-
-* [2024/03] **AutoDev: Automated AI-Driven Development.** [[arXiv](https://arxiv.org/pdf/2403.08299)]
-  
-  Tufano et al.
-
-* [2024/03] **CoCoST: Automatic Complex Code Generation with Online Searching and Correctness Testing.** [[arXiv](https://arxiv.org/pdf/2403.13583)]
-  
-  He et al.
-
 * [2024/03] **RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation.** [[arXiv](https://arxiv.org/pdf/2403.05313)]
   
   Wang et al.
-
-* [2024/02] ***Executable Code Actions Elicit Better LLM Agents.*** [[ICML 2024](https://arxiv.org/pdf/2402.01030)]
-  
-  Wang et al.
-
-* [2024/02] **More Agents Is All You Need.** [[arXiv](https://arxiv.org/pdf/2402.05120)]
-  
-  Li et al.
-
-* [2024/02] **Test-Driven Development for Code Generation.** [[arXiv](https://arxiv.org/pdf/2402.13521)]
-  
-  Mathews et al.
 
 * [2024/02] **LDB: A Large Language Model Debugger via Verifying Runtime Execution Step by Step.** [[arXiv](https://arxiv.org/pdf/2402.16906)]
   
@@ -143,10 +95,6 @@
 * [2024/01] **Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering.** [[arXiv](https://arxiv.org/pdf/2401.08500)]
   
   Ridnik et al.
-
-* [2023/12] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation.** [[arXiv](https://arxiv.org/pdf/2312.13010)]
-  
-  Huang et al.
 
 * [2023/12] **LLM4TDD: Best Practices for Test Driven Development Using Large Language Models.** [[arXiv](https://arxiv.org/pdf/2312.04687)]
   
@@ -304,10 +252,6 @@
   
   Nguyen et al.
 
-* [2024/04] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization.** [[arXiv](https://arxiv.org/pdf/2404.02183)]
-  
-  Ishibashi et al.
-
 * [2024/03] **MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue ReSolution.** [[arXiv](https://arxiv.org/pdf/2403.17927)]
   
   Tao et al.
@@ -360,10 +304,6 @@
   
   Nguyen et al.
 
-* [2024/05] **MARE: Multi-Agents Collaboration Framework for Requirements Engineering.** [[arXiv](https://arxiv.org/pdf/2405.03256)]
-  
-  Jin et al.
-
 * [2024/03] **When LLM-based Code Generation Meets the Software Development Process.** [[arXiv](https://arxiv.org/pdf/2403.15852)]
   
   Lin et al.
@@ -408,10 +348,6 @@
   
   Hong et al.
 
-* [2024/05] **Class-Level Code Generation from Natural Language Using Iterative, Tool-Enhanced Reasoning over Repository.** [[arXiv](https://arxiv.org/pdf/2405.01573)]
-  
-  Deshpande et al.
-
 * [2024/04] **LLM Agents can Autonomously Exploit One-day Vulnerabilities.** [[arXiv](https://arxiv.org/pdf/2404.08144)]
   
   Fang et al.
@@ -439,10 +375,6 @@
 * [2024/01] **LLM4Vuln: A Unified Evaluation Framework for Decoupling and Enhancing LLMs' Vulnerability Reasoning.** [[arXiv](https://arxiv.org/pdf/2401.16185)]
   
   Sun et al.
-
-* [2024/01] **CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.** [[ACL 2024](https://arxiv.org/pdf/2401.07339)]
-  
-  Zhang et al.
 
 * [2023/12] **Experiential Co-Learning of Software-Developing Agents.** [[ACL 2023](https://arxiv.org/pdf/2312.17025)]
   
@@ -512,10 +444,6 @@
   
   Bouzenia et al.
 
-* [2024/03] **AutoDev: Automated AI-Driven Development.** [[arXiv](https://arxiv.org/pdf/2403.08299)]
-  
-  Tufano et al.
-
 * [2023/04] **Explainable Automated Debugging via Large Language Model-driven Scientific Debugging.** [[arXiv](https://arxiv.org/pdf/2304.02195)]
   
   Kang et al.
@@ -572,10 +500,6 @@
   
   Fakhoury et al.
 
-* [2024/03] **AutoDev: Automated AI-Driven Development.** [[arXiv](https://arxiv.org/pdf/2403.08299)]
-  
-  Tufano et al.
-
 * [2024/03] **RepairAgent: An Autonomous, LLM-Based Agent for Program Repair.** [[arXiv](https://arxiv.org/pdf/2403.17134)]
   
   Bouzenia et al.
@@ -593,14 +517,6 @@
   Qin et al.
 
 * [2024/02] **When Dataflow Analysis Meets Large Language Models.** [[arXiv](https://arxiv.org/pdf/2402.10754)]
-  
-  Wang et al.
-
-* [2024/02] **LDB: A Large Language Model Debugger via Verifying Runtime Execution Step by Step.** [[arXiv](https://arxiv.org/pdf/2402.16906)]
-  
-  Zhong et al.
-
-* [2024/01] **Teaching Code LLMs to Use Autocompletion Tools in Repository-Level Code Generation.** [[arXiv](https://arxiv.org/pdf/2401.06391)]
   
   Wang et al.
 
@@ -632,10 +548,6 @@
   
   Qin et al.
 
-* [2024/02] **LDB: A Large Language Model Debugger via Verifying Runtime Execution Step by Step.** [[arXiv](https://arxiv.org/pdf/2402.16906)]
-  
-  Zhong et al.
-
 * [2023/07] **Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models.** [[IEEE Trans. Software Eng.](https://arxiv.org/pdf/2307.00593)]
   
   Tu et al.
@@ -656,18 +568,6 @@
   
   Nguyen et al.
 
-* [2024/05] **AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[arXiv](https://arxiv.org/pdf/2405.14906)]
-  
-  Lei et al.
-
-* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://arxiv.org/pdf/2405.11403)]
-  
-  Islam et al.
-
-* [2024/04] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization.** [[arXiv](https://arxiv.org/pdf/2404.02183)]
-  
-  Ishibashi et al.
-
 * [2024/04] **A Unified Debugging Approach via LLM-Based Multi-Agent Synergy.** [[arXiv](https://arxiv.org/pdf/2404.17153)]
   
   Lee et al.
@@ -680,17 +580,9 @@
   
   Yang et al.
 
-* [2024/04] **3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers.** [[arXiv](https://arxiv.org/pdf/2404.10362)]
-  
-  Fakhoury et al.
-
 * [2024/04] **AutoCodeRover: Autonomous Program Improvement.** [[ISSTA 2024](https://dl.acm.org/doi/pdf/10.1145/3650212.3680384)]
   
   Zhang et al.
-
-* [2024/03] **AutoDev: Automated AI-Driven Development.** [[arXiv](https://arxiv.org/pdf/2403.08299)]
-  
-  Tufano et al.
 
 * [2024/03] **When LLM-based Code Generation Meets the Software Development Process.** [[arXiv](https://arxiv.org/pdf/2403.15852)]
   
@@ -700,37 +592,9 @@
   
   Bouzenia et al.
 
-* [2024/03] **CoCoST: Automatic Complex Code Generation with Online Searching and Correctness Testing.** [[arXiv](https://arxiv.org/pdf/2403.13583)]
-  
-  He et al.
-
-* [2024/02] **Executable Code Actions Elicit Better LLM Agents.** [[ICML 2024](https://arxiv.org/pdf/2402.01030)]
-  
-  Wang et al.
-
-* [2024/02] **Test-Driven Development for Code Generation.** [[arXiv](https://arxiv.org/pdf/2402.13521)]
-  
-  Mathews et al.
-
-* [2024/01] **Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering.** [[arXiv](https://arxiv.org/pdf/2401.08500)]
-  
-  Ridnik et al.
-
 * [2024/01] **Experimenting a New Programming Practice with LLMs.** [[arXiv](https://arxiv.org/pdf/2401.01062)]
   
   Zhang et al.
-
-* [2023/12] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation.** [[arXiv](https://arxiv.org/pdf/2312.13010)]
-  
-  Huang et al.
-
-* [2023/12] **LLM4TDD: Best Practices for Test Driven Development Using Large Language Models.** [[arXiv](https://arxiv.org/pdf/2312.04687)]
-  
-  Piya et al.
-
-* [2023/11] **INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.** [[ACL 2023](https://arxiv.org/pdf/2311.09868)]
-  
-  Wang et al.
 
 * [2023/10] **ClarifyGPT: Empowering LLM-based Code Generation with Intention Clarification.** [[arXiv](https://arxiv.org/pdf/2310.10996)]
   
@@ -820,18 +684,6 @@
   
   Qian et al.
 
-* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL](https://arxiv.org/pdf/2405.11403)]
-  
-  Islam et al.
-
-* [2024/04] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization.** [[arXiv](https://arxiv.org/pdf/2404.02183)]
-  
-  Ishibashi et al.
-
-* [2024/04] **3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers.** [[arXiv](https://arxiv.org/pdf/2404.10362)]
-  
-  Fakhoury et al.
-
 * [2024/03] **MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue ReSolution.** [[arXiv](https://arxiv.org/pdf/2403.17927)]
   
   Tao et al.
@@ -892,10 +744,6 @@
   
   Nguyen et al.
 
-* [2024/05] **MARE: Multi-Agents Collaboration Framework for Requirements Engineering.** [[arXiv](https://arxiv.org/pdf/2405.03256)]
-  
-  Jin et al.
-
 * [2024/04] **Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.** [[arXiv](https://arxiv.org/pdf/2404.16045)]
   
   Ataei et al.
@@ -940,21 +788,9 @@
   
   Nguyen et al.
 
-* [2024/05] **AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[arXiv](https://arxiv.org/pdf/2405.14906)]
-  
-  Lei et al.
-
-* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL](https://arxiv.org/pdf/2405.11403)]
-  
-  Islam et al.
-
 * [2024/04] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization.** [[arXiv](https://arxiv.org/pdf/2404.02183)]
   
   Ishibashi et al.
-
-* [2024/04] **3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers.** [[arXiv](https://arxiv.org/pdf/2404.10362)]
-  
-  Fakhoury et al.
 
 * [2024/03] **CodeS: Natural Language to Code Repository via Multi-Layer Sketch.** [[arXiv](https://arxiv.org/pdf/2403.16443)]
   
@@ -967,10 +803,6 @@
 * [2024/03] **When LLM-based Code Generation Meets the Software Development Process.** [[arXiv](https://arxiv.org/pdf/2403.15852)]
   
   Lin et al.
-
-* [2024/02] **Test-Driven Development for Code Generation.** [[arXiv](https://arxiv.org/pdf/2402.13521)]
-  
-  Mathews et al.
 
 * [2024/02] **CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents.** [[arXiv](https://arxiv.org/pdf/2402.01411)]
   
@@ -985,12 +817,8 @@
   Huang et al.
 
 * [2023/11] **Autonomous Agents in Software Development: A Vision Paper.** [[arXiv](https://arxiv.org/pdf/2311.18440)]
-  
-  Rasheed et al.
 
-* [2023/11] **INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.** [[ACL 2023](https://arxiv.org/pdf/2311.09868)]
-  
-  Wang et al.
+  Rasheed et al.
 
 * [2023/08] **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[arXiv](https://arxiv.org/pdf/2308.08155)]
   
@@ -1052,21 +880,9 @@
   
   Arora et al.
 
-* [2024/05] **AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[arXiv](https://arxiv.org/pdf/2405.14906)]
-  
-  Lei et al.
-
-* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://arxiv.org/pdf/2405.11403)]
-  
-  Islam et al.
-
 * [2024/04] **AI-powered Code Review with LLMs: Early Results.** [[arXiv](https://arxiv.org/pdf/2404.18496)]
   
   Rasheed et al.
-
-* [2024/04] **3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers.** [[arXiv](https://arxiv.org/pdf/2404.10362)]
-  
-  Fakhoury et al.
 
 * [2024/04] **A Unified Debugging Approach via LLM-Based Multi-Agent Synergy.** [[arXiv](https://arxiv.org/pdf/2404.17153)]
   
@@ -1156,10 +972,6 @@
   
   Nguyen et al.
 
-* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[paper](https://arxiv.org/pdf/2405.11403)]
-  
-  Islam et al.
-
 * [2024/05] **MARE: Multi-Agents Collaboration Framework for Requirements Engineering.** [[paper](https://arxiv.org/pdf/2405.03256)]
   
   Jin et al.
@@ -1216,10 +1028,6 @@
   
   Yang et al.
 
-* [2023/10] **Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization.** [[arXiv](https://arxiv.org/pdf/2310.02170)]
-  
-  Liu et al.
-
 * [2023/08] **METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK.** [[ICLR 2023](https://arxiv.org/pdf/2308.00352)]
   
   Hong et al.
@@ -1260,10 +1068,6 @@
   
   Ma et al.
 
-* [2024/02] **Test-Driven Development for Code Generation.** [[arXiv](https://arxiv.org/pdf/2402.13521)]
-  
-  Mathews et al.
-
 * [2024/02] **CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents.** [[arXiv](https://arxiv.org/pdf/2402.01411)]
   
   Rasheed et al.
@@ -1271,14 +1075,6 @@
 * [2023/12] **Experiential Co-Learning of Software-Developing Agents.** [[ACL 2023](https://arxiv.org/pdf/2312.17025)]
   
   Qian et al.
-
-* [2023/12] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation.** [[arXiv](https://arxiv.org/pdf/2312.13010)]
-  
-  Huang et al.
-
-* [2023/11] **INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.** [[ACL 2023](https://arxiv.org/pdf/2311.09868)]
-  
-  Wang et al.
 
 * [2023/11] **Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents.** [[ICST 2023](https://ieeexplore.ieee.org/abstract/document/10638557)]
   
@@ -1308,17 +1104,13 @@
   
   Arora et al.
 
-* [2024/04] **Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization.** [[arXiv](https://arxiv.org/pdf/2404.02183)]
-  
-  Ishibashi et al.
-
-* [2024/06] **Scaling Large-Language-Model-based Multi-Agent Collaboration** [[arXiv](https://arxiv.org/pdf/2406.07155)]
-  
-  Qian et al.
-
 * [2024/03] **AutoDev: Automated AI-Driven Development.** [[arXiv](https://arxiv.org/pdf/2403.08299)]
   
   Tufano et al.
+  
+* [2024/06] **Scaling Large-Language-Model-based Multi-Agent Collaboration** [[arXiv](https://arxiv.org/pdf/2406.07155)]
+  
+  Qian et al.
 
 * [2024/01] **XUAT-Copilot: Multi-Agent Collaborative System for Automated User Acceptance Testing with Large Language Model.** [[arXiv](https://arxiv.org/pdf/2401.02705)]
   
@@ -1336,10 +1128,6 @@
   
   Qian et al.
 
-* [2024/04] **3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers.** [[arXiv](https://arxiv.org/pdf/2404.10362)]
-  
-  Fakhoury et al.
-
 * [2024/01] **Experimenting a New Programming Practice with LLMs.** [[arXiv](https://arxiv.org/pdf/2401.01062)]
   
   Zhang et al.
@@ -1355,10 +1143,6 @@
 * [2023/04] **Low-code LLM: Visual Programming over LLMs.** [[arXiv](https://arxiv.org/pdf/2304.08103v3)]
   
   Cai et al.
-
-* [2024/05] **MARE: Multi-Agents Collaboration Framework for Requirements Engineering.** [[arXiv](https://arxiv.org/pdf/2405.03256)]
-  
-  Jin et al.
 
 * [2024/02] **Executable Code Actions Elicit Better LLM Agents.** [[ICML 2024](https://arxiv.org/pdf/2402.01030)]
   
