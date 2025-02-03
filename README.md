@@ -36,309 +36,164 @@
 * [Evaluation and Benchmarking](#Evaluation-and-Benchmarking)
   * [Performance Evaluation](#Performance-Evaluation)
   * [Benchmarking Frameworks](#Benchmarking-Frameworks)
-
-## Code Generation and Improvement
-### Automated Code Generation
-- **[2024/11] **Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation.** [[arXiv](https://arxiv.org/pdf/2411.10753)]**
-  - Hou et al.
-- **[2024/10] **Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers.** [[arXiv](https://arxiv.org/pdf/2410.15625)]**
-  - Wei et al.
-
-### Code Optimization
-- **[2024/10] **Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers.** [[arXiv](https://arxiv.org/pdf/2410.15625)]**
-  - Wei et al.
-
-### Code Refactoring and Repair
-#### Code Refactoring
-- **[2024/03] **AutoDev: Automated AI-Driven Development** [[arXiv](https://arxiv.org/pdf/2403.08299)]**
-  - Tufano et al.
-
-#### Bug Fixing
-- **[2024/03] **AGENTFL: Scaling LLM-based Fault Localization to Project-Level Context.** [[arXiv](https://arxiv.org/pdf/2403.16362)]**
-  - Qin et al.
-- **[2023/07] **Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models.** [[TSE 2023](https://arxiv.org/pdf/2307.00593)]**
-  - Tu et al.
-- **[2023/09] **Test-Case-Driven Programming Understanding in Large Language Models for Better Code Generation.** [[arXiv](https://arxiv.org/pdf/2309.16120)]**
-  - Tian et al.
-
-### Security and Vulnerability Repair
-#### Vulnerability Detection
-- **[2024/04] **LLM Agents can Autonomously Exploit One-day Vulnerabilities.** [[arXiv](https://arxiv.org/pdf/2404.08144)]**
-  - Fang et al.
-
-#### Vulnerability Fixing
-- **[2024/03] **ACFIX: Guiding LLMs with Mined Common RBAC Practices for Context-Aware Repair of Access Control Vulnerabilities in Smart Contracts.** [[arXiv](https://arxiv.org/pdf/2403.06838)]**
-  - Zhang et al.
-
-## Agent Collaboration and Coordination
-### Multi-Agent Collaboration
-- **[2024/06] **Scaling Large-Language-Model-based Multi-Agent Collaboration** [[arXiv](https://arxiv.org/pdf/2406.07155)]**
-  - Qian et al.
-- **[2023/08] **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors.** [[ICLR 2023](https://arxiv.org/pdf/2308.10848)]**
-  - Chen et al.
-- **[2023/06] **MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS.** [[arXiv](https://arxiv.org/pdf/2306.03314)]**
-  - Talebirad et al.
-
-### Autonomous Multi-Agent Systems
-- **[2023/09] **AutoAgents: A Framework for Automatic Agent Generation.** [[arXiv](https://arxiv.org/pdf/2309.17288)]**
-  - Chen et al.
-- **[2024/10] **AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[arXiv](https://arxiv.org/pdf/2410.07706)]**
-  - Song et al.
-
-### Cross-Agent Collaboration
-- **[2023/10] **Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization.** [[arXiv](https://arxiv.org/pdf/2310.02170)]**
-  - Liu et al.
-- **[2023/10] **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models.** [[ICML 2023](https://arxiv.org/pdf/2310.04406v3)]**
-  - Zhou et al.
-
-## Software Testing, Debugging, and Quality Assurance
-### Automated Testing
-- **[2023/11] **Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents.** [[ICST 2023](https://ieeexplore.ieee.org/abstract/document/10638557)]**
-  - Yoon et al.
-- **[2024/07] **Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model.** [[arXiv](https://arxiv.org/pdf/2407.03037)]**
-  - Liu et al.
-
-### Bug Fixing and Fault Localization
-#### Fault Localization
-- **[2024/03] **AGENTFL: Scaling LLM-based Fault Localization to Project-Level Context.** [[arXiv](https://arxiv.org/pdf/2403.16362)]**
-  - Qin et al.
-
-#### Automated Bug Fixing
-- **[2023/12] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation.** [[arXiv](https://arxiv.org/pdf/2312.13010)]**
-  - Huang et al.
-
-### Debugging Assistance
-- **[2023/11] **INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.** [[arxiv](https://arxiv.org/pdf/2311.09868)]**
-  - Wang et al.
-
-### Code Quality Assurance
-- **[2024/10] **SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?** [[arXiv](https://arxiv.org/pdf/2410.03859)]**
-  - Yang et al.
-
-## Software Design and Architecture
-### System and Software Design
-- **[2024/02] **CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents.** [[arXiv](https://arxiv.org/pdf/2402.01411)]**
-  - Rasheed et al.
-- **[2024/04] **Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.** [[arXiv](https://arxiv.org/pdf/2404.16045)]**
-  - Ataei et al.
-
-### Modeling and Design Representation
-- **[2024/05] **SWE-AGENT: AGENT-COMPUTER INTERFACES ENABLE AUTOMATED SOFTWARE ENGINEERING.** [[arXiv](https://arxiv.org/pdf/2405.15793)]**
-  - Yang et al.
-
-### Requirements Engineering
-- **[2024/10] **Prioritizing Software Requirements Using Large Language Models.** [[arXiv](https://arxiv.org/pdf/2410.03859)]**
-  - Yang et al.
-- **[2024/04] **Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.** [[arXiv](https://arxiv.org/pdf/2404.16045)]**
-  - Ataei et al.
-
-## Human-AI Collaboration and Interaction
-### Human-in-the-Loop Systems
-- **[2023/07] **Communicative Agents for Software Development.** [[ACL 2023](https://arxiv.org/pdf/2307.07924)]**
-  - Qian et al.
-
-### Interactive Coding
-- **[2023/07] **ChatDev: Communicative Agents for Software Development.** [[arxiv](http://arxiv.org/abs/2307.07924v5)]**
-  - Qian et al.
-
-### Personalized and Explainable Systems
-- **[2024/10] **Better than Your Teacher: LLM Agents that Learn from Privileged AI Feedback.** [[arXiv](https://arxiv.org/pdf/2410.05434)]**
-  - Choudhury et al.
-
-## Tool Integration and Automation
-### Tool-Augmented Development
-- **[2024/06] **ToolFactory: Automating Tool Generation by Leveraging LLM to Understand REST API Documentations.** [[arxiv](https://arxiv.org/pdf/2406.05381)]**
-  - Sami et al.
-
-### Automation of Development Workflows
-- **[2024/02] **More Agents Is All You Need.** [[TMLR](https://arxiv.org/pdf/2402.05120)]**
-  - Li et al.
-
-### Cross-Tool Integration
-- **[2024/02] **CodeAgent: Collaborative Agents for Software Engineering.** [[arxiv](https://arxiv.org/pdf/2402.02172.pdf)]**
-  - Tang et al.
-
-## Evaluation and Benchmarking
-### Performance Evaluation
-- **[2024/10] **SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?** [[arxiv](https://arxiv.org/pdf/2410.03859)]**
-  - Yang et al.
-- **[2023/07] **Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures.** [[arxiv](http://arxiv.org/abs/2307.05360v3)]**
-  - Sayed Erfan Arefin et al.
-
-### Benchmarking Frameworks
-- **[2023/06] **InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback.** [[NeurIPS 2023](https://arxiv.org/pdf/2306.14898)]**
-  - Yang et al.
-- **[2023/10] **MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use.** [[arxiv](http://arxiv.org/abs/2310.03128v6)]**
-  - Yue Huang et al.
-
-
-
-
-
-
-
-
-
-
+ 
+   
 
 * [2024/11] **Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation.** [[arXiv](https://arxiv.org/pdf/2411.10753)]  
-  Hou et al.
+  Shuyang Hou, Haoyue Jiao, Zhangxiao Shen, Jianyuan Liang, Anqi Zhao, Xiaopu Zhang, JianxunWang, Huayi Wu
 
 * [2024/10] **Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers.** [[arXiv](https://arxiv.org/pdf/2410.15625)]  
-  Wei et al.
+  Wei et al.Anjiang Wei, Allen Nie, Thiago S. F. X. Teixeira, Rohan Yadav, Wonchan Lee, Ke Wang, Alex Aiken
 
 * [2024/10] **AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[arXiv](https://arxiv.org/pdf/2410.07706)]  
-  Song et al.
+  Yifan Song, Weimin Xiong, Xiutian Zhao, Dawei Zhu, Wenhao Wu, Ke Wang, Cheng Li, Wei Peng, Sujian Li
 
 * [2024/10] **Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback.** [[arXiv](https://arxiv.org/pdf/2410.05434)]  
-  Choudhury et al.
+  Sanjiban Choudhury, Paloma Sodhi
 
 * [2024/08] **CODEXGRAPH: Bridging Large Language Models and Code Repositories via Code Graph Databases.** [[arXiv](https://arxiv.org/pdf/2408.03910)]  
-  Liu et al.
+  Xiangyan Liu, Bo Lan, Zhiyuan Hu, Yang Liu, Zhicheng Zhang, Fei Wang, Michael Shieh, Wenmeng Zhou
 
 * [2024/07] **OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS.** [[arXiv](https://arxiv.org/pdf/2407.16741)]  
-  Wang et al.
+  Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig
 
 * [2023/11] **INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.** [[ACL 2023](https://arxiv.org/pdf/2311.09868)]  
-  Wang et al.
+  Hanbin Wang, Zhenghao Liu, Shuo Wang, Ganqu Cui, Ning Ding, Zhiyuan Liu, Ge Yu
 
 * [2023/10] **Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization.** [[arXiv](https://arxiv.org/pdf/2310.02170)]  
-  Liu et al.
+  Zijun Liu, Yanzhe Zhang, Peng Li, Yang Liu, Diyi Yang
 
 * [2023/10] **Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models.** [[ICML 2023](https://arxiv.org/pdf/2310.04406v3)]  
-  Zhou et al.
+  Andy Zhou, Kai Yan, Michal Shlapentokh-Rothman, Haohan Wang, Yu-Xiong Wang
 
 * [2023/06] **InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback.** [[NeurIPS 2023](https://arxiv.org/pdf/2306.14898)]  
-  Yang et al.
+  John Yang, Akshara Prabhakar, Karthik Narasimhan, Shunyu Yao
 
 * [2023/11] **Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents.** [[ICST 2023](https://ieeexplore.ieee.org/abstract/document/10638557)]  
-  Yoon et al.
+  Juyeon Yoon, Robert Feldt, Shin Yoo
 
 * [2024/06] **Scaling Large-Language-Model-based Multi-Agent Collaboration** [[arXiv](https://arxiv.org/pdf/2406.07155)]  
-  Qian et al.
+  Chen Qian, Zihao Xie, Yifei Wang, Wei Liu, Yufan Dang, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun
 
 * [2023/09] **AutoAgents: A Framework for Automatic Agent Generation.** [[arXiv](https://arxiv.org/pdf/2309.17288)]  
-  Chen et al.
+  Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje Karlsson, Jie Fu, Yemin Shi
 
 * [2023/07] **Communicative Agents for Software Development.** [[ACL 2023](https://arxiv.org/pdf/2307.07924)]  
-  Qian et al.
+  Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun
 
 * [2024/03] **AGENTFL: Scaling LLM-based Fault Localization to Project-Level Context.** [[arXiv](https://arxiv.org/pdf/2403.16362)]  
-  Qin et al.
+  Yihao Qin, Shangwen Wang, Yiling Lou, Jinhao Dong, Kaixin Wang, Xiaoling Li, Xiaoguang Mao
 
 * [2024/10] **SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?** [[arXiv](https://arxiv.org/pdf/2410.03859)]  
-  Yang et al.
+  John Yang, Carlos E. Jimenez, Alex L. Zhang, Kilian Lieret, Joyce Yang, Xindi Wu, Ori Press, Niklas Muennighoff, Gabriel Synnaeve, Karthik R. Narasimhan, Diyi Yang, Sida I. Wang, Ofir Press
 
 * [2024/01] **XUAT-Copilot: Multi-Agent Collaborative System for Automated User Acceptance Testing with Large Language Model.** [[arXiv](https://arxiv.org/pdf/2401.02705)]  
-  Wang et al.
+  Zhitao Wang, Wei Wang, Zirao Li, Long Wang, Can Yi, Xinjie Xu, Luyang Cao, Hanjing Su, Shouzhi Chen, Jun Zhou
 
 * [2024/04] **LLM Agents can Autonomously Exploit One-day Vulnerabilities.** [[arXiv](https://arxiv.org/pdf/2404.08144)]  
-  Fang et al.
+  Richard Fang, Rohan Bindu, Akul Gupta, Daniel Kang
 
 * [2024/03] **AutoDev: Automated AI-Driven Development** [[arXiv](https://arxiv.org/pdf/2403.08299)]  
-  Tufano et al.
+  Michele Tufano, Anisha Agarwal, Jinu Jang, Roshanak Zilouchian Moghaddam, Neel Sundaresan
 
 * [2023/08] **AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors.** [[ICLR 2023](https://arxiv.org/pdf/2308.10848)]  
-  Chen et al.
+  Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou
 
-* [2024/05] **SWE-AGENT: AGENT-COMPUTER INTERFACES ENABLE AUTOMATED SOFTWARE ENGINEERING.** [[arXiv](https://arxiv.org/pdf/2405.15793)]  
-  Yang et al.
+* [2024/05] **SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering.** [[arXiv](https://arxiv.org/pdf/2405.15793)]  
+  John Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan, Ofir Press
 
 * [2023/10] **AXNav: Replaying Accessibility Tests from Natural Language.** [[CHI 2023](https://arxiv.org/pdf/2310.02424)]  
-  Taeb et al.
+  Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols
 
 * [2024/04] **3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers.** [[ICSE 2025](https://arxiv.org/pdf/2404.10362)]  
-  Fakhoury et al.
+  Sarah Fakhoury, Markus Kuppe, Shuvendu K. Lahiri, Tahina Ramananandro, Nikhil Swamy
 
 * [2023/12] **E&V: Prompting Large Language Models to Perform Static Analysis by Pseudo-code Execution and Verification.** [[arXiv](https://arxiv.org/pdf/2312.08477)]  
-  Hao et al.
+  Yu Hao, Weiteng Chen, Ziqiao Zhou, Weidong Cui
 
 * [2023/07] **Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models.** [[TSE 2023](https://arxiv.org/pdf/2307.00593)]  
-  Tu et al.
+  Haoxin Tu, Zhide Zhou, He Jiang, Imam Nur Bani Yusuf, Yuxian Li, Lingxiao Jiang
 
 * [2023/10] **Lemur: Harmonizing Natural Language and Code for Language Agents.** [[ICLR 2023](https://arxiv.org/pdf/2310.06830)]  
-  Xu et al.
+  Yiheng Xu, Hongjin Su, Chen Xing, Boyu Mi, Qian Liu, Weijia Shi, Binyuan Hui, Fan Zhou, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu
 
 * [2023/10] **White-box Compiler Fuzzing Empowered by Large Language Models.** [[arXiv](https://arxiv.org/pdf/2310.15991)]  
-  Yang et al.
+  Chenyuan Yang, Yinlin Deng, Runyu Lu, Jiayi Yao, Jiawei Liu, Reyhaneh Jabbarvand, Lingming Zhang
 
 * [2023/09] **Test-Case-Driven Programming Understanding in Large Language Models for Better Code Generation.** [[arXiv](https://arxiv.org/pdf/2309.16120)]  
-  Tian et al.
+  Zhao Tian, Junjie Chen, Xiangyu Zhang
   
-* [2024/02] **CodeAgent: Collaborative Agents for Software Engineering.** [[arXiv](https://arxiv.org/pdf/2402.02172.pdf)]  
-  Tang et al.
+* [2024/02] **CodeAgent: Collaborative Agents for Software Engineering.** [[EMNLP 2024](https://aclanthology.org/2024.emnlp-main.632.pdf)]  
+  Xunzhu Tang, Kisub Kim, Yewei Song, Cedric Lothritz, Bei Li, Saad Ezzini, Haoye Tian, Jacques Klein, Tegawendé F. Bissyandé
 
 * [2024/02] **CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents.** [[arXiv](https://arxiv.org/pdf/2402.01411)]  
-  Rasheed et al.
+  Zeeshan Rasheed, Abdul Malik Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saar, Kari Systä, Pekka Abrahamsson
 
 * [2024/04] **Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.** [[arXiv](https://arxiv.org/pdf/2404.16045)]  
-  Ataei et al.
+  Mohammadmehdi Ataei, Hyunmin Cheong, Daniele Grandi, Ye Wang, Nigel Morris, Alexander Tessier
 
 * [2023/10] **Static Code Analysis in the AI Era: An In-depth Exploration of the Concept, Function, and Potential of Intelligent Code Analysis Agents.** [[arXiv](https://arxiv.org/pdf/2310.08837)]  
-  Fan et al.
+  Gang Fan, Xiaoheng Xie, Xunjin Zheng, Yinan Liang, Peng Di
 
-* [2023/06] **MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS.** [[arXiv](https://arxiv.org/pdf/2306.03314)]  
-  Talebirad et al.
+* [2023/06] **Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents.** [[arXiv](https://arxiv.org/pdf/2306.03314)]  
+  Yashar Talebirad, Amirhossein Nadiri
 
 * [2023/12] **AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation.** [[arXiv](https://arxiv.org/pdf/2312.13010)]  
-  Huang et al.
+  Dong Huang, Jie M. Zhang, Michael Luck, Qingwen Bu, Yuhao Qing, Heming Cui
 
 * [2023/03] **CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society.** [[NeurIPS 2023](https://arxiv.org/pdf/2303.17760)]  
-  Li et al.
+  Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem
 
 * [2024/07] **Vision-driven Automated Mobile GUI Testing via Multimodal Large Language Model.** [[arXiv](https://arxiv.org/pdf/2407.03037)]  
-  Liu et al.
+  Zhe Liu, Cheng Li, Chunyang Chen, Junjie Wang, Mengzhuo Chen, Boyu Wu, Yawen Wang, Jun Hu, Qing Wang
 
 * [2024/06] **Experimenting with Multi-Agent Software Development: Towards a Unified Platform.** [[arXiv](https://arxiv.org/pdf/2406.05381)]  
-  Sami et al.
+  Malik Abdul Sami, Muhammad Waseem Awan, Zeeshan Rasheed, Mika Saari, Kari Systä, Pekka Abrahamsson
 
 * [2024/03] **When LLM-based Code Generation Meets the Software Development Process.** [[arXiv](https://arxiv.org/html/2403.15852v1)]  
-  Lin et al.
+  Feng Lin, Dong Jae Kim, Tse-Husn (Peter) Chen
 
 * [2024/03] **ACFIX: Guiding LLMs with Mined Common RBAC Practices for Context-Aware Repair of Access Control Vulnerabilities in Smart Contracts.** [[arXiv](https://arxiv.org/pdf/2403.06838)]  
-  Zhang et al.
+  Lyuye Zhang, Kaixuan Li, Kairan Sun, Daoyuan Wu, Ye Liu, Haoye Tian, Yang Liu
 
-* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://arxiv.org/pdf/2405.11403)]  
-  Islam et al.
+* [2024/05] **MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://aclanthology.org/2024.acl-long.269.pdf)]  
+  Md. Ashraful Islam, Mohammed Eunus Ali, Md Rizwan Parvez
 
 * [2024/06] **AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology.** [[ICSE 2025](https://arxiv.org/pdf/2406.11912)]  
-  Nguyen et al.
+  Minh Huynh Nguyen, Thang Chau Phan, Phong X. Nguyen, Nghi D. Q. Bui
 
 * [2024/02] **More Agents Is All You Need.** [[TMLR](https://arxiv.org/pdf/2402.05120)]  
-  Li et al.
+  Junyou Li, Qin Zhang, Yangbin Yu, Qiang Fu, Deheng Ye
   
 * [2023/08] **METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK.** [[ICLR 2023](https://arxiv.org/pdf/2308.00352)]  
-  Hong et al.
+  Sirui Hong, Mingchen Zhuge, Jiaqi Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber
 
 * [2024/05] **AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[ICLR 2025](https://arxiv.org/pdf/2405.14906)]  
-  Lei et al.
+  Bin Lei, Yuchen Li, Qiuwu Chen
 
 * [2024/03] **Combining Fine-tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications.** [[arXiv](https://arxiv.org/pdf/2403.16073)]  
-  Ma et al.
+  Wei Ma, Daoyuan Wu, Yuqiang Sun, Tianwen Wang, Shangqing Liu, Jian Zhang, Yue Xue, Yang Liu
 
 * [2023/08] **AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[arXiv](https://arxiv.org/pdf/2308.08155)]  
-  Wu et al.
+  Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Awadallah, Ryen W. White, Doug Burger, Chi Wang
 
 * [2024/01] **LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems.** [[ICSE 2024](https://arxiv.org/pdf/2401.05443)]  
-  Fakih et al.
+  Mohamad Fakih, Rahul Dharmaji, Yasamin Moghaddas, Gustavo Quiros Araya, Oluwatosin Ogundare, Mohammad Abdullah Al Faruque
 
 * [2024/02] **Executable Code Actions Elicit Better LLM Agents.** [[ICML 2024](https://arxiv.org/pdf/2402.01030)]  
-  Wang et al.
+  Xingyao Wang, Yangyi Chen, Lifan Yuan, Yizhe Zhang, Yunzhu Li, Hao Peng, Heng Ji
 
 * [2024/01] **Experimenting a New Programming Practice with LLMs.** [[arXiv](https://arxiv.org/pdf/2401.01062)]  
-  Zhang et al.
+  Simiao Zhang, Jiaping Wang, Guoliang Dong
 
-* [2023/08] **Gentopia: A Collaborative Platform for Tool-Augmented LLMs.** [[EMNLP 2023](https://arxiv.org/pdf/2308.04030)]
-  Xu et al.
-
-* [2025/05] **An LLM-Based Agent-Oriented Approach for Automated Code Design Issue Localization.** [[ICSE 2025]]  
-  Batole et al.
+* [2023/08] **Gentopia: A Collaborative Platform for Tool-Augmented LLMs.** [[EMNLP 2023](https://aclanthology.org/2023.emnlp-demo.20.pdf)]
+  Binfeng Xu, Xukun Liu, Hua Shen, Zeyu Han, Yuhan Li, Murong Yue, Zhiyuan Peng, Yuchen Liu, Ziyu Yao, Dongkuan Xu
 
 * [2025/05] **Instruct or Interact? Exploring and Eliciting LLMs’ Capability in Code Snippet Adaptation Through Prompt Engineering.** [[ICSE 2025](https://arxiv.org/abs/2411.15501)]  
-  Zhang et al.
+  Tanghaoran Zhang, Yue Yu, Xinjun Mao, Shangwen Wang, Kang Yang, Yao Lu, Zhang Zhang, Yuxin Zhao
 
 * [2024/05] **SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code.** [[ICML 2024](https://dl.acm.org/doi/10.5555/3692070.3692846)]  
-  Hu et al.
+  Ziniu Hu, Ahmet Iscen, Aashi Jain, Thomas Kipf, Yisong Yue, David A. Ross, Cordelia Schmid, Alireza Fathi
 
 * [2023/04] **Self-collaboration Code Generation via ChatGPT** [[arxiv](http://arxiv.org/abs/2304.07590v3)]  
   Yihong Dong, Xue Jiang, Zhi Jin, Ge Li
@@ -668,6 +523,86 @@
 
 * [2024/08] **GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining Automotive Software Release Decision-Making** [[arxiv](http://arxiv.org/abs/2408.09785v2)]  
   Arsham Gholamzadeh Khoee, Yinan Yu, Robert Feldt, Andris Freimanis, Patrick Andersson Rhodin, Dhasarathy Parthasarathy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 * [2024/08] **LLM4VV: Exploring LLM-as-a-Judge for Validation and Verification Testsuites** [[arxiv](http://arxiv.org/abs/2408.11729v2)]  
   Zachariah Sollenberger, Jay Patel, Christian Munley, Aaron Jarmusch, Sunita Chandrasekaran
