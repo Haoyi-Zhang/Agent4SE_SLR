@@ -366,53 +366,54 @@
 
 
 ### Autonomous Multi-Agent Systems
-- **[2024/10] AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories** [[arXiv](https://arxiv.org/pdf/2410.07706)]  
-  *Yifan Song, Weimin Xiong, Xiutian Zhao, Dawei Zhu, Wenhao Wu, Ke Wang, Cheng Li, Wei Peng, Sujian Li*
-
-- **[2023/09] AutoAgents: A Framework for Automatic Agent Generation** [[arXiv](https://arxiv.org/pdf/2309.17288)]  
-  *Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje Karlsson, Jie Fu, Yemin Shi*
-
-- **[2024/02] More Agents Is All You Need.** [[TMLR](https://arxiv.org/pdf/2402.05120)]  
-  *Junyou Li, Qin Zhang, Yangbin Yu, Qiang Fu, Deheng Ye*
-  
-- **[2023/08] METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK.** [[ICLR 2023](https://arxiv.org/pdf/2308.00352)]  
-  *Sirui Hong, Mingchen Zhuge, Jiaqi Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber*
-  
-- **[2023/04] Towards autonomous system: flexible modular production system enhanced with large language model agents.** [[arXiv](http://arxiv.org/abs/2304.14721v4)]  
-  *Yuchen Xia, Manthan Shenoy, Nasser Jazdi, Michael Weyrich*
-
-- **[2023/08] GPT-in-the-Loop: Adaptive Decision-Making for Multiagent Systems** [[arXiv](http://arxiv.org/abs/2308.10435v1)]  
-  *Nathalia Nascimento, Paulo Alencar, Donald Cowan*
-
-- **[2023/10] Balancing Autonomy and Alignment: A Multi-Dimensional Taxonomy for Autonomous LLM-powered Multi-Agent Architectures** [[arXiv](http://arxiv.org/abs/2310.03659v1)]  
-  *Thorsten Händler*
-
-- **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
-  *Zeeshan Rasheed, Malik Abdul Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saari, Kari Systä, Pekka Abrahamsson*
-
-- **[2024/07] Agentless: Demystifying LLM-based Software Engineering Agents** [[arXiv](http://arxiv.org/abs/2407.01489v2)]  
-  *Chunqiu Steven Xia, Yinlin Deng, Soren Dunn, Lingming Zhang*
-
-- **[2024/08] GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining Automotive Software Release Decision-Making** [[arXiv](http://arxiv.org/abs/2408.09785v2)]
-  *Arsham Gholamzadeh Khoee, Yinan Yu, Robert Feldt, Andris Freimanis, Patrick Andersson Rhodin, Dhasarathy Parthasarathy*
-
-- **[2024/09] SuperCoder2.0: Technical Report on Exploring the feasibility of LLMs as Autonomous Programmer.** [[arxiv](http://arxiv.org/abs/2409.11190v2)]  
-  *Anmol Gautam, Kishore Kumar, Adarsh Jha, Mukunda NS, Ishaan Bhola*
-
-- **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development** [[arXiv](http://arxiv.org/abs/2410.16946v1)]  
-  *Yue Hu, Yuzhu Cai, Yaxin Du, Xinyu Zhu, Xiangrui Liu, Zijie Yu, Yuchen Hou, Shuo Tang, Siheng Chen*  
-
-- **[2024/12] SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to Question Answering** [[arXiv](http://arxiv.org/abs/2412.06832v1)]  
-  *Michael Iannelli, Sneha Kuchipudi, Vera Dvorak*
-
-- **[2024/12] Creating an LLM-based AI-agent: A high-level methodology towards enhancing LLMs with APIs.** [[arXiv](http://arxiv.org/abs/2412.13233v2)]  
-  *Ioannis Tzachristas*
-
 - **[2025/01] AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds.** [[arXiv](http://arxiv.org/abs/2501.06706v1)]  
   *Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, Saravan Rajmohan*
 
 - **[2025/01] Engineering LLM Powered Multi-agent Framework for Autonomous CloudOps.** [[arxiv](http://arxiv.org/abs/2501.08243v1)]  
   *Kannan Parthasarathy, Karthik Vaidhyanathan, Rudra Dhar, Venkat Krishnamachari, Basil Muhammed, Adyansh Kakran, Sreemaee Akshathala, Shrikara Arun, Sumant Dubey, Mohan Veerubhotla, Amey Karan*
+
+- **[2024/12] SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to Question Answering.** [[arXiv](http://arxiv.org/abs/2412.06832v1)]  
+  *Michael Iannelli, Sneha Kuchipudi, Vera Dvorak*
+
+- **[2024/12] Creating an LLM-based AI-agent: A high-level methodology towards enhancing LLMs with APIs.** [[arXiv](http://arxiv.org/abs/2412.13233v2)]  
+  *Ioannis Tzachristas*
+
+- **[2024/10] AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[arXiv](https://arxiv.org/pdf/2410.07706)]  
+  *Yifan Song, Weimin Xiong, Xiutian Zhao, Dawei Zhu, Wenhao Wu, Ke Wang, Cheng Li, Wei Peng, Sujian Li*
+
+- **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development.** [[arXiv](http://arxiv.org/abs/2410.16946v1)]  
+  *Yue Hu, Yuzhu Cai, Yaxin Du, Xinyu Zhu, Xiangrui Liu, Zijie Yu, Yuchen Hou, Shuo Tang, Siheng Chen*
+
+- **[2024/09] SuperCoder2.0: Technical Report on Exploring the feasibility of LLMs as Autonomous Programmer.** [[arxiv](http://arxiv.org/abs/2409.11190v2)]  
+  *Anmol Gautam, Kishore Kumar, Adarsh Jha, Mukunda NS, Ishaan Bhola*
+
+- **[2024/08] GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining Automotive Software Release Decision-Making.** [[arXiv](http://arxiv.org/abs/2408.09785v2)]  
+  *Arsham Gholamzadeh Khoee, Yinan Yu, Robert Feldt, Andris Freimanis, Patrick Andersson Rhodin, Dhasarathy Parthasarathy*
+
+- **[2024/07] Agentless: Demystifying LLM-based Software Engineering Agents.** [[arXiv](http://arxiv.org/abs/2407.01489v2)]  
+  *Chunqiu Steven Xia, Yinlin Deng, Soren Dunn, Lingming Zhang*
+
+- **[2024/02] More Agents Is All You Need.** [[TMLR](https://arxiv.org/pdf/2402.05120)]  
+  *Junyou Li, Qin Zhang, Yangbin Yu, Qiang Fu, Deheng Ye*
+
+- **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
+  *Zeeshan Rasheed, Malik Abdul Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saari, Kari Systä, Pekka Abrahamsson*
+
+- **[2023/10] Balancing Autonomy and Alignment: A Multi-Dimensional Taxonomy for Autonomous LLM-powered Multi-Agent Architectures.** [[arXiv](http://arxiv.org/abs/2310.03659v1)]  
+  *Thorsten Händler*
+
+- **[2023/09] AutoAgents: A Framework for Automatic Agent Generation.** [[arXiv](https://arxiv.org/pdf/2309.17288)]  
+  *Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje Karlsson, Jie Fu, Yemin Shi*
+
+- **[2023/08] METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK.** [[ICLR 2023](https://arxiv.org/pdf/2308.00352)]  
+  *Sirui Hong, Mingchen Zhuge, Jiaqi Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber*
+
+- **[2023/08] GPT-in-the-Loop: Adaptive Decision-Making for Multiagent Systems.** [[arXiv](http://arxiv.org/abs/2308.10435v1)]  
+  *Nathalia Nascimento, Paulo Alencar, Donald Cowan*
+
+- **[2023/04] Towards autonomous system: flexible modular production system enhanced with large language model agents.** [[arXiv](http://arxiv.org/abs/2304.14721v4)]  
+  *Yuchen Xia, Manthan Shenoy, Nasser Jazdi, Michael Weyrich*
+
 
 
 ### Cross-Agent Collaboration
