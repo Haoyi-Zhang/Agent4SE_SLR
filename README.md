@@ -1,4 +1,5 @@
 # Agent4SE_SLR
+![Intelligent Agents for Software Engineering Classification Diagram](https://github.com/Haoyi-Zhang/Agent4SE_SLR/blob/main/Intelligent%20Agents%20for%20Software%20Engineering%20Classification%20Diagram.png?raw=true)
 
 ## Table of Contents
 * [Code Generation and Improvement](#Code-Generation-and-Improvement)
