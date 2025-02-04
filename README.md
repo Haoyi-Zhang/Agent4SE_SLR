@@ -345,7 +345,7 @@
 ## Human-AI Collaboration and Interaction
 
 ### Human-in-the-Loop Systems
-- **[2024/07] OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS** [[arXiv](https://arxiv.org/pdf/2407.16741)]  
+- **[2024/07] OpenHands: An Open Platform for AI Software Developers as Generalist Agents** [[arXiv](https://arxiv.org/pdf/2407.16741)]  
   *Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig*  
 
 - **[2024/05] SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering** [[arXiv](https://arxiv.org/pdf/2405.15793)]  
@@ -414,7 +414,7 @@
 
 
 ### Automation of Development Workflows
-- **[2024/07] OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS** [[arXiv](https://arxiv.org/pdf/2407.16741)]  
+- **[2024/07] OpenHands: An Open Platform for AI Software Developers as Generalist Agents** [[arXiv](https://arxiv.org/pdf/2407.16741)]  
   *Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig*  
 
 - **[2024/03] AutoDev: Automated AI-Driven Development** [[arXiv](https://arxiv.org/pdf/2403.08299)]  
@@ -476,9 +476,6 @@
 
 * [2024/08] **CODEXGRAPH: Bridging Large Language Models and Code Repositories via Code Graph Databases.** [[arXiv](https://arxiv.org/pdf/2408.03910)]  
   Xiangyan Liu, Bo Lan, Zhiyuan Hu, Yang Liu, Zhicheng Zhang, Fei Wang, Michael Shieh, Wenmeng Zhou
-
-* [2024/07] **OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS.** [[arXiv](https://arxiv.org/pdf/2407.16741)]  
-  Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig
 
 * [2023/11] **INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.** [[ACL 2023](https://arxiv.org/pdf/2311.09868)]  
   Hanbin Wang, Zhenghao Liu, Shuo Wang, Ganqu Cui, Ning Ding, Zhiyuan Liu, Ge Yu
@@ -732,23 +729,6 @@
 * [2024/03] **ChatDBG: An AI-Powered Debugging Assistant** [[arxiv](http://arxiv.org/abs/2403.16354v2)]  
   Kyla Levin, Nicolas van Kempen, Emery D. Berger, Stephen N. Freund
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 * [2024/03] **AgentFL: Scaling LLM-based Fault Localization to Project-Level Context** [[arxiv](http://arxiv.org/abs/2403.16362v1)]  
   Yihao Qin, Shangwen Wang, Yiling Lou, Jinhao Dong, Kaixin Wang, Xiaoling Li, Xiaoguang Mao
 
@@ -805,18 +785,6 @@
 
 * [2024/05] **Semantic API Alignment: Linking High-level User Goals to APIs** [[arxiv](http://arxiv.org/abs/2405.04236v1)]  
   Robert Feldt, Riccardo Coppola
-
-
-
-
-
-
-
-
-
-
-
-
 
 * [2024/05] **Granite Code Models: A Family of Open Foundation Models for Code Intelligence** [[arxiv](http://arxiv.org/abs/2405.04324v1)]  
   Mayank Mishra, Matt Stallone, Gaoyuan Zhang, Yikang Shen, Aditya Prasad, Adriana Meza Soria, Michele Merler, Parameswaran Selvam, Saptha Surendran, Shivdeep Singh, Manish Sethi, Xuan-Hong Dang, Pengyuan Li, Kun-Lung Wu, Syed Zawad, Andrew Coleman, Matthew White, Mark Lewis, Raju Pavuluri, Yan Koyfman, Boris Lublinsky, Maximilien de Bayser, Ibrahim Abdelaziz, Kinjal Basu, Mayank Agarwal, Yi Zhou, Chris Johnson, Aanchal Goyal, Hima Patel, Yousaf Shah, Petros Zerfos, Heiko Ludwig, Asim Munawar, Maxwell Crouse, Pavan Kapanipathi, Shweta Salaria, Bob Calio, Sophia Wen, Seetharami Seelam, Brian Belgodere, Carlos Fonseca, Amith Singhee, Nirmit Desai, David D. Cox, Ruchir Puri, Rameswar Panda
@@ -1081,9 +1049,6 @@
 
 * [2024/11] **LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues** [[arxiv](http://arxiv.org/abs/2411.13941v1)]  
   Yalan Lin, Yingwei Ma, Rongyu Cao, Binhua Li, Fei Huang, Xiaodong Gu, Yongbin Li
-
-* [2024/11] **Instruct or Interact? Exploring and Eliciting LLMs' Capability in Code Snippet Adaptation Through Prompt Engineering** [[arxiv](http://arxiv.org/abs/2411.15501v1)]  
-  Tanghaoran Zhang, Yue Yu, Xinjun Mao, Shangwen Wang, Kang Yang, Yao Lu, Zhang Zhang, Yuxin Zhao
 
 * [2024/11] **Using a Feedback Loop for LLM-based Infrastructure as Code Generation** [[arxiv](http://arxiv.org/abs/2411.19043v1)]  
   Mayur Amarnath Palavalli, Mark Santolucito
