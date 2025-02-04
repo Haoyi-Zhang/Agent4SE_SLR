@@ -416,32 +416,33 @@
 
 
 ### Cross-Agent Collaboration
-- **[2023/07] Communicative Agents for Software Development** [[ACL 2023](https://arxiv.org/pdf/2307.07924)]  
-  *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
-
-- **[2023/03] CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society** [[NeurIPS 2023](https://arxiv.org/pdf/2303.17760)]  
-  Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem
-
-- **[2024/06] AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology.** [[ICSE 2025](https://arxiv.org/pdf/2406.11912)]  
-  *Minh Huynh Nguyen, Thang Chau Phan, Phong X. Nguyen, Nghi D. Q. Bui*
-  
-- **[2023/08] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[arXiv](https://arxiv.org/pdf/2308.08155)]  
-  *Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Awadallah, Ryen W. White, Doug Burger, Chi Wang*
-  
-- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[arXiv](http://arxiv.org/abs/2304.07590v3)]  
-  *Yihong Dong, Xue Jiang, Zhi Jin, Ge Li*  
-
-- **[2023/07] ChatDev: Communicative Agents for Software Development** [[arXiv](http://arxiv.org/abs/2307.07924v5)]  
-  *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*  
-
-- **[2024/08] Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents** [[arXiv](http://arxiv.org/abs/2408.07060v1)]
-  *Kexun Zhang, Weiran Yao, Zuxin Liu, Yihao Feng, Zhiwei Liu, Rithesh Murthy, Tian Lan, Lei Li, Renze Lou, Jiacheng Xu, Bo Pang, Yingbo Zhou, Shelby Heinecke, Silvio Savarese, Huan Wang, Caiming Xiong*
-
 - **[2024/09] LLM-Agent-UMF: LLM-based Agent Unified Modeling Framework for Seamless Integration of Multi Active/Passive Core-Agents.** [[arxiv](http://arxiv.org/abs/2409.11393v2)]  
   *Amine Ben Hassouna, Hana Chaari, Ines Belhaj*
 
 - **[2024/09] MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents.** [[arxiv](http://arxiv.org/abs/2409.16120v1)]  
   *Ming Zhu, Yi Zhou*
+
+- **[2024/08] Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents** [[arXiv](http://arxiv.org/abs/2408.07060v1)]  
+  *Kexun Zhang, Weiran Yao, Zuxin Liu, Yihao Feng, Zhiwei Liu, Rithesh Murthy, Tian Lan, Lei Li, Renze Lou, Jiacheng Xu, Bo Pang, Yingbo Zhou, Shelby Heinecke, Silvio Savarese, Huan Wang, Caiming Xiong*
+
+- **[2024/06] AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology.** [[ICSE 2025](https://arxiv.org/pdf/2406.11912)]  
+  *Minh Huynh Nguyen, Thang Chau Phan, Phong X. Nguyen, Nghi D. Q. Bui*
+
+- **[2023/08] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[arXiv](https://arxiv.org/pdf/2308.08155)]  
+  *Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Awadallah, Ryen W. White, Doug Burger, Chi Wang*
+
+- **[2023/07] Communicative Agents for Software Development** [[ACL 2023](https://arxiv.org/pdf/2307.07924)]  
+  *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
+
+- **[2023/07] ChatDev: Communicative Agents for Software Development** [[arXiv](http://arxiv.org/abs/2307.07924v5)]  
+  *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
+
+- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[arXiv](http://arxiv.org/abs/2304.07590v3)]  
+  *Yihong Dong, Xue Jiang, Zhi Jin, Ge Li*
+
+- **[2023/03] CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society** [[NeurIPS 2023](https://arxiv.org/pdf/2303.17760)]  
+  Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem
+
 
 
 
