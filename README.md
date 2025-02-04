@@ -7,7 +7,7 @@
   * [Code Refactoring and Repair](#Code-Refactoring-and-Repair)
     * [Code Refactoring](#Code-Refactoring)
     * [Bug Fixing](#Bug-Fixing)
- * [Security and Vulnerability Repair](#Security-and-Vulnerability-Repair)
+  * [Security and Vulnerability Repair](#Security-and-Vulnerability-Repair)
     * [Vulnerability Detection](#Vulnerability-Detection)
     * [Vulnerability Fixing](#Vulnerability-Fixing)
 * [Agent Collaboration and Coordination](#Agent-Collaboration-and-Coordination)
@@ -165,7 +165,6 @@
 
 
 
-
 ### Code Optimization
 - **[2025/01] GREEN-CODE: Optimizing Energy Efficiency in Large Language Models for Code Generation.** [[arxiv](http://arxiv.org/abs/2501.11006v1)]  
   *Shashikant Ilager, Lukas Florian Briem, Ivona Brandic*
@@ -190,7 +189,6 @@
 
 - **[2024/02] Executable Code Actions Elicit Better LLM Agents.** [[ICML 2024](https://arxiv.org/pdf/2402.01030)]  
   *Xingyao Wang, Yangyi Chen, Lifan Yuan, Yizhe Zhang, Yunzhu Li, Hao Peng, Heng Ji*
-
 
 
   
@@ -239,7 +237,6 @@
 
 
 
-
 ### Security and Vulnerability Repair
 
 #### Vulnerability Detection
@@ -258,8 +255,7 @@
 - **[2024/03] AgentFL: Scaling LLM-based Fault Localization to Project-Level Context** [[arXiv](http://arxiv.org/abs/2403.16362v1)]  
   *Yihao Qin, Shangwen Wang, Yiling Lou, Jinhao Dong, Kaixin Wang, Xiaoling Li, Xiaoguang Mao*
 
-
-  
+ 
 #### Vulnerability Fixing
 - **[2024/03] ACFIX: Guiding LLMs with Mined Common RBAC Practices for Context-Aware Repair of Access Control Vulnerabilities in Smart Contracts.** [[arXiv](https://arxiv.org/pdf/2403.06838)]  
   *Lyuye Zhang, Kaixuan Li, Kairan Sun, Daoyuan Wu, Ye Liu, Haoye Tian, Yang Liu*
@@ -775,7 +771,7 @@
 - **[2024/11] GIS Copilot: Towards an Autonomous GIS Agent for Spatial Analysis** [[arXiv](http://arxiv.org/abs/2411.03205v4)]  
   *Temitope Akinboyewa, Zhenlong Li, Huan Ning, M. Naser Lessani*
 
-- **[2024/11] AgentOps: Enabling Observability of LLM Agents** [[arXiv](http://arxiv.org/abs/2411.05285v2)]  
+- **[2024/11] AgentOps: Enabling Observability of LLM Agents** [[arXiv](http://arxiv.org/abs/2411.05285v2)] 
   *Liming Dong, Qinghua Lu, Liming Zhu*
 
 - **[2024/11] Advanced System Integration: Analyzing OpenAPI Chunking for Retrieval-Augmented Generation** [[arXiv](http://arxiv.org/abs/2411.19804v1)]  
