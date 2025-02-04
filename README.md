@@ -1,5 +1,11 @@
-# Agent4SE_SLR
+# Intelligent Agents for Software Engineering: A Systematic Literature Review
+
+This repository contains the materials related to the paper titled **Intelligent Agents for Software Engineering: A Systematic Literature Review**. The paper systematically reviews the application of intelligent agents in the field of software engineering. 
+
+The following diagram presents an overview of the classification of intelligent agents in software engineering, as discussed in the paper.
+
 ![Intelligent Agents for Software Engineering Classification Diagram](https://github.com/Haoyi-Zhang/Agent4SE_SLR/blob/main/Intelligent%20Agents%20for%20Software%20Engineering%20Classification%20Diagram.png?raw=true)
+
 
 ## Table of Contents
 * [Code Generation and Improvement](#Code-Generation-and-Improvement)
