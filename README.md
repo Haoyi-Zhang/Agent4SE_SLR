@@ -81,8 +81,21 @@
 
 - **[2023/07] Extending the Frontier of ChatGPT: Code Generation and Debugging** [[arXiv](http://arxiv.org/abs/2307.08260v1)]  
   *Fardin Ahsan Sakib, Saadat Hasan Khan, A. H. M. Rezaul Karim*  
-  _(Also appears under Debugging Assistance)_
 
+- **[2024/01] CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.** [[arXiv](http://arxiv.org/abs/2401.07339v2)]  
+  *Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, Zhi Jin*
+
+- **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
+  *Zeeshan Rasheed, Malik Abdul Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saari, Kari Systä, Pekka Abrahamsson*
+
+- **[2024/02] NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification.** [[arXiv](http://arxiv.org/abs/2402.16910v2)]  
+  *Hanna Abi Akl*
+
+- **[2024/03] SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents.** [[arXiv](http://arxiv.org/abs/2403.15852v2)]  
+  *Feng Lin, Dong Jae Kim, Tse-Husn, Chen*
+
+- **[2024/02] Solution-oriented Agent-based Models Generation with Verifier-assisted Iterative In-context Learning.** [[arXiv](http://arxiv.org/abs/2402.02388v1)]  
+  *Tong Niu, Weihao Zhang, Rong Zhao*
 
 
 
@@ -125,6 +138,9 @@
 - **[2024/03] Combining Fine-tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications.** [[arXiv](https://arxiv.org/pdf/2403.16073)]  
   *Wei Ma, Daoyuan Wu, Yuqiang Sun, Tianwen Wang, Shangqing Liu, Jian Zhang, Yue Xue, Yang Liu*
 
+- **[2024/03] Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications.** [[arXiv](http://arxiv.org/abs/2403.16073v3)]  
+  *Wei Ma, Daoyuan Wu, Yuqiang Sun, Tianwen Wang, Shangqing Liu, Jian Zhang, Yue Xue, Yang Liu*
+
 
 
 ## Agent Collaboration and Coordination
@@ -160,15 +176,15 @@
 - **[2023/12] Experiential Co-Learning of Software-Developing Agents** [[arXiv](http://arxiv.org/abs/2312.17025v3)]  
   *Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Zihao Xie, Yifei Wang, Weize Chen, Cheng Yang, Xin Cong, Xiaoyin Che, Zhiyuan Liu, Maosong Sun*
 
+- **[2024/02] Can Large Language Models Serve as Data Analysts? A Multi-Agent Assisted Approach for Qualitative Data Analysis.** [[arXiv](http://arxiv.org/abs/2402.01386v1)]  
+  *Zeeshan Rasheed, Muhammad Waseem, Aakash Ahmad, Kai-Kristian Kemell, Wang Xiaofeng, Anh Nguyen Duc, Pekka Abrahamsson*
+
 
 
 
 ### Autonomous Multi-Agent Systems
 - **[2024/10] AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories** [[arXiv](https://arxiv.org/pdf/2410.07706)]  
   *Yifan Song, Weimin Xiong, Xiutian Zhao, Dawei Zhu, Wenhao Wu, Ke Wang, Cheng Li, Wei Peng, Sujian Li*
-
-- **[2024/02] CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents** [[arXiv](https://arxiv.org/pdf/2402.01411)]  
-  *Zeeshan Rasheed, Abdul Malik Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saar, Kari Systä, Pekka Abrahamsson*
 
 - **[2023/09] AutoAgents: A Framework for Automatic Agent Generation** [[arXiv](https://arxiv.org/pdf/2309.17288)]  
   *Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje Karlsson, Jie Fu, Yemin Shi*
@@ -187,6 +203,9 @@
 
 - **[2023/10] Balancing Autonomy and Alignment: A Multi-Dimensional Taxonomy for Autonomous LLM-powered Multi-Agent Architectures** [[arXiv](http://arxiv.org/abs/2310.03659v1)]  
   *Thorsten Händler*
+
+- **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
+  *Zeeshan Rasheed, Malik Abdul Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saari, Kari Systä, Pekka Abrahamsson*
 
 
 
@@ -244,12 +263,14 @@
 - **[2024/03] AGENTFL: Scaling LLM-based Fault Localization to Project-Level Context** [[arXiv](https://arxiv.org/pdf/2403.16362)]  
   *Yihao Qin, Shangwen Wang, Yiling Lou, Jinhao Dong, Kaixin Wang, Xiaoling Li, Xiaoguang Mao*
 
+- **[2024/03] Exploring LLM-based Agents for Root Cause Analysis.** [[arXiv](http://arxiv.org/abs/2403.04123v1)]  
+  *Devjeet Roy, Xuchao Zhang, Rashi Bhave, Chetan Bansal, Pedro Las-Casas, Rodrigo Fonseca, Saravan Rajmohan*
+
   
 #### Automated Bug Fixing
 - **[2023/07] Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models** [[TSE 2023](https://arxiv.org/pdf/2307.00593)]  
   *Haoxin Tu, Zhide Zhou, He Jiang, Imam Nur Bani Yusuf, Yuxian Li, Lingxiao Jiang*  
   *Note: Also classified under Code Refactoring and Repair (Bug Fixing).*
-
 
 
 
@@ -267,6 +288,12 @@
 - **[2023/10] RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models** [[arXiv](http://arxiv.org/abs/2310.16340v3)]  
   *Zefan Wang, Zichuan Liu, Yingying Zhang, Aoxiao Zhong, Jihong Wang, Fengbin Yin, Lunting Fan, Lingfei Wu, Qingsong Wen*
 
+- **[2024/02] Nissist: An Incident Mitigation Copilot based on Troubleshooting Guides.** [[arXiv](http://arxiv.org/abs/2402.17531v2)]  
+  *Kaikai An, Fangkai Yang, Junting Lu, Liqun Li, Zhixing Ren, Hao Huang, Lu Wang, Pu Zhao, Yu Kang, Hua Ding, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang*
+
+- **[2024/03] ChatDBG: An AI-Powered Debugging Assistant.** [[arXiv](http://arxiv.org/abs/2403.16354v2)]  
+  *Kyla Levin, Nicolas van Kempen, Emery D. Berger, Stephen N. Freund*
+
 
 
 ### Code Quality Assurance
@@ -275,6 +302,9 @@
 
 - **[2023/07] Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures** [[arXiv](http://arxiv.org/abs/2307.05360v3)]  
   *Sayed Erfan Arefin, Tasnia Ashrafi Heya, Hasan Al-Qudah, Ynes Ineza, Abdul Serwadda*
+
+- **[2024/02] CodeAgent: Autonomous Communicative Agents for Code Review.** [[arXiv](http://arxiv.org/abs/2402.02172v5)]  
+  *Xunzhu Tang, Kisub Kim, Yewei Song, Cedric Lothritz, Bei Li, Saad Ezzini, Haoye Tian, Jacques Klein, Tegawende F. Bissyande*
 
 
 
@@ -290,6 +320,9 @@
 - **[2023/11] Towards Responsible Generative AI: A Reference Architecture for Designing Foundation Model based Agents** [[arXiv](http://arxiv.org/abs/2311.13148v3)]  
   *Qinghua Lu, Liming Zhu, Xiwei Xu, Zhenchang Xing, Stefan Harrer, Jon Whittle*
 
+- **[2024/01] Exploring the Potential of Large Language Models in Self-adaptive Systems.** [[arXiv](http://arxiv.org/abs/2401.07534v1)]  
+  *Jialong Li, Mingyue Zhang, Nianyu Li, Danny Weyns, Zhi Jin, Kenji Tei*
+
 
 
 
@@ -300,6 +333,12 @@
 ### Requirements Engineering
 - **[2024/04] Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation** [[arXiv](https://arxiv.org/pdf/2404.16045)]  
   *Mohammadmehdi Ataei, Hyunmin Cheong, Daniele Grandi, Ye Wang, Nigel Morris, Alexander Tessier*
+
+- **[2024/02] Effort and Size Estimation in Software Projects with Large Language Model-based Intelligent Interfaces.** [[arXiv](http://arxiv.org/abs/2402.07158v2)]  
+  *Claudionor N. Coelho Jr, Hanchen Xiong, Tushar Karayil, Sree Koratala, Rex Shang, Jacob Bollinger, Mohamed Shabar, Syam Nair*
+
+- **[2024/03] LLM-based agents for automating the enhancement of user story quality: An early report.** [[arXiv](http://arxiv.org/abs/2403.09442v1)]  
+  *Zheying Zhang, Maruf Rayhan, Tomas Herda, Manuel Goisauf, Pekka Abrahamsson*
 
 
 
@@ -314,7 +353,10 @@
 
 - **[2023/05] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models** [[arXiv](http://arxiv.org/abs/2305.19308v2)]  
   *Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, Zhaoxiang Zhang*  
-  _(Also relevant as a tool for augmenting human productivity)_
+
+- **[2024/03] AllHands: Ask Me Anything on Large-scale Verbatim Feedback via Large Language Models.** [[arXiv](http://arxiv.org/abs/2403.15157v2)]  
+  *Chaoyun Zhang, Zicheng Ma, Yuhao Wu, Shilin He, Si Qin, Minghua Ma, Xiaoting Qin, Yu Kang, Yuyi Liang, Xiaoyu Gou, Yajie Xue, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang*
+
 
 
 
@@ -330,6 +372,9 @@
 
 - **[2023/08] ChatLogo: A Large Language Model-Driven Hybrid Natural-Programming Language Interface for Agent-based Modeling and Programming** [[arXiv](http://arxiv.org/abs/2308.08102v1)]  
   *John Chen, Uri Wilensky*
+
+- **[2024/02] An Empirical Study on Low Code Programming using Traditional vs Large Language Model Support.** [[arXiv](http://arxiv.org/abs/2402.01156v2)]  
+  *Yongkun Liu, Jiachi Chen, Tingting Bi, John Grundy, Yanlin Wang, Jianxing Yu, Ting Chen, Yutian Tang, Zibin Zheng*
 
 
 
@@ -359,6 +404,12 @@
 - **[2023/10] RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models** [[arXiv](http://arxiv.org/abs/2310.16340v3)]  
   *Zefan Wang, Zichuan Liu, Yingying Zhang, Aoxiao Zhong, Jihong Wang, Fengbin Yin, Lunting Fan, Lingfei Wu, Qingsong Wen*  
  
+- **[2024/01] CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.** [[arXiv](http://arxiv.org/abs/2401.07339v2)]  
+  *Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, Zhi Jin*
+
+- **[2024/01] Prompt Design and Engineering: Introduction and Advanced Methods.** [[arXiv](http://arxiv.org/abs/2401.14423v4)]  
+  *Xavier Amatriain*
+
 
 
 
@@ -387,6 +438,10 @@
 - **[2023/07] Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures** [[arXiv](http://arxiv.org/abs/2307.05360v3)]  
   *Sayed Erfan Arefin, Tasnia Ashrafi Heya, Hasan Al-Qudah, Ynes Ineza, Abdul Serwadda*
 
+- **[2024/02] Understanding the Weakness of Large Language Model Agents within a Complex Android Environment.** [[arXiv](http://arxiv.org/abs/2402.06596v1)]  
+  *Mingzhe Xing, Rongkai Zhang, Hui Xue, Qi Chen, Fan Yang, Zhen Xiao*
+
+
 
 
 ### Benchmarking Frameworks
@@ -399,7 +454,6 @@
 ### Safety and Alignment Concerns
 - **[2024/01] Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training** [arXiv](http://arxiv.org/abs/2401.05566v3)  
   *Evan Hubinger, Carson Denison, Jesse Mu, Mike Lambert, Meg Tong, Monte MacDiarmid, Tamera Lanham, Daniel M. Ziegler, Tim Maxwell, Newton Cheng, Adam Jermyn, Amanda Askell, Ansh Radhakrishnan, Cem Anil, David Duvenaud, Deep Ganguli, Fazl Barez, Jack Clark, Kamal Ndousse, Kshitij Sachan, Michael Sellitto, Mrinank Sharma, Nova DasSarma, Roger Grosse, Shauna Kravec, Yuntao Bai, Zachary Witten, Marina Favaro, Jan Brauner, Holden Karnofsky, Paul Christiano, Samuel R. Bowman, Logan Graham, Jared Kaplan, Sören Mindermann, Ryan Greenblatt, Buck Shlegeris, Nicholas Schiefer, Ethan Perez*
-
 
  
 
@@ -494,9 +548,6 @@
   
 * [2024/02] **CodeAgent: Collaborative Agents for Software Engineering.** [[EMNLP 2024](https://aclanthology.org/2024.emnlp-main.632.pdf)]  
   Xunzhu Tang, Kisub Kim, Yewei Song, Cedric Lothritz, Bei Li, Saad Ezzini, Haoye Tian, Jacques Klein, Tegawendé F. Bissyandé
-
-* [2024/02] **CodePori: Large Scale Model for Autonomous Software Development by Using Multi-Agents.** [[arXiv](https://arxiv.org/pdf/2402.01411)]  
-  Zeeshan Rasheed, Abdul Malik Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saar, Kari Systä, Pekka Abrahamsson
 
 * [2024/04] **Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.** [[arXiv](https://arxiv.org/pdf/2404.16045)]  
   Mohammadmehdi Ataei, Hyunmin Cheong, Daniele Grandi, Ye Wang, Nigel Morris, Alexander Tessier
@@ -681,6 +732,23 @@
 * [2024/03] **ChatDBG: An AI-Powered Debugging Assistant** [[arxiv](http://arxiv.org/abs/2403.16354v2)]  
   Kyla Levin, Nicolas van Kempen, Emery D. Berger, Stephen N. Freund
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 * [2024/03] **AgentFL: Scaling LLM-based Fault Localization to Project-Level Context** [[arxiv](http://arxiv.org/abs/2403.16362v1)]  
   Yihao Qin, Shangwen Wang, Yiling Lou, Jinhao Dong, Kaixin Wang, Xiaoling Li, Xiaoguang Mao
 
@@ -737,6 +805,18 @@
 
 * [2024/05] **Semantic API Alignment: Linking High-level User Goals to APIs** [[arxiv](http://arxiv.org/abs/2405.04236v1)]  
   Robert Feldt, Riccardo Coppola
+
+
+
+
+
+
+
+
+
+
+
+
 
 * [2024/05] **Granite Code Models: A Family of Open Foundation Models for Code Intelligence** [[arxiv](http://arxiv.org/abs/2405.04324v1)]  
   Mayank Mishra, Matt Stallone, Gaoyuan Zhang, Yikang Shen, Aditya Prasad, Adriana Meza Soria, Michele Merler, Parameswaran Selvam, Saptha Surendran, Shivdeep Singh, Manish Sethi, Xuan-Hong Dang, Pengyuan Li, Kun-Lung Wu, Syed Zawad, Andrew Coleman, Matthew White, Mark Lewis, Raju Pavuluri, Yan Koyfman, Boris Lublinsky, Maximilien de Bayser, Ibrahim Abdelaziz, Kinjal Basu, Mayank Agarwal, Yi Zhou, Chris Johnson, Aanchal Goyal, Hima Patel, Yousaf Shah, Petros Zerfos, Heiko Ludwig, Asim Munawar, Maxwell Crouse, Pavan Kapanipathi, Shweta Salaria, Bob Calio, Sophia Wen, Seetharami Seelam, Brian Belgodere, Carlos Fonseca, Amith Singhee, Nirmit Desai, David D. Cox, Ruchir Puri, Rameswar Panda
