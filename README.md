@@ -43,98 +43,14 @@
 ## Code Generation and Improvement
 
 ### Automated Code Generation
-- **[2024/11] Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation** [[arXiv](https://arxiv.org/pdf/2411.10753)]  
-  *Shuyang Hou, Haoyue Jiao, Zhangxiao Shen, Jianyuan Liang, Anqi Zhao, Xiaopu Zhang, Jianxun Wang, Huayi Wu*
+- **[2025/01] CodeCoR: An LLM-Based Self-Reflective Multi-Agent Framework for Code Generation.** [[arxiv](http://arxiv.org/abs/2501.07811v1)]  
+  *Ruwei Pan, Hongyu Zhang, Chao Liu*
 
-- **[2024/04] 3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers** [[ICSE 2025](https://arxiv.org/pdf/2404.10362)]  
-  *Sarah Fakhoury, Markus Kuppe, Shuvendu K. Lahiri, Tahina Ramananandro, Nikhil Swamy*
+- **[2025/01] Towards Advancing Code Generation with Large Language Models: A Research Roadmap.** [[arxiv](http://arxiv.org/abs/2501.11354v1)]  
+  *Haolin Jin, Huaming Chen, Qinghua Lu, Liming Zhu*
 
-- **[2023/09] Test-Case-Driven Programming Understanding in Large Language Models for Better Code Generation** [[arXiv](https://arxiv.org/pdf/2309.16120)]  
-  *Zhao Tian, Junjie Chen, Xiangyu Zhang*
-
-- **[2023/10] Lemur: Harmonizing Natural Language and Code for Language Agents** [[ICLR 2023](https://arxiv.org/pdf/2310.06830)]  
-  *Yiheng Xu, Hongjin Su, Chen Xing, Boyu Mi, Qian Liu, Yusheng Shi, Binyuan Hui, Fan Zhou, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu*
-
-- **[2024/03] When LLM-based Code Generation Meets the Software Development Process.** [[arXiv](https://arxiv.org/html/2403.15852v1)]  
-  *Feng Lin, Dong Jae Kim, Tse-Husn (Peter) Chen*
-  
-- **[2024/05] MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://aclanthology.org/2024.acl-long.269.pdf)]  
-  *Md. Ashraful Islam, Mohammed Eunus Ali, Md Rizwan Parvez*
-  
-- **[2024/05] AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[ICLR 2025](https://arxiv.org/pdf/2405.14906)]  
-  *Bin Lei, Yuchen Li, Qiuwu Chen*
-  
-- **[2024/01] LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems.** [[ICSE 2024](https://arxiv.org/pdf/2401.05443)]  
-  *Mohamad Fakih, Rahul Dharmaji, Yasamin Moghaddas, Gustavo Quiros Araya, Oluwatosin Ogundare, Mohammad Abdullah Al Faruque*
-  
-- **[2025/05] Instruct or Interact? Exploring and Eliciting LLMs’ Capability in Code Snippet Adaptation Through Prompt Engineering.** [[ICSE 2025](https://arxiv.org/abs/2411.15501)]  
-  *Tanghaoran Zhang, Yue Yu, Xinjun Mao, Shangwen Wang, Kang Yang, Yao Lu, Zhang Zhang, Yuxin Zhao*
-  
-- **[2024/05] SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code.** [[ICML 2024](https://dl.acm.org/doi/10.5555/3692070.3692846)]  
-  *Ziniu Hu, Ahmet Iscen, Aashi Jain, Thomas Kipf, Yisong Yue, David A. Ross, Cordelia Schmid, Alireza Fathi*
-  
-- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[arXiv](http://arxiv.org/abs/2304.07590v3)]  
-  *Yihong Dong, Xue Jiang, Zhi Jin, Ge Li*
-
-- **[2023/10] L2MAC: Large Language Model Automatic Computer for Extensive Code Generation** [[arXiv](http://arxiv.org/abs/2310.02003v5)]  
-  *Samuel Holt, Max Ruiz Luyten, Mihaela van der Schaar*
-
-- **[2023/07] Extending the Frontier of ChatGPT: Code Generation and Debugging** [[arXiv](http://arxiv.org/abs/2307.08260v1)]  
-  *Fardin Ahsan Sakib, Saadat Hasan Khan, A. H. M. Rezaul Karim*  
-
-- **[2024/01] CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.** [[arXiv](http://arxiv.org/abs/2401.07339v2)]  
-  *Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, Zhi Jin*
-
-- **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
-  *Zeeshan Rasheed, Malik Abdul Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saari, Kari Systä, Pekka Abrahamsson*
-
-- **[2024/02] NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification.** [[arXiv](http://arxiv.org/abs/2402.16910v2)]  
-  *Hanna Abi Akl*
-
-- **[2024/03] SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents.** [[arXiv](http://arxiv.org/abs/2403.15852v2)]  
-  *Feng Lin, Dong Jae Kim, Tse-Husn, Chen*
-
-- **[2024/02] Solution-oriented Agent-based Models Generation with Verifier-assisted Iterative In-context Learning.** [[arXiv](http://arxiv.org/abs/2402.02388v1)]  
-  *Tong Niu, Weihao Zhang, Rong Zhao*
-
-- **[2024/04] Class-Level Code Generation from Natural Language Using Iterative, Tool-Enhanced Reasoning over Repository** [[arXiv](http://arxiv.org/abs/2405.01573v2)]  
-  *Ajinkya Deshpande, Anmol Agarwal, Shashank Shet, Arun Iyer, Aditya Kanade, Ramakrishna Bairi, Suresh Parthasarathy*
-
-- **[2024/05] Granite Code Models: A Family of Open Foundation Models for Code Intelligence** [[arXiv](http://arxiv.org/abs/2405.04324v1)]  
-  *Mayank Mishra, Matt Stallone, Gaoyuan Zhang, Yikang Shen, Aditya Prasad, Adriana Meza Soria, Michele Merler, Parameswaran Selvam, Saptha Surendran, Shivdeep Singh, Manish Sethi, Xuan-Hong Dang, Pengyuan Li, Kun-Lung Wu, Syed Zawad, Andrew Coleman, Matthew White, Mark Lewis, Raju Pavuluri, Yan Koyfman, Boris Lublinsky, Maximilien de Bayser, Ibrahim Abdelaziz, Kinjal Basu, Mayank Agarwal, Yi Zhou, Chris Johnson, Aanchal Goyal, Hima Patel, Yousaf Shah, Petros Zerfos, Heiko Ludwig, Asim Munawar, Maxwell Crouse, Pavan Kapanipathi, Shweta Salaria, Bob Calio, Sophia Wen, Seetharami Seelam, Brian Belgodere, Carlos Fonseca, Amith Singhee, Nirmit Desai, David D. Cox, Ruchir Puri, Rameswar Panda*
-
-- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[arxiv](http://arxiv.org/abs/2409.05001v1)]  
-  *Huan Zhang, Wei Cheng, Yuhan Wu, Wei Hu*
-
-- **[2024/09] Python Symbolic Execution with LLM-powered Code Generation.** [[arxiv](http://arxiv.org/abs/2409.09271v1)]  
-  *Wenhan Wang, Kaibo Liu, An Ran Chen, Ge Li, Zhi Jin, Gang Huang, Lei Ma*
-
-- **[2024/09] TRANSAGENT: An LLM-Based Multi-Agent System for Code Translation.** [[arxiv](http://arxiv.org/abs/2409.19894v2)]  
-  *Zhiqiang Yuan, Weitong Chen, Hanlin Wang, Kai Yu, Xin Peng, Yiling Lou*
-
-- **[2024/09] AutoVerus: Automated Proof Generation for Rust Code.** [[arxiv](http://arxiv.org/abs/2409.13082v1)]  
-  *Chenyuan Yang, Xuheng Li, Md Rakib Hossain Misu, Jianan Yao, Weidong Cui, Yeyun Gong, Chris Hawblitzel, Shuvendu Lahiri, Jacob R. Lorch, Shuai Lu, Fan Yang, Ziqiao Zhou, Shan Lu*
-
-- **[2024/10] Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents** [[arXiv](http://arxiv.org/abs/2410.14209v2)]  
-  *Zihan Liu, Ruinan Zeng, Dongxia Wang, Gengyun Peng, Jingyi Wang, Qiang Liu, Peiyu Liu, Wenhai Wang*
-
-- **[2024/10] SELA: Tree-Search Enhanced LLM Agents for Automated Machine Learning** [[arXiv](http://arxiv.org/abs/2410.17238v1)]  
-  *Yizhou Chi, Yizhang Lin, Sirui Hong, Duyi Pan, Yaying Fei, Guanghao Mei, Bangbang Liu, Tianqi Pang, Jacky Kwok, Ceyao Zhang, Bang Liu, Chenglin Wu*
-
-- **[2024/10] LLM as a code generator in Agile Model Driven Development** [[arXiv](http://arxiv.org/abs/2410.18489v1)]  
-  *Ahmed R. Sadik, Sebastian Brulin, Markus Olhofer, Antonello Ceravola, Frank Joublin*
-
-- **[2024/10] VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs** [[arXiv](http://arxiv.org/abs/2410.19245v1)]  
-  *Zixiao Zhao, Jing Sun, Zhiyuan Wei, Cheng-Hao Cai, Zhe Hou, Jin Song Dong*
-
-- **[2024/10] SceneGenAgent: Precise Industrial Scene Generation with Coding Agent** [[arXiv](http://arxiv.org/abs/2410.21909v1)]  
-  *Xiao Xia, Dan Zhang, Zibo Liao, Zhenyu Hou, Tianrui Sun, Jing Li, Ling Fu, Yuxiao Dong*
-
-- **[2024/11] LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues** [[arXiv](http://arxiv.org/abs/2411.13941v1)]  
-  *Yalan Lin, Yingwei Ma, Rongyu Cao, Binhua Li, Fei Huang, Xiaodong Gu, Yongbin Li*
-
-- **[2024/11] Using a Feedback Loop for LLM-based Infrastructure as Code Generation** [[arXiv](http://arxiv.org/abs/2411.19043v1)]  
-  *Mayur Amarnath Palavalli, Mark Santolucito*
+- **[2025/01] QualityFlow: An Agentic Workflow for Program Synthesis Controlled by LLM Quality Checks.** [[arxiv](http://arxiv.org/abs/2501.17167v1)]  
+  *Yaojie Hu, Qiang Zhou, Qihong Chen, Xiaopeng Li, Linbo Liu, Dejiao Zhang, Amit Kachroo, Talha Oz, Omer Tripp*
 
 - **[2024/12] PromptV: Leveraging LLM-powered Multi-Agent Prompting for High-quality Verilog Generation** [[arXiv](http://arxiv.org/abs/2412.11014v1)]  
   *Zhendong Mi, Renming Zheng, Haowen Zhong, Yue Sun, Shaoyi Huang*
@@ -154,14 +70,99 @@
 - **[2024/12] Tree-of-Code: A Tree-Structured Exploring Framework for End-to-End Code Generation and Execution in Complex Task Handling.** [[arXiv](http://arxiv.org/abs/2412.15305v1)]  
   *Ziyi Ni, Yifan Li, Ning Yang, Dou Shen, Pin Lv, Daxiang Dong*
 
-- **[2025/01] CodeCoR: An LLM-Based Self-Reflective Multi-Agent Framework for Code Generation.** [[arxiv](http://arxiv.org/abs/2501.07811v1)]  
-  *Ruwei Pan, Hongyu Zhang, Chao Liu*
+- **[2024/11] Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation** [[arXiv](https://arxiv.org/pdf/2411.10753)]  
+  *Shuyang Hou, Haoyue Jiao, Zhangxiao Shen, Jianyuan Liang, Anqi Zhao, Xiaopu Zhang, Jianxun Wang, Huayi Wu*
 
-- **[2025/01] Towards Advancing Code Generation with Large Language Models: A Research Roadmap.** [[arxiv](http://arxiv.org/abs/2501.11354v1)]  
-  *Haolin Jin, Huaming Chen, Qinghua Lu, Liming Zhu*
+- **[2024/11] LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues** [[arXiv](http://arxiv.org/abs/2411.13941v1)]  
+  *Yalan Lin, Yingwei Ma, Rongyu Cao, Binhua Li, Fei Huang, Xiaodong Gu, Yongbin Li*
 
-- **[2025/01] QualityFlow: An Agentic Workflow for Program Synthesis Controlled by LLM Quality Checks.** [[arxiv](http://arxiv.org/abs/2501.17167v1)]  
-  *Yaojie Hu, Qiang Zhou, Qihong Chen, Xiaopeng Li, Linbo Liu, Dejiao Zhang, Amit Kachroo, Talha Oz, Omer Tripp*
+- **[2024/11] Using a Feedback Loop for LLM-based Infrastructure as Code Generation** [[arXiv](http://arxiv.org/abs/2411.19043v1)]  
+  *Mayur Amarnath Palavalli, Mark Santolucito*
+  
+- **[2024/11] Instruct or Interact? Exploring and Eliciting LLMs’ Capability in Code Snippet Adaptation Through Prompt Engineering.** [[ICSE 2025](https://arxiv.org/abs/2411.15501)]  
+  *Tanghaoran Zhang, Yue Yu, Xinjun Mao, Shangwen Wang, Kang Yang, Yao Lu, Zhang Zhang, Yuxin Zhao*
+
+- **[2024/10] Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents** [[arXiv](http://arxiv.org/abs/2410.14209v2)]  
+  *Zihan Liu, Ruinan Zeng, Dongxia Wang, Gengyun Peng, Jingyi Wang, Qiang Liu, Peiyu Liu, Wenhai Wang*
+
+- **[2024/10] SELA: Tree-Search Enhanced LLM Agents for Automated Machine Learning** [[arXiv](http://arxiv.org/abs/2410.17238v1)]  
+  *Yizhou Chi, Yizhang Lin, Sirui Hong, Duyi Pan, Yaying Fei, Guanghao Mei, Bangbang Liu, Tianqi Pang, Jacky Kwok, Ceyao Zhang, Bang Liu, Chenglin Wu*
+
+- **[2024/10] LLM as a code generator in Agile Model Driven Development** [[arXiv](http://arxiv.org/abs/2410.18489v1)]  
+  *Ahmed R. Sadik, Sebastian Brulin, Markus Olhofer, Antonello Ceravola, Frank Joublin*
+
+- **[2024/10] VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs** [[arXiv](http://arxiv.org/abs/2410.19245v1)]  
+  *Zixiao Zhao, Jing Sun, Zhiyuan Wei, Cheng-Hao Cai, Zhe Hou, Jin Song Dong*
+
+- **[2024/10] SceneGenAgent: Precise Industrial Scene Generation with Coding Agent** [[arXiv](http://arxiv.org/abs/2410.21909v1)]  
+  *Xiao Xia, Dan Zhang, Zibo Liao, Zhenyu Hou, Tianrui Sun, Jing Li, Ling Fu, Yuxiao Dong*
+
+- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[arxiv](http://arxiv.org/abs/2409.05001v1)]  
+  *Huan Zhang, Wei Cheng, Yuhan Wu, Wei Hu*
+
+- **[2024/09] Python Symbolic Execution with LLM-powered Code Generation.** [[arxiv](http://arxiv.org/abs/2409.09271v1)]  
+  *Wenhan Wang, Kaibo Liu, An Ran Chen, Ge Li, Zhi Jin, Gang Huang, Lei Ma*
+
+- **[2024/09] TRANSAGENT: An LLM-Based Multi-Agent System for Code Translation.** [[arxiv](http://arxiv.org/abs/2409.19894v2)]  
+  *Zhiqiang Yuan, Weitong Chen, Hanlin Wang, Kai Yu, Xin Peng, Yiling Lou*
+
+- **[2024/09] AutoVerus: Automated Proof Generation for Rust Code.** [[arxiv](http://arxiv.org/abs/2409.13082v1)]  
+  *Chenyuan Yang, Xuheng Li, Md Rakib Hossain Misu, Jianan Yao, Weidong Cui, Yeyun Gong, Chris Hawblitzel, Shuvendu Lahiri, Jacob R. Lorch, Shuai Lu, Fan Yang, Ziqiao Zhou, Shan Lu*
+
+- **[2024/05] MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://aclanthology.org/2024.acl-long.269.pdf)]  
+  *Md. Ashraful Islam, Mohammed Eunus Ali, Md Rizwan Parvez*
+
+- **[2024/05] AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[ICLR 2025](https://arxiv.org/pdf/2405.14906)]  
+  *Bin Lei, Yuchen Li, Qiuwu Chen*
+
+- **[2024/05] SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code.** [[ICML 2024](https://dl.acm.org/doi/10.5555/3692070.3692846)]  
+  *Ziniu Hu, Ahmet Iscen, Aashi Jain, Thomas Kipf, Yisong Yue, David A. Ross, Cordelia Schmid, Alireza Fathi*
+
+- **[2024/05] Granite Code Models: A Family of Open Foundation Models for Code Intelligence** [[arXiv](http://arxiv.org/abs/2405.04324v1)]  
+  *Mayank Mishra, Matt Stallone, Gaoyuan Zhang, Yikang Shen, Aditya Prasad, Adriana Meza Soria, Michele Merler, Parameswaran Selvam, Saptha Surendran, Shivdeep Singh, Manish Sethi, Xuan-Hong Dang, Pengyuan Li, Kun-Lung Wu, Syed Zawad, Andrew Coleman, Matthew White, Mark Lewis, Raju Pavuluri, Yan Koyfman, Boris Lublinsky, Maximilien de Bayser, Ibrahim Abdelaziz, Kinjal Basu, Mayank Agarwal, Yi Zhou, Chris Johnson, Aanchal Goyal, Hima Patel, Yousaf Shah, Petros Zerfos, Heiko Ludwig, Asim Munawar, Maxwell Crouse, Pavan Kapanipathi, Shweta Salaria, Bob Calio, Sophia Wen, Seetharami Seelam, Brian Belgodere, Carlos Fonseca, Amith Singhee, Nirmit Desai, David D. Cox, Ruchir Puri, Rameswar Panda*
+
+- **[2024/04] 3DGen: AI-Assisted Generation of Provably Correct Binary Format Parsers** [[ICSE 2025](https://arxiv.org/pdf/2404.10362)]  
+  *Sarah Fakhoury, Markus Kuppe, Shuvendu K. Lahiri, Tahina Ramananandro, Nikhil Swamy*
+
+- **[2024/04] Class-Level Code Generation from Natural Language Using Iterative, Tool-Enhanced Reasoning over Repository** [[arXiv](http://arxiv.org/abs/2405.01573v2)]  
+  *Ajinkya Deshpande, Anmol Agarwal, Shashank Shet, Arun Iyer, Aditya Kanade, Ramakrishna Bairi, Suresh Parthasarathy*
+
+- **[2024/03] When LLM-based Code Generation Meets the Software Development Process.** [[arXiv](https://arxiv.org/html/2403.15852v1)]  
+  *Feng Lin, Dong Jae Kim, Tse-Husn (Peter) Chen*
+
+- **[2024/03] SOEN-101: Code Generation by Emulating Software Process Models Using Large Language Model Agents.** [[arXiv](http://arxiv.org/abs/2403.15852v2)]  
+  *Feng Lin, Dong Jae Kim, Tse-Husn, Chen*
+
+- **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
+  *Zeeshan Rasheed, Malik Abdul Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saari, Kari Systä, Pekka Abrahamsson*
+
+- **[2024/02] NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification.** [[arXiv](http://arxiv.org/abs/2402.16910v2)]  
+  *Hanna Abi Akl*
+
+- **[2024/02] Solution-oriented Agent-based Models Generation with Verifier-assisted Iterative In-context Learning.** [[arXiv](http://arxiv.org/abs/2402.02388v1)]  
+  *Tong Niu, Weihao Zhang, Rong Zhao*
+
+- **[2024/01] LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems.** [[ICSE 2024](https://arxiv.org/pdf/2401.05443)]  
+  *Mohamad Fakih, Rahul Dharmaji, Yasamin Moghaddas, Gustavo Quiros Araya, Oluwatosin Ogundare, Mohammad Abdullah Al Faruque*
+
+- **[2024/01] CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.** [[arXiv](http://arxiv.org/abs/2401.07339v2)]  
+  *Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, Zhi Jin*
+
+- **[2023/10] Lemur: Harmonizing Natural Language and Code for Language Agents** [[ICLR 2023](https://arxiv.org/pdf/2310.06830)]  
+  *Yiheng Xu, Hongjin Su, Chen Xing, Boyu Mi, Qian Liu, Yusheng Shi, Binyuan Hui, Fan Zhou, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu*
+
+- **[2023/10] L2MAC: Large Language Model Automatic Computer for Extensive Code Generation** [[arXiv](http://arxiv.org/abs/2310.02003v5)]  
+  *Samuel Holt, Max Ruiz Luyten, Mihaela van der Schaar*
+
+- **[2023/09] Test-Case-Driven Programming Understanding in Large Language Models for Better Code Generation** [[arXiv](https://arxiv.org/pdf/2309.16120)]  
+  *Zhao Tian, Junjie Chen, Xiangyu Zhang*
+
+- **[2023/07] Extending the Frontier of ChatGPT: Code Generation and Debugging** [[arXiv](http://arxiv.org/abs/2307.08260v1)]  
+  *Fardin Ahsan Sakib, Saadat Hasan Khan, A. H. M. Rezaul Karim*
+
+- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[arXiv](http://arxiv.org/abs/2304.07590v3)]  
+  *Yihong Dong, Xue Jiang, Zhi Jin, Ge Li*
+
 
 
 
