@@ -410,7 +410,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/09] AutoAgents: A Framework for Automatic Agent Generation.** [[arXiv](https://arxiv.org/pdf/2309.17288)]  
   *Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje Karlsson, Jie Fu, Yemin Shi*
 
-- **[2023/08] METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK.** [[ICLR 2023](https://arxiv.org/pdf/2308.00352)]  
+- **[2023/08] MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework.** [[ICLR 2024](https://arxiv.org/pdf/2308.00352)]  
   *Sirui Hong, Mingchen Zhuge, Jiaqi Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber*
 
 - **[2023/08] GPT-in-the-Loop: Adaptive Decision-Making for Multiagent Systems.** [[arXiv](http://arxiv.org/abs/2308.10435v1)]  
