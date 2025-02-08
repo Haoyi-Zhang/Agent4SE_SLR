@@ -79,7 +79,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/12] Tree-of-Code: A Tree-Structured Exploring Framework for End-to-End Code Generation and Execution in Complex Task Handling.** [[arXiv](http://arxiv.org/abs/2412.15305v1)]  
   *Ziyi Ni, Yifan Li, Ning Yang, Dou Shen, Pin Lv, Daxiang Dong*
 
-- **[2024/11] Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation** [[arXiv](https://arxiv.org/pdf/2411.10753)]  
+- **[2024/11] Chain-of-Programming: Empowering Large Language Models for Geospatial Code Generation.** [[arXiv](https://arxiv.org/pdf/2411.10753)]  
   *Shuyang Hou, Haoyue Jiao, Zhangxiao Shen, Jianyuan Liang, Anqi Zhao, Xiaopu Zhang, Jianxun Wang, Huayi Wu*
 
 - **[2024/11] LLMs as Continuous Learners: Improving the Reproduction of Defective Code in Software Issues** [[arXiv](http://arxiv.org/abs/2411.13941v1)]  
@@ -178,7 +178,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2025/01] GREEN-CODE: Optimizing Energy Efficiency in Large Language Models for Code Generation.** [[arxiv](http://arxiv.org/abs/2501.11006v1)]  
   *Shashikant Ilager, Lukas Florian Briem, Ivona Brandic*
 
-- **[2024/10] Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers** [[arXiv](https://arxiv.org/pdf/2410.15625)]  
+- **[2024/10] Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers.** [[arXiv](https://arxiv.org/pdf/2410.15625)]  
   *Anjiang Wei, Allen Nie, Thiago S. F. X. Teixeira, Rohan Yadav, Wonchan Lee, Ke Wang, Alex Aiken*
 
 - **[2024/09] RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation.** [[arxiv](http://arxiv.org/abs/2409.09584v1)]  
@@ -207,7 +207,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/11] Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement** [[arXiv](http://arxiv.org/abs/2411.00622v1)]  
   *Yingwei Ma, Rongyu Cao, Yongchang Cao, Yue Zhang, Jue Chen, Yibo Liu, Yuchen Liu, Binhua Li, Fei Huang, Yongbin Li*
 
-- **[2023/11] INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair** [[ACL 2023](https://arxiv.org/pdf/2311.09868)]  
+- **[2023/11] Intervenor: Prompting the coding ability of large language models with the interactive chain of repair** [[ACL 2024](https://arxiv.org/pdf/2311.09868)]  
   *Hanbin Wang, Zhenghao Liu, Shuo Wang, Ganqu Cui, Ning Ding, Zhiyuan Liu, Ge Yu*
 
 
@@ -301,7 +301,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/11] A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs** [[arXiv](http://arxiv.org/abs/2411.07098v2)]  
   *Myeongsoo Kim, Tyler Stennett, Saurabh Sinha, Alessandro Orso*
 
-- **[2024/10] Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback** [[arXiv](https://arxiv.org/pdf/2410.05434)]  
+- **[2024/10] Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback.** [[ICLR 2025]([https://openreview.net/pdf?id=st7XqFgbAH])]  
   *Sanjiban Choudhury, Paloma Sodhi*
 
 - **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development** [[arXiv](http://arxiv.org/abs/2410.16946v1)]  
@@ -328,7 +328,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/08] GenAI-powered Multi-Agent Paradigm for Smart Urban Mobility: Opportunities and Challenges for Integrating Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) with Intelligent Transportation Systems** [[arXiv](http://arxiv.org/abs/2409.00494v2)]  
   *Haowen Xu, Jinghui Yuan, Anye Zhou, Guanhao Xu, Wan Li, Xuegang Ban, Xinyue Ye*
 
-- **[2024/06] Scaling Large-Language-Model-based Multi-Agent Collaboration** [[arXiv](https://arxiv.org/pdf/2406.07155)]  
+- **[2024/06] Scaling Large-Language-Model-based Multi-Agent Collaboration** [[ICLR 2025]([https://openreview.net/pdf?id=K3n5jPkrU6])]  
   *Chen Qian, Zihao Xie, Yifei Wang, Wei Liu, Yufan Dang, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun*
 
 - **[2024/06] Experimenting with Multi-Agent Software Development: Towards a Unified Platform.** [[arXiv](https://arxiv.org/pdf/2406.05381)]  
@@ -497,10 +497,10 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/01] XUAT-Copilot: Multi-Agent Collaborative System for Automated User Acceptance Testing with Large Language Model** [[arxiv](https://arxiv.org/pdf/2401.02705)]  
   *Zhitao Wang, Wei Wang, Zirao Li, Long Wang, Can Yi, Xinjie Xu, Luyang Cao, Hanjing Su, Shouzhi Chen, Jun Zhou*
 
-- **[2023/11] Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents** [[ICST 2023](https://ieeexplore.ieee.org/abstract/document/10638557)]  
+- **[2023/11] Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents.** [[ICST 2024](https://ieeexplore.ieee.org/abstract/document/10638557)]  
   *Juyeon Yoon, Robert Feldt, Shin Yoo*
 
-- **[2023/10] AXNav: Replaying Accessibility Tests from Natural Language** [[CHI 2023](https://arxiv.org/pdf/2310.02424)]  
+- **[2023/10] AXNav: Replaying Accessibility Tests from Natural Language** [[CHI 2024](https://arxiv.org/pdf/2310.02424)]  
   *Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols*
 
 - **[2023/10] White-box Compiler Fuzzing Empowered by Large Language Models** [[arxiv](https://arxiv.org/pdf/2310.15991)]  
@@ -624,7 +624,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/11] An Evaluation-Driven Approach to Designing LLM Agents: Process and Architecture** [[arxiv](http://arxiv.org/abs/2411.13768v1)]  
   *Boming Xia, Qinghua Lu, Liming Zhu, Zhenchang Xing, Dehai Zhao, Hao Zhang*
 
-- **[2024/08] CODEXGRAPH: Bridging Large Language Models and Code Repositories via Code Graph Databases** [[arXiv](https://arxiv.org/pdf/2408.03910)]  
+- **[2024/08] CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases** [[arXiv](https://arxiv.org/pdf/2408.03910)]  
   *Xiangyan Liu, Bo Lan, Zhiyuan Hu, Yang Liu, Zhicheng Zhang, Fei Wang, Michael Shieh, Wenmeng Zhou*
 
 - **[2024/08] SpecRover: Code Intent Extraction via LLMs** [[arXiv](http://arxiv.org/abs/2408.02232v4)]  
@@ -788,9 +788,6 @@ The following diagram presents a visual overview of the classification schema us
 
 - **[2024/10] Domain-Specific Retrieval-Augmented Generation Using Vector Stores, Knowledge Graphs, and Tensor Factorization.** [[arxiv](http://arxiv.org/abs/2410.02721v1)]  
   *Ryan C. Barron, Ves Grantcharov, Selma Wanna, Maksim E. Eren, Manish Bhattarai, Nicholas Solovyev, George Tompkins, Charles Nicholas, Kim Ø. Rasmussen, Cynthia Matuszek, Boian S. Alexandrov*
-
-- **[2024/08] CODEXGRAPH: Bridging Large Language Models and Code Repositories via Code Graph Databases** [[arXiv](https://arxiv.org/pdf/2408.03910)]  
-  *Xiangyan Liu, Bo Lan, Zhiyuan Hu, Yang Liu, Zhicheng Zhang, Fei Wang, Michael Shieh, Wenmeng Zhou*
 
 - **[2024/08] LLM Agents Improve Semantic Code Search** [[arXiv](http://arxiv.org/abs/2408.11058v1)]  
   *Sarthak Jain, Aditya Dora, Ka Seng Sam, Prabhat Singh*
