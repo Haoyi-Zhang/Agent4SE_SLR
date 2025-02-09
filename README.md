@@ -207,7 +207,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/11] Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement** [[arXiv](http://arxiv.org/abs/2411.00622v1)]  
   *Yingwei Ma, Rongyu Cao, Yongchang Cao, Yue Zhang, Jue Chen, Yibo Liu, Yuchen Liu, Binhua Li, Fei Huang, Yongbin Li*
 
-- **[2023/11] Intervenor: Prompting the coding ability of large language models with the interactive chain of repair** [[ACL 2024](https://arxiv.org/pdf/2311.09868)]  
+- **[2023/11] Intervenor: Prompting the coding ability of large language models with the interactive chain of repair.** [[ACL 2024](https://aclanthology.org/2024.findings-acl.124.pdf)]  
   *Hanbin Wang, Zhenghao Liu, Shuo Wang, Ganqu Cui, Ning Ding, Zhiyuan Liu, Ge Yu*
 
 
@@ -328,7 +328,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/08] GenAI-powered Multi-Agent Paradigm for Smart Urban Mobility: Opportunities and Challenges for Integrating Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) with Intelligent Transportation Systems** [[arXiv](http://arxiv.org/abs/2409.00494v2)]  
   *Haowen Xu, Jinghui Yuan, Anye Zhou, Guanhao Xu, Wan Li, Xuegang Ban, Xinyue Ye*
 
-- **[2024/06] Scaling Large-Language-Model-based Multi-Agent Collaboration** [[ICLR 2025]([https://openreview.net/pdf?id=K3n5jPkrU6])]  
+- **[2024/06] Scaling Large-Language-Model-based Multi-Agent Collaboration.** [[ICLR 2025]([https://openreview.net/pdf?id=K3n5jPkrU6])]  
   *Chen Qian, Zihao Xie, Yifei Wang, Wei Liu, Yufan Dang, Zhuoyun Du, Weize Chen, Cheng Yang, Zhiyuan Liu, Maosong Sun*
 
 - **[2024/06] Experimenting with Multi-Agent Software Development: Towards a Unified Platform.** [[arXiv](https://arxiv.org/pdf/2406.05381)]  
@@ -355,7 +355,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/12] Experiential Co-Learning of Software-Developing Agents** [[arXiv](http://arxiv.org/abs/2312.17025v3)]  
   *Chen Qian, Yufan Dang, Jiahao Li, Wei Liu, Zihao Xie, Yifei Wang, Weize Chen, Cheng Yang, Xin Cong, Xiaoyin Che, Zhiyuan Liu, Maosong Sun*
 
-- **[2023/10] Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models** [[ICML 2023](https://arxiv.org/pdf/2310.04406v3)]  
+- **[2023/10] Language Agent Tree Search Unifies Reasoning, Acting, and Planning in Language Models.** [[ICML 2024](https://dl.acm.org/doi/10.5555/3692070.3694642)]  
   *Andy Zhou, Kai Yan, Michal Shlapentokh-Rothman, Haohan Wang, Yu-Xiong Wang*
 
 - **[2023/10] Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization** [[arXiv](https://arxiv.org/pdf/2310.02170)]  
@@ -407,7 +407,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/10] Balancing Autonomy and Alignment: A Multi-Dimensional Taxonomy for Autonomous LLM-powered Multi-Agent Architectures.** [[arXiv](http://arxiv.org/abs/2310.03659v1)]  
   *Thorsten Händler*
 
-- **[2023/09] AutoAgents: A Framework for Automatic Agent Generation.** [[arXiv](https://arxiv.org/pdf/2309.17288)]  
+- **[2023/09] AutoAgents: A Framework for Automatic Agent Generation.** [[IJCAI 2024](https://www.ijcai.org/proceedings/2024/0003.pdf)] 
   *Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje Karlsson, Jie Fu, Yemin Shi*
 
 - **[2023/08] MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework.** [[ICLR 2024](https://arxiv.org/pdf/2308.00352)]  
@@ -437,10 +437,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/08] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[arXiv](https://arxiv.org/pdf/2308.08155)]  
   *Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Awadallah, Ryen W. White, Doug Burger, Chi Wang*
 
-- **[2023/07] Communicative Agents for Software Development** [[ACL 2023](https://arxiv.org/pdf/2307.07924)]  
-  *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
-
-- **[2023/07] ChatDev: Communicative Agents for Software Development** [[arXiv](http://arxiv.org/abs/2307.07924v5)]  
+- **[2023/07] Communicative Agents for Software Development** [[ACL 2024](https://arxiv.org/pdf/2307.07924)]  
   *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
 
 - **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[arXiv](http://arxiv.org/abs/2304.07590v3)]  
@@ -526,7 +523,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/09] Enhancing Fault Localization Through Ordered Code Analysis with LLM Agents and Self-Reflection.** [[arXiv](http://arxiv.org/abs/2409.13642v1)]  
   *Md Nakhla Rafi, Dong Jae Kim, Tse-Hsun Chen, Shaowei Wang*
 
-- **[2024/03] AgentFL: Scaling LLM-based Fault Localization to Project-Level Context** [[ArXiv](http://arxiv.org/abs/2403.16362v1)]  
+- **[2024/03] AgentFL: Scaling LLM-based Fault Localization to Project-Level Context** [[arXiv](https://arxiv.org/pdf/2403.16362v1)]  
   *Yihao Qin, Shangwen Wang, Yiling Lou, Jinhao Dong, Kaixin Wang, Xiaoling Li, Xiaoguang Mao*
 
 - **[2024/03] Exploring LLM-based Agents for Root Cause Analysis.** [[ArXiv](http://arxiv.org/abs/2403.04123v1)]  
@@ -741,10 +738,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/08] ChatLogo: A Large Language Model-Driven Hybrid Natural-Programming Language Interface for Agent-based Modeling and Programming** [[arXiv](http://arxiv.org/abs/2308.08102v1)]  
   *John Chen, Uri Wilensky*
 
-- **[2023/07] Communicative Agents for Software Development** [[ACL 2023](https://arxiv.org/pdf/2307.07924)]  
-  *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
-
-- **[2023/07] ChatDev: Communicative Agents for Software Development** [[arXiv](http://arxiv.org/abs/2307.07924v5)]  
+- **[2023/07] Communicative Agents for Software Development** [[ACL 2024](https://aclanthology.org/2024.acl-long.810.pdf)]  
   *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
 
 - **[2023/06] InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback** [[NeurIPS 2023](https://arxiv.org/pdf/2306.14898)]  
@@ -858,7 +852,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/07] Towards Automated Data Sciences with Natural Language and SageCopilot: Practices and Lessons Learned** [[arXiv](http://arxiv.org/abs/2407.21040v1)]  
   *Yuan Liao, Jiang Bian, Yuhui Yun, Shuo Wang, Yubo Zhang, Jiaming Chu, Tao Wang, Kewei Li, Yuchen Li, Xuhong Li, Shilei Ji, Haoyi Xiong*
 
-- **[2024/03] AutoDev: Automated AI-Driven Development** [[arXiv](https://arxiv.org/pdf/2403.08299)]  
+- **[2024/03] AutoDev: Automated AI-Driven Development.** [[arXiv](https://arxiv.org/pdf/2403.08299)]  
   *Michele Tufano, Anisha Agarwal, Jinu Jang, Roshanak Zilouchian Moghaddam, Neel Sundaresan*
 
 
@@ -897,7 +891,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/12] Lachesis: Predicting LLM Inference Accuracy using Structural Properties of Reasoning Paths** [[arXiv](http://arxiv.org/abs/2412.08281v1)]  
   *Naryeong Kim, Sungmin Kang, Gabin An, Shin Yoo*
 
-- **[2024/10] SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?** [[arXiv](https://arxiv.org/pdf/2410.03859)]  
+- **[2024/10] SWE-bench Multimodal: Do AI Systems Generalize to Visual Software Domains?** [[ICLR 2025](https://openreview.net/pdf?id=riTiq3i21b)]
   *John Yang, Carlos E. Jimenez, Alex L. Zhang, Kilian Lieret, Joyce Yang, Xindi Wu, Ori Press, Niklas Muennighoff, Gabriel Synnaeve, Karthik R. Narasimhan, Diyi Yang, Sida I. Wang, Ofir Press*
 
 - **[2024/10] Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios** [[arXiv](http://arxiv.org/abs/2410.12468v2)]  
@@ -927,7 +921,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/07] Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures** [[arXiv](http://arxiv.org/abs/2307.05360v3)]  
   *Sayed Erfan Arefin, Tasnia Ashrafi Heya, Hasan Al-Qudah, Ynes Ineza, Abdul Serwadda*
 
-- **[2023/06] InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback** [[NeurIPS 2023](https://arxiv.org/pdf/2306.14898)]  
+- **[2023/06] InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback** [[NeurIPS 2024](https://openreview.net/pdf?id=fvKaLF1ns8)]  
   *John Yang, Akshara Prabhakar, Karthik Narasimhan, Shunyu Yao*
 
 
@@ -963,7 +957,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/10] MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use** [[arXiv](http://arxiv.org/abs/2310.03128v6)]  
   *Yue Huang, Jiawen Shi, Yuan Li, Chenrui Fan, Siyuan Wu, Qihui Zhang, Yixin Liu, Pan Zhou, Yao Wan, Neil Zhenqiang Gong, Lichao Sun*
 
-- **[2023/06] InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback** [[NeurIPS 2023](https://arxiv.org/pdf/2306.14898)]  
+- **[2023/06] InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback.** [[NeurIPS 2024](https://openreview.net/pdf?id=fvKaLF1ns8)]  
   *John Yang, Akshara Prabhakar, Karthik Narasimhan, Shunyu Yao*
 
 
