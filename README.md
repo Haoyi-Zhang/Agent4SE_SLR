@@ -852,7 +852,7 @@ The following diagram presents a visual overview of the classification schema us
 
 
 ### Cross-Tool Integration
-- **[2024/10] AFlow: Automating Agentic Workflow Generation** [[arxiv](http://arxiv.org/abs/2410.10762v1)]  
+- **[2024/10] AFlow: Automating Agentic Workflow Generation** [[ICLR 2025](https://openreview.net/pdf?id=z5uVAKwmjf)]  
   *Jiayi Zhang, Jinyu Xiang, Zhaoyang Yu, Fengwei Teng, Xionghui Chen, Jiaqi Chen, Mingchen Zhuge, Xin Cheng, Sirui Hong, Jinlin Wang, Bingnan Zheng, Bang Liu, Yuyu Luo, Chenglin Wu*
 
 - **[2024/10] From Cool Demos to Production-Ready FMware: Core Challenges and a Technology Roadmap** [[arXiv](http://arxiv.org/abs/2410.20791v2)]  
