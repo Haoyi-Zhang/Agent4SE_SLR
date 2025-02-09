@@ -449,7 +449,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[TOSEM 2024](https://dl.acm.org/doi/10.1145/3672459)]  
   *Yihong Dong, Xue Jiang, Zhi Jin, Ge Li*
 
-- **[2023/03] CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society** [[NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf)]  
+- **[2023/03] CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society** [[NeurIPS 2023](https://proceedings.NeurIPS.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf)]  
   Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem
 
 
@@ -642,7 +642,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/06] How to Understand Whole Software Repository?** [[arXiv](http://arxiv.org/abs/2406.01422v1)]  
   *Yingwei Ma, Qingping Yang, Rongyu Cao, Binhua Li, Fei Huang, Yongbin Li*
 
-- **[2024/06] MASAI: Modular Architecture for Software-engineering AI Agents** [[Neurips 2024 Workshops](https://openreview.net/attachment?id=NSINt8lLYB&name=pdf)]  
+- **[2024/06] MASAI: Modular Architecture for Software-engineering AI Agents** [[NeurIPS 2024 Workshops](https://openreview.net/attachment?id=NSINt8lLYB&name=pdf)]  
   *Daman Arora, Atharv Sonwane, Nalin Wadhwa, Abhav Mehrotra, Saiteja Utpala, Ramakrishna Bairi, Aditya Kanade, Nagarajan Natarajan*
 
 - **[2024/03] Generation of Asset Administration Shell with Large Language Model Agents: Toward Semantic Interoperability in Digital Twins in the Context of Industry 4.0** [[IEEE Access 2024](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10559483)]  
@@ -966,10 +966,10 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/07] ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents** [[ICLR 2025](https://openreview.net/pdf?id=kKILfPkhSz)]  
   *Haiyang Shen, Yue Li, Desong Meng, Dongqi Cai, Sheng Qi, Li Zhang, Mengwei Xu, Yun Ma*
 
-- **[2024/06] miniCodeProps: a Minimal Benchmark for Proving Code Properties** [[Neurips 2024 Workshops](https://openreview.net/attachment?id=6QFe3vPbYZ&name=pdf)]
+- **[2024/06] miniCodeProps: a Minimal Benchmark for Proving Code Properties** [[NeurIPS 2024 Workshops](https://openreview.net/attachment?id=6QFe3vPbYZ&name=pdf)]
   *Evan Lohn, Sean Welleck*
 
-- **[2024/06] SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents** [[Neurips 2024](https://openreview.net/pdf?id=9Y8zUO11EQ)]  
+- **[2024/06] SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents** [[NeurIPS 2024](https://openreview.net/pdf?id=9Y8zUO11EQ)]  
   *Niels Mündler, Mark Niklas Müller, Jingxuan He, Martin Vechev*
 
 - **[2023/10] MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use.** [[ICLR 2024](https://openreview.net/pdf?id=R0c2qtalgG)]
