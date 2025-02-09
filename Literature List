@@ -720,3 +720,27 @@
 
 * [2025/01] **RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing** [[arxiv](http://arxiv.org/abs/2501.18160v1)]  
   Jinyao Guo, Chengpeng Wang, Xiangzhe Xu, Zian Su, Xiangyu Zhang
+
+* [2025/01] **Simulation Streams: A Programming Paradigm for Controlling Large Language Models and Building Complex Systems with Generative AI** [[arxiv](http://arxiv.org/abs/2501.18668v1)]  
+  Peter Sunehag, Joel Z. Leibo
+
+* [2025/01] **Enabling Autonomic Microservice Management through Self-Learning Agents** [[arxiv](http://arxiv.org/abs/2501.19056v1)]  
+  Fenglin Yu, Fangkai Yang, Xiaoting Qin, Zhiyang Zhang, Jue Zhang, Qingwei Lin, Hongyu Zhang, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
+
+* [2025/01] **Autonomous Legacy Web Application Upgrades Using a Multi-Agent System** [[arxiv](http://arxiv.org/abs/2501.19204v1)]  
+  Valtteri Ala-Salmi, Zeeshan Rasheed, Abdul Malik Sami, Zheying Zhang, Kai-Kristian Kemell, Jussi Rasku, Shahbaz Siddeeq, Mika Saari, Pekka Abrahamsson
+
+* [2025/02] **OrcaLoca: An LLM Agent Framework for Software Issue Localization** [[arxiv](http://arxiv.org/abs/2502.00350v1)]  
+  Zhongming Yu, Hejia Zhang, Yujie Zhao, Hanxian Huang, Matrix Yao, Ke Ding, Jishen Zhao
+
+* [2025/02] **Leveraging LLMs for Dynamic IoT Systems Generation through Mixed-Initiative Interaction** [[arxiv](http://arxiv.org/abs/2502.00689v1)]  
+  Bassam Adnan, Sathvika Miryala, Aneesh Sambu, Karthik Vaidhyanathan, Martina De Sanctis, Romina Spalazzese
+
+* [2025/02] **Agentic Bug Reproduction for Effective Automated Program Repair at Google** [[arxiv](http://arxiv.org/abs/2502.01821v1)]  
+  Runxiang Cheng, Michele Tufano, Jürgen Cito, José Cambronero, Pat Rondon, Renyao Wei, Aaron Sun, Satish Chandra
+
+* [2025/02] **COSMosFL: Ensemble of Small Language Models for Fault Localisation** [[arxiv](http://arxiv.org/abs/2502.02908v1)]  
+  Hyunjoon Cho, Sungmin Kang, Gabin An, Shin Yoo
+
+* [2025/02] **VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output** [[arxiv](http://arxiv.org/abs/2502.04103v1)]  
+  Eason Chen, Chengyu Lin, Xinyi Tang, Aprille Xi, Canwen Wang, Jionghao Lin, Kenneth R Koedinger
