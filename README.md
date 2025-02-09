@@ -301,7 +301,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/10] Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback.** [[ICLR 2025]([https://openreview.net/pdf?id=st7XqFgbAH])]  
   *Sanjiban Choudhury, Paloma Sodhi*
 
-- **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development** [[arXiv](http://arxiv.org/abs/2410.16946v1)]  
+- **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development** [[ICLR 2025](https://openreview.net/pdf?id=4R71pdPBZp)]  
   *Yue Hu, Yuzhu Cai, Yaxin Du, Xinyu Zhu, Xiangrui Liu, Zijie Yu, Yuchen Hou, Shuo Tang, Siheng Chen*
 
 - **[2024/10] VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs** [[arXiv](http://arxiv.org/abs/2410.19245v1)]  
@@ -383,7 +383,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/10] AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.116.pdf)] 
   *Yifan Song, Weimin Xiong, Xiutian Zhao, Dawei Zhu, Wenhao Wu, Ke Wang, Cheng Li, Wei Peng, Sujian Li*
 
-- **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development.** [[arXiv](http://arxiv.org/abs/2410.16946v1)]  
+- **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development.** [[ICLR 2025](https://openreview.net/pdf?id=4R71pdPBZp)]  
   *Yue Hu, Yuzhu Cai, Yaxin Du, Xinyu Zhu, Xiangrui Liu, Zijie Yu, Yuchen Hou, Shuo Tang, Siheng Chen*
 
 - **[2024/09] SuperCoder2.0: Technical Report on Exploring the feasibility of LLMs as Autonomous Programmer.** [[arxiv](http://arxiv.org/abs/2409.11190v2)]  
@@ -813,10 +813,10 @@ The following diagram presents a visual overview of the classification schema us
 
 
 ### Automation of Development Workflows
-- **[2024/12] Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects** [[arXiv](http://arxiv.org/abs/2412.06294v1)]  
+- **[2024/12] Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects** [[SANER 2025](http://arxiv.org/abs/2412.06294v1)] 
   *Louis Milliken, Sungmin Kang, Shin Yoo*
 
-- **[2024/12] LAW: Legal Agentic Workflows for Custody and Fund Services Contracts** [[arXiv](http://arxiv.org/abs/2412.11063v1)]  
+- **[2024/12] LAW: Legal Agentic Workflows for Custody and Fund Services Contracts** [[COLING 2025](https://aclanthology.org/2025.coling-industry.50.pdf)] 
   *William Watson, Nicole Cho, Nishan Srishankar, Zhen Zeng, Lucas Cecchi, Daniel Scott, Suchetha Siddagangappa, Rachneet Kaur, Tucker Balch, Manuela Veloso*
 
 - **[2024/12] Generative AI Toolkit -- a framework for increasing the quality of LLM-based applications over their whole life cycle.** [[arXiv](http://arxiv.org/abs/2412.14215v1)]  
@@ -825,7 +825,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/12] Adaptable and Precise: Enterprise-Scenario LLM Function-Calling Capability Training Pipeline.** [[arXiv](http://arxiv.org/abs/2412.15660v1)]  
   *Guancheng Zeng, Wentao Ding, Beining Xu, Chi Zhang, Wenqiang Han, Gang Li, Jingjing Mo, Pengxu Qiu, Xinran Tao, Wang Tao, Haowen Hu*
 
-- **[2024/11] WorkflowLLM: Enhancing Workflow Orchestration Capability of Large Language Models** [[arXiv](http://arxiv.org/abs/2411.05451v1)]  
+- **[2024/11] WorkflowLLM: Enhancing Workflow Orchestration Capability of Large Language Models** [[ICLR 2025](https://openreview.net/forum?id=3Hy00Wvabi)] 
   *Shengda Fan, Xin Cong, Yuepeng Fu, Zhong Zhang, Shuyan Zhang, Yuanwei Liu, Yesai Wu, Yankai Lin, Zhiyuan Liu, Maosong Sun*
 
 - **[2024/10] SELA: Tree-Search Enhanced LLM Agents for Automated Machine Learning** [[arXiv](http://arxiv.org/abs/2410.17238v1)]  
@@ -927,7 +927,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/12] EvalSVA: Multi-Agent Evaluators for Next-Gen Software Vulnerability Assessment** [[arXiv](http://arxiv.org/abs/2501.14737v1)]  
   *Xin-Cheng Wen, Jiaxin Ye, Cuiyun Gao, Lianwei Wu, Qing Liao*
 
-- **[2024/11] RedCode: Risky Code Execution and Generation Benchmark for Code Agents** [[arXiv](http://arxiv.org/abs/2411.07781v1)]  
+- **[2024/11] RedCode: Risky Code Execution and Generation Benchmark for Code Agents** [[NeurIPS 2024](https://openreview.net/pdf?id=mAG68wdggA)]  
   *Chengquan Guo, Xun Liu, Chulin Xie, Andy Zhou, Yi Zeng, Zinan Lin, Dawn Song, Bo Li*
 
 - **[2024/10] Codev-Bench: How Do LLMs Understand Developer-Centric Code Completion?** [[arXiv](http://arxiv.org/abs/2410.01353v3)]  
