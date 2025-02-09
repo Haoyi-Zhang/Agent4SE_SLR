@@ -1,6 +1,6 @@
 # 🤖Intelligent Agents for Software Engineering: A Systematic Literature Review
 
-This repository contains the supplementary materials associated with the paper titled **"Intelligent Agents for Software Engineering: A Systematic Literature Review"**. The paper provides a comprehensive examination of the application of intelligent agents in the field of software engineering, drawing on a total of 243 research papers sourced from leading conferences and journals, including **ICSE**, **FSE**, **ASE**, **ISSTA**, and **arXiv**.
+This repository contains the supplementary materials associated with the paper titled **"Intelligent Agents for Software Engineering: A Systematic Literature Review"**. The paper provides a comprehensive examination of the application of intelligent agents in the field of software engineering, drawing on a total of 249 research papers sourced from leading conferences and journals, including **ICSE**, **FSE**, **ASE**, **ISSTA**, and **arXiv**.
 
 The study offers a systematic review of how intelligent agents are applied across a range of software engineering domains, such as code generation, optimization, refactoring, testing, debugging, and software design. The findings underscore the growing importance of intelligent agents in enhancing the efficiency, quality, and scalability of modern software development processes.
 
