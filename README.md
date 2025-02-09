@@ -413,7 +413,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/08] GPT-in-the-Loop: Adaptive Decision-Making for Multiagent Systems.** [[arXiv](http://arxiv.org/abs/2308.10435v1)]  
   *Nathalia Nascimento, Paulo Alencar, Donald Cowan*
 
-- **[2023/04] Towards autonomous system: flexible modular production system enhanced with large language model agents.** [[ETFA 2023](https://ieeexplore.ieee.org/abstract/document/10275362)]   
+- **[2023/04] .*Towards autonomous system: flexible modular production system enhanced with large language model agents* [[ETFA 2023](https://ieeexplore.ieee.org/abstract/document/10275362)]   
   *Yuchen Xia, Manthan Shenoy, Nasser Jazdi, Michael Weyrich*
 
 
@@ -500,7 +500,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/10] WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models** [[PACMPL 2024](https://dl.acm.org/doi/pdf/10.1145/3689736)]
   *Chenyuan Yang, Yinlin Deng, Runyu Lu, Jiayi Yao, Jiawei Liu, Reyhaneh Jabbarvand, Lingming Zhang*
 
-- **[2023/06] Towards Autonomous Testing Agents via Conversational Large Language Models** [[arxiv](http://arxiv.org/abs/2306.05152v2)]  
+- **[2023/06] Towards Autonomous Testing Agents via Conversational Large Language Models.** [[ASE 2023](https://dl.acm.org/doi/10.1109/ASE56229.2023.00148)] 
   *Robert Feldt, Sungmin Kang, Juyeon Yoon, Shin Yoo*
 
 
@@ -600,7 +600,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/10] Static Code Analysis in the AI Era: An In-depth Exploration of the Concept, Function, and Potential of Intelligent Code Analysis Agents** [[arXiv](https://arxiv.org/pdf/2310.08837)]  
   *Gang Fan, Xiaoheng Xie, Xunjin Zheng, Yinan Liang, Peng Di*
 
-- **[2023/07] Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures** [[ArXiv](http://arxiv.org/abs/2307.05360v3)]  
+- **[2023/07] Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures** [[ICAART 2024](https://www.scitepress.org/PublicationsDetail.aspx?ID=1Ne2ZQRkAVs=&t=1)]  
   *Sayed Erfan Arefin, Tasnia Ashrafi Heya, Hasan Al-Qudah, Ynes Ineza, Abdul Serwadda*
 
 
@@ -708,7 +708,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/03] AllHands: Ask Me Anything on Large-scale Verbatim Feedback via Large Language Models.** [[ArXiv](http://arxiv.org/abs/2403.15157v2)]  
   *Chaoyun Zhang, Zicheng Ma, Yuhao Wu, Shilin He, Si Qin, Minghua Ma, Xiaoting Qin, Yu Kang, Yuyi Liang, Xiaoyu Gou, Yajie Xue, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang*
 
-- **[2023/05] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models** [[ArXiv](http://arxiv.org/abs/2305.19308v2)]  
+- **[2023/05] SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models.** [[NeurIPS 2023](https://openreview.net/pdf?id=tfyr2zRVoK)]
   *Hongxin Li, Jingran Su, Yuntao Chen, Qing Li, Zhaoxiang Zhang*
 
 
@@ -912,7 +912,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/02] Understanding the Weakness of Large Language Model Agents within a Complex Android Environment.** [[arXiv](http://arxiv.org/abs/2402.06596v1)]  
   *Mingzhe Xing, Rongkai Zhang, Hui Xue, Qi Chen, Fan Yang, Zhen Xiao*
 
-- **[2023/07] Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures** [[arXiv](http://arxiv.org/abs/2307.05360v3)]  
+- **[2023/07] Unmasking the giant: A comprehensive evaluation of ChatGPT's proficiency in coding algorithms and data structures** [[ICAART 2024](https://www.scitepress.org/PublicationsDetail.aspx?ID=1Ne2ZQRkAVs=&t=1)]
   *Sayed Erfan Arefin, Tasnia Ashrafi Heya, Hasan Al-Qudah, Ynes Ineza, Abdul Serwadda*
 
 - **[2023/06] InterCode: Standardizing and Benchmarking Interactive Coding with Execution Feedback** [[NeurIPS 2024](https://openreview.net/pdf?id=fvKaLF1ns8)]  
