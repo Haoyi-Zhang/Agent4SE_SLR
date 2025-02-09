@@ -106,7 +106,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/10] SceneGenAgent: Precise Industrial Scene Generation with Coding Agent** [[arXiv](http://arxiv.org/abs/2410.21909v1)]  
   *Xiao Xia, Dan Zhang, Zibo Liao, Zhenyu Hou, Tianrui Sun, Jing Li, Ling Fu, Yuxiao Dong*
 
-- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[arxiv](http://arxiv.org/abs/2409.05001v1)]  
+- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[ASE 2024](https://dl.acm.org/doi/10.1145/3691620.3695506)]  
   *Huan Zhang, Wei Cheng, Yuhan Wu, Wei Hu*
 
 - **[2024/09] Python Symbolic Execution with LLM-powered Code Generation.** [[arxiv](http://arxiv.org/abs/2409.09271v1)]  
@@ -145,7 +145,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
   *Zeeshan Rasheed, Malik Abdul Sami, Kai-Kristian Kemell, Muhammad Waseem, Mika Saari, Kari Systä, Pekka Abrahamsson*
 
-- **[2024/02] NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification.** [[ESWC 2024 workshop](https://openreview.net/pdf?id=2xNzIXRyAU)]  
+- **[2024/02] NeSy is alive and well: A LLM-driven symbolic approach for better code comment data generation and classification.** [[ESWC 2024 Workshops](https://openreview.net/pdf?id=2xNzIXRyAU)]  
   *Hanna Abi Akl*
 
 - **[2024/02] Solution-oriented Agent-based Models Generation with Verifier-assisted Iterative In-context Learning.** [[AAMAS 2024](https://dl.acm.org/doi/10.5555/3635637.3663007)]  
@@ -190,7 +190,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/06] LLM-Vectorizer: LLM-based Verified Loop Vectorizer** [[arXiv](http://arxiv.org/abs/2406.04693v1)]  
   *Jubi Taneja, Avery Laird, Cong Yan, Madan Musuvathi, Shuvendu K. Lahiri*
 
-- **[2024/06] Agent-Driven Automatic Software Improvement** [[arXiv](http://arxiv.org/abs/2406.16739v1)]  
+- **[2024/06] Agent-Driven Automatic Software Improvement** [[EASE 2024](https://dl.acm.org/doi/10.1145/3661167.3661171)]  
   *Fernando Vallecillos Ruiz*
 
 - **[2024/04] Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization** [[arXiv](http://arxiv.org/abs/2404.02183v1)]  
@@ -316,7 +316,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/09] Think-on-Process: Dynamic Process Generation for Collaborative Development of Multi-Agent System.** [[arXiv](http://arxiv.org/abs/2409.06568v1)]  
   *Leilei Lin, Yingming Zhou, Wenlong Chen, Chen Qian*
 
-- **[2024/08] ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems** [[arXiv](http://arxiv.org/abs/2408.02248v2)]  
+- **[2024/08] ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems** [[EMNLP 2024 Demo](https://aclanthology.org/2024.emnlp-demo.17/)]    
   *Andrew Zhu, Liam Dugan, Chris Callison-Burch*
 
 - **[2024/08] DreamFactory: Pioneering Multi-Scene Long Video Generation with a Multi-Agent Framework** [[arXiv](http://arxiv.org/abs/2408.11788v1)]  
@@ -389,7 +389,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/09] SuperCoder2.0: Technical Report on Exploring the feasibility of LLMs as Autonomous Programmer.** [[arxiv](http://arxiv.org/abs/2409.11190v2)]  
   *Anmol Gautam, Kishore Kumar, Adarsh Jha, Mukunda NS, Ishaan Bhola*
 
-- **[2024/08] GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining Automotive Software Release Decision-Making.** [[arXiv](http://arxiv.org/abs/2408.09785v2)]  
+- **[2024/08] GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining Automotive Software Release Decision-Making.** [[ICTSS 2024](https://link.springer.com/chapter/10.1007/978-3-031-80889-0_3)]
   *Arsham Gholamzadeh Khoee, Yinan Yu, Robert Feldt, Andris Freimanis, Patrick Andersson Rhodin, Dhasarathy Parthasarathy*
 
 - **[2024/07] Agentless: Demystifying LLM-based Software Engineering Agents.** [[arXiv](http://arxiv.org/abs/2407.01489v2)]  
@@ -425,7 +425,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/09] MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents.** [[arxiv](http://arxiv.org/abs/2409.16120v1)]  
   *Ming Zhu, Yi Zhou*
 
-- **[2024/08] Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents** [[arXiv](http://arxiv.org/abs/2408.07060v1)]  
+- **[2024/08] Diversity Empowers Intelligence: Integrating Expertise of Software Engineering Agents** [[ICLR 2025](https://openreview.net/pdf?id=cKlzKs3Nnb)]  
   *Kexun Zhang, Weiran Yao, Zuxin Liu, Yihao Feng, Zhiwei Liu, Rithesh Murthy, Tian Lan, Lei Li, Renze Lou, Jiacheng Xu, Bo Pang, Yingbo Zhou, Shelby Heinecke, Silvio Savarese, Huan Wang, Caiming Xiong*
 
 - **[2024/06] AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology.** [[ICSE 2025](https://arxiv.org/pdf/2406.11912)]  
@@ -543,7 +543,7 @@ The following diagram presents a visual overview of the classification schema us
 
 
 ### Debugging Assistance
-- **[2024/10] RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance.** [[arxiv](http://arxiv.org/abs/2410.01242v2)]  
+- **[2024/10] RGD: Multi-LLM Based Agent Debugger via Refinement and Generation Guidance.** [[ICA 2024](https://ieeexplore.ieee.org/abstract/document/10807454)]  
   *Haolin Jin, Zechao Sun, Huaming Chen*
 
 - **[2024/10] Seeker: Enhancing Exception Handling in Code with LLM-based Multi-Agent Approach** [[arxiv](http://arxiv.org/abs/2410.06949v2)]  
@@ -624,7 +624,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/06] How to Understand Whole Software Repository?** [[arXiv](http://arxiv.org/abs/2406.01422v1)]  
   *Yingwei Ma, Qingping Yang, Rongyu Cao, Binhua Li, Fei Huang, Yongbin Li*
 
-- **[2024/06] MASAI: Modular Architecture for Software-engineering AI Agents** [[arXiv](http://arxiv.org/abs/2406.11638v1)]  
+- **[2024/06] MASAI: Modular Architecture for Software-engineering AI Agents** [[Neurips 2024 Workshops](https://openreview.net/attachment?id=NSINt8lLYB&name=pdf)]  
   *Daman Arora, Atharv Sonwane, Nalin Wadhwa, Abhav Mehrotra, Saiteja Utpala, Ramakrishna Bairi, Aditya Kanade, Nagarajan Natarajan*
 
 - **[2024/03] Generation of Asset Administration Shell with Large Language Model Agents: Toward Semantic Interoperability in Digital Twins in the Context of Industry 4.0** [[IEEE Access 2024](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10559483)]  
@@ -693,13 +693,13 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/11] Human-In-the-Loop Software Development Agents** [[arxiv](http://arxiv.org/abs/2411.12924v2)]  
   *Wannita Takerngsaksiri, Jirat Pasuksmit, Patanamon Thongtanunam, Chakkrit Tantithamthavorn, Ruixiong Zhang, Fan Jiang, Jing Li, Evan Cook, Kun Chen, Ming Wu*
 
-- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[arxiv](http://arxiv.org/abs/2409.05001v1)]  
+- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[ASE 2024](https://dl.acm.org/doi/10.1145/3691620.3695506)]  
   *Huan Zhang, Wei Cheng, Yuhan Wu, Wei Hu*
 
 - **[2024/08] Future of Artificial Intelligence in Agile Software Development** [[arXiv](http://arxiv.org/abs/2408.00703v1)]  
   *Mariyam Mahboob, Mohammed Rayyan Uddin Ahmed, Zoiba Zia, Mariam Shakeel Ali, Ayman Khaleel Ahmed*
 
-- **[2024/07] OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS** [[ArXiv](https://arxiv.org/pdf/2407.16741)]  
+- **[2024/07] OpenHands: An Open Platform for AI Software Developers as Generalist Agents** [[ICLR 2025](https://openreview.net/pdf?id=OJd3ayDDoF)] 
   *Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig*
 
 - **[2024/05] SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering** [[NeurIPS 2024](https://openreview.net/pdf?id=mXpq6ut8J3)]
@@ -717,10 +717,10 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/12] DialogAgent: An Auto-engagement Agent for Code Question Answering Data Production** [[arXiv](http://arxiv.org/abs/2412.08069v1)]  
   *Xiaoyun Liang, Jingyi Ren, Jiayi Qi, Chao Peng, Bo Jiang*
 
-- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[arxiv](http://arxiv.org/abs/2409.05001v1)]  
+- **[2024/09] A Pair Programming Framework for Code Generation via Multi-Plan Exploration and Feedback-Driven Refinement.** [[ASE 2024](https://dl.acm.org/doi/10.1145/3691620.3695506)]  
   *Huan Zhang, Wei Cheng, Yuhan Wu, Wei Hu*
 
-- **[2024/07] AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** [[arXiv](http://arxiv.org/abs/2407.18901v1)]  
+- **[2024/07] AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents** [[ACL 2024](https://aclanthology.org/2024.acl-long.850.pdf)]
   *Harsh Trivedi, Tushar Khot, Mareike Hartmann, Ruskin Manku, Vinty Dong, Edward Li, Shashank Gupta, Ashish Sabharwal, Niranjan Balasubramanian*
 
 - **[2024/05] HumanEvalComm: Benchmarking the Communication Competence of Code Generation for LLMs and LLM Agent** [[TOSEM 2025](https://dl.acm.org/doi/abs/10.1145/3715109)]  
@@ -783,10 +783,10 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/08] CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases** [[arXiv](http://arxiv.org/abs/2408.03910v2)]  
   *Xiangyan Liu, Bo Lan, Zhiyuan Hu, Yang Liu, Zhicheng Zhang, Fei Wang, Michael Shieh, Wenmeng Zhou*
 
-- **[2024/08] AutoGen Studio: A No-Code Developer Tool for Building and Debugging Multi-Agent Systems** [[arXiv](http://arxiv.org/abs/2408.15247v1)]  
+- **[2024/08] AutoGen Studio: A No-Code Developer Tool for Building and Debugging Multi-Agent Systems** [[EMNLP 2024 Demo](https://aclanthology.org/2024.emnlp-demo.8.pdf)] 
   *Victor Dibia, Jingya Chen, Gagan Bansal, Suff Syed, Adam Fourney, Erkang Zhu, Chi Wang, Saleema Amershi*
 
-- **[2024/07] OpenHands: An Open Platform for AI Software Developers as Generalist Agents** [[arxiv](http://arxiv.org/abs/2407.16741v2)]  
+- **[2024/07] OpenHands: An Open Platform for AI Software Developers as Generalist Agents** [[ICLR 2025](https://openreview.net/pdf?id=OJd3ayDDoF)] 
   *Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig*
 
 - **[2024/07] MathViz-E: A Case-study in Domain-Specialized Tool-Using Agents** [[arXiv](http://arxiv.org/abs/2407.17544v1)]  
@@ -834,10 +834,10 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/09] Language Model Powered Digital Biology with BRAD.** [[arXiv](http://arxiv.org/abs/2409.02864v3)]  
   *Joshua Pickard, Ram Prakash, Marc Andrew Choi, Natalie Oliven, Cooper Stansbury, Jillian Cwycyshyn, Alex Gorodetsky, Alvaro Velasquez, Indika Rajapakse*
 
-- **[2024/07] OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS** [[arXiv](https://arxiv.org/pdf/2407.16741)]  
+- **[2024/07] OpenHands: An Open Platform for AI Software Developers as Generalist Agents** [[ICLR 2025](https://openreview.net/pdf?id=OJd3ayDDoF)] 
   *Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig*
 
-- **[2024/07] Building AI Agents for Autonomous Clouds: Challenges and Design Principles** [[arXiv](http://arxiv.org/abs/2407.12165v2)]  
+- **[2024/07] Building AI Agents for Autonomous Clouds: Challenges and Design Principles** [[SoCC 2024](https://dl.acm.org/doi/pdf/10.1145/3698038.3698525)]  
   *Manish Shetty, Yinfang Chen, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Xuchao Zhang, Jonathan Mace, Dax Vandevoorde, Pedro Las-Casas, Shachee Mishra Gupta, Suman Nath, Chetan Bansal, Saravan Rajmohan*
 
 - **[2024/07] The Vision of Autonomic Computing: Can LLMs Make It a Reality?** [[arXiv](http://arxiv.org/abs/2407.14402v1)]  
@@ -864,7 +864,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/06] CodeNav: Beyond tool-use to using real-world codebases with LLM agents** [[arXiv](http://arxiv.org/abs/2406.12276v1)]  
   *Tanmay Gupta, Luca Weihs, Aniruddha Kembhavi*
 
-- **[2024/05] DepsRAG: Towards Agentic Reasoning and Planning for Software Dependency Management** [[NeurIPS 2024 Workshop](https://openreview.net/pdf?id=I396ZJFZLq)]  
+- **[2024/05] DepsRAG: Towards Agentic Reasoning and Planning for Software Dependency Management** [[NeurIPS 2024 Workshops](https://openreview.net/pdf?id=I396ZJFZLq)]  
   *Mohannad Alhanahnah, Yazan Boshmaf*
   
 
@@ -894,10 +894,10 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/10] Improving Performance of Commercially Available AI Products in a Multi-Agent Configuration** [[arXiv](http://arxiv.org/abs/2410.22129v1)]  
   *Cory Hymel, Sida Peng, Kevin Xu, Charath Ranganathan*
 
-- **[2024/09] SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories.** [[arXiv](http://arxiv.org/abs/2409.07440v1)]  
+- **[2024/09] SUPER: Evaluating Agents on Setting Up and Executing Tasks from Research Repositories.** [[EMNLP 2024](https://aclanthology.org/2024.emnlp-main.702.pdf)]  
   *Ben Bogin, Kejuan Yang, Shashank Gupta, Kyle Richardson, Erin Bransom, Peter Clark, Ashish Sabharwal, Tushar Khot*
 
-- **[2024/08] LLM4VV: Exploring LLM-as-a-Judge for Validation and Verification Testsuites** [[arXiv](http://arxiv.org/abs/2408.11729v2)]  
+- **[2024/08] LLM4VV: Exploring LLM-as-a-Judge for Validation and Verification Testsuites** [[SC24 Workshops](https://ieeexplore.ieee.org/document/10820751)]  
   *Zachariah Sollenberger, Jay Patel, Christian Munley, Aaron Jarmusch, Sunita Chandrasekaran*
 
 - **[2024/07] PyBench: Evaluating LLM Agent on various real-world coding tasks** [[arXiv](http://arxiv.org/abs/2407.16732v2)]  
@@ -939,13 +939,13 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/08] SWE-bench-java: A GitHub Issue Resolving Benchmark for Java** [[arXiv](http://arxiv.org/abs/2408.14354v1)]  
   *Daoguang Zan, Zhirong Huang, Ailun Yu, Shaoxin Lin, Yifan Shi, Wei Liu, Dong Chen, Zongshuai Qi, Hao Yu, Lei Yu, Dezhi Ran, Muhan Zeng, Bo Shen, Pan Bian, Guangtai Liang, Bei Guan, Pengjie Huang, Tao Xie, Yongji Wang, Qianxiang Wang*
 
-- **[2024/07] ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents** [[arXiv](http://arxiv.org/abs/2407.00132v3)]  
+- **[2024/07] ShortcutsBench: A Large-Scale Real-world Benchmark for API-based Agents** [[ICLR 2025](https://openreview.net/pdf?id=kKILfPkhSz)]  
   *Haiyang Shen, Yue Li, Desong Meng, Dongqi Cai, Sheng Qi, Li Zhang, Mengwei Xu, Yun Ma*
 
-- **[2024/06] miniCodeProps: a Minimal Benchmark for Proving Code Properties** [[arXiv](http://arxiv.org/abs/2406.11915v2)]  
+- **[2024/06] miniCodeProps: a Minimal Benchmark for Proving Code Properties** [[Neurips 2024 Workshops](https://openreview.net/attachment?id=6QFe3vPbYZ&name=pdf)]
   *Evan Lohn, Sean Welleck*
 
-- **[2024/06] SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents** [[arXiv](http://arxiv.org/abs/2406.12952v2)]  
+- **[2024/06] SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents** [[Neurips 2024](https://openreview.net/pdf?id=9Y8zUO11EQ)]  
   *Niels Mündler, Mark Niklas Müller, Jingxuan He, Martin Vechev*
 
 - **[2023/10] MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use.** [[ICLR 2024](https://openreview.net/pdf?id=R0c2qtalgG)]
