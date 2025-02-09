@@ -343,16 +343,16 @@
 * [2024/06] **Multi-Agent Software Development through Cross-Team Collaboration** [[arXiv](http://arxiv.org/abs/2406.08979v1)]  
   Zhuoyun Du, Chen Qian, Wei Liu, Zihao Xie, Yifei Wang, Yufan Dang, Weize Chen, Cheng Yang
 
-* [2024/06] **miniCodeProps: a Minimal Benchmark for Proving Code Properties** [[Neurips 2024 Workshops](https://openreview.net/attachment?id=6QFe3vPbYZ&name=pdf)]  
+* [2024/06] **miniCodeProps: a Minimal Benchmark for Proving Code Properties** [[NeurIPS 2024 Workshops](https://openreview.net/attachment?id=6QFe3vPbYZ&name=pdf)]  
   Evan Lohn, Sean Welleck
 
-* [2024/06] **MASAI: Modular Architecture for Software-engineering AI Agents** [[Neurips 2024 Workshops](https://openreview.net/attachment?id=NSINt8lLYB&name=pdf)]  
+* [2024/06] **MASAI: Modular Architecture for Software-engineering AI Agents** [[NeurIPS 2024 Workshops](https://openreview.net/attachment?id=NSINt8lLYB&name=pdf)]  
   Daman Arora, Atharv Sonwane, Nalin Wadhwa, Abhav Mehrotra, Saiteja Utpala, Ramakrishna Bairi, Aditya Kanade, Nagarajan Natarajan
 
 * [2024/06] **CodeNav: Beyond tool-use to using real-world codebases with LLM agents** [[arXiv](http://arxiv.org/abs/2406.12276v1)]  
   Tanmay Gupta, Luca Weihs, Aniruddha Kembhavi
 
-* [2024/06] **SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents** [[Neurips 2024](https://openreview.net/pdf?id=9Y8zUO11EQ)]  
+* [2024/06] **SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents** [[NeurIPS 2024](https://openreview.net/pdf?id=9Y8zUO11EQ)]  
   Niels Mündler, Mark Niklas Müller, Jingxuan He, Martin Vechev
 
 * [2024/06] **Identifying Performance-Sensitive Configurations in Software Systems through Code Analysis with LLM Agents** [[arXiv](http://arxiv.org/abs/2406.12806v1)]  
