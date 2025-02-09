@@ -368,6 +368,15 @@ The following diagram presents a visual overview of the classification schema us
 
 
 ### Autonomous Multi-Agent Systems
+- **[2025/01] Autonomous Legacy Web Application Upgrades Using a Multi-Agent System** [[arXiv](http://arxiv.org/abs/2501.19204v1)]
+  *Valtteri Ala-Salmi, Zeeshan Rasheed, Abdul Malik Sami, Zheying Zhang, Kai-Kristian Kemell, Jussi Rasku, Shahbaz Siddeeq, Mika Saari, Pekka Abrahamsson*
+  
+- **[2025/01] Enabling Autonomic Microservice Management through Self-Learning Agents** [[arXiv](http://arxiv.org/abs/2501.19056v1)]
+  *Fenglin Yu, Fangkai Yang, Xiaoting Qin, Zhiyang Zhang, Jue Zhang, Qingwei Lin, Hongyu Zhang, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang, Qi Zhang*
+  
+- **[2025/01] Simulation Streams: A Programming Paradigm for Controlling Large Language Models and Building Complex Systems with Generative AI** [[arXiv](http://arxiv.org/abs/2501.18668v1)]
+  *Peter Sunehag, Joel Z. Leibo*
+  
 - **[2025/01] AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds.** [[arXiv](http://arxiv.org/abs/2501.06706v1)]  
   *Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, Saravan Rajmohan*
 
@@ -508,6 +517,12 @@ The following diagram presents a visual overview of the classification schema us
 ### Bug Fixing and Fault Localization
 
 #### Fault Localization
+- **[2025/02] COSMosFL: Ensemble of Small Language Models for Fault Localisation** [[arXiv](http://arxiv.org/abs/2502.02908v1)]
+  *Hyunjoon Cho, Sungmin Kang, Gabin An, Shin Yoo*
+  
+- **[2025/02] OrcaLoca: An LLM Agent Framework for Software Issue Localization** [[arXiv](http://arxiv.org/abs/2502.00350v1)]
+  *Zhongming Yu, Hejia Zhang, Yujie Zhao, Hanxian Huang, Matrix Yao, Ke Ding, Jishen Zhao*
+  
 - **[2024/11] FlexFL: Flexible and Effective Fault Localization with Open-Source Large Language Models** [[arXiv](http://arxiv.org/abs/2411.10714v1)]  
   *Chuyang Xu, Zhongxin Liu, Xiaoxue Ren, Gehao Zhang, Ming Liang, David Lo*
 
@@ -525,6 +540,9 @@ The following diagram presents a visual overview of the classification schema us
 
 
 #### Automated Bug Fixing
+- **[2025/02] Agentic Bug Reproduction for Effective Automated Program Repair at Google** [[arXiv](http://arxiv.org/abs/2502.01821v1)]
+  *Runxiang Cheng, Michele Tufano, Jürgen Cito, José Cambronero, Pat Rondon, Renyao Wei, Aaron Sun, Satish Chandra*
+  
 - **[2025/01] Evaluating Agent-based Program Repair at Google.** [[arxiv](http://arxiv.org/abs/2501.07531v1)]  
   *Pat Rondon, Renyao Wei, José Cambronero, Jürgen Cito, Aaron Sun, Siddhant Sanyam, Michele Tufano, Satish Chandra*
 
@@ -681,6 +699,12 @@ The following diagram presents a visual overview of the classification schema us
 ## Human-AI Collaboration and Interaction
 
 ### Human-in-the-Loop Systems
+- **[2025/02] VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output** [[arXiv](http://arxiv.org/abs/2502.04103v1)]
+  *Eason Chen, Chengyu Lin, Xinyi Tang, Aprille Xi, Canwen Wang, Jionghao Lin, Kenneth R Koedinger*
+  
+- **[2025/02] Leveraging LLMs for Dynamic IoT Systems Generation through Mixed-Initiative Interaction** [[arXiv](http://arxiv.org/abs/2502.00689v1)]
+  *Bassam Adnan, Sathvika Miryala, Aneesh Sambu, Karthik Vaidhyanathan, Martina De Sanctis, Romina Spalazzese*
+  
 - **[2024/12] Towards Modeling Human-Agentic Collaborative Workflows: A BPMN Extension** [[arXiv](http://arxiv.org/abs/2412.05958v2)]  
   *Adem Ait, Javier Luis Cánovas Izquierdo, Jordi Cabot*
 
