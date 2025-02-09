@@ -383,7 +383,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/12] Creating an LLM-based AI-agent: A high-level methodology towards enhancing LLMs with APIs.** [[arXiv](http://arxiv.org/abs/2412.13233v2)]  
   *Ioannis Tzachristas*
 
-- **[2024/10] AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[arXiv](https://arxiv.org/pdf/2410.07706)]  
+- **[2024/10] AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.116.pdf)] 
   *Yifan Song, Weimin Xiong, Xiutian Zhao, Dawei Zhu, Wenhao Wu, Ke Wang, Cheng Li, Wei Peng, Sujian Li*
 
 - **[2024/10] Self-Evolving Multi-Agent Collaboration Networks for Software Development.** [[arXiv](http://arxiv.org/abs/2410.16946v1)]  
