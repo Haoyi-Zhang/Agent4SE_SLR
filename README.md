@@ -121,7 +121,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/05] MapCoder: Multi-Agent Code Generation for Competitive Problem Solving.** [[ACL 2024](https://aclanthology.org/2024.acl-long.269.pdf)]  
   *Md. Ashraful Islam, Mohammed Eunus Ali, Md Rizwan Parvez*
 
-- **[2024/05] AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[ICLR 2025](https://arxiv.org/pdf/2405.14906)]  
+- **[2024/05] AutoCoder: Enhancing Code Large Language Model with AIEV-INSTRUCT.** [[arXiv](https://arxiv.org/pdf/2405.14906)]
   *Bin Lei, Yuchen Li, Qiuwu Chen*
 
 - **[2024/05] SceneCraft: An LLM Agent for Synthesizing 3D Scenes as Blender Code.** [[ICML 2024](https://dl.acm.org/doi/10.5555/3692070.3692846)]  
@@ -151,13 +151,13 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/02] Solution-oriented Agent-based Models Generation with Verifier-assisted Iterative In-context Learning.** [[arXiv](http://arxiv.org/abs/2402.02388v1)]  
   *Tong Niu, Weihao Zhang, Rong Zhao*
 
-- **[2024/01] LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems.** [[ICSE 2024](https://arxiv.org/pdf/2401.05443)]  
+- **[2024/01] LLM4PLC: Harnessing Large Language Models for Verifiable Programming of PLCs in Industrial Control Systems.** [[ICSE-SEIP 2024](https://dl.acm.org/doi/pdf/10.1145/3639477.3639743)]
   *Mohamad Fakih, Rahul Dharmaji, Yasamin Moghaddas, Gustavo Quiros Araya, Oluwatosin Ogundare, Mohammad Abdullah Al Faruque*
 
 - **[2024/01] CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges.** [[arXiv](http://arxiv.org/abs/2401.07339v2)]  
   *Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, Zhi Jin*
 
-- **[2023/10] Lemur: Harmonizing Natural Language and Code for Language Agents** [[ICLR 2023](https://arxiv.org/pdf/2310.06830)]  
+- **[2023/10] Lemur: Harmonizing Natural Language and Code for Language Agents.** [[ICLR 2024]([https://arxiv.org/pdf/2310.06830](https://openreview.net/pdf?id=hNhwSmtXRh))]  
   *Yiheng Xu, Hongjin Su, Chen Xing, Boyu Mi, Qian Liu, Yusheng Shi, Binyuan Hui, Fan Zhou, Yitao Liu, Tianbao Xie, Zhoujun Cheng, Siheng Zhao, Lingpeng Kong, Bailin Wang, Caiming Xiong, Tao Yu*
 
 - **[2023/10] L2MAC: Large Language Model Automatic Computer for Extensive Code Generation** [[arXiv](http://arxiv.org/abs/2310.02003v5)]  
@@ -169,7 +169,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/07] Extending the Frontier of ChatGPT: Code Generation and Debugging** [[arXiv](http://arxiv.org/abs/2307.08260v1)]  
   *Fardin Ahsan Sakib, Saadat Hasan Khan, A. H. M. Rezaul Karim*
 
-- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[arXiv](http://arxiv.org/abs/2304.07590v3)]  
+- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[TOSEM 2024](https://dl.acm.org/doi/10.1145/3672459)] 
   *Yihong Dong, Xue Jiang, Zhi Jin, Ge Li*
 
 
@@ -241,7 +241,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/01] Experimenting a New Programming Practice with LLMs.** [[arXiv](https://arxiv.org/pdf/2401.01062)]  
   *Simiao Zhang, Jiaping Wang, Guoliang Dong*
 
-- **[2023/07] Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models** [[TSE 2023](https://arxiv.org/pdf/2307.00593)]  
+- **[2023/07] Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models** [[TSE 2024](https://ieeexplore.ieee.org/abstract/document/10521881)]  
   *Haoxin Tu, Zhide Zhou, He Jiang, Imam Nur Bani Yusuf, Yuxian Li, Lingxiao Jiang*
 
 
@@ -268,11 +268,8 @@ The following diagram presents a visual overview of the classification schema us
 #### Vulnerability Fixing
 - **[2024/03] ACFIX: Guiding LLMs with Mined Common RBAC Practices for Context-Aware Repair of Access Control Vulnerabilities in Smart Contracts.** [[arXiv](https://arxiv.org/pdf/2403.06838)]  
   *Lyuye Zhang, Kaixuan Li, Kairan Sun, Daoyuan Wu, Ye Liu, Haoye Tian, Yang Liu*
-  
-- **[2024/03] Combining Fine-tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications.** [[arXiv](https://arxiv.org/pdf/2403.16073)]  
-  *Wei Ma, Daoyuan Wu, Yuqiang Sun, Tianwen Wang, Shangqing Liu, Jian Zhang, Yue Xue, Yang Liu*
 
-- **[2024/03] Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications.** [[arXiv](http://arxiv.org/abs/2403.16073v3)]  
+- **[2024/03] Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications.** [[ICSE 2025](https://arxiv.org/pdf/2403.16073)]   
   *Wei Ma, Daoyuan Wu, Yuqiang Sun, Tianwen Wang, Shangqing Liu, Jian Zhang, Yue Xue, Yang Liu*
 
 - **[2024/03] RepairAgent: An Autonomous, LLM-Based Agent for Program Repair** [[arXiv](http://arxiv.org/abs/2403.17134v2)]  
@@ -361,7 +358,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/10] Dynamic LLM-Agent Network: An LLM-agent Collaboration Framework with Agent Team Optimization** [[arXiv](https://arxiv.org/pdf/2310.02170)]  
   *Zijun Liu, Yanzhe Zhang, Peng Li, Yang Liu, Diyi Yang*
 
-- **[2023/08] AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors** [[ICLR 2023](https://arxiv.org/pdf/2308.10848)]  
+- **[2023/08] AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors** [[ICLR 2024](https://openreview.net/pdf?id=EHg5GDnyq1)]  
   *Weize Chen, Yusheng Su, Jingwei Zuo, Cheng Yang, Chenfei Yuan, Chi-Min Chan, Heyang Yu, Yaxi Lu, Yi-Hsin Hung, Chen Qian, Yujia Qin, Xin Cong, Ruobing Xie, Zhiyuan Liu, Maosong Sun, Jie Zhou*
 
 - **[2023/06] Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents** [[arXiv](https://arxiv.org/pdf/2306.03314)]  
@@ -398,7 +395,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/07] Agentless: Demystifying LLM-based Software Engineering Agents.** [[arXiv](http://arxiv.org/abs/2407.01489v2)]  
   *Chunqiu Steven Xia, Yinlin Deng, Soren Dunn, Lingming Zhang*
 
-- **[2024/02] More Agents Is All You Need.** [[TMLR](https://arxiv.org/pdf/2402.05120)]  
+- **[2024/02] More Agents Is All You Need.** [[TMLR](https://openreview.net/pdf?id=bgzUSZ8aeg)]  
   *Junyou Li, Qin Zhang, Yangbin Yu, Qiang Fu, Deheng Ye*
 
 - **[2024/02] CodePori: Large-Scale System for Autonomous Software Development Using Multi-Agent Technology.** [[arXiv](http://arxiv.org/abs/2402.01411v2)]  
@@ -410,13 +407,13 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/09] AutoAgents: A Framework for Automatic Agent Generation.** [[IJCAI 2024](https://www.ijcai.org/proceedings/2024/0003.pdf)] 
   *Guangyao Chen, Siwei Dong, Yu Shu, Ge Zhang, Jaward Sesay, Börje Karlsson, Jie Fu, Yemin Shi*
 
-- **[2023/08] MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework.** [[ICLR 2024](https://arxiv.org/pdf/2308.00352)]  
+- **[2023/08] MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework.** [[ICLR 2024](https://openreview.net/pdf?id=VtmBAGCN7o)]  
   *Sirui Hong, Mingchen Zhuge, Jiaqi Chen, Xiawu Zheng, Yuheng Cheng, Ceyao Zhang, Jinlin Wang, Zili Wang, Steven Ka Shing Yau, Zijuan Lin, Liyang Zhou, Chenyu Ran, Lingfeng Xiao, Chenglin Wu, Jürgen Schmidhuber*
 
 - **[2023/08] GPT-in-the-Loop: Adaptive Decision-Making for Multiagent Systems.** [[arXiv](http://arxiv.org/abs/2308.10435v1)]  
   *Nathalia Nascimento, Paulo Alencar, Donald Cowan*
 
-- **[2023/04] Towards autonomous system: flexible modular production system enhanced with large language model agents.** [[arXiv](http://arxiv.org/abs/2304.14721v4)]  
+- **[2023/04] Towards autonomous system: flexible modular production system enhanced with large language model agents.** [[ETFA 2023](https://ieeexplore.ieee.org/abstract/document/10275362)]   
   *Yuchen Xia, Manthan Shenoy, Nasser Jazdi, Michael Weyrich*
 
 
@@ -434,16 +431,16 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/06] AgileCoder: Dynamic Collaborative Agents for Software Development based on Agile Methodology.** [[ICSE 2025](https://arxiv.org/pdf/2406.11912)]  
   *Minh Huynh Nguyen, Thang Chau Phan, Phong X. Nguyen, Nghi D. Q. Bui*
 
-- **[2023/08] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[arXiv](https://arxiv.org/pdf/2308.08155)]  
+- **[2023/08] AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation.** [[COLM 2024](https://openreview.net/pdf?id=BAakY1hNKS)]
   *Qingyun Wu, Gagan Bansal, Jieyu Zhang, Yiran Wu, Beibin Li, Erkang Zhu, Li Jiang, Xiaoyun Zhang, Shaokun Zhang, Jiale Liu, Ahmed Awadallah, Ryen W. White, Doug Burger, Chi Wang*
 
 - **[2023/07] Communicative Agents for Software Development** [[ACL 2024](https://arxiv.org/pdf/2307.07924)]  
   *Chen Qian, Wei Liu, Hongzhang Liu, Nuo Chen, Yufan Dang, Jiahao Li, Cheng Yang, Weize Chen, Yusheng Su, Xin Cong, Juyuan Xu, Dahai Li, Zhiyuan Liu, Maosong Sun*
 
-- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[arXiv](http://arxiv.org/abs/2304.07590v3)]  
+- **[2023/04] Self-collaboration Code Generation via ChatGPT.** [[TOSEM 2024](https://dl.acm.org/doi/10.1145/3672459)]  
   *Yihong Dong, Xue Jiang, Zhi Jin, Ge Li*
 
-- **[2023/03] CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society** [[NeurIPS 2023](https://arxiv.org/pdf/2303.17760)]  
+- **[2023/03] CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society** [[NeurIPS 2023](https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf)]  
   Guohao Li, Hasan Abed Al Kader Hammoud, Hani Itani, Dmitrii Khizbullin, Bernard Ghanem
 
 
@@ -497,13 +494,10 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/11] Intent-Driven Mobile GUI Testing with Autonomous Large Language Model Agents.** [[ICST 2024](https://ieeexplore.ieee.org/abstract/document/10638557)]  
   *Juyeon Yoon, Robert Feldt, Shin Yoo*
 
-- **[2023/10] AXNav: Replaying Accessibility Tests from Natural Language** [[CHI 2024](https://arxiv.org/pdf/2310.02424)]  
+- **[2023/10] AXNav: Replaying Accessibility Tests from Natural Language.** [[CHI 2024](https://dl.acm.org/doi/pdf/10.1145/3613904.3642777)]  
   *Maryam Taeb, Amanda Swearngin, Eldon Schoop, Ruijia Cheng, Yue Jiang, Jeffrey Nichols*
 
-- **[2023/10] White-box Compiler Fuzzing Empowered by Large Language Models** [[arxiv](https://arxiv.org/pdf/2310.15991)]  
-  *Chenyuan Yang, Yinlin Deng, Runyu Lu, Jiayi Yao, Jiawei Liu, Reyhaneh Jabbarvand, Lingming Zhang*
-
-- **[2023/10] WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models** [[arxiv](http://arxiv.org/abs/2310.15991v3)]  
+- **[2023/10] WhiteFox: White-Box Compiler Fuzzing Empowered by Large Language Models** [[PACMPL 2024](https://dl.acm.org/doi/pdf/10.1145/3689736)]
   *Chenyuan Yang, Yinlin Deng, Runyu Lu, Jiayi Yao, Jiawei Liu, Reyhaneh Jabbarvand, Lingming Zhang*
 
 - **[2023/06] Towards Autonomous Testing Agents via Conversational Large Language Models** [[arxiv](http://arxiv.org/abs/2306.05152v2)]  
@@ -543,7 +537,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/03] RepairAgent: An Autonomous, LLM-Based Agent for Program Repair** [[arXiv](http://arxiv.org/abs/2403.17134v2)]  
   *Islem Bouzenia, Premkumar Devanbu, Michael Pradel*
 
-- **[2023/07] Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models** [[TSE 2023](https://arxiv.org/pdf/2307.00593)]  
+- **[2023/07] Isolating Compiler Bugs by Generating Effective Witness Programs with Large Language Models** [[TSE 2024](https://ieeexplore.ieee.org/abstract/document/10521881)]  
   *Haoxin Tu, Zhide Zhou, He Jiang, Imam Nur Bani Yusuf, Yuxian Li, Lingxiao Jiang*  
 
 
@@ -669,7 +663,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/05] Semantic API Alignment: Linking High-level User Goals to APIs** [[arXiv](http://arxiv.org/abs/2405.04236v1)]
   *Robert Feldt, Riccardo Coppola*
 
-- **[2024/04] Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation** [[arXiv](https://arxiv.org/pdf/2404.16045)]
+- **[2024/04] Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation.** [[JCISE 2024](https://arxiv.org/pdf/2404.16045)]
   *Mohammadmehdi Ataei, Hyunmin Cheong, Daniele Grandi, Ye Wang, Nigel Morris, Alexander Tessier*
 
 - **[2024/04] Prioritizing Software Requirements Using Large Language Models** [[arXiv](http://arxiv.org/abs/2405.01564v1)]
@@ -708,7 +702,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/07] OPENHANDS: AN OPEN PLATFORM FOR AI SOFTWARE DEVELOPERS AS GENERALIST AGENTS** [[ArXiv](https://arxiv.org/pdf/2407.16741)]  
   *Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig*
 
-- **[2024/05] SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering** [[ArXiv](https://arxiv.org/pdf/2405.15793)]  
+- **[2024/05] SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering** [[NeurIPS 2024](https://openreview.net/pdf?id=mXpq6ut8J3)]
   *John Yang, Carlos E. Jimenez, Alexander Wettig, Kilian Lieret, Shunyu Yao, Karthik Narasimhan, Ofir Press*
 
 - **[2024/03] AllHands: Ask Me Anything on Large-scale Verbatim Feedback via Large Language Models.** [[ArXiv](http://arxiv.org/abs/2403.15157v2)]  
@@ -813,7 +807,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2023/10] RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models** [[arXiv](http://arxiv.org/abs/2310.16340v3)]  
   *Zefan Wang, Zichuan Liu, Yingying Zhang, Aoxiao Zhong, Jihong Wang, Fengbin Yin, Lunting Fan, Lingfei Wu, Qingsong Wen*
 
-- **[2023/08] Gentopia: A Collaborative Platform for Tool-Augmented LLMs.** [[EMNLP 2023](https://aclanthology.org/2023.emnlp-demo.20.pdf)]  
+- **[2023/08] Gentopia.AI: A Collaborative Platform for Tool-Augmented LLMs.** [[EMNLP 2023](https://aclanthology.org/2023.emnlp-demo.20.pdf)]  
   *Binfeng Xu, Xukun Liu, Hua Shen, Zeyu Han, Yuhan Li, Murong Yue, Zhiyuan Peng, Yuchen Liu, Ziyu Yao, Dongkuan Xu*
 
 
