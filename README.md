@@ -232,7 +232,7 @@ The following diagram presents a visual overview of the classification schema us
 - **[2024/04] An Empirical Evaluation of Pre-trained Large Language Models for Repairing Declarative Formal Specifications** [[arXiv](http://arxiv.org/abs/2404.11050v1)]  
   *Mohannad Alhanahnah, Md Rashedul Hasan, Hamid Bagheri*
 
-- **[2024/04] AutoCodeRover: Autonomous Program Improvement** [[ISSTA 2024](https://dl.acm.org/doi/10.1145/3650212.3680384)]
+- **[2024/04] AutoCodeRover: Autonomous Program Improvement** [[ISSTA 2024](https://dl.acm.org/doi/10.1145/3650212.3680384)]  
   *Yuntong Zhang, Haifeng Ruan, Zhiyu Fan, Abhik Roychoudhury*
 
 - **[2024/03] RepairAgent: An Autonomous, LLM-Based Agent for Program Repair** [[arXiv](http://arxiv.org/abs/2403.17134v2)]  
