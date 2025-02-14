@@ -7,7 +7,7 @@
 * [2024/10] **AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories.** [[EMNLP 2024](https://aclanthology.org/2024.findings-emnlp.116.pdf)]  
   Yifan Song, Weimin Xiong, Xiutian Zhao, Dawei Zhu, Wenhao Wu, Ke Wang, Cheng Li, Wei Peng, Sujian Li
 
-* [2024/10] Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback.** [[ICLR 2025]([https://openreview.net/pdf?id=st7XqFgbAH])]  
+* [2024/10] **Better than Your Teacher: LLM Agents that learn from Privileged AI Feedback.** [[ICLR 2025]([https://openreview.net/pdf?id=st7XqFgbAH])]  
   *Sanjiban Choudhury, Paloma Sodhi*
 
 * [2023/11] **INTERVENOR: Prompting the Coding Ability of Large Language Models with the Interactive Chain of Repair.** [[ACL 2024](https://arxiv.org/pdf/2311.09868)]  
