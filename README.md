@@ -52,6 +52,9 @@ The following diagram presents a visual overview of the classification schema us
 ## Code Generation and Improvement
 
 ### Automated Code Generation
+- **[2025/02] VisPath: Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization** [[arXiv](http://arxiv.org/abs/2502.11140v1)]  
+  *Wonduk Seo, Seungyong Lee, Daye Kang, Zonghao Yuan, Seunghyun Lee*
+  
 - **[2025/01] CodeCoR: An LLM-Based Self-Reflective Multi-Agent Framework for Code Generation.** [[arXiv](http://arxiv.org/abs/2501.07811v1)]  
   *Ruwei Pan, Hongyu Zhang, Chao Liu*
 
@@ -175,6 +178,9 @@ The following diagram presents a visual overview of the classification schema us
 
 
 ### Code Optimization
+- **[2025/02] VisPath: Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization** [[arXiv](http://arxiv.org/abs/2502.11140v1)]  
+  *Wonduk Seo, Seungyong Lee, Daye Kang, Zonghao Yuan, Seunghyun Lee*
+  
 - **[2025/01] GREEN-CODE: Optimizing Energy Efficiency in Large Language Models for Code Generation.** [[arXiv](http://arxiv.org/abs/2501.11006v1)]  
   *Shashikant Ilager, Lukas Florian Briem, Ivona Brandic*
 
@@ -204,6 +210,9 @@ The following diagram presents a visual overview of the classification schema us
 ### Code Refactoring and Repair
 
 #### Code Refactoring
+- **[2025/02] Distributed Approach to Haskell Based Applications Refactoring with LLMs Based Multi-Agent Systems** [[arXiv](http://arxiv.org/abs/2502.07928v1)]  
+  *Shahbaz Siddeeq, Zeeshan Rasheed, Malik Abdul Sami, Mahade Hasan, Muhammad Waseem, Jussi Rasku, Mika Saari, Kai-Kristian Kemell, Pekka Abrahamsson*
+  
 - **[2024/11] Lingma SWE-GPT: An Open Development-Process-Centric Language Model for Automated Software Improvement** [[arXiv](http://arxiv.org/abs/2411.00622v1)]  
   *Yingwei Ma, Rongyu Cao, Yongchang Cao, Yue Zhang, Jue Chen, Yibo Liu, Yuchen Liu, Binhua Li, Fei Huang, Yongbin Li*
 
@@ -280,6 +289,12 @@ The following diagram presents a visual overview of the classification schema us
 ## Agent Collaboration and Coordination
 
 ### Multi-Agent Collaboration
+- **[2025/02] Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis** [[arXiv](http://arxiv.org/abs/2502.08224v1)]  
+  *Changhua Pei, Zexin Wang, Fengrui Liu, Zeyan Li, Yang Liu, Xiao He, Rong Kang, Tieying Zhang, Jianjun Chen, Jianhui Li, Gaogang Xie, Dan Pei*
+  
+- **[2025/02] SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering** [[arXiv](http://arxiv.org/abs/2502.06994v1)]  
+  *Xuehang Guo, Xingyao Wang, Yangyi Chen, Sha Li, Chi Han, Manling Li, Heng Ji*
+  
 - **[2025/01] RTLSquad: Multi-Agent Based Interpretable RTL Design.** [[arXiv](http://arxiv.org/abs/2501.05470v1)]  
   *Bowei Wang, Qi Xiong, Zeqing Xiang, Lei Wang, Renzhi Chen*
 
@@ -428,6 +443,9 @@ The following diagram presents a visual overview of the classification schema us
 
 
 ### Cross-Agent Collaboration
+- **[2025/02] SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering** [[arXiv](http://arxiv.org/abs/2502.06994v1)]  
+  *Xuehang Guo, Xingyao Wang, Yangyi Chen, Sha Li, Chi Han, Manling Li, Heng Ji*
+  
 - **[2024/09] LLM-Agent-UMF: LLM-based Agent Unified Modeling Framework for Seamless Integration of Multi Active/Passive Core-Agents.** [[arXiv](http://arxiv.org/abs/2409.11393v2)]  
   *Amine Ben Hassouna, Hana Chaari, Ines Belhaj*
 
@@ -458,6 +476,9 @@ The following diagram presents a visual overview of the classification schema us
 ## Software Testing, Debugging, and Quality Assurance
 
 ### Automated Testing
+- **[2025/02] Otter: Generating Tests from Issues to Validate SWE Patches** [[arXiv](http://arxiv.org/abs/2502.05368v1)]  
+  *Toufique Ahmed, Jatin Ganhotra, Rangeet Pan, Avraham Shinnar, Saurabh Sinha, Martin Hirzel*
+  
 - **[2025/01] AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL.** [[arXiv](http://arxiv.org/abs/2501.08600v1)]  
   *Tyler Stennett, Myeongsoo Kim, Saurabh Sinha, Alessandro Orso*
 
@@ -540,6 +561,9 @@ The following diagram presents a visual overview of the classification schema us
 
 
 #### Automated Bug Fixing
+- **[2025/02] Otter: Generating Tests from Issues to Validate SWE Patches** [[arXiv](http://arxiv.org/abs/2502.05368v1)]  
+  *Toufique Ahmed, Jatin Ganhotra, Rangeet Pan, Avraham Shinnar, Saurabh Sinha, Martin Hirzel*
+  
 - **[2025/02] Agentic Bug Reproduction for Effective Automated Program Repair at Google** [[arXiv](http://arxiv.org/abs/2502.01821v1)]
   *Runxiang Cheng, Michele Tufano, Jürgen Cito, José Cambronero, Pat Rondon, Renyao Wei, Aaron Sun, Satish Chandra*
   
@@ -627,6 +651,9 @@ The following diagram presents a visual overview of the classification schema us
 ## Software Design and Architecture
 
 ### System and Software Design
+- **[2025/02] Every Software as an Agent: Blueprint and Case Study** [[arXiv](http://arxiv.org/abs/2502.04747v1)]  
+  *Mengwei Xu*
+  
 - **[2025/01] RTLSquad: Multi-Agent Based Interpretable RTL Design.** [[arXiv](http://arxiv.org/abs/2501.05470v1)]  
   *Bowei Wang, Qi Xiong, Zeqing Xiang, Lei Wang, Renzhi Chen*
 
@@ -699,6 +726,9 @@ The following diagram presents a visual overview of the classification schema us
 ## Human-AI Collaboration and Interaction
 
 ### Human-in-the-Loop Systems
+- **[2025/02] TableTalk: Scaffolding Spreadsheet Development with a Language Agent** [[arXiv](http://arxiv.org/abs/2502.09787v1)]  
+  *Jenny T. Liang, Aayush Kumar, Yasharth Bajpai, Sumit Gulwani, Vu Le, Chris Parnin, Arjun Radhakrishna, Ashish Tiwari, Emerson Murphy-Hill, Guastavo Soares*
+  
 - **[2025/02] VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output** [[arXiv](http://arxiv.org/abs/2502.04103v1)]
   *Eason Chen, Chengyu Lin, Xinyi Tang, Aprille Xi, Canwen Wang, Jionghao Lin, Kenneth R Koedinger*
   
@@ -945,6 +975,12 @@ The following diagram presents a visual overview of the classification schema us
 
 
 ### Benchmarking Frameworks
+- **[2025/02] CSR-Bench: Benchmarking LLM Agents in Deployment of Computer Science Research Repositories** [[arXiv](http://arxiv.org/abs/2502.06111v2)]  
+  *Yijia Xiao, Runhui Wang, Luyang Kong, Davor Golac, Wei Wang*
+  
+- **[2025/02] Benchmarking Prompt Engineering Techniques for Secure Code Generation with GPT Models** [[arXiv](http://arxiv.org/abs/2502.06039v1)]  
+  *Marc Bruni, Fabio Gabrielli, Mohammad Ghafari, Martin Kropp*
+  
 - **[2025/01] AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds.** [[arXiv](http://arxiv.org/abs/2501.06706v1)]  
   *Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, Saravan Rajmohan*
 
