@@ -741,3 +741,30 @@
 
 * [2025/02] **VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output** [[arXiv](http://arxiv.org/abs/2502.04103v1)]  
   Eason Chen, Chengyu Lin, Xinyi Tang, Aprille Xi, Canwen Wang, Jionghao Lin, Kenneth R Koedinger
+
+* [2025/02] **Every Software as an Agent: Blueprint and Case Study** [[arXiv](http://arxiv.org/abs/2502.04747v1)]  
+  Mengwei Xu  
+
+* [2025/02] **Otter: Generating Tests from Issues to Validate SWE Patches** [[arXiv](http://arxiv.org/abs/2502.05368v1)]  
+  Toufique Ahmed, Jatin Ganhotra, Rangeet Pan, Avraham Shinnar, Saurabh Sinha, Martin Hirzel  
+
+* [2025/02] **Benchmarking Prompt Engineering Techniques for Secure Code Generation with GPT Models** [[arXiv](http://arxiv.org/abs/2502.06039v1)]  
+  Marc Bruni, Fabio Gabrielli, Mohammad Ghafari, Martin Kropp  
+
+* [2025/02] **CSR-Bench: Benchmarking LLM Agents in Deployment of Computer Science Research Repositories** [[arXiv](http://arxiv.org/abs/2502.06111v2)]  
+  Yijia Xiao, Runhui Wang, Luyang Kong, Davor Golac, Wei Wang  
+
+* [2025/02] **SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software Engineering** [[arXiv](http://arxiv.org/abs/2502.06994v1)]  
+  Xuehang Guo, Xingyao Wang, Yangyi Chen, Sha Li, Chi Han, Manling Li, Heng Ji  
+
+* [2025/02] **Distributed Approach to Haskell Based Applications Refactoring with LLMs Based Multi-Agent Systems** [[arXiv](http://arxiv.org/abs/2502.07928v1)]  
+  Shahbaz Siddeeq, Zeeshan Rasheed, Malik Abdul Sami, Mahade Hasan, Muhammad Waseem, Jussi Rasku, Mika Saari, Kai-Kristian Kemell, Pekka Abrahamsson  
+
+* [2025/02] **Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause Analysis** [[arXiv](http://arxiv.org/abs/2502.08224v1)]  
+  Changhua Pei, Zexin Wang, Fengrui Liu, Zeyan Li, Yang Liu, Xiao He, Rong Kang, Tieying Zhang, Jianjun Chen, Jianhui Li, Gaogang Xie, Dan Pei  
+
+* [2025/02] **TableTalk: Scaffolding Spreadsheet Development with a Language Agent** [[arXiv](http://arxiv.org/abs/2502.09787v1)]  
+  Jenny T. Liang, Aayush Kumar, Yasharth Bajpai, Sumit Gulwani, Vu Le, Chris Parnin, Arjun Radhakrishna, Ashish Tiwari, Emerson Murphy-Hill, Guastavo Soares  
+
+* [2025/02] **VisPath: Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization** [[arXiv](http://arxiv.org/abs/2502.11140v1)]  
+  Wonduk Seo, Seungyong Lee, Daye Kang, Zonghao Yuan, Seunghyun Lee  
