@@ -1017,33 +1017,3 @@
 
 * [2025/05] **Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications of Agentic AI** [[arXiv](http://arxiv.org/abs/2505.19443v1)]  
   Ranjan Sapkota, Konstantinos I. Roumeliotis, Manoj Karkee  
-
-* [2025/05] **Benchmarking and Enhancing LLM Agents in Localizing Linux Kernel Bugs** [[arXiv](http://arxiv.org/abs/2505.19489v1)]  
-  Zhenhao Zhou, Zhuochen Huang, Yike He, Chong Wang, Jiajun Wang, Yijian Wu, Xin Peng, Yiling Lou  
-
-* [2025/05] **SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection** [[arXiv](http://arxiv.org/abs/2505.19828v1)]  
-  Md Basim Uddin Ahmed, Nima Shiri Harzevili, Jiho Shin, Hung Viet Pham, Song Wang  
-
-* [2025/05] **SWE-rebench: An Automated Pipeline for Task Collection and Decontaminated Evaluation of Software Engineering Agents** [[arXiv](http://arxiv.org/abs/2505.20411v1)]  
-  Ibragim Badertdinov, Alexander Golubev, Maksim Nekrashevich, Anton Shevtsov, Simon Karasik, Andrei Andriushchenko, Maria Trofimova, Daria Litvintseva, Boris Yangel  
-
-* [2025/05] **Can Agents Fix Agent Issues?** [[arXiv](http://arxiv.org/abs/2505.20749v1)]  
-  Alfin Wijaya Rahardja, Junwei Liu, Weitong Chen, Zhenpeng Chen, Yiling Lou  
-
-* [2025/05] **RepoMaster: Autonomous Exploration and Understanding of GitHub Repositories for Complex Task Solving** [[arXiv](http://arxiv.org/abs/2505.21577v1)]  
-  Huacan Wang, Ziyi Ni, Shuo Zhang, Shuo Lu, Sen Hu, Ziyang He, Chen Hu, Jiaye Lin, Yifu Guo, Yuntao Du, Pin Lyu  
-
-* [2025/05] **CXXCrafter: An LLM-Based Agent for Automated C/C++ Open Source Software Building** [[arXiv](http://arxiv.org/abs/2505.21069v1)]  
-  Zhengmin Yu, Yuan Zhang, Ming Wen, Yinan Nie, Wenhui Zhang, Min Yang  
-
-* [2025/05] **Co-Saving: Resource Aware Multi-Agent Collaboration for Software Development** [[arXiv](http://arxiv.org/abs/2505.21898v1)]  
-  Rennai Qiu, Chen Qian, Ran Li, Yufan Dang, Weize Chen, Cheng Yang, Yingli Zhang, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun  
-
-* [2025/05] **OSS-UAgent: An Agent-based Usability Evaluation Framework for Open Source Software** [[arXiv](http://arxiv.org/abs/2505.23239v1)]  
-  Lingkai Meng, Yu Shao, Long Yuan, Longbin Lai, Peng Cheng, Wenyuan Yu, Wenjie Zhang, Xuemin Lin, Jingren Zhou  
-
-* [2025/05] **SWE-bench Goes Live!** [[arXiv](http://arxiv.org/abs/2505.23419v2)]  
-  Linghao Zhang, Shilin He, Chaoyun Zhang, Yu Kang, Bowen Li, Chengxing Xie, Junhao Wang, Maoquan Wang, Yufan Huang, Shengyu Fu, Elsie Nallipogu, Qingwei Lin, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang  
-
-* [2025/05] **Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and Improve** [[arXiv](http://arxiv.org/abs/2505.23946v1)]  
-  Yuanzhe Liu, Ryan Deng, Tim Kaler, Xuhao Chen, Charles E. Leiserson, Yao Ma, Jie Chen  
