@@ -743,7 +743,7 @@
   Eason Chen, Chengyu Lin, Xinyi Tang, Aprille Xi, Canwen Wang, Jionghao Lin, Kenneth R Koedinger
 
 * [2025/02] **Every Software as an Agent: Blueprint and Case Study** [[arXiv](http://arxiv.org/abs/2502.04747v1)]  
-  Mengwei Xu  
+  Mengwei Xu 
 
 * [2025/02] **Otter: Generating Tests from Issues to Validate SWE Patches** [[arXiv](http://arxiv.org/abs/2502.05368v1)]  
   Toufique Ahmed, Jatin Ganhotra, Rangeet Pan, Avraham Shinnar, Saurabh Sinha, Martin Hirzel  
@@ -768,3 +768,102 @@
 
 * [2025/02] **VisPath: Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimization** [[arXiv](http://arxiv.org/abs/2502.11140v1)]  
   Wonduk Seo, Seungyong Lee, Daye Kang, Zonghao Yuan, Seunghyun Lee  
+
+* [2025/03] **ToolFuzz -- Automated Agent Tool Testing** [[arXiv](http://arxiv.org/abs/2503.04479v3)]  
+  Ivan Milev, Mislav Balunović, Maximilian Baader, Martin Vechev
+
+* [2025/03] **The Next Frontier of LLM Applications: Open Ecosystems and Hardware Synergy** [[arXiv](http://arxiv.org/abs/2503.04596v1)]  
+  Xinyi Hou, Yanjie Zhao, Haoyu Wang
+
+* [2025/03] **ProjectEval: A Benchmark for Programming Agents Automated Evaluation on Project-Level Code Generation** [[arXiv](http://arxiv.org/abs/2503.07010v2)]  
+  Kaiyuan Liu, Youcheng Pan, Yang Xiang, Daojing He, Jing Li, Yexing Du, Tianrun Gao
+
+* [2025/03] **Teamwork makes the dream work: LLMs-Based Agents for GitHub README.MD Summarization** [[arXiv](http://arxiv.org/abs/2503.10876v1)]  
+  Duc S. H. Nguyen, Bach G. Truong, Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio
+
+* [2025/03] **Prompt Alchemy: Automatic Prompt Refinement for Enhancing Code Generation** [[arXiv](http://arxiv.org/abs/2503.11085v1)]  
+  Sixiang Ye, Zeyu Sun, Guoqing Wang, Liwei Guo, Qingyuan Liang, Zheng Li, Yong Liu
+
+* [2025/03] **Is Multi-Agent Debate (MAD) the Silver Bullet? An Empirical Analysis of MAD in Code Summarization and Translation** [[arXiv](http://arxiv.org/abs/2503.12029v1)]  
+  Jina Chun, Qihong Chen, Jiawei Li, Iftekhar Ahmed
+
+* [2025/03] **AgentDroid: A Multi-Agent Framework for Detecting Fraudulent Android Applications** [[arXiv](http://arxiv.org/abs/2503.12163v1)]  
+  Ruwei Pan, Hongyu Zhang, Zhonghao Jiang, Ran Hou
+
+* [2025/03] **MANTRA: Enhancing Automated Method-Level Refactoring with Contextual RAG and Multi-Agent LLM Collaboration** [[arXiv](http://arxiv.org/abs/2503.14340v2)]  
+  Yisen Xu, Feng Lin, Jinqiu Yang, Tse-Hsun Chen, Nikolaos Tsantalis
+
+* [2025/03] **TestForge: Feedback-Driven, Agentic Test Suite Generation** [[arXiv](http://arxiv.org/abs/2503.14713v1)]  
+  Kush Jain, Claire Le Goues
+
+* [2025/03] **LogiAgent: Automated Logical Testing for REST Systems with LLM-Based Multi-Agents** [[arXiv](http://arxiv.org/abs/2503.15079v1)]  
+  Ke Zhang, Chenxi Zhang, Chong Wang, Chi Zhang, YaChen Wu, Zhenchang Xing, Yang Liu, Qingshan Li, Xin Peng
+
+* [2025/03] **Issue2Test: Generating Reproducing Test Cases from Issue Reports** [[arXiv](http://arxiv.org/abs/2503.16320v1)]  
+  Noor Nashid, Islem Bouzenia, Michael Pradel, Ali Mesbah
+
+* [2025/03] **Knowledge-Based Multi-Agent Framework for Automated Software Architecture Design** [[arXiv](http://arxiv.org/abs/2503.20536v1)]  
+  Yiran Zhang, Ruiyin Li, Peng Liang, Weisong Sun, Yang Liu
+
+* [2025/03] **Unlocking LLM Repair Capabilities in Low-Resource Programming Languages Through Cross-Language Translation and Multi-Agent Refinement** [[arXiv](http://arxiv.org/abs/2503.22512v3)]  
+  Wenqiang Luo, Jacky Wai Keung, Boyang Yang, Jacques Klein, Tegawende F. Bissyande, Haoye Tian, Bach Le
+
+* [2025/04] **Are Autonomous Web Agents Good Testers?** [[arXiv](http://arxiv.org/abs/2504.01495v1)]  
+  Antoine Chevrot, Alexandre Vernotte, Jean-Rémy Falleri, Xavier Blanc, Bruno Legeard
+
+* [2025/04] **ReuseDroid: A VLM-empowered Android UI Test Migrator Boosted by Active Feedback** [[arXiv](http://arxiv.org/abs/2504.02357v1)]  
+  Xiaolei Li, Jialun Cao, Yepang Liu, Shing-Chi Cheung, Hailong Wang
+
+* [2025/04] **Exploring Individual Factors in the Adoption of LLMs for Specific Software Engineering Tasks** [[arXiv](http://arxiv.org/abs/2504.02553v1)]  
+  Stefano Lambiase, Gemma Catolino, Fabio Palomba, Filomena Ferrucci, Daniel Russo
+
+* [2025/04] **AdaCoder: An Adaptive Planning and Multi-Agent Framework for Function-Level Code Generation** [[arXiv](http://arxiv.org/abs/2504.04220v1)]  
+  Yueheng Zhu, Chao Liu, Xuan He, Xiaoxue Ren, Zhongxin Liu, Ruwei Pan, Hongyu Zhang
+
+* [2025/04] **AgentFM: Role-Aware Failure Management for Distributed Databases with LLM-Driven Multi-Agents** [[arXiv](http://arxiv.org/abs/2504.06614v1)]  
+  Lingzhe Zhang, Yunpeng Zhai, Tong Jia, Xiaosong Huang, Chiming Duan, Ying Li
+
+* [2025/04] **Test Amplification for REST APIs via Single and Multi-Agent LLM Systems** [[arXiv](http://arxiv.org/abs/2504.08113v1)]  
+  Robbe Nooyens, Tolgahan Bardakci, Mutlu Beyazit, Serge Demeyer
+
+* [2025/04] **SeaView: Software Engineering Agent Visual Interface for Enhanced Workflow** [[arXiv](http://arxiv.org/abs/2504.08696v2)]  
+  Timothy Bula, Saurabh Pujar, Luca Buratti, Mihaela Bornea, Avirup Sil
+
+* [2025/04] **CodeRAG: Supportive Code Retrieval on Bigraph for Real-World Code Generation** [[arXiv](http://arxiv.org/abs/2504.10046v1)]  
+  Jia Li, Xianjie Shi, Kechi Zhang, Lei Li, Ge Li, Zhengwei Tao, Jia Li, Fang Liu, Chongyang Tao, Zhi Jin
+
+* [2025/04] **IEA-Plugin: An AI Agent Reasoner for Test Data Analytics** [[arXiv](http://arxiv.org/abs/2504.11496v1)]  
+  Seoyeon Kim, Yu Su, Li-C. Wang
+
+* [2025/04] **Agent for User: Testing Multi-User Interactive Features in TikTok** [[arXiv](http://arxiv.org/abs/2504.15474v1)]  
+  Sidong Feng, Changhao Du, Huaxiao Liu, Qingnan Wang, Zhengwei Lv, Gang Huo, Xu Yang, Chunyang Chen
+
+* [2025/04] **Towards Test Generation from Task Description for Mobile Testing with Multi-modal Reasoning** [[arXiv](http://arxiv.org/abs/2504.15917v1)]  
+  Hieu Huynh, Hai Phung, Hao Pham, Tien N. Nguyen, Vu Nguyen
+
+* [2025/05] **Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and Latency** [[arXiv](http://arxiv.org/abs/2505.02133v1)]  
+  Nazmus Ashrafi, Salah Bouktif, Mohammed Mediani
+
+* [2025/05] **Identification and Optimization of Redundant Code Using Large Language Models** [[arXiv](http://arxiv.org/abs/2505.04040v1)]  
+  Shamse Tasnim Cynthia
+
+* [2025/05] **CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System** [[arXiv](http://arxiv.org/abs/2505.04254v1)]  
+  Li Hu, Guoqiang Chen, Xiuwei Shang, Shaoyin Cheng, Benlong Wu, Gangyang Li, Xu Zhu, Weiming Zhang, Nenghai Yu
+
+* [2025/05] **LLM-Explorer: Towards Efficient and Affordable LLM-based Exploration for Mobile Apps** [[arXiv](http://arxiv.org/abs/2505.10593v1)]  
+  Shanhui Zhao, Hao Wen, Wenjie Du, Cheng Liang, Yunxin Liu, Xiaozhou Ye, Ye Ouyang, Yuanchun Li
+
+* [2025/05] **Adversarial Reasoning for Repair Based on Inferred Program Intent** [[arXiv](http://arxiv.org/abs/2505.13008v1)]  
+  He Ye, Aidan Z. H. Yang, Chang Hu, Yanlin Wang, Tao Zhang, Claire Le Goues
+
+* [2025/05] **Large Language Model-Powered Agent for C to Rust Code Translation** [[arXiv](http://arxiv.org/abs/2505.15858v1)]  
+  HoHyun Sim, Hyeonjoong Cho, Yeonghyeon Go, Zhoulai Fu, Ali Shokri, Binoy Ravindran
+
+* [2025/05] **SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection** [[arXiv](http://arxiv.org/abs/2505.19828v1)]  
+  Md Basim Uddin Ahmed, Nima Shiri Harzevili, Jiho Shin, Hung Viet Pham, Song Wang
+
+* [2025/05] **Can Agents Fix Agent Issues?** [[arXiv](http://arxiv.org/abs/2505.20749v1)]  
+  Alfin Wijaya Rahardja, Junwei Liu, Weitong Chen, Zhenpeng Chen, Yiling Lou
+
+* [2025/05] **CXXCrafter: An LLM-Based Agent for Automated C/C++ Open Source Software Building** [[arXiv](http://arxiv.org/abs/2505.21069v1)]  
+  Zhengmin Yu, Yuan Zhang, Ming Wen, Yinan Nie, Wenhui Zhang, Min Yang
