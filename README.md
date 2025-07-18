@@ -3,6 +3,65 @@
 cture & Tool Support](#1-agent-system-architecture--tool-support)-----------------------------------------------------------------------------------------------------------C1
   - [1.1 Patterned & Modular Architectures](#11-patterned--modular-architectures)---------------------------------------------------------------------------------------------------------------------C1.1
 
+
+标题:       DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by
+  Adaptive Tree Traversal
+作者:       Vaibhav Aggarwal, Ojasv Kamal, Abhinav Japesh, Zhijing Jin, Bernhard Schölkopf
+发布时间:   2025-03-18
+链接:       http://arxiv.org/abs/2503.14269v1
+摘要:       Large Language Models (LLMs) have revolutionized various domains, including
+natural language processing, data analysis, and software development, by
+enabling automation. In software engineering, LLM-powered coding agents have
+garnered significant attention due to their potential to automate complex
+development tasks, assist in debugging, and enhance productivity. However,
+existing approaches often struggle with sub-optimal decision-making, requiring
+either extensive manual intervention or inefficient compute scaling strategies.
+To improve coding agent performance, we present Dynamic Action Re-Sampling
+(DARS), a novel inference time compute scaling approach for coding agents, that
+is faster and more effective at recovering from sub-optimal decisions compared
+to baselines. While traditional agents either follow linear trajectories or
+rely on random sampling for scaling compute, our approach DARS works by
+branching out a trajectory at certain key decision points by taking an
+alternative action given the history of the trajectory and execution feedback
+of the previous attempt from that point. We evaluate our approach on SWE-Bench
+Lite benchmark, demonstrating that this scaling strategy achieves a pass@k
+score of 55% with Claude 3.5 Sonnet V2. Our framework achieves a pass@1 rate of
+47%, outperforming state-of-the-art (SOTA) open-source frameworks.
+文中引用: aggarwal2025darsdynamicactionresampling
+
+标题:       Nexus: A Lightweight and Scalable Multi-Agent Framework for Complex
+  Tasks Automation
+作者:       Humza Sami, Mubashir ul Islam, Samy Charas, Asav Gandhi, Pierre-Emmanuel Gaillardon, Valerio Tenace
+发布时间:   2025-02-26
+链接:       http://arxiv.org/abs/2502.19091v1
+摘要:       Recent advancements in Large Language Models (LLMs) have substantially
+evolved Multi-Agent Systems (MASs) capabilities, enabling systems that not only
+automate tasks but also leverage near-human reasoning capabilities. To achieve
+this, LLM-based MASs need to be built around two critical principles: (i) a
+robust architecture that fully exploits LLM potential for specific tasks -- or
+related task sets -- and ($ii$) an effective methodology for equipping LLMs
+with the necessary capabilities to perform tasks and manage information
+efficiently. It goes without saying that a priori architectural designs can
+limit the scalability and domain adaptability of a given MAS.
+  To address these challenges, in this paper we introduce Nexus: a lightweight
+Python framework designed to easily build and manage LLM-based MASs. Nexus
+introduces the following innovations: (i) a flexible multi-supervisor
+hierarchy, (ii) a simplified workflow design, and (iii) easy installation and
+open-source flexibility: Nexus can be installed via pip and is distributed
+under a permissive open-source license, allowing users to freely modify and
+extend its capabilities.
+  Experimental results demonstrate that architectures built with Nexus exhibit
+state-of-the-art performance across diverse domains. In coding tasks,
+Nexus-driven MASs achieve a 99% pass rate on HumanEval and a flawless 100% on
+VerilogEval-Human, outperforming cutting-edge reasoning language models such as
+o3-mini and DeepSeek-R1. Moreover, these architectures display robust
+proficiency in complex reasoning and mathematical problem solving, achieving
+correct solutions for all randomly selected problems from the MATH dataset. In
+the realm of multi-objective optimization, Nexus-based architectures
+successfully address challenging timing closure tasks on designs from the VTR
+benchmark suite, while guaranteeing, on average, a power saving of nearly 30%.
+文中引用: sami2025nexuslightweightscalablemultiagent
+
   - 
 标题:       MASAI: Modular Architecture for Software-engineering AI Agents
 作者:       Daman Arora, Atharv Sonwane, Nalin Wadhwa, Abhav Mehrotra, Saiteja Utpala, Ramakrishna Bairi, Aditya Kanade, Nagarajan Natarajan
@@ -54,6 +113,297 @@ insights and limitations for future work. Demos at:
 https://github.com/YuchenXia/GPT4IndustrialAutomation
 文中引用: xia2023autonomoussystemflexiblemodular
   - [1.2 Reference Architectures & Taxonomies](#12-reference-architectures--taxonomies)---------------------------------------------------------------------------------------------------------------C1.2
+
+
+标题:       Representing Prompting Patterns with PDL: Compliance Agent Case Study
+作者:       Mandana Vaziri, Louis Mandel, Yuji Watanabe, Hirokuni Kitahara, Martin Hirzel, Anca Sailer
+发布时间:   2025-07-08
+链接:       http://arxiv.org/abs/2507.06396v1
+摘要:       Prompt engineering for LLMs remains complex, with existing frameworks either
+hiding complexity behind restrictive APIs or providing inflexible canned
+patterns that resist customization -- making sophisticated agentic programming
+challenging. We present the Prompt Declaration Language (PDL), a novel approach
+to prompt representation that tackles this fundamental complexity by bringing
+prompts to the forefront, enabling manual and automatic prompt tuning while
+capturing the composition of LLM calls together with rule-based code and
+external tools. By abstracting away the plumbing for such compositions, PDL
+aims at improving programmer productivity while providing a declarative
+representation that is amenable to optimization. This paper demonstrates PDL's
+utility through a real-world case study of a compliance agent. Tuning the
+prompting pattern of this agent yielded up to 4x performance improvement
+compared to using a canned agent and prompt pattern.
+文中引用: vaziri2025representingpromptingpatternspdl
+
+
+标题:       KP-A: A Unified Network Knowledge Plane for Catalyzing Agentic Network
+  Intelligence
+作者:       Yun Tang, Mengbang Zou, Zeinab Nezami, Syed Ali Raza Zaidi, Weisi Guo
+发布时间:   2025-07-10
+链接:       http://arxiv.org/abs/2507.08164v1
+摘要:       The emergence of large language models (LLMs) and agentic systems is enabling
+autonomous 6G networks with advanced intelligence, including
+self-configuration, self-optimization, and self-healing. However, the current
+implementation of individual intelligence tasks necessitates isolated knowledge
+retrieval pipelines, resulting in redundant data flows and inconsistent
+interpretations. Inspired by the service model unification effort in Open-RAN
+(to support interoperability and vendor diversity), we propose KP-A: a unified
+Network Knowledge Plane specifically designed for Agentic network intelligence.
+By decoupling network knowledge acquisition and management from intelligence
+logic, KP-A streamlines development and reduces maintenance complexity for
+intelligence engineers. By offering an intuitive and consistent knowledge
+interface, KP-A also enhances interoperability for the network intelligence
+agents. We demonstrate KP-A in two representative intelligence tasks: live
+network knowledge Q&A and edge AI service orchestration. All implementation
+artifacts have been open-sourced to support reproducibility and future
+standardization efforts.
+文中引用: tang2025kpaunifiednetworkknowledge
+
+
+标题:       Understanding Software Engineering Agents: A Study of
+  Thought-Action-Result Trajectories
+作者:       Islem Bouzenia, Michael Pradel
+发布时间:   2025-06-23
+链接:       http://arxiv.org/abs/2506.18824v1
+摘要:       Large Language Model (LLM)-based agents are increasingly employed to automate
+complex software engineering tasks such as program repair and issue resolution.
+These agents operate by autonomously generating natural language thoughts,
+invoking external tools, and iteratively refining their solutions. Despite
+their widespread adoption, the internal decision-making processes of these
+agents remain largely unexplored, limiting our understanding of their
+operational dynamics and failure modes. In this paper, we present a large-scale
+empirical study of the thought-action-result trajectories of three
+state-of-the-art LLM-based agents: \textsc{RepairAgent},
+\textsc{AutoCodeRover}, and \textsc{OpenHands}. We unify their interaction logs
+into a common format, capturing 120 trajectories and 2822 LLM interactions
+focused on program repair and issue resolution. Our study combines quantitative
+analyses of structural properties, action patterns, and token usage with
+qualitative assessments of reasoning coherence and feedback integration. We
+identify key trajectory characteristics such as iteration counts and token
+consumption, recurring action sequences, and the semantic coherence linking
+thoughts, actions, and their results. Our findings reveal behavioral motifs and
+anti-patterns that distinguish successful from failed executions, providing
+actionable insights for improving agent design, including prompting strategies,
+failure diagnosis, and anti-pattern detection. We release our dataset and
+annotation framework to support further research on transparent and robust
+autonomous software engineering agents.
+文中引用: bouzenia2025understandingsoftwareengineeringagents
+
+标题:       Unified Software Engineering agent as AI Software Engineer
+作者:       Leonhard Applis, Yuntong Zhang, Shanchao Liang, Nan Jiang, Lin Tan, Abhik Roychoudhury
+发布时间:   2025-06-17
+链接:       http://arxiv.org/abs/2506.14683v1
+摘要:       The growth of Large Language Model (LLM) technology has raised expectations
+for automated coding. However, software engineering is more than coding and is
+concerned with activities including maintenance and evolution of a project. In
+this context, the concept of LLM agents has gained traction, which utilize LLMs
+as reasoning engines to invoke external tools autonomously. But is an LLM agent
+the same as an AI software engineer? In this paper, we seek to understand this
+question by developing a Unified Software Engineering agent or USEagent. Unlike
+existing work which builds specialized agents for specific software tasks such
+as testing, debugging, and repair, our goal is to build a unified agent which
+can orchestrate and handle multiple capabilities. This gives the agent the
+promise of handling complex scenarios in software development such as fixing an
+incomplete patch, adding new features, or taking over code written by others.
+We envision USEagent as the first draft of a future AI Software Engineer which
+can be a team member in future software development teams involving both AI and
+humans. To evaluate the efficacy of USEagent, we build a Unified Software
+Engineering bench (USEbench) comprising of myriad tasks such as coding,
+testing, and patching. USEbench is a judicious mixture of tasks from existing
+benchmarks such as SWE-bench, SWT-bench, and REPOCOD. In an evaluation on
+USEbench consisting of 1,271 repository-level software engineering tasks,
+USEagent shows improved efficacy compared to existing general agents such as
+OpenHands CodeActAgent. There exist gaps in the capabilities of USEagent for
+certain coding tasks, which provides hints on further developing the AI
+Software Engineer of the future.
+文中引用: applis2025unifiedsoftwareengineeringagent
+
+标题:       Survey of LLM Agent Communication with MCP: A Software Design Pattern
+  Centric Review
+作者:       Anjana Sarkar, Soumyendu Sarkar
+发布时间:   2025-05-26
+链接:       http://arxiv.org/abs/2506.05364v1
+摘要:       This survey investigates how classical software design patterns can enhance
+the reliability and scalability of communication in Large Language Model
+(LLM)-driven agentic AI systems, focusing particularly on the Model Context
+Protocol (MCP). It examines the foundational architectures of LLM-based agents
+and their evolution from isolated operation to sophisticated, multi-agent
+collaboration, addressing key communication hurdles that arise in this
+transition. The study revisits well-established patterns, including Mediator,
+Observer, Publish-Subscribe, and Broker, and analyzes their relevance in
+structuring agent interactions within MCP-compliant frameworks. To clarify
+these dynamics, the article provides conceptual schematics and formal models
+that map out communication pathways and optimize data flow. It further explores
+architectural variations suited to different degrees of agent autonomy and
+system complexity. Real-world applications in domains such as real-time
+financial processing and investment banking are discussed, illustrating how
+these patterns and MCP can meet specific operational demands. The article
+concludes by outlining open challenges, potential security risks, and promising
+directions for advancing robust, interoperable, and scalable multi-agent LLM
+ecosystems.
+文中引用: sarkar2025surveyllmagentcommunication
+
+标题:       Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications
+  of Agentic AI
+作者:       Ranjan Sapkota, Konstantinos I. Roumeliotis, Manoj Karkee
+发布时间:   2025-05-26
+链接:       http://arxiv.org/abs/2505.19443v1
+摘要:       This review presents a comprehensive analysis of two emerging paradigms in
+AI-assisted software development: vibe coding and agentic coding. While both
+leverage large language models (LLMs), they differ fundamentally in autonomy,
+architectural design, and the role of the developer. Vibe coding emphasizes
+intuitive, human-in-the-loop interaction through prompt-based, conversational
+workflows that support ideation, experimentation, and creative exploration. In
+contrast, agentic coding enables autonomous software development through
+goal-driven agents capable of planning, executing, testing, and iterating tasks
+with minimal human intervention. We propose a detailed taxonomy spanning
+conceptual foundations, execution models, feedback loops, safety mechanisms,
+debugging strategies, and real-world tool ecosystems. Through comparative
+workflow analysis and 20 detailed use cases, we illustrate how vibe systems
+thrive in early-stage prototyping and education, while agentic systems excel in
+enterprise-grade automation, codebase refactoring, and CI/CD integration. We
+further examine emerging trends in hybrid architectures, where natural language
+interfaces are coupled with autonomous execution pipelines. Finally, we
+articulate a future roadmap for agentic AI, outlining the infrastructure needed
+for trustworthy, explainable, and collaborative systems. Our findings suggest
+that successful AI software engineering will rely not on choosing one paradigm,
+but on harmonizing their strengths within a unified, human-centered development
+lifecycle.
+文中引用: sapkota2025vibecodingvsagentic
+
+标题:       Facilitating Trustworthy Human-Agent Collaboration in LLM-based
+  Multi-Agent System oriented Software Engineering
+作者:       Krishna Ronanki
+发布时间:   2025-05-07
+链接:       http://arxiv.org/abs/2505.04251v1
+摘要:       Multi-agent autonomous systems (MAS) are better at addressing challenges that
+spans across multiple domains than singular autonomous agents. This holds true
+within the field of software engineering (SE) as well. The state-of-the-art
+research on MAS within SE focuses on integrating LLMs at the core of autonomous
+agents to create LLM-based multi-agent autonomous (LMA) systems. However, the
+introduction of LMA systems into SE brings a plethora of challenges. One of the
+major challenges is the strategic allocation of tasks between humans and the
+LMA system in a trustworthy manner. To address this challenge, a RACI-based
+framework is proposed in this work in progress article, along with
+implementation guidelines and an example implementation of the framework. The
+proposed framework can facilitate efficient collaboration, ensure
+accountability, and mitigate potential risks associated with LLM-driven
+automation while aligning with the Trustworthy AI guidelines. The future steps
+for this work delineating the planned empirical validation method are also
+presented.
+文中引用: ronanki2025facilitatingtrustworthyhumanagentcollaboration
+
+标题:       Knowledge-Based Multi-Agent Framework for Automated Software
+  Architecture Design
+作者:       Yiran Zhang, Ruiyin Li, Peng Liang, Weisong Sun, Yang Liu
+发布时间:   2025-03-26
+链接:       http://arxiv.org/abs/2503.20536v1
+摘要:       Architecture design is a critical step in software development. However,
+creating a high-quality architecture is often costly due to the significant
+need for human expertise and manual effort. Recently, agents built upon Large
+Language Models (LLMs) have achieved remarkable success in various software
+engineering tasks. Despite this progress, the use of agents to automate the
+architecture design process remains largely unexplored. To address this gap, we
+envision a Knowledge-based Multi-Agent Architecture Design (MAAD) framework.
+MAAD uses agents to simulate human roles in the traditional software
+architecture design process, thereby automating the design process. To empower
+these agents, MAAD incorporates knowledge extracted from three key sources: 1)
+existing system designs, 2) authoritative literature, and 3) architecture
+experts. By envisioning the MAAD framework, we aim to advance the full
+automation of application-level system development.
+文中引用: zhang2025knowledgebasedmultiagentframeworkautomated
+
+标题:       Every Software as an Agent: Blueprint and Case Study
+作者:       Mengwei Xu
+发布时间:   2025-02-07
+链接:       http://arxiv.org/abs/2502.04747v1
+摘要:       The rise of (multimodal) large language models (LLMs) has shed light on
+software agent -- where software can understand and follow user instructions in
+natural language. However, existing approaches such as API-based and GUI-based
+agents are far from satisfactory at accuracy and efficiency aspects. Instead,
+we advocate to endow LLMs with access to the software internals (source code
+and runtime context) and the permission to dynamically inject generated code
+into software for execution. In such a whitebox setting, one may better
+leverage the software context and the coding ability of LLMs. We then present
+an overall design architecture and case studies on two popular web-based
+desktop applications. We also give in-depth discussion of the challenges and
+future directions. We deem that such a new paradigm has the potential to
+fundamentally overturn the existing software agent design, and finally creating
+a digital world in which software can comprehend, operate, collaborate, and
+even think to meet complex user needs.
+文中引用: xu2025softwareagentblueprintcase
+-----------------------------------------------------------------------
+
+标题:       Towards Modeling Human-Agentic Collaborative Workflows: A BPMN Extension
+作者:       Adem Ait, Javier Luis Cánovas Izquierdo, Jordi Cabot
+发布时间:   2024-12-08
+链接:       http://arxiv.org/abs/2412.05958v3
+摘要:       Large Language Models (LLMs) have facilitated the definition of autonomous
+intelligent agents. Such agents have already demonstrated their potential in
+solving complex tasks in different domains. And they can further increase their
+performance when collaborating with other agents in a multi-agent system.
+However, the orchestration and coordination of these agents is still
+challenging, especially when they need to interact with humans as part of
+human-agentic collaborative workflows. These kinds of workflows need to be
+precisely specified so that it is clear whose responsible for each task, what
+strategies agents can follow to complete individual tasks or how decisions will
+be taken when different alternatives are proposed, among others. Current
+business process modeling languages fall short when it comes to specifying
+these new mixed collaborative scenarios. In this exploratory paper, we extend a
+well-known process modeling language (i.e., BPMN) to enable the definition of
+this new type of workflow. Our extension covers both the formalization of the
+new metamodeling concepts required and the proposal of a BPMN-like graphical
+notation to facilitate the definition of these workflows. Our extension has
+been implemented and is available as an open-source 
+
+
+标题:       Evaluation-Driven Development of LLM Agents: A Process Model and
+  Reference Architecture
+作者:       Boming Xia, Qinghua Lu, Liming Zhu, Zhenchang Xing, Dehai Zhao, Hao Zhang
+发布时间:   2024-11-21
+链接:       http://arxiv.org/abs/2411.13768v2
+摘要:       Large Language Models (LLMs) have enabled the emergence of LLM agents:
+autonomous systems capable of achieving under-specified goals and adapting
+post-deployment, often without explicit code or model changes. Evaluating these
+agents is critical to ensuring their performance and safety, especially given
+their dynamic, probabilistic, and evolving nature. However, traditional
+approaches such as predefined test cases and standard redevelopment pipelines
+struggle to address the unique challenges of LLM agent evaluation. These
+challenges include capturing open-ended behaviors, handling emergent outcomes,
+and enabling continuous adaptation over the agent's lifecycle. To address these
+issues, we propose an evaluation-driven development approach, inspired by
+test-driven and behavior-driven development but reimagined for the unique
+characteristics of LLM agents. Through a multivocal literature review (MLR), we
+synthesize the limitations of existing LLM evaluation methods and introduce a
+novel process model and reference architecture tailored for evaluation-driven
+development of LLM agents. Our approach integrates online (runtime) and offline
+(redevelopment) evaluations, enabling adaptive runtime adjustments and
+systematic iterative refinement of pipelines, artifacts, system architecture,
+and LLMs themselves. By continuously incorporating evaluation results,
+including fine-grained feedback from human and AI evaluators, into each stage
+of development and operation, this framework ensures that LLM agents remain
+aligned with evolving goals, user needs, and governance standards.
+文中引用: xia2025evaluationdrivendevelopmentllmagents
+
+标题:       AgentOps: Enabling Observability of LLM Agents
+作者:       Liming Dong, Qinghua Lu, Liming Zhu
+发布时间:   2024-11-08
+链接:       http://arxiv.org/abs/2411.05285v2
+摘要:       Large language model (LLM) agents have demonstrated remarkable capabilities
+across various domains, gaining extensive attention from academia and industry.
+However, these agents raise significant concerns on AI safety due to their
+autonomous and non-deterministic behavior, as well as continuous evolving
+nature . From a DevOps perspective, enabling observability in agents is
+necessary to ensuring AI safety, as stakeholders can gain insights into the
+agents' inner workings, allowing them to proactively understand the agents,
+detect anomalies, and prevent potential failures. Therefore, in this paper, we
+present a comprehensive taxonomy of AgentOps, identifying the artifacts and
+associated data that should be traced throughout the entire lifecycle of agents
+to achieve effective observability. The taxonomy is developed based on a
+systematic mapping study of existing AgentOps tools. Our taxonomy serves as a
+reference template for developers to design and implement AgentOps
+infrastructure that supports monitoring, logging, and analytics. thereby
+ensuring AI safety.
+文中引用: dong2024agentopsenablingobservabilityllm
 
 
 标题:       MOSS: Enabling Code-Driven Evolution and Context Management for AI
@@ -199,6 +549,124 @@ future research and development.
 文中引用: händler2023balancingautonomyalignmentmultidimensional
   - [1.3 IDE / Plugin-based Tooling Support](#13-ide--plugin-based-tooling-support)-------------------------------------------------------------------------------------------------------------------C1.3
 
+
+标题:       IEA-Plugin: An AI Agent Reasoner for Test Data Analytics
+作者:       Seoyeon Kim, Yu Su, Li-C. Wang
+发布时间:   2025-04-14
+链接:       http://arxiv.org/abs/2504.11496v1
+摘要:       This paper introduces IEA-plugin, a novel AI agent-based reasoning module
+developed as a new front-end for the Intelligent Engineering Assistant (IEA).
+The primary objective of IEA-plugin is to utilize the advanced reasoning and
+coding capabilities of Large Language Models (LLMs) to effectively address two
+critical practical challenges: capturing diverse engineering requirements and
+improving system scalability. Built on the LangGraph agentic programming
+platform, IEAplugin is specifically tailored for industrial deployment and
+integration with backend test data analytics tools. Compared to the previously
+developed IEA-Plot (introduced two years ago), IEA-plugin represents a
+significant advancement, capitalizing on recent breakthroughs in LLMs to
+deliver capabilities that were previously unattainable.
+文中引用: kim2025ieapluginaiagentreasoner
+
+标题:       SeaView: Software Engineering Agent Visual Interface for Enhanced
+  Workflow
+作者:       Timothy Bula, Saurabh Pujar, Luca Buratti, Mihaela Bornea, Avirup Sil
+发布时间:   2025-04-11
+链接:       http://arxiv.org/abs/2504.08696v2
+摘要:       Auto-regressive LLM-based software engineering (SWE) agents, henceforth SWE
+agents, have made tremendous progress (>60% on SWE-Bench Verified) on
+real-world coding challenges including GitHub issue resolution. SWE agents use
+a combination of reasoning, environment interaction and self-reflection to
+resolve issues thereby generating "trajectories". Analysis of SWE agent
+trajectories is difficult, not only as they exceed LLM sequence length
+(sometimes, greater than 128k) but also because it involves a relatively
+prolonged interaction between an LLM and the environment managed by the agent.
+In case of an agent error, it can be hard to decipher, locate and understand
+its scope. Similarly, it can be hard to track improvements or regression over
+multiple runs or experiments. While a lot of research has gone into making
+these SWE agents reach state-of-the-art, much less focus has been put into
+creating tools to help analyze and visualize agent output. We propose a novel
+tool called SeaView: Software Engineering Agent Visual Interface for Enhanced
+Workflow, with a vision to assist SWE-agent researchers to visualize and
+inspect their experiments. SeaView's novel mechanisms help compare experimental
+runs with varying hyper-parameters or LLMs, and quickly get an understanding of
+LLM or environment related problems. Based on our user study, experienced
+researchers spend between 10 and 30 minutes to gather the information provided
+by SeaView, while researchers with little experience can spend between 30
+minutes to 1 hour to diagnose their experiment.
+文中引用: bula2025seaviewsoftwareengineeringagent
+
+标题:       TableTalk: Scaffolding Spreadsheet Development with a Language Agent
+作者:       Jenny T. Liang, Aayush Kumar, Yasharth Bajpai, Sumit Gulwani, Vu Le, Chris Parnin, Arjun Radhakrishna, Ashish Tiwari, Emerson Murphy-Hill, Guastavo Soares
+发布时间:   2025-02-13
+链接:       http://arxiv.org/abs/2502.09787v1
+摘要:       Despite its ubiquity in the workforce, spreadsheet programming remains
+challenging as programmers need both spreadsheet-specific knowledge (e.g., APIs
+to write formulas) and problem-solving skills to create complex spreadsheets.
+Large language models (LLMs) can help automate aspects of this process, and
+recent advances in planning and reasoning have enabled language agents, which
+dynamically plan, use tools, and take iterative actions to complete complex
+tasks. These agents observe, plan, and act, making them well-suited to scaffold
+spreadsheet programming by following expert processes.
+  We present TableTalk, a language agent that helps programmers build
+spreadsheets conversationally. Its design reifies three design principles --
+scaffolding, flexibility, and incrementality -- which we derived from two
+studies of seven programmers and 62 Excel templates. TableTalk structures
+spreadsheet development by generating step-by-step plans and suggesting three
+next steps users can choose from. It also integrates tools that enable
+incremental spreadsheet construction. A user study with 20 programmers shows
+that TableTalk produces spreadsheets 2.3 times more likely to be preferred over
+a baseline agent, while reducing cognitive load and time spent reasoning about
+spreadsheet actions by 12.6%. TableTalk's approach has implications for
+human-agent collaboration. This includes providing persistent direct
+manipulation interfaces for stopping or undoing agent actions, while ensuring
+that such interfaces for accepting actions can be deactivated.
+文中引用: liang2025tabletalkscaffoldingspreadsheetdevelopment
+
+
+标题:       Human-In-the-Loop Software Development Agents
+作者:       Wannita Takerngsaksiri, Jirat Pasuksmit, Patanamon Thongtanunam, Chakkrit Tantithamthavorn, Ruixiong Zhang, Fan Jiang, Jing Li, Evan Cook, Kun Chen, Ming Wu
+发布时间:   2024-11-19
+链接:       http://arxiv.org/abs/2411.12924v2
+摘要:       Recently, Large Language Models (LLMs)-based multi-agent paradigms for
+software engineering are introduced to automatically resolve software
+development tasks (e.g., from a given issue to source code). However, existing
+work is evaluated based on historical benchmark datasets, rarely considers
+human feedback at each stage of the automated software development process, and
+has not been deployed in practice. In this paper, we introduce a
+Human-in-the-loop LLM-based Agents framework (HULA) for software development
+that allows software engineers to refine and guide LLMs when generating coding
+plans and source code for a given task. We design, implement, and deploy the
+HULA framework into Atlassian JIRA for internal uses. Through a multi-stage
+evaluation of the HULA framework, Atlassian software engineers perceive that
+HULA can minimize the overall development time and effort, especially in
+initiating a coding plan and writing code for straightforward tasks. On the
+other hand, challenges around code quality remain a concern in some cases. We
+draw lessons learned and discuss opportunities for future work, which will pave
+the way for the advancement of LLM-based agents in software development.
+文中引用: takerngsaksiri2025humanintheloopsoftwaredevelopmentagents
+
+
+标题:       AgentOps: Enabling Observability of LLM Agents
+作者:       Liming Dong, Qinghua Lu, Liming Zhu
+发布时间:   2024-11-08
+链接:       http://arxiv.org/abs/2411.05285v2
+摘要:       Large language model (LLM) agents have demonstrated remarkable capabilities
+across various domains, gaining extensive attention from academia and industry.
+However, these agents raise significant concerns on AI safety due to their
+autonomous and non-deterministic behavior, as well as continuous evolving
+nature . From a DevOps perspective, enabling observability in agents is
+necessary to ensuring AI safety, as stakeholders can gain insights into the
+agents' inner workings, allowing them to proactively understand the agents,
+detect anomalies, and prevent potential failures. Therefore, in this paper, we
+present a comprehensive taxonomy of AgentOps, identifying the artifacts and
+associated data that should be traced throughout the entire lifecycle of agents
+to achieve effective observability. The taxonomy is developed based on a
+systematic mapping study of existing AgentOps tools. Our taxonomy serves as a
+reference template for developers to design and implement AgentOps
+infrastructure that supports monitoring, logging, and analytics. thereby
+ensuring AI safety.
+文中引用: dong2024agentopsenablingobservabilityllm
+
 标题:       AutoGen Studio: A No-Code Developer Tool for Building and Debugging
   Multi-Agent Systems
 作者:       Victor Dibia, Jingya Chen, Gagan Bansal, Suff Syed, Adam Fourney, Erkang Zhu, Chi Wang, Saleema Amershi
@@ -289,6 +757,585 @@ including an online demo, open-source code, and a screencast video, is now
 publicly accessible.
 文中引用: pang2024ai2appsvisualidebuilding
   - [1.4 Multi-Agent Collaboration Paradigms](#14-multi-agent-collaboration-paradigms)----------------------------------------------------------------------------------------------------------------C1.4
+
+标题:       Lessons Learned: A Multi-Agent Framework for Code LLMs to Learn and
+  Improve
+作者:       Yuanzhe Liu, Ryan Deng, Tim Kaler, Xuhao Chen, Charles E. Leiserson, Yao Ma, Jie Chen
+发布时间:   2025-05-29
+链接:       http://arxiv.org/abs/2505.23946v1
+摘要:       Recent studies show that LLMs possess different skills and specialize in
+different tasks. In fact, we observe that their varied performance occur in
+several levels of granularity. For example, in the code optimization task, code
+LLMs excel at different optimization categories and no one dominates others.
+This observation prompts the question of how one leverages multiple LLM agents
+to solve a coding problem without knowing their complementary strengths a
+priori. We argue that a team of agents can learn from each other's successes
+and failures so as to improve their own performance. Thus, a lesson is the
+knowledge produced by an agent and passed on to other agents in the collective
+solution process. We propose a lesson-based collaboration framework, design the
+lesson solicitation--banking--selection mechanism, and demonstrate that a team
+of small LLMs with lessons learned can outperform a much larger LLM and other
+multi-LLM collaboration methods.
+文中引用: liu2025lessonslearnedmultiagentframework
+
+
+标题:       Temac: Multi-Agent Collaboration for Automated Web GUI Testing
+作者:       Chenxu Liu, Zhiyu Gu, Guoquan Wu, Ying Zhang, Jun Wei, Tao Xie
+发布时间:   2025-05-31
+链接:       http://arxiv.org/abs/2506.00520v1
+摘要:       Quality assurance of web applications is critical, as web applications play
+an essential role in people's daily lives. To reduce labor costs, automated web
+GUI testing (AWGT) is widely adopted, exploring web applications via GUI
+actions such as clicks and text inputs. However, these approaches face
+limitations in generating continuous and meaningful action sequences capable of
+covering complex functionalities. Recent work incorporates large language
+models (LLMs) for GUI testing. However, these approaches face various
+challenges, including low efficiency of LLMs, high complexity of rich web
+application contexts, and a low success rate of LLMs in executing GUI tasks.
+  To address these challenges, in this paper, we propose Temac, an approach
+that enhances AWGT using LLM-based multi-agent collaboration to increase code
+coverage. Temac is motivated by our insight that LLMs can enhance AWGT in
+executing complex functionalities, while the information discovered during AWGT
+can, in turn, be provided as the domain knowledge to improve the LLM-based task
+execution. Specifically, given a web application, Temac initially runs an
+existing approach to broadly explore application states. When the testing
+coverage stagnates, Temac then employs LLM-based agents to summarize the
+collected information to form a knowledge base and to infer not-covered
+functionalities. Guided by this knowledge base, Temac finally uses specialized
+LLM-based agents to target and execute the not-covered functionalities,
+reaching deeper states beyond those explored by the existing approach.
+  Our evaluation results show that Temac exceeds state-of-the-art approaches
+from 12.5% to 60.3% on average code coverage on six complex open-source web
+applications, while revealing 445 unique failures in the top 20 real-world web
+applications. These results strongly demonstrate the effectiveness and the
+general applicability of Temac.
+文中引用: liu2025temacmultiagentcollaborationautomated
+
+
+
+标题:       Co-Saving: Resource Aware Multi-Agent Collaboration for Software
+  Development
+作者:       Rennai Qiu, Chen Qian, Ran Li, Yufan Dang, Weize Chen, Cheng Yang, Yingli Zhang, Ye Tian, Xuantang Xiong, Lei Han, Zhiyuan Liu, Maosong Sun
+发布时间:   2025-05-28
+链接:       http://arxiv.org/abs/2505.21898v1
+摘要:       Recent advancements in Large Language Models (LLMs) and autonomous agents
+have demonstrated remarkable capabilities across various domains. However,
+standalone agents frequently encounter limitations when handling complex tasks
+that demand extensive interactions and substantial computational resources.
+Although Multi-Agent Systems (MAS) alleviate some of these limitations through
+collaborative mechanisms like task decomposition, iterative communication, and
+role specialization, they typically remain resource-unaware, incurring
+significant inefficiencies due to high token consumption and excessive
+execution time. To address these limitations, we propose a resource-aware
+multi-agent system -- Co-Saving (meaning that multiple agents collaboratively
+engage in resource-saving activities), which leverages experiential knowledge
+to enhance operational efficiency and solution quality. Our key innovation is
+the introduction of "shortcuts" -- instructional transitions learned from
+historically successful trajectories -- which allows to bypass redundant
+reasoning agents and expedite the collective problem-solving process.
+Experiments for software development tasks demonstrate significant advantages
+over existing methods. Specifically, compared to the state-of-the-art MAS
+ChatDev, our method achieves an average reduction of 50.85% in token usage, and
+improves the overall code quality by 10.06%.
+文中引用: qiu2025cosavingresourceawaremultiagent
+
+
+标题:       SEW: Self-Evolving Agentic Workflows for Automated Code Generation
+作者:       Siwei Liu, Jinyuan Fang, Han Zhou, Yingxu Wang, Zaiqiao Meng
+发布时间:   2025-05-24
+链接:       http://arxiv.org/abs/2505.18646v1
+摘要:       Large Language Models (LLMs) have demonstrated effectiveness in code
+generation tasks. To enable LLMs to address more complex coding challenges,
+existing research has focused on crafting multi-agent systems with agentic
+workflows, where complex coding tasks are decomposed into sub-tasks, assigned
+to specialized agents. Despite their effectiveness, current approaches heavily
+rely on hand-crafted agentic workflows, with both agent topologies and prompts
+manually designed, which limits their ability to automatically adapt to
+different types of coding problems. To address these limitations and enable
+automated workflow design, we propose \textbf{S}elf-\textbf{E}volving
+\textbf{W}orkflow (\textbf{SEW}), a novel self-evolving framework that
+automatically generates and optimises multi-agent workflows. Extensive
+experiments on three coding benchmark datasets, including the challenging
+LiveCodeBench, demonstrate that our SEW can automatically design agentic
+workflows and optimise them through self-evolution, bringing up to 33\%
+improvement on LiveCodeBench compared to using the backbone LLM only.
+Furthermore, by investigating different representation schemes of workflow, we
+provide insights into the optimal way to encode workflow information with text.
+文中引用: liu2025sewselfevolvingagenticworkflows
+
+标题:       Large Language Model-Powered Agent for C to Rust Code Translation
+作者:       HoHyun Sim, Hyeonjoong Cho, Yeonghyeon Go, Zhoulai Fu, Ali Shokri, Binoy Ravindran
+发布时间:   2025-05-21
+链接:       http://arxiv.org/abs/2505.15858v2
+摘要:       The C programming language has been foundational in building system-level
+software. However, its manual memory management model frequently leads to
+memory safety issues. In response, a modern system programming language, Rust,
+has emerged as a memory-safe alternative. Moreover, automating the C-to-Rust
+translation empowered by the rapid advancements of the generative capabilities
+of LLMs is gaining growing interest for large volumes of legacy C code. Despite
+some success, existing LLM-based approaches have constrained the role of LLMs
+to static prompt-response behavior and have not explored their agentic
+problem-solving capability. Applying the LLM agentic capability for the
+C-to-Rust translation introduces distinct challenges, as this task differs from
+the traditional LLM agent applications, such as math or commonsense QA domains.
+First, the scarcity of parallel C-to-Rust datasets hinders the retrieval of
+suitable code translation exemplars for in-context learning. Second, unlike
+math or commonsense QA, the intermediate steps required for C-to-Rust are not
+well-defined. Third, it remains unclear how to organize and cascade these
+intermediate steps to construct a correct translation trajectory. To address
+these challenges in the C-to-Rust translation, we propose a novel intermediate
+step, the Virtual Fuzzing-based equivalence Test (VFT), and an agentic planning
+framework, the LLM-powered Agent for C-to-Rust code translation (LAC2R). The
+VFT guides LLMs to identify input arguments that induce divergent behaviors
+between an original C function and its Rust counterpart and to generate
+informative diagnoses to refine the unsafe Rust code. LAC2R uses the MCTS to
+systematically organize the LLM-induced intermediate steps for correct
+translation. We experimentally demonstrated that LAC2R effectively conducts
+C-to-Rust translation on large-scale, real-world benchmarks.
+文中引用: sim2025largelanguagemodelpoweredagent
+
+
+标题:       JARVIS: A Multi-Agent Code Assistant for High-Quality EDA Script
+  Generation
+作者:       Ghasem Pasandi, Kishor Kunal, Varun Tej, Kunjal Shan, Hanfei Sun, Sumit Jain, Chunhui Li, Chenhui Deng, Teodor-Dumitru Ene, Haoxing Ren, Sreedhar Pratty
+发布时间:   2025-05-20
+链接:       http://arxiv.org/abs/2505.14978v1
+摘要:       This paper presents JARVIS, a novel multi-agent framework that leverages
+Large Language Models (LLMs) and domain expertise to generate high-quality
+scripts for specialized Electronic Design Automation (EDA) tasks. By combining
+a domain-specific LLM trained with synthetically generated data, a custom
+compiler for structural verification, rule enforcement, code fixing
+capabilities, and advanced retrieval mechanisms, our approach achieves
+significant improvements over state-of-the-art domain-specific models. Our
+framework addresses the challenges of data scarcity and hallucination errors in
+LLMs, demonstrating the potential of LLMs in specialized engineering domains.
+We evaluate our framework on multiple benchmarks and show that it outperforms
+existing models in terms of accuracy and reliability. Our work sets a new
+precedent for the application of LLMs in EDA and paves the way for future
+innovations in this field.
+文中引用: pasandi2025jarvismultiagentcodeassistant
+
+标题:       MARCO: Multi-Agent Code Optimization with Real-Time Knowledge
+  Integration for High-Performance Computing
+作者:       Asif Rahman, Veljko Cvetkovic, Kathleen Reece, Aidan Walters, Yasir Hassan, Aneesh Tummeti, Bryan Torres, Denise Cooney, Margaret Ellis, Dimitrios S. Nikolopoulos
+发布时间:   2025-05-06
+链接:       http://arxiv.org/abs/2505.03906v3
+摘要:       Large language models (LLMs) have transformed software development through
+code generation capabilities, yet their effectiveness for high-performance
+computing (HPC) remains limited. HPC code requires specialized optimizations
+for parallelism, memory efficiency, and architecture-specific considerations
+that general-purpose LLMs often overlook. We present MARCO (Multi-Agent
+Reactive Code Optimizer), a novel framework that enhances LLM-generated code
+for HPC through a specialized multi-agent architecture. MARCO employs separate
+agents for code generation and performance evaluation, connected by a feedback
+loop that progressively refines optimizations. A key innovation is MARCO's
+web-search component that retrieves real-time optimization techniques from
+recent conference proceedings and research publications, bridging the knowledge
+gap in pre-trained LLMs. Our extensive evaluation on the LeetCode 75 problem
+set demonstrates that MARCO achieves a 14.6\% average runtime reduction
+compared to Claude 3.5 Sonnet alone, while the integration of the web-search
+component yields a 30.9\% performance improvement over the base MARCO system.
+These results highlight the potential of multi-agent systems to address the
+specialized requirements of high-performance code generation, offering a
+cost-effective alternative to domain-specific model fine-tuning.
+文中引用: rahman2025marcomultiagentcodeoptimization
+
+标题:       Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent
+  Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and
+  Latency
+作者:       Nazmus Ashrafi, Salah Bouktif, Mohammed Mediani
+发布时间:   2025-05-04
+链接:       http://arxiv.org/abs/2505.02133v1
+摘要:       The use of large language models (LLMs) for automated code generation has
+emerged as a significant focus within AI research. As these pretrained models
+continue to evolve, their ability to understand and generate complex code
+structures has opened new possibilities for automating intricate programming
+tasks for the sake of accurate code generation. Although contemporary
+foundational models demonstrate promoting results, researchers continue to
+explore optimal post-training strategies to enhance code quality. These include
+supervised fine-tuning, retrieval-augmented generation (RAG), debugging, and
+many others. In this paper, we combine two widely used approaches namely
+multi-agent collaboration and runtime execution information-based debugging,
+for improving code generation functionality, reliability, and practical
+applicability. We perform an empirical study in order to extend the evaluation
+of the individual strategies as well as the proposed composition of the
+activities of both strategies. Our study use 19 LLMs to examines the
+performance of individual and the proposed strategies, offering comprehensive
+insights into how different programming activities compositions and training
+paradigms influence code generation effectiveness. In particular, we implement
+a chained system that combines both strategies to assess their combined impact
+on functional accuracy, code reliability, and generation latency using two
+benchmark datasets commonly used for code generation. Our findings provide
+valuable insights for organizations seeking robust AI-driven coding solutions
+by guiding them in selecting models that can better adapt to complex
+post-training strategies, ultimately fostering the adoption of more effective
+and reliable code generation technologies.
+文中引用: ashrafi2025enhancingllmcodegeneration
+
+标题:       ResearchCodeAgent: An LLM Multi-Agent System for Automated Codification
+  of Research Methodologies
+作者:       Shubham Gandhi, Dhruv Shah, Manasi Patwardhan, Lovekesh Vig, Gautam Shroff
+发布时间:   2025-04-28
+链接:       http://arxiv.org/abs/2504.20117v2
+摘要:       In this paper we introduce ResearchCodeAgent, a novel multi-agent system
+leveraging large language models (LLMs) agents to automate the codification of
+research methodologies described in machine learning literature. The system
+bridges the gap between high-level research concepts and their practical
+implementation, allowing researchers auto-generating code of existing research
+papers for benchmarking or building on top-of existing methods specified in the
+literature with availability of partial or complete starter code.
+ResearchCodeAgent employs a flexible agent architecture with a comprehensive
+action suite, enabling context-aware interactions with the research
+environment. The system incorporates a dynamic planning mechanism, utilizing
+both short and long-term memory to adapt its approach iteratively. We evaluate
+ResearchCodeAgent on three distinct machine learning tasks with distinct task
+complexity and representing different parts of the ML pipeline: data
+augmentation, optimization, and data batching. Our results demonstrate the
+system's effectiveness and generalizability, with 46.9% of generated code being
+high-quality and error-free, and 25% showing performance improvements over
+baseline implementations. Empirical analysis shows an average reduction of
+57.9% in coding time compared to manual implementation. We observe higher gains
+for more complex tasks. ResearchCodeAgent represents a significant step towards
+automating the research implementation process, potentially accelerating the
+pace of machine learning research.
+文中引用: gandhi2025researchcodeagentllmmultiagentautomated
+
+标题:       DocAgent: A Multi-Agent System for Automated Code Documentation
+  Generation
+作者:       Dayu Yang, Antoine Simoulin, Xin Qian, Xiaoyi Liu, Yuwei Cao, Zhaopu Teng, Grey Yang
+发布时间:   2025-04-11
+链接:       http://arxiv.org/abs/2504.08725v3
+摘要:       High-quality code documentation is crucial for software development
+especially in the era of AI. However, generating it automatically using Large
+Language Models (LLMs) remains challenging, as existing approaches often
+produce incomplete, unhelpful, or factually incorrect outputs. We introduce
+DocAgent, a novel multi-agent collaborative system using topological code
+processing for incremental context building. Specialized agents (Reader,
+Searcher, Writer, Verifier, Orchestrator) then collaboratively generate
+documentation. We also propose a multi-faceted evaluation framework assessing
+Completeness, Helpfulness, and Truthfulness. Comprehensive experiments show
+DocAgent significantly outperforms baselines consistently. Our ablation study
+confirms the vital role of the topological processing order. DocAgent offers a
+robust approach for reliable code documentation generation in complex and
+proprietary repositories.
+文中引用: yang2025docagentmultiagentautomatedcode
+
+
+标题:       MooseAgent: A LLM Based Multi-agent Framework for Automating Moose
+  Simulation
+作者:       Tao Zhang, Zhenhai Liu, Yong Xin, Yongjun Jiao
+发布时间:   2025-04-11
+链接:       http://arxiv.org/abs/2504.08621v1
+摘要:       The Finite Element Method (FEM) is widely used in engineering and scientific
+computing, but its pre-processing, solver configuration, and post-processing
+stages are often time-consuming and require specialized knowledge. This paper
+proposes an automated solution framework, MooseAgent, for the multi-physics
+simulation framework MOOSE, which combines large-scale pre-trained language
+models (LLMs) with a multi-agent system. The framework uses LLMs to understand
+user-described simulation requirements in natural language and employs task
+decomposition and multi-round iterative verification strategies to
+automatically generate MOOSE input files. To improve accuracy and reduce model
+hallucinations, the system builds and utilizes a vector database containing
+annotated MOOSE input cards and function documentation. We conducted
+experimental evaluations on several typical cases, including heat transfer,
+mechanics, phase field, and multi-physics coupling. The results show that
+MooseAgent can automate the MOOSE simulation process to a certain extent,
+especially demonstrating a high success rate when dealing with relatively
+simple single-physics problems. The main contribution of this research is the
+proposal of a multi-agent automated framework for MOOSE, which validates its
+potential in simplifying finite element simulation processes and lowering the
+user barrier, providing new ideas for the development of intelligent finite
+element simulation software. The code for the MooseAgent framework proposed in
+this paper has been open-sourced and is available at
+https://github.com/taozhan18/MooseAgent
+文中引用: zhang2025mooseagentllmbasedmultiagent
+
+标题:       Test Amplification for REST APIs via Single and Multi-Agent LLM Systems
+作者:       Robbe Nooyens, Tolgahan Bardakci, Mutlu Beyazit, Serge Demeyer
+发布时间:   2025-04-10
+链接:       http://arxiv.org/abs/2504.08113v1
+摘要:       REST APIs (Representational State Transfer Application Programming
+Interfaces) are essential to modern cloud-native applications. Strong and
+automated test cases are crucial to expose lurking bugs in the API. However,
+creating automated tests for REST APIs is difficult, and it requires test cases
+that explore the protocol's boundary conditions. In this paper, we investigate
+how single-agent and multi-agent LLM (Large Language Model) systems can amplify
+a REST API test suite. Our evaluation demonstrates increased API coverage,
+identification of numerous bugs in the API under test, and insights into the
+computational cost and energy consumption of both approaches.
+文中引用: nooyens2025testamplificationrestapis
+
+标题:       AgentFM: Role-Aware Failure Management for Distributed Databases with
+  LLM-Driven Multi-Agents
+作者:       Lingzhe Zhang, Yunpeng Zhai, Tong Jia, Xiaosong Huang, Chiming Duan, Ying Li
+发布时间:   2025-04-09
+链接:       http://arxiv.org/abs/2504.06614v1
+摘要:       Distributed databases are critical infrastructures for today's large-scale
+software systems, making effective failure management essential to ensure
+software availability. However, existing approaches often overlook the role
+distinctions within distributed databases and rely on small-scale models with
+limited generalization capabilities. In this paper, we conduct a preliminary
+empirical study to emphasize the unique significance of different roles.
+Building on this insight, we propose AgentFM, a role-aware failure management
+framework for distributed databases powered by LLM-driven multi-agents. AgentFM
+addresses failure management by considering system roles, data roles, and task
+roles, with a meta-agent orchestrating these components. Preliminary
+evaluations using Apache IoTDB demonstrate the effectiveness of AgentFM and
+open new directions for further research.
+文中引用: zhang2025agentfmroleawarefailuremanagement
+
+
+标题:       AdaCoder: An Adaptive Planning and Multi-Agent Framework for
+  Function-Level Code Generation
+作者:       Yueheng Zhu, Chao Liu, Xuan He, Xiaoxue Ren, Zhongxin Liu, Ruwei Pan, Hongyu Zhang
+发布时间:   2025-04-05
+链接:       http://arxiv.org/abs/2504.04220v1
+摘要:       Recently, researchers have proposed many multi-agent frameworks for
+function-level code generation, which aim to improve software development
+productivity by automatically generating function-level source code based on
+task descriptions. A typical multi-agent framework consists of Large Language
+Model (LLM)-based agents that are responsible for task planning, code
+generation, testing, debugging, etc. Studies have shown that existing
+multi-agent code generation frameworks perform well on ChatGPT. However, their
+generalizability across other foundation LLMs remains unexplored
+systematically. In this paper, we report an empirical study on the
+generalizability of four state-of-the-art multi-agent code generation
+frameworks across six open-source LLMs with varying parameter sizes,
+architectures, and performance levels. Our study reveals the unstable
+generalizability of existing frameworks on diverse foundation LLMs. Based on
+the findings obtained from the empirical study, we propose AdaCoder, a novel
+adaptive planning, multi-agent framework for function-level code generation.
+AdaCoder has two phases. Phase-1 is an initial code generation step without
+planning, which uses an LLM-based coding agent and a script-based testing agent
+to unleash LLM's native power, identify cases beyond LLM's power, and determine
+the errors hindering execution. Phase-2 adds a rule-based debugging agent and
+an LLM-based planning agent for iterative code generation with planning. Our
+evaluation shows that AdaCoder achieves higher generalizability on diverse
+LLMs. Compared to the best baseline MapCoder, AdaCoder is on average 27.69%
+higher in Pass@1, 16 times faster in inference, and 12 times lower in token
+consumption.
+文中引用: zhu2025adacoderadaptiveplanningmultiagent
+
+标题:       SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic
+  Reproduction from Research Papers
+作者:       Yanzheng Xiang, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He
+发布时间:   2025-03-31
+链接:       http://arxiv.org/abs/2504.00255v1
+摘要:       This study evaluates large language models (LLMs) in generating code from
+algorithm descriptions from recent NLP papers. The task requires two key
+competencies: (1) algorithm comprehension: synthesizing information from papers
+and academic literature to understand implementation logic, and (2) coding
+expertise: identifying dependencies and correctly implementing necessary APIs.
+To facilitate rigorous evaluation, we introduce SciReplicate-Bench, a benchmark
+of 100 tasks from 36 NLP papers published in 2024, featuring detailed
+annotations and comprehensive test cases. Building on SciReplicate-Bench, we
+propose Sci-Reproducer, a multi-agent framework consisting of a Paper Agent
+that interprets algorithmic concepts from literature and a Code Agent that
+retrieves dependencies from repositories and implement solutions. To assess
+algorithm understanding, we introduce reasoning graph accuracy, which
+quantifies similarity between generated and reference reasoning graphs derived
+from code comments and structure. For evaluating implementation quality, we
+employ execution accuracy, CodeBLEU, and repository dependency/API recall
+metrics. In our experiments, we evaluate various powerful Non-Reasoning LLMs
+and Reasoning LLMs as foundational models. The best-performing LLM using
+Sci-Reproducer achieves only 39% execution accuracy, highlighting the
+benchmark's difficulty.Our analysis identifies missing or inconsistent
+algorithm descriptions as key barriers to successful reproduction. We will
+open-source our benchmark, and code at
+https://github.com/xyzCS/SciReplicate-Bench.
+文中引用: xiang2025scireplicatebenchbenchmarkingllmsagentdriven
+
+
+标题:       Thinking Longer, Not Larger: Enhancing Software Engineering Agents via
+  Scaling Test-Time Compute
+作者:       Yingwei Ma, Yongbin Li, Yihong Dong, Xue Jiang, Rongyu Cao, Jue Chen, Fei Huang, Binhua Li
+发布时间:   2025-03-31
+链接:       http://arxiv.org/abs/2503.23803v2
+摘要:       Recent advancements in software engineering agents have demonstrated
+promising capabilities in automating program improvements. However, their
+reliance on closed-source or resource-intensive models introduces significant
+deployment challenges in private environments, prompting a critical question:
+\textit{How can personally deployable open-source LLMs achieve comparable code
+reasoning performance?}
+  To this end, we propose a unified Test-Time Compute scaling framework that
+leverages increased inference-time computation instead of larger models. Our
+framework incorporates two complementary strategies: internal TTC and external
+TTC. Internally, we introduce a \textit{development-contextualized trajectory
+synthesis} method leveraging real-world software repositories to bootstrap
+multi-stage reasoning processes, such as fault localization and patch
+generation. We further enhance trajectory quality through rejection sampling,
+rigorously evaluating trajectories along accuracy and complexity. Externally,
+we propose a novel \textit{development-process-based search} strategy guided by
+reward models and execution verification. This approach enables targeted
+computational allocation at critical development decision points, overcoming
+limitations of existing "end-point only" verification methods.
+  Evaluations on SWE-bench Verified demonstrate our \textbf{32B model achieves
+a 46\% issue resolution rate}, surpassing significantly larger models such as
+DeepSeek R1 671B and OpenAI o1. Additionally, we provide the empirical
+validation of the test-time scaling phenomenon within SWE agents, revealing
+that \textbf{models dynamically allocate more tokens to increasingly
+challenging problems}, effectively enhancing reasoning capabilities. We
+publicly release all training data, models, and code to facilitate future
+research. https://github.com/yingweima2022/SWE-Reasoner
+文中引用: ma2025thinkinglongerlargerenhancing
+
+标题:       Unlocking LLM Repair Capabilities in Low-Resource Programming Languages
+  Through Cross-Language Translation and Multi-Agent Refinement
+作者:       Wenqiang Luo, Jacky Wai Keung, Boyang Yang, Jacques Klein, Tegawende F. Bissyande, Haoye Tian, Bach Le
+发布时间:   2025-03-28
+链接:       http://arxiv.org/abs/2503.22512v3
+摘要:       Recent advances in leveraging LLMs for APR have demonstrated impressive
+capabilities in fixing software defects. However, current LLM-based approaches
+predominantly focus on mainstream programming languages like Java and Python,
+neglecting less prevalent but emerging languages such as Rust due to expensive
+training resources, limited datasets, and insufficient community support. This
+narrow focus creates a significant gap in repair capabilities across the
+programming language spectrum, where the full potential of LLMs for
+comprehensive multilingual program repair remains largely unexplored. To
+address this limitation, we introduce a novel cross-language program repair
+approach LANTERN that leverages LLMs' differential proficiency across languages
+through a multi-agent iterative repair paradigm. Our technique strategically
+translates defective code from languages where LLMs exhibit weaker repair
+capabilities to languages where they demonstrate stronger performance, without
+requiring additional training. A key innovation of our approach is an LLM-based
+decision-making system that dynamically selects optimal target languages based
+on bug characteristics and continuously incorporates feedback from previous
+repair attempts. We evaluate our method on xCodeEval, a comprehensive
+multilingual benchmark comprising 5,068 bugs across 11 programming languages.
+Results demonstrate significant enhancement in repair effectiveness,
+particularly for underrepresented languages, with Rust showing a 22.09%
+improvement in Pass@10 metrics. Our research provides the first empirical
+evidence that cross-language translation significantly expands the repair
+capabilities of LLMs and effectively bridges the performance gap between
+programming languages with different levels of popularity, opening new avenues
+for truly language-agnostic automated program repair.
+文中引用: luo2025unlockingllmrepaircapabilities
+
+标题:       Human-In-the-Loop Software Development Agents
+作者:       Wannita Takerngsaksiri, Jirat Pasuksmit, Patanamon Thongtanunam, Chakkrit Tantithamthavorn, Ruixiong Zhang, Fan Jiang, Jing Li, Evan Cook, Kun Chen, Ming Wu
+发布时间:   2024-11-19
+链接:       http://arxiv.org/abs/2411.12924v2
+摘要:       Recently, Large Language Models (LLMs)-based multi-agent paradigms for
+software engineering are introduced to automatically resolve software
+development tasks (e.g., from a given issue to source code). However, existing
+work is evaluated based on historical benchmark datasets, rarely considers
+human feedback at each stage of the automated software development process, and
+has not been deployed in practice. In this paper, we introduce a
+Human-in-the-loop LLM-based Agents framework (HULA) for software development
+that allows software engineers to refine and guide LLMs when generating coding
+plans and source code for a given task. We design, implement, and deploy the
+HULA framework into Atlassian JIRA for internal uses. Through a multi-stage
+evaluation of the HULA framework, Atlassian software engineers perceive that
+HULA can minimize the overall development time and effort, especially in
+initiating a coding plan and writing code for straightforward tasks. On the
+other hand, challenges around code quality remain a concern in some cases. We
+draw lessons learned and discuss opportunities for future work, which will pave
+the way for the advancement of LLM-based agents in software development.
+文中引用: takerngsaksiri2025humanintheloopsoftwaredevelopmentagents
+
+
+标题:       Improving Performance of Commercially Available AI Products in a
+  Multi-Agent Configuration
+作者:       Cory Hymel, Sida Peng, Kevin Xu, Charath Ranganathan
+发布时间:   2024-10-29
+链接:       http://arxiv.org/abs/2410.22129v1
+摘要:       In recent years, with the rapid advancement of large language models (LLMs),
+multi-agent systems have become increasingly more capable of practical
+application. At the same time, the software development industry has had a
+number of new AI-powered tools developed that improve the software development
+lifecycle (SDLC). Academically, much attention has been paid to the role of
+multi-agent systems to the SDLC. And, while single-agent systems have
+frequently been examined in real-world applications, we have seen comparatively
+few real-world examples of publicly available commercial tools working together
+in a multi-agent system with measurable improvements. In this experiment we
+test context sharing between Crowdbotics PRD AI, a tool for generating software
+requirements using AI, and GitHub Copilot, an AI pair-programming tool. By
+sharing business requirements from PRD AI, we improve the code suggestion
+capabilities of GitHub Copilot by 13.8% and developer task success rate by
+24.5% -- demonstrating a real-world example of commercially-available AI
+systems working together with improved outcomes.
+文中引用: hymel2024improvingperformancecommerciallyavailable
+
+标题:       MaCTG: Multi-Agent Collaborative Thought Graph for Automatic Programming
+作者:       Zixiao Zhao, Jing Sun, Zhe Hou, Zhiyuan Wei, Cheng-Hao Cai, Miao Qiao, Jin Song Dong
+发布时间:   2024-10-25
+链接:       http://arxiv.org/abs/2410.19245v2
+摘要:       With the rapid advancement of Large Language Models (LLMs), LLM-based
+approaches have demonstrated strong problem-solving capabilities across various
+domains. However, in automatic programming, a single LLM is typically limited
+to function-level code generation, while multi-agent systems composed of
+multiple LLMs often suffer from inefficient task planning. This lack of
+structured coordination can lead to cascading hallucinations, where accumulated
+errors across agents result in suboptimal workflows and excessive computational
+costs. To overcome these challenges, we introduce MaCTG (Multi-Agent
+Collaborative Thought Graph), a novel multi-agent framework that employs a
+dynamic graph structure to facilitate precise task allocation and controlled
+collaboration among LLM agents. MaCTG autonomously assigns agent roles based on
+programming requirements, dynamically refines task distribution through
+context-aware adjustments, and systematically verifies and integrates
+project-level code, effectively reducing hallucination errors and improving
+overall accuracy. MaCTG enhances cost-effectiveness by implementing a hybrid
+LLM deployment, where proprietary models handle complex reasoning, while
+open-source models are used for routine coding and validation tasks. To
+evaluate MaCTG's effectiveness, we applied it to traditional image processing
+auto-programming tasks, achieving a state-of-the-art accuracy of 83.33%.
+Additionally, by leveraging its hybrid LLM configuration, MaCTG significantly
+reduced operational costs by 89.09% compared to existing multi-agent
+frameworks, demonstrating its efficiency, scalability, and real-world
+applicability.
+文中引用: zhao2025mactgmultiagentcollaborativethought
+
+
+标题:       Self-Evolving Multi-Agent Collaboration Networks for Software
+  Development
+作者:       Yue Hu, Yuzhu Cai, Yaxin Du, Xinyu Zhu, Xiangrui Liu, Zijie Yu, Yuchen Hou, Shuo Tang, Siheng Chen
+发布时间:   2024-10-22
+链接:       http://arxiv.org/abs/2410.16946v1
+摘要:       LLM-driven multi-agent collaboration (MAC) systems have demonstrated
+impressive capabilities in automatic software development at the function
+level. However, their heavy reliance on human design limits their adaptability
+to the diverse demands of real-world software development. To address this
+limitation, we introduce EvoMAC, a novel self-evolving paradigm for MAC
+networks. Inspired by traditional neural network training, EvoMAC obtains
+text-based environmental feedback by verifying the MAC network's output against
+a target proxy and leverages a novel textual backpropagation to update the
+network. To extend coding capabilities beyond function-level tasks to more
+challenging software-level development, we further propose rSDE-Bench, a
+requirement-oriented software development benchmark, which features complex and
+diverse software requirements along with automatic evaluation of requirement
+correctness. Our experiments show that: i) The automatic requirement-aware
+evaluation in rSDE-Bench closely aligns with human evaluations, validating its
+reliability as a software-level coding benchmark. ii) EvoMAC outperforms
+previous SOTA methods on both the software-level rSDE-Bench and the
+function-level HumanEval benchmarks, reflecting its superior coding
+capabilities. The benchmark can be downloaded at
+https://yuzhu-cai.github.io/rSDE-Bench/.
+文中引用: hu2024selfevolvingmultiagentcollaborationnetworks
+
+
+标题:       AFlow: Automating Agentic Workflow Generation
+作者:       Jiayi Zhang, Jinyu Xiang, Zhaoyang Yu, Fengwei Teng, Xionghui Chen, Jiaqi Chen, Mingchen Zhuge, Xin Cheng, Sirui Hong, Jinlin Wang, Bingnan Zheng, Bang Liu, Yuyu Luo, Chenglin Wu
+发布时间:   2024-10-14
+链接:       http://arxiv.org/abs/2410.10762v4
+摘要:       Large language models (LLMs) have demonstrated remarkable potential in
+solving complex tasks across diverse domains, typically by employing agentic
+workflows that follow detailed instructions and operational sequences. However,
+constructing these workflows requires significant human effort, limiting
+scalability and generalizability. Recent research has sought to automate the
+generation and optimization of these workflows, but existing methods still rely
+on initial manual setup and fall short of achieving fully automated and
+effective workflow generation. To address this challenge, we reformulate
+workflow optimization as a search problem over code-represented workflows,
+where LLM-invoking nodes are connected by edges. We introduce AFlow, an
+automated framework that efficiently explores this space using Monte Carlo Tree
+Search, iteratively refining workflows through code modification,
+tree-structured experience, and execution feedback. Empirical evaluations
+across six benchmark datasets demonstrate AFlow's efficacy, yielding a 5.7%
+average improvement over state-of-the-art baselines. Furthermore, AFlow enables
+smaller models to outperform GPT-4o on specific tasks at 4.55% of its inference
+cost in dollars. The code is available at
+https://github.com/FoundationAgents/AFlow.
+文中引用: zhang2025aflowautomatingagenticworkflow
 
 
 标题:       Think-on-Process: Dynamic Process Generation for Collaborative
@@ -443,7 +1490,32 @@ unifying bridge for autonomous task-solving among LLM agents. The code and data
 are available at https://github.com/OpenBMB/ChatDev.
 文中引用: qian2024chatdevcommunicativeagentssoftware
      - [1.4.1 Planning-Driven](#141-planning-driven)---------------------------------------------------------------------------------------------------------------------------------------------------C1.4.1
+
    
+标题:       Guided Search Strategies in Non-Serializable Environments with
+  Applications to Software Engineering Agents
+作者:       Karina Zainullina, Alexander Golubev, Maria Trofimova, Sergei Polezhaev, Ibragim Badertdinov, Daria Litvintseva, Simon Karasik, Filipp Fisin, Sergei Skvortsov, Maksim Nekrashevich, Anton Shevtsov, Boris Yangel
+发布时间:   2025-05-19
+链接:       http://arxiv.org/abs/2505.13652v1
+摘要:       Large language models (LLMs) have recently achieved remarkable results in
+complex multi-step tasks, such as mathematical reasoning and agentic software
+engineering. However, they often struggle to maintain consistent performance
+across multiple solution attempts. One effective approach to narrow the gap
+between average-case and best-case performance is guided test-time search,
+which explores multiple solution paths to identify the most promising one.
+Unfortunately, effective search techniques (e.g. MCTS) are often unsuitable for
+non-serializable RL environments, such as Docker containers, where intermediate
+environment states cannot be easily saved and restored. We investigate two
+complementary search strategies applicable to such environments: 1-step
+lookahead and trajectory selection, both guided by a learned action-value
+function estimator. On the SWE-bench Verified benchmark, a key testbed for
+agentic software engineering, we find these methods to double the average
+success rate of a fine-tuned Qwen-72B model, achieving 40.8%, the new
+state-of-the-art for open-weights models. Additionally, we show that these
+techniques are transferable to more advanced closed models, yielding similar
+improvements with GPT-4o.
+文中引用: zainullina2025guidedsearchstrategiesnonserializable
+
     - 标题:       Towards autonomous system: flexible modular production system enhanced
   with large language model agents
 作者:       Yuchen Xia, Manthan Shenoy, Nasser Jazdi, Michael Weyrich
@@ -502,7 +1574,87 @@ insights and limitations for future work. Demos at:
 https://github.com/YuchenXia/GPT4IndustrialAutomation
 文中引用: xia2023autonomoussystemflexiblemodular
     - [1.4.2 Tool-Invocation-Driven](#142-tool-invocation-driven)-------------------------------------------------------------------------------------------------------------------------------------C1.4.2
-    
+
+标题:       Querying Large Automotive Software Models: Agentic vs. Direct LLM
+  Approaches
+作者:       Lukasz Mazur, Nenad Petrovic, James Pontes Miranda, Ansgar Radermacher, Robert Rasche, Alois Knoll
+发布时间:   2025-06-16
+链接:       http://arxiv.org/abs/2506.13171v1
+摘要:       Large language models (LLMs) offer new opportunities for interacting with
+complex software artifacts, such as software models, through natural language.
+They present especially promising benefits for large software models that are
+difficult to grasp in their entirety, making traditional interaction and
+analysis approaches challenging. This paper investigates two approaches for
+leveraging LLMs to answer questions over software models: direct prompting,
+where the whole software model is provided in the context, and an agentic
+approach combining LLM-based agents with general-purpose file access tools. We
+evaluate these approaches using an Ecore metamodel designed for timing analysis
+and software optimization in automotive and embedded domains. Our findings show
+that while the agentic approach achieves accuracy comparable to direct
+prompting, it is significantly more efficient in terms of token usage. This
+efficiency makes the agentic approach particularly suitable for the automotive
+industry, where the large size of software models makes direct prompting
+infeasible, establishing LLM agents as not just a practical alternative but the
+only viable solution. Notably, the evaluation was conducted using small LLMs,
+which are more feasible to be executed locally - an essential advantage for
+meeting strict requirements around privacy, intellectual property protection,
+and regulatory compliance. Future work will investigate software models in
+diverse formats, explore more complex agent architectures, and extend agentic
+workflows to support not only querying but also modification of software
+models.
+文中引用: mazur2025queryinglargeautomotivesoftware
+
+标题:       MCP-Zero: Active Tool Discovery for Autonomous LLM Agents
+作者:       Xiang Fei, Xiawu Zheng, Hao Feng
+发布时间:   2025-06-01
+链接:       http://arxiv.org/abs/2506.01056v4
+摘要:       True intelligence requires active capability acquisition, yet current LLM
+agents inject pre-defined tool schemas into prompts, reducing models to passive
+selectors and falling short of robust general-purpose agency. We introduce
+MCP-Zero, an active agent framework that restores tool discovery autonomy to
+LLMs themselves. Instead of overwhelming models with all available tools,
+MCP-Zero enables agents to actively identify capability gaps, and request
+specific tools on-demand, transforming them from large-scale retrievers into
+genuine autonomous agents. The framework operates through three core
+mechanisms: (1) Active Tool Request, where models autonomously generate
+structured requests specifying their exact tool requirements; (2) Hierarchical
+Semantic Routing, a two-stage algorithm that matches requests to relevant
+servers and tools through improved semantic alignment; (3) Iterative Capability
+Extension, enabling agents to progressively build cross-domain toolchains while
+maintaining minimal context footprint. We construct MCP-tools, a comprehensive
+dataset of 308 MCP servers and 2,797 tools from the official
+Model-Context-Protocol repository. Experiments demonstrate that MCP-Zero
+preserves agent autonomy while achieving substantial efficiency gains: (i)
+accurate tool selection from nearly 3k candidates across 248.1k tokens; (ii)
+98\% reduction in token consumption on APIBank while maintaining high accuracy;
+and (iii) consistent multi-turn performance that scales with tool ecosystem
+growth. This work establishes active tool discovery as a fundamental design
+pattern for scalable autonomous agent systems.
+文中引用: fei2025mcpzeroactivetooldiscovery
+
+标题:       CompileAgent: Automated Real-World Repo-Level Compilation with
+  Tool-Integrated LLM-based Agent System
+作者:       Li Hu, Guoqiang Chen, Xiuwei Shang, Shaoyin Cheng, Benlong Wu, Gangyang Li, Xu Zhu, Weiming Zhang, Nenghai Yu
+发布时间:   2025-05-07
+链接:       http://arxiv.org/abs/2505.04254v1
+摘要:       With open-source projects growing in size and complexity, manual compilation
+becomes tedious and error-prone, highlighting the need for automation to
+improve efficiency and accuracy. However, the complexity of compilation
+instruction search and error resolution makes automatic compilation
+challenging. Inspired by the success of LLM-based agents in various fields, we
+propose CompileAgent, the first LLM-based agent framework dedicated to
+repo-level compilation. CompileAgent integrates five tools and a flow-based
+agent strategy, enabling interaction with software artifacts for compilation
+instruction search and error resolution. To measure the effectiveness of our
+method, we design a public repo-level benchmark CompileAgentBench, and we also
+design two baselines for comparison by combining two compilation-friendly
+schemes. The performance on this benchmark shows that our method significantly
+improves the compilation success rate, ranging from 10% to 71%. Meanwhile, we
+evaluate the performance of CompileAgent under different agent strategies and
+verify the effectiveness of the flow-based strategy. Additionally, we emphasize
+the scalability of CompileAgent, further expanding its application prospects.
+文中引用: hu2025compileagentautomatedrealworldrepolevel
+
 标题:       CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems
   for Real-World Repo-level Coding Challenges
 作者:       Kechi Zhang, Jia Li, Ge Li, Xianjie Shi, Zhi Jin
@@ -533,6 +1685,50 @@ for real-world repo-level coding challenges.
 文中引用: zhang2024codeagentenhancingcodegeneration
     - [1.4.3 Feedback-Learning-Driven](#143-feedback-learning-driven)---------------------------------------------------------------------------------------------------------------------------------C1.4.3
 
+标题:       ReVeal: Self-Evolving Code Agents via Iterative Generation-Verification
+作者:       Yiyang Jin, Kunzhao Xu, Hang Li, Xueting Han, Yanmin Zhou, Cheng Li, Jing Bai
+发布时间:   2025-06-13
+链接:       http://arxiv.org/abs/2506.11442v1
+摘要:       Recent advances in reinforcement learning (RL) with verifiable outcome
+rewards have significantly improved the reasoning capabilities of large
+language models (LLMs), especially when combined with multi-turn tool
+interactions. However, existing methods lack both meaningful verification
+signals from realistic environments and explicit optimization for verification,
+leading to unreliable self-verification. To address these limitations, we
+propose ReVeal, a multi-turn reinforcement learning framework that interleaves
+code generation with explicit self-verification and tool-based evaluation.
+ReVeal enables LLMs to autonomously generate test cases, invoke external tools
+for precise feedback, and improves performance via a customized RL algorithm
+with dense, per-turn rewards. As a result, ReVeal fosters the co-evolution of a
+model's generation and verification capabilities through RL training, expanding
+the reasoning boundaries of the base model, demonstrated by significant gains
+in Pass@k on LiveCodeBench. It also enables test-time scaling into deeper
+inference regimes, with code consistently evolving as the number of turns
+increases during inference, ultimately surpassing DeepSeek-R1-Zero-Qwen-32B.
+These findings highlight the promise of ReVeal as a scalable and effective
+paradigm for building more robust and autonomous AI agents.
+文中引用: jin2025revealselfevolvingcodeagents
+
+标题:       Is Multi-Agent Debate (MAD) the Silver Bullet? An Empirical Analysis of
+  MAD in Code Summarization and Translation
+作者:       Jina Chun, Qihong Chen, Jiawei Li, Iftekhar Ahmed
+发布时间:   2025-03-15
+链接:       http://arxiv.org/abs/2503.12029v1
+摘要:       Large Language Models (LLMs) have advanced autonomous agents' planning and
+decision-making, yet they struggle with complex tasks requiring diverse
+expertise and multi-step reasoning. Multi-Agent Debate (MAD) systems,
+introduced in NLP research, address this gap by enabling structured debates
+among LLM-based agents to refine solutions iteratively. MAD promotes divergent
+thinking through role-specific agents, dynamic interactions, and structured
+decision-making. Recognizing parallels between Software Engineering (SE) and
+collaborative human problem-solving, this study investigates MAD's
+effectiveness on two SE tasks. We adapt MAD systems from NLP, analyze agent
+interactions to assess consensus-building and iterative refinement, and propose
+two enhancements targeting observed weaknesses. Our findings show that
+structured debate and collaboration improve problem-solving and yield strong
+performance in some cases, highlighting MAD's potential for SE automation while
+identifying areas for exploration.
+文中引用: chun2025multiagentdebatemadsilver
 
 标题:       Iterative Experience Refinement of Software-Developing Agents
 作者:       Chen Qian, Jiahao Li, Yufan Dang, Wei Liu, YiFei Wang, Zihao Xie, Weize Chen, Cheng Yang, Yingli Zhang, Zhiyuan Liu, Maosong Sun
@@ -582,6 +1778,82 @@ available at https://github.com/OpenBMB/ChatDev.
 - [2. Requirements Engineering & Project Planning](#2-requirements-engineering--project-planning)-----------------------------------------------------------------------------------------------------C2
   - [2.1 Automated Requirements Elicitation & Modeling](#21-automated-requirements-elicitation--modeling)---------------------------------------------------------------------------------------------C2.1
 
+标题:       Multi-Agent Debate Strategies to Enhance Requirements Engineering with
+  Large Language Models
+作者:       Marc Oriol, Quim Motger, Jordi Marco, Xavier Franch
+发布时间:   2025-07-08
+链接:       http://arxiv.org/abs/2507.05981v1
+摘要:       Context: Large Language Model (LLM) agents are becoming widely used for
+various Requirements Engineering (RE) tasks. Research on improving their
+accuracy mainly focuses on prompt engineering, model fine-tuning, and retrieval
+augmented generation. However, these methods often treat models as isolated
+black boxes - relying on single-pass outputs without iterative refinement or
+collaboration, limiting robustness and adaptability. Objective: We propose
+that, just as human debates enhance accuracy and reduce bias in RE tasks by
+incorporating diverse perspectives, different LLM agents debating and
+collaborating may achieve similar improvements. Our goal is to investigate
+whether Multi-Agent Debate (MAD) strategies can enhance RE performance. Method:
+We conducted a systematic study of existing MAD strategies across various
+domains to identify their key characteristics. To assess their applicability in
+RE, we implemented and tested a preliminary MAD-based framework for RE
+classification. Results: Our study identified and categorized several MAD
+strategies, leading to a taxonomy outlining their core attributes. Our
+preliminary evaluation demonstrated the feasibility of applying MAD to RE
+classification. Conclusions: MAD presents a promising approach for improving
+LLM accuracy in RE tasks. This study provides a foundational understanding of
+MAD strategies, offering insights for future research and refinements in RE
+applications.
+文中引用: oriol2025multiagentdebatestrategiesenhance
+
+
+标题:       Knowledge-Guided Multi-Agent Framework for Automated Requirements
+  Development: A Vision
+作者:       Jiangping Huang, Dongming Jin, Weisong Sun, Yang Liu, Zhi Jin
+发布时间:   2025-06-27
+链接:       http://arxiv.org/abs/2506.22656v1
+摘要:       This paper envisions a knowledge-guided multi-agent framework named KGMAF for
+automated requirements development. KGMAF aims to address gaps in current
+automation systems for SE, which prioritize code development and overlook the
+complexities of requirements tasks. KGMAF is composed of six specialized agents
+and an artifact pool to improve efficiency and accuracy. Specifically, KGMAF
+outlines the functionality, actions, and knowledge of each agent and provides
+the conceptual design of the artifact pool. Our case study highlights the
+potential of KGMAF in real-world scenarios. Finally, we outline several
+research opportunities for implementing and enhancing automated requirements
+development using multi-agent systems. We believe that KGMAF will play a
+pivotal role in shaping the future of automated requirements development in the
+era of LLMs.
+文中引用: huang2025knowledgeguidedmultiagentframeworkautomated
+
+标题:       Goal2Story: A Multi-Agent Fleet based on Privately Enabled sLLMs for
+  Impacting Mapping on Requirements Elicitation
+作者:       Xinkai Zou, Yan Liu, Xiongbo Shi, Chen Yang
+发布时间:   2025-03-17
+链接:       http://arxiv.org/abs/2503.13279v1
+摘要:       As requirements drift with rapid iterations, agile development becomes the
+dominant paradigm. Goal-driven Requirements Elicitation (RE) is a pivotal yet
+challenging task in agile project development due to its heavy tangling with
+adaptive planning and efficient collaboration. Recently, AI agents have shown
+promising ability in supporting requirements analysis by saving significant
+time and effort for stakeholders. However, current research mainly focuses on
+functional RE, and research works have not been reported bridging the long
+journey from goal to user stories. Moreover, considering the cost of LLM
+facilities and the need for data and idea protection, privately hosted
+small-sized LLM should be further utilized in RE. To address these challenges,
+we propose Goal2Story, a multi-agent fleet that adopts the Impact Mapping (IM)
+framework while merely using cost-effective sLLMs for goal-driven RE. Moreover,
+we introduce a StorySeek dataset that contains over 1,000 user stories (USs)
+with corresponding goals and project context information, as well as the
+semi-automatic dataset construction method. For evaluation, we proposed two
+metrics: Factuality Hit Rate (FHR) to measure consistency between the generated
+USs with the dataset and Quality And Consistency Evaluation (QuACE) to evaluate
+the quality of the generated USs. Experimental results demonstrate that
+Goal2Story outperforms the baseline performance of the Super-Agent adopting
+powerful LLMs, while also showcasing the performance improvements in key
+metrics brought by CoT and Agent Profile to Goal2Story, as well as its
+exploration in identifying latent needs.
+文中引用: zou2025goal2storymultiagentfleetbased
+
 标题:       MARE: Multi-Agents Collaboration Framework for Requirements Engineering
 作者:       Dongming Jin, Zhi Jin, Xiaohong Chen, Chunhui Wang
 发布时间:   2024-05-06
@@ -630,6 +1902,280 @@ practical example of the transformative impact of AI in an industry setting.
   - [2.3 Autonomous Project Planning & Vision](#23-autonomous-project-planning--vision) --------------------------------------------------------------------------------------------------------------C2.3
 - [3. Code Generation & Implementation](#3-code-generation--implementation) --------------------------------------------------------------------------------------------------------------------------C3
   - [3.1 Repository-Level Code Generation](#31-repository-level-code-generation) ---------------------------------------------------------------------------------------------------------------------C3.1
+
+
+标题:       Large Language Model-Powered Agent for C to Rust Code Translation
+作者:       HoHyun Sim, Hyeonjoong Cho, Yeonghyeon Go, Zhoulai Fu, Ali Shokri, Binoy Ravindran
+发布时间:   2025-05-21
+链接:       http://arxiv.org/abs/2505.15858v2
+摘要:       The C programming language has been foundational in building system-level
+software. However, its manual memory management model frequently leads to
+memory safety issues. In response, a modern system programming language, Rust,
+has emerged as a memory-safe alternative. Moreover, automating the C-to-Rust
+translation empowered by the rapid advancements of the generative capabilities
+of LLMs is gaining growing interest for large volumes of legacy C code. Despite
+some success, existing LLM-based approaches have constrained the role of LLMs
+to static prompt-response behavior and have not explored their agentic
+problem-solving capability. Applying the LLM agentic capability for the
+C-to-Rust translation introduces distinct challenges, as this task differs from
+the traditional LLM agent applications, such as math or commonsense QA domains.
+First, the scarcity of parallel C-to-Rust datasets hinders the retrieval of
+suitable code translation exemplars for in-context learning. Second, unlike
+math or commonsense QA, the intermediate steps required for C-to-Rust are not
+well-defined. Third, it remains unclear how to organize and cascade these
+intermediate steps to construct a correct translation trajectory. To address
+these challenges in the C-to-Rust translation, we propose a novel intermediate
+step, the Virtual Fuzzing-based equivalence Test (VFT), and an agentic planning
+framework, the LLM-powered Agent for C-to-Rust code translation (LAC2R). The
+VFT guides LLMs to identify input arguments that induce divergent behaviors
+between an original C function and its Rust counterpart and to generate
+informative diagnoses to refine the unsafe Rust code. LAC2R uses the MCTS to
+systematically organize the LLM-induced intermediate steps for correct
+translation. We experimentally demonstrated that LAC2R effectively conducts
+C-to-Rust translation on large-scale, real-world benchmarks.
+文中引用: sim2025largelanguagemodelpoweredagent
+
+标题:       ResearchCodeAgent: An LLM Multi-Agent System for Automated Codification
+  of Research Methodologies
+作者:       Shubham Gandhi, Dhruv Shah, Manasi Patwardhan, Lovekesh Vig, Gautam Shroff
+发布时间:   2025-04-28
+链接:       http://arxiv.org/abs/2504.20117v2
+摘要:       In this paper we introduce ResearchCodeAgent, a novel multi-agent system
+leveraging large language models (LLMs) agents to automate the codification of
+research methodologies described in machine learning literature. The system
+bridges the gap between high-level research concepts and their practical
+implementation, allowing researchers auto-generating code of existing research
+papers for benchmarking or building on top-of existing methods specified in the
+literature with availability of partial or complete starter code.
+ResearchCodeAgent employs a flexible agent architecture with a comprehensive
+action suite, enabling context-aware interactions with the research
+environment. The system incorporates a dynamic planning mechanism, utilizing
+both short and long-term memory to adapt its approach iteratively. We evaluate
+ResearchCodeAgent on three distinct machine learning tasks with distinct task
+complexity and representing different parts of the ML pipeline: data
+augmentation, optimization, and data batching. Our results demonstrate the
+system's effectiveness and generalizability, with 46.9% of generated code being
+high-quality and error-free, and 25% showing performance improvements over
+baseline implementations. Empirical analysis shows an average reduction of
+57.9% in coding time compared to manual implementation. We observe higher gains
+for more complex tasks. ResearchCodeAgent represents a significant step towards
+automating the research implementation process, potentially accelerating the
+pace of machine learning research.
+文中引用: gandhi2025researchcodeagentllmmultiagentautomated
+
+标题:       DocAgent: A Multi-Agent System for Automated Code Documentation
+  Generation
+作者:       Dayu Yang, Antoine Simoulin, Xin Qian, Xiaoyi Liu, Yuwei Cao, Zhaopu Teng, Grey Yang
+发布时间:   2025-04-11
+链接:       http://arxiv.org/abs/2504.08725v3
+摘要:       High-quality code documentation is crucial for software development
+especially in the era of AI. However, generating it automatically using Large
+Language Models (LLMs) remains challenging, as existing approaches often
+produce incomplete, unhelpful, or factually incorrect outputs. We introduce
+DocAgent, a novel multi-agent collaborative system using topological code
+processing for incremental context building. Specialized agents (Reader,
+Searcher, Writer, Verifier, Orchestrator) then collaboratively generate
+documentation. We also propose a multi-faceted evaluation framework assessing
+Completeness, Helpfulness, and Truthfulness. Comprehensive experiments show
+DocAgent significantly outperforms baselines consistently. Our ablation study
+confirms the vital role of the topological processing order. DocAgent offers a
+robust approach for reliable code documentation generation in complex and
+proprietary repositories.
+文中引用: yang2025docagentmultiagentautomatedcode
+
+标题:       AdaCoder: An Adaptive Planning and Multi-Agent Framework for
+  Function-Level Code Generation
+作者:       Yueheng Zhu, Chao Liu, Xuan He, Xiaoxue Ren, Zhongxin Liu, Ruwei Pan, Hongyu Zhang
+发布时间:   2025-04-05
+链接:       http://arxiv.org/abs/2504.04220v1
+摘要:       Recently, researchers have proposed many multi-agent frameworks for
+function-level code generation, which aim to improve software development
+productivity by automatically generating function-level source code based on
+task descriptions. A typical multi-agent framework consists of Large Language
+Model (LLM)-based agents that are responsible for task planning, code
+generation, testing, debugging, etc. Studies have shown that existing
+multi-agent code generation frameworks perform well on ChatGPT. However, their
+generalizability across other foundation LLMs remains unexplored
+systematically. In this paper, we report an empirical study on the
+generalizability of four state-of-the-art multi-agent code generation
+frameworks across six open-source LLMs with varying parameter sizes,
+architectures, and performance levels. Our study reveals the unstable
+generalizability of existing frameworks on diverse foundation LLMs. Based on
+the findings obtained from the empirical study, we propose AdaCoder, a novel
+adaptive planning, multi-agent framework for function-level code generation.
+AdaCoder has two phases. Phase-1 is an initial code generation step without
+planning, which uses an LLM-based coding agent and a script-based testing agent
+to unleash LLM's native power, identify cases beyond LLM's power, and determine
+the errors hindering execution. Phase-2 adds a rule-based debugging agent and
+an LLM-based planning agent for iterative code generation with planning. Our
+evaluation shows that AdaCoder achieves higher generalizability on diverse
+LLMs. Compared to the best baseline MapCoder, AdaCoder is on average 27.69%
+higher in Pass@1, 16 times faster in inference, and 12 times lower in token
+consumption.
+文中引用: zhu2025adacoderadaptiveplanningmultiagent
+
+标题:       Leveraging LLM Agents for Translating Network Configurations
+作者:       Yunze Wei, Xiaohui Xie, Yiwei Zuo, Tianshuo Hu, Xinyi Chen, Kaiwen Chi, Yong Cui
+发布时间:   2025-01-15
+链接:       http://arxiv.org/abs/2501.08760v1
+摘要:       Configuration translation is a critical and frequent task in network
+operations. When a network device is damaged or outdated, administrators need
+to replace it to maintain service continuity. The replacement devices may
+originate from different vendors, necessitating configuration translation to
+ensure seamless network operation. However, translating configurations manually
+is a labor-intensive and error-prone process. In this paper, we propose an
+intent-based framework for translating network configuration with Large
+Language Model (LLM) Agents. The core of our approach is an Intent-based
+Retrieval Augmented Generation (IRAG) module that systematically splits a
+configuration file into fragments, extracts intents, and generates accurate
+translations. We also design a two-stage verification method to validate the
+syntax and semantics correctness of the translated configurations. We implement
+and evaluate the proposed method on real-world network configurations.
+Experimental results show that our method achieves 97.74% syntax correctness,
+outperforming state-of-the-art methods in translation accuracy.
+文中引用: wei2025leveragingllmagentstranslating
+
+
+标题:       CodeCoR: An LLM-Based Self-Reflective Multi-Agent Framework for Code
+  Generation
+作者:       Ruwei Pan, Hongyu Zhang, Chao Liu
+发布时间:   2025-01-14
+链接:       http://arxiv.org/abs/2501.07811v1
+摘要:       Code generation aims to produce code that fulfills requirements written in
+natural languages automatically. Large language Models (LLMs) like ChatGPT have
+demonstrated promising effectiveness in this area. Nonetheless, these LLMs
+often fail to ensure the syntactic and semantic correctness of the generated
+code. Recently, researchers proposed multi-agent frameworks that guide LLMs
+with different prompts to analyze programming tasks, generate code, perform
+testing in a sequential workflow. However, the performance of the workflow is
+not robust as the code generation depends on the performance of each agent. To
+address this challenge, we propose CodeCoR, a self-reflective multi-agent
+framework that evaluates the effectiveness of each agent and their
+collaborations. Specifically, for a given task description, four agents in
+CodeCoR generate prompts, code, test cases, and repair advice, respectively.
+Each agent generates more than one output and prunes away the low-quality ones.
+The generated code is tested in the local environment: the code that fails to
+pass the generated test cases is sent to the repair agent and the coding agent
+re-generates the code based on repair advice. Finally, the code that passes the
+most number of generated test cases is returned to users. Our experiments on
+four widely used datasets, HumanEval, HumanEval-ET, MBPP, and MBPP-ET,
+demonstrate that CodeCoR significantly outperforms existing baselines (e.g.,
+CodeCoT and MapCoder), achieving an average Pass@1 score of 77.8%.
+文中引用: pan2025codecorllmbasedselfreflectivemultiagent
+
+
+标题:       Seeker: Towards Exception Safety Code Generation with Intermediate
+  Language Agents Framework
+作者:       Xuanming Zhang, Yuxuan Chen, Yiming Zheng, Zhexin Zhang, Yuan Yuan, Minlie Huang
+发布时间:   2024-12-16
+链接:       http://arxiv.org/abs/2412.11713v1
+摘要:       In real world software development, improper or missing exception handling
+can severely impact the robustness and reliability of code. Exception handling
+mechanisms require developers to detect, capture, and manage exceptions
+according to high standards, but many developers struggle with these tasks,
+leading to fragile code. This problem is particularly evident in open-source
+projects and impacts the overall quality of the software ecosystem. To address
+this challenge, we explore the use of large language models (LLMs) to improve
+exception handling in code. Through extensive analysis, we identify three key
+issues: Insensitive Detection of Fragile Code, Inaccurate Capture of Exception
+Block, and Distorted Handling Solution. These problems are widespread across
+real world repositories, suggesting that robust exception handling practices
+are often overlooked or mishandled. In response, we propose Seeker, a
+multi-agent framework inspired by expert developer strategies for exception
+handling. Seeker uses agents: Scanner, Detector, Predator, Ranker, and Handler
+to assist LLMs in detecting, capturing, and resolving exceptions more
+effectively. Our work is the first systematic study on leveraging LLMs to
+enhance exception handling practices in real development scenarios, providing
+valuable insights for future improvements in code reliability.
+文中引用: zhang2024seekerexceptionsafetycode
+
+
+标题:       CoopetitiveV: Leveraging LLM-powered Coopetitive Multi-Agent Prompting
+  for High-quality Verilog Generation
+作者:       Zhendong Mi, Renming Zheng, Haowen Zhong, Yue Sun, Seth Kneeland, Sayan Moitra, Ken Kutzer, Zhaozhuo Xu Shaoyi Huang
+发布时间:   2024-12-15
+链接:       http://arxiv.org/abs/2412.11014v2
+摘要:       Recent advances in agentic LLMs have demonstrated great capabilities in
+Verilog code generation. However, existing approaches either use LLM-assisted
+single-agent prompting or cooperation-only multi-agent learning, which will
+lead to: (i) Degeneration issue for single-agent learning: characterized by
+diminished error detection and correction capabilities; (ii) Error propagation
+in cooperation-only multi-agent learning: erroneous information from the former
+agent will be propagated to the latter through prompts, which can make the
+latter agents generate buggy code. In this paper, we propose an LLM-based
+coopetitive multi-agent prompting framework, in which the agents cannot
+collaborate with each other to form the generation pipeline, but also create a
+healthy competitive mechanism to improve the generating quality. Our
+experimental results show that the coopetitive multi-agent framework can
+effectively mitigate the degeneration risk and reduce the error propagation
+while improving code error correction capabilities, resulting in higher quality
+Verilog code generation. The effectiveness of our approach is validated through
+extensive experiments. On VerilogEval Machine and Human dataset,
+CoopetitiveV+GPT-4 achieves 99.2% and 99.1% pass@10 scores, respectively. While
+on RTLLM, CoopetitiveV+GPT-4 obtains 100% syntax and 99.9% functionality pass@5
+scores.
+文中引用: mi2025coopetitivevleveragingllmpoweredcoopetitive
+
+标题:       MaCTG: Multi-Agent Collaborative Thought Graph for Automatic Programming
+作者:       Zixiao Zhao, Jing Sun, Zhe Hou, Zhiyuan Wei, Cheng-Hao Cai, Miao Qiao, Jin Song Dong
+发布时间:   2024-10-25
+链接:       http://arxiv.org/abs/2410.19245v2
+摘要:       With the rapid advancement of Large Language Models (LLMs), LLM-based
+approaches have demonstrated strong problem-solving capabilities across various
+domains. However, in automatic programming, a single LLM is typically limited
+to function-level code generation, while multi-agent systems composed of
+multiple LLMs often suffer from inefficient task planning. This lack of
+structured coordination can lead to cascading hallucinations, where accumulated
+errors across agents result in suboptimal workflows and excessive computational
+costs. To overcome these challenges, we introduce MaCTG (Multi-Agent
+Collaborative Thought Graph), a novel multi-agent framework that employs a
+dynamic graph structure to facilitate precise task allocation and controlled
+collaboration among LLM agents. MaCTG autonomously assigns agent roles based on
+programming requirements, dynamically refines task distribution through
+context-aware adjustments, and systematically verifies and integrates
+project-level code, effectively reducing hallucination errors and improving
+overall accuracy. MaCTG enhances cost-effectiveness by implementing a hybrid
+LLM deployment, where proprietary models handle complex reasoning, while
+open-source models are used for routine coding and validation tasks. To
+evaluate MaCTG's effectiveness, we applied it to traditional image processing
+auto-programming tasks, achieving a state-of-the-art accuracy of 83.33%.
+Additionally, by leveraging its hybrid LLM configuration, MaCTG significantly
+reduced operational costs by 89.09% compared to existing multi-agent
+frameworks, demonstrating its efficiency, scalability, and real-world
+applicability.
+文中引用: zhao2025mactgmultiagentcollaborativethought
+
+
+标题:       TRANSAGENT: An LLM-Based Multi-Agent System for Code Translation
+作者:       Zhiqiang Yuan, Weitong Chen, Hanlin Wang, Kai Yu, Xin Peng, Yiling Lou
+发布时间:   2024-09-30
+链接:       http://arxiv.org/abs/2409.19894v2
+摘要:       Code translation converts code from one programming language to another while
+maintaining its original functionality, which is crucial for software
+migration, system refactoring, and cross-platform development. Traditional
+rule-based methods rely on manually-written rules, which can be time-consuming
+and often result in less readable code. To overcome this, learning-based
+methods have been developed, leveraging parallel data to train models for
+automated code translation. More recently, the advance of Large Language Models
+(LLMs) further boosts learning-based code translation. Although promising,
+LLM-translated program still suffers from diverse quality issues (e.g., syntax
+errors and semantic errors). In particular, it can be challenging for LLMs to
+self-debug these errors when simply provided with the corresponding error
+messages.
+  In this work, we propose a novel LLM-based multi-agent system TRANSAGENT,
+which enhances LLM-based code translation by fixing the syntax errors and
+semantic errors with the synergy between four LLM-based agents, including
+Initial Code Translator, Syntax Error Fixer, Code Aligner, and Semantic Error
+Fixer. The main insight of TRANSAGENT is to first localize the error code block
+in the target program based on the execution alignment between the target and
+source program, which can narrow down the fixing space and thus lower down the
+fixing difficulties. To evaluate TRANSAGENT, we first construct a new benchmark
+from recent programming tasks to mitigate the potential data leakage issue. On
+our benchmark, TRANSAGENT outperforms the latest LLM-based code translation
+technique UniTrans in both translation effectiveness and efficiency;
+additionally, our evaluation on different LLMs show the generalization of
+TRANSAGENT and our ablation study shows the contribution of each agent.
+文中引用: yuan2024transagentllmbasedmultiagentcode
 
 
 标题:       HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks
@@ -738,7 +2284,62 @@ showcasing superior accuracy and efficiency. These results demonstrate
 CodeAgent's robust capabilities in code generation, highlighting its potential
 for real-world repo-level coding challenges.
 文中引用: zhang2024codeagentenhancingcodegeneration
+
+标题:       Towards Exception Safety Code Generation with Intermediate
+  Representation Agents Framework
+作者:       Xuanming Zhang, Yuxuan Chen, Yuan Yuan, Minlie Huang
+发布时间:   2024-10-09
+链接:       http://arxiv.org/abs/2410.06949v3
+摘要:       Large Language Models (LLMs) often struggle with robust exception handling in
+generated code, leading to fragile programs that are prone to runtime errors.
+We propose Seeker, a novel multi-agent framework that enforces exception safety
+in LLM generated code through an Intermediate Representation (IR) approach.
+Seeker decomposes exception handling into five specialized agents: Scanner,
+Detector, Predator, Ranker, and Handler that collaboratively analyze code,
+detect fragile segments, retrieve best practice exception strategies, and
+inject robust handling code. We also introduce Common Exception Enumeration
+(CEE), a comprehensive knowledge base derived from official documentation,
+technical practices, and real world code, to standardize exception handling
+strategies. Seeker also incorporates a Deep Retrieval-Augmented Generation
+(Deep RAG) algorithm to efficiently navigate the exception inheritance
+hierarchy, cutting down search overhead by 93% while improving accuracy in
+identifying relevant exceptions. We evaluate Seeker on 15 open source Java
+projects and multiple benchmarks. Seeker outperforms state of the art
+baselines, improving exception handling precision by up to 37% and overall code
+robustness by 38% as measured by expert code review. It significantly closes
+the gap between LLM and human developers in exception management, achieving a
+28% success rate on real world issue fixes (SWE bench) versus 19% by prior
+methods. Our framework preserves functional correctness of code while
+proactively handling errors, demonstrating a practical, generalizable solution
+for safer code generation. In this paper, we discuss the novelty of using
+intermediate representation and multi-agent collaboration for exception
+handling, and outline how Seeker can be extended to other programming languages
+and complex software engineering tasks, aligning LLM-generated code with
+industrial standard.
+文中引用: zhang2025exceptionsafetycodegeneration
   - [3.2 Process-Driven Generation (Waterfall / TDD / Scrum, etc.)](#32-process-driven-generation-waterfall--tdd--scrum-etc) -------------------------------------------------------------------------C3.2
+
+
+标题:       QualityFlow: An Agentic Workflow for Program Synthesis Controlled by LLM
+  Quality Checks
+作者:       Yaojie Hu, Qiang Zhou, Qihong Chen, Xiaopeng Li, Linbo Liu, Dejiao Zhang, Amit Kachroo, Talha Oz, Omer Tripp
+发布时间:   2025-01-20
+链接:       http://arxiv.org/abs/2501.17167v2
+摘要:       We introduce QualityFlow, a dynamic agentic workflow for program synthesis.
+Given the English description of a programming problem and a set of unit tests,
+the model's goal is to synthesize the correct program that solves the problem
+and passes the tests. QualityFlow includes large language model (LLM) agents
+resembling a software development team, including code generation, testing, and
+self-debugging. We propose the LLM Quality Checker, which explicitly "imagines"
+whether the synthesized programs' execution would conform to the unit tests.
+The Quality Checks dynamically control the workflow, including actions to
+submit the final answer, clarify the problem statement, and revert previous
+workflow steps. Our experiments show that the Quality Checker can precisely
+accept any correct program, mitigate faulty synthesized tests, and prevent
+potential workflow deviation. QualityFlow establishes the state-of-the-art
+results on four program synthesis benchmarks: MBPP, HumanEval, and stricter
+evaluations from MBPP-EvalPlus and HumanEval-EvalPlus.
+文中引用: hu2025qualityflowagenticworkflowprogram
 
   - 
 标题:       SOEN-101: Code Generation by Emulating Software Process Models Using
@@ -774,6 +2375,37 @@ quality and stability of LLM-generated code.
 文中引用: lin2024soen101codegenerationemulating
 
   - [3.3 Integrated Code Navigation & Retrieval](#33-integrated-code-navigation--retrieval)-----------------------------------------------------------------------------------------------------------C3.3
+
+
+标题:       Context-Aware Code Wiring Recommendation with LLM-based Agent
+作者:       Taiming Wang, Yanjie Jiang, Chunhao Dong, Yuxia Zhang, Hui Liu
+发布时间:   2025-07-02
+链接:       http://arxiv.org/abs/2507.01315v1
+摘要:       Copy-paste-modify is a widespread and pragmatic practice in software
+development, where developers adapt reused code snippets, sourced from
+platforms such as Stack Overflow, GitHub, or LLM outputs, into their local
+codebase. A critical yet underexplored aspect of this adaptation is code
+wiring, which involves substituting unresolved variables in the pasted code
+with suitable ones from the surrounding context. Existing solutions either rely
+on heuristic rules or historical templates, often failing to effectively
+utilize contextual information, despite studies showing that over half of
+adaptation cases are context-dependent. In this paper, we introduce WIRL, an
+LLM-based agent for code wiring framed as a Retrieval-Augmented Generation
+(RAG) infilling task. WIRL combines an LLM, a customized toolkit, and an
+orchestration module to identify unresolved variables, retrieve context, and
+perform context-aware substitutions. To balance efficiency and autonomy, the
+agent adopts a mixed strategy: deterministic rule-based steps for common
+patterns, and a state-machine-guided decision process for intelligent
+exploration. We evaluate WIRL on a carefully curated, high-quality dataset
+consisting of real-world code adaptation scenarios. Our approach achieves an
+exact match precision of 91.7% and a recall of 90.0%, outperforming advanced
+LLMs by 22.6 and 13.7 percentage points in precision and recall, respectively,
+and surpassing IntelliJ IDEA by 54.3 and 49.9 percentage points. These results
+underscore its practical utility, particularly in contexts with complex
+variable dependencies or multiple unresolved variables. We believe WIRL paves
+the way for more intelligent and context-aware developer assistance in modern
+IDEs.
+文中引用: wang2025contextawarecodewiringrecommendation
 
 
 标题:       LLM Agents Improve Semantic Code Search
@@ -821,8 +2453,140 @@ made open source under a permissive license.
 文中引用: gupta2024codenavtooluseusingrealworld
 
 - [4. Testing & Quality Assurance](#4-testing--quality-assurance) ------------------------------------------------------------------------------------------------------------------------------------C4
+- 
+标题:       Agents4PLC: Automating Closed-loop PLC Code Generation and Verification
+  in Industrial Control Systems using LLM-based Agents
+作者:       Zihan Liu, Ruinan Zeng, Dongxia Wang, Gengyun Peng, Jingyi Wang, Qiang Liu, Peiyu Liu, Wenhai Wang
+发布时间:   2024-10-18
+链接:       http://arxiv.org/abs/2410.14209v2
+摘要:       In industrial control systems, the generation and verification of
+Programmable Logic Controller (PLC) code are critical for ensuring operational
+efficiency and safety. While Large Language Models (LLMs) have made strides in
+automated code generation, they often fall short in providing correctness
+guarantees and specialized support for PLC programming. To address these
+challenges, this paper introduces Agents4PLC, a novel framework that not only
+automates PLC code generation but also includes code-level verification through
+an LLM-based multi-agent system. We first establish a comprehensive benchmark
+for verifiable PLC code generation area, transitioning from natural language
+requirements to human-written-verified formal specifications and reference PLC
+code. We further enhance our `agents' specifically for industrial control
+systems by incorporating Retrieval-Augmented Generation (RAG), advanced prompt
+engineering techniques, and Chain-of-Thought strategies. Evaluation against the
+benchmark demonstrates that Agents4PLC significantly outperforms previous
+methods, achieving superior results across a series of increasingly rigorous
+metrics. This research not only addresses the critical challenges in PLC
+programming but also highlights the potential of our framework to generate
+verifiable code applicable to real-world industrial applications.
+文中引用: liu2024agents4plcautomatingclosedloopplc
+
   - [4.1 Automated Test Case Generation](#41-automated-test-case-generation)--------------------------------------------------------------------------------------------------------------------------C4.1
 
+
+标题:       Hallucination to Consensus: Multi-Agent LLMs for End-to-End Test
+  Generation with Accurate Oracles
+作者:       Qinghua Xu, Guancheng Wang, Lionel Briand, Kui Liu
+发布时间:   2025-06-03
+链接:       http://arxiv.org/abs/2506.02943v4
+摘要:       Unit testing plays a critical role in ensuring software correctness. However,
+writing unit tests manually is laborious, especially for strong typed languages
+like Java, motivating the need for automated approaches. Traditional methods
+primarily rely on search-based or randomized algorithms to generate tests that
+achieve high code coverage and produce regression oracles, which are derived
+from the program's current behavior rather than its intended functionality.
+Recent advances in large language models (LLMs) have enabled oracle generation
+from natural language descriptions. However, existing LLM-based methods often
+require LLM fine-tuning or rely on external tools such as EvoSuite for test
+prefix generation.
+  In this work, we propose CANDOR, a novel end-to-end, prompt-based LLM
+framework for automated JUnit test generation. CANDOR orchestrates multiple
+specialized LLM agents to generate JUnit tests, including both high-quality
+test prefixes and accurate oracles. To mitigate the notorious hallucinations in
+LLMs, we introduce a novel strategy that engages multiple reasoning LLMs in a
+panel discussion and generate accurate oracles based on consensus.
+Additionally, to reduce the verbosity of reasoning LLMs' outputs, we propose a
+novel dual-LLM pipeline to produce concise and structured oracle evaluations.
+  Our experiments on the HumanEvalJava and LeetCodeJava datasets show that
+CANDOR can generate accurate oracles and is slightly better than EvoSuite in
+generating tests with high line coverage and clearly superior in terms of
+mutation score. Moreover, CANDOR significantly outperforms the
+state-of-the-art, prompt-based test generator LLM-Empirical, achieving
+improvements of 15.8 to 25.1 percentage points in oracle correctness on both
+correct and faulty source code. Ablation studies confirm the critical
+contributions of key agents in improving test prefix quality and oracle
+accuracy.
+文中引用: xu2025hallucinationconsensusmultiagentllms
+
+标题:       Test Amplification for REST APIs via Single and Multi-Agent LLM Systems
+作者:       Robbe Nooyens, Tolgahan Bardakci, Mutlu Beyazit, Serge Demeyer
+发布时间:   2025-04-10
+链接:       http://arxiv.org/abs/2504.08113v1
+摘要:       REST APIs (Representational State Transfer Application Programming
+Interfaces) are essential to modern cloud-native applications. Strong and
+automated test cases are crucial to expose lurking bugs in the API. However,
+creating automated tests for REST APIs is difficult, and it requires test cases
+that explore the protocol's boundary conditions. In this paper, we investigate
+how single-agent and multi-agent LLM (Large Language Model) systems can amplify
+a REST API test suite. Our evaluation demonstrates increased API coverage,
+identification of numerous bugs in the API under test, and insights into the
+computational cost and energy consumption of both approaches.
+文中引用: nooyens2025testamplificationrestapis
+
+标题:       ToolFuzz -- Automated Agent Tool Testing
+作者:       Ivan Milev, Mislav Balunović, Maximilian Baader, Martin Vechev
+发布时间:   2025-03-06
+链接:       http://arxiv.org/abs/2503.04479v3
+摘要:       Large Language Model (LLM) Agents leverage the advanced reasoning
+capabilities of LLMs in real-world applications. To interface with an
+environment, these agents often rely on tools, such as web search or database
+APIs. As the agent provides the LLM with tool documentation along the user
+query, the completeness and correctness of this documentation is critical.
+However, tool documentation is often over-, under-, or ill-specified, impeding
+the agent's accuracy. Standard software testing approaches struggle to identify
+these errors as they are expressed in natural language. Thus, despite its
+importance, there currently exists no automated method to test the tool
+documentation for agents. To address this issue, we present ToolFuzz, the first
+method for automated testing of tool documentations. ToolFuzz is designed to
+discover two types of errors: (1) user queries leading to tool runtime errors
+and (2) user queries that lead to incorrect agent responses. ToolFuzz can
+generate a large and diverse set of natural inputs, effectively finding tool
+description errors at a low false positive rate. Further, we present two
+straightforward prompt-engineering approaches. We evaluate all three tool
+testing approaches on 32 common LangChain tools and 35 newly created custom
+tools and 2 novel benchmarks to further strengthen the assessment. We find that
+many publicly available tools suffer from underspecification. Specifically, we
+show that ToolFuzz identifies 20x more erroneous inputs compared to the
+prompt-engineering approaches, making it a key component for building reliable
+AI agents.
+文中引用: milev2025toolfuzzautomatedagent
+
+标题:       A Multi-Agent Approach for REST API Testing with Semantic Graphs and
+  LLM-Driven Inputs
+作者:       Myeongsoo Kim, Tyler Stennett, Saurabh Sinha, Alessandro Orso
+发布时间:   2024-11-11
+链接:       http://arxiv.org/abs/2411.07098v2
+摘要:       As modern web services increasingly rely on REST APIs, their thorough testing
+has become crucial. Furthermore, the advent of REST API documentation
+languages, such as the OpenAPI Specification, has led to the emergence of many
+black-box REST API testing tools. However, these tools often focus on
+individual test elements in isolation (e.g., APIs, parameters, values),
+resulting in lower coverage and less effectiveness in fault detection. To
+address these limitations, we present AutoRestTest, the first black-box tool to
+adopt a dependency-embedded multi-agent approach for REST API testing that
+integrates multi-agent reinforcement learning (MARL) with a semantic property
+dependency graph (SPDG) and Large Language Models (LLMs). Our approach treats
+REST API testing as a separable problem, where four agents -- API, dependency,
+parameter, and value agents -- collaborate to optimize API exploration. LLMs
+handle domain-specific value generation, the SPDG model simplifies the search
+space for dependencies using a similarity score between API operations, and
+MARL dynamically optimizes the agents' behavior. Our evaluation of AutoRestTest
+on 12 real-world REST services shows that it outperforms the four leading
+black-box REST API testing tools, including those assisted by RESTGPT (which
+generates realistic test inputs using LLMs), in terms of code coverage,
+operation coverage, and fault detection. Notably, AutoRestTest is the only tool
+able to trigger an internal server error in the Spotify service. Our ablation
+study illustrates that each component of AutoRestTest -- the SPDG, the LLM, and
+the agent-learning mechanism -- contributes to its overall effectiveness.
+文中引用: kim2025multiagentapproachrestapi
 
 标题:       SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents
 作者:       Niels Mündler, Mark Niklas Müller, Jingxuan He, Martin Vechev
@@ -850,6 +2614,274 @@ https://github.com/logic-star-ai/SWT-Bench
 
 
   - [4.2 Conversational / Autonomous Testing Agents](#42-conversational--autonomous-testing-agents) --------------------------------------------------------------------------------------------------C4.2
+
+
+标题:       Breaking Single-Tester Limits: Multi-Agent LLMs for Multi-User Feature
+  Testing
+作者:       Sidong Feng, Changhao Du, Huaxiao Liu, Qingnan Wang, Zhengwei Lv, Mengfei Wang, Chunyang Chen
+发布时间:   2025-06-21
+链接:       http://arxiv.org/abs/2506.17539v2
+摘要:       The growing dependence on mobile phones and their apps has made multi-user
+interactive features, like chat calls, live streaming, and video conferencing,
+indispensable for bridging the gaps in social connectivity caused by physical
+and situational barriers. However, automating these interactive features for
+testing is fraught with challenges, owing to their inherent need for timely,
+dynamic, and collaborative user interactions, which current automated testing
+methods inadequately address. Inspired by the concept of agents designed to
+autonomously and collaboratively tackle problems, we propose MAdroid, a novel
+multi-agent approach powered by the Large Language Models (LLMs) to automate
+the multi-user interactive task for app feature testing. Specifically, MAdroid
+employs two functional types of multi-agents: user agents (Operator) and
+supervisor agents (Coordinator and Observer). Each agent takes a specific role:
+the Coordinator directs the interactive task; the Operator mimics user
+interactions on the device; and the Observer monitors and reviews the task
+automation process. Our evaluation, which included 41 multi-user interactive
+tasks, demonstrates the effectiveness of our approach, achieving 82.9% of the
+tasks with 96.8% action similarity, outperforming the ablation studies and
+state-of-the-art baselines. Additionally, a preliminary investigation
+underscores MAdroid's practicality by helping identify 11 multi-user
+interactive bugs during regression app testing, confirming its potential value
+in real-world software development contexts.
+文中引用: feng2025breakingsingletesterlimitsmultiagent
+
+标题:       OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents
+作者:       Thomas Kuntz, Agatha Duzan, Hao Zhao, Francesco Croce, Zico Kolter, Nicolas Flammarion, Maksym Andriushchenko
+发布时间:   2025-06-17
+链接:       http://arxiv.org/abs/2506.14866v1
+摘要:       Computer use agents are LLM-based agents that can directly interact with a
+graphical user interface, by processing screenshots or accessibility trees.
+While these systems are gaining popularity, their safety has been largely
+overlooked, despite the fact that evaluating and understanding their potential
+for harmful behavior is essential for widespread adoption. To address this gap,
+we introduce OS-Harm, a new benchmark for measuring safety of computer use
+agents. OS-Harm is built on top of the OSWorld environment and aims to test
+models across three categories of harm: deliberate user misuse, prompt
+injection attacks, and model misbehavior. To cover these cases, we create 150
+tasks that span several types of safety violations (harassment, copyright
+infringement, disinformation, data exfiltration, etc.) and require the agent to
+interact with a variety of OS applications (email client, code editor, browser,
+etc.). Moreover, we propose an automated judge to evaluate both accuracy and
+safety of agents that achieves high agreement with human annotations (0.76 and
+0.79 F1 score). We evaluate computer use agents based on a range of frontier
+models - such as o4-mini, Claude 3.7 Sonnet, Gemini 2.5 Pro - and provide
+insights into their safety. In particular, all models tend to directly comply
+with many deliberate misuse queries, are relatively vulnerable to static prompt
+injections, and occasionally perform unsafe actions. The OS-Harm benchmark is
+available at https://github.com/tml-epfl/os-harm.
+文中引用: kuntz2025osharmbenchmarkmeasuringsafety
+
+
+标题:       IntenTest: Stress Testing for Intent Integrity in API-Calling LLM Agents
+作者:       Shiwei Feng, Xiangzhe Xu, Xuan Chen, Kaiyuan Zhang, Syed Yusuf Ahmed, Zian Su, Mingwei Zheng, Xiangyu Zhang
+发布时间:   2025-06-09
+链接:       http://arxiv.org/abs/2506.07524v1
+摘要:       LLM agents are increasingly deployed to automate real-world tasks by invoking
+APIs through natural language instructions. While powerful, they often suffer
+from misinterpretation of user intent, leading to the agent's actions that
+diverge from the user's intended goal, especially as external toolkits evolve.
+Traditional software testing assumes structured inputs and thus falls short in
+handling the ambiguity of natural language. We introduce IntenTest, an
+API-centric stress testing framework that systematically uncovers intent
+integrity violations in LLM agents. Unlike prior work focused on fixed
+benchmarks or adversarial inputs, IntenTest generates realistic tasks based on
+toolkits' documentation and applies targeted mutations to expose subtle agent
+errors while preserving user intent. To guide testing, we propose semantic
+partitioning, which organizes natural language tasks into meaningful categories
+based on toolkit API parameters and their equivalence classes. Within each
+partition, seed tasks are mutated and ranked by a lightweight predictor that
+estimates the likelihood of triggering agent errors. To enhance efficiency,
+IntenTest maintains a datatype-aware strategy memory that retrieves and adapts
+effective mutation patterns from past cases. Experiments on 80 toolkit APIs
+demonstrate that IntenTest effectively uncovers intent integrity violations,
+significantly outperforming baselines in both error-exposing rate and query
+efficiency. Moreover, IntenTest generalizes well to stronger target models
+using smaller LLMs for test generation, and adapts to evolving APIs across
+domains.
+文中引用: feng2025intenteststresstestingintent
+
+标题:       OSS-UAgent: An Agent-based Usability Evaluation Framework for Open
+  Source Software
+作者:       Lingkai Meng, Yu Shao, Long Yuan, Longbin Lai, Peng Cheng, Wenyuan Yu, Wenjie Zhang, Xuemin Lin, Jingren Zhou
+发布时间:   2025-05-29
+链接:       http://arxiv.org/abs/2505.23239v1
+摘要:       Usability evaluation is critical to the impact and adoption of open source
+software (OSS), yet traditional methods relying on human evaluators suffer from
+high costs and limited scalability. To address these limitations, we introduce
+OSS-UAgent, an automated, configurable, and interactive agent-based usability
+evaluation framework specifically designed for open source software. Our
+framework employs intelligent agents powered by large language models (LLMs) to
+simulate developers performing programming tasks across various experience
+levels (from Junior to Expert). By dynamically constructing platform-specific
+knowledge bases, OSS-UAgent ensures accurate and context-aware code generation.
+The generated code is automatically evaluated across multiple dimensions,
+including compliance, correctness, and readability, providing a comprehensive
+measure of the software's usability. Additionally, our demonstration showcases
+OSS-UAgent's practical application in evaluating graph analytics platforms,
+highlighting its effectiveness in automating usability evaluation.
+文中引用: meng2025ossuagentagentbasedusabilityevaluation
+
+-------------------------------------------------------------------------
+
+标题:       Agent for User: Testing Multi-User Interactive Features in TikTok
+作者:       Sidong Feng, Changhao Du, Huaxiao Liu, Qingnan Wang, Zhengwei Lv, Gang Huo, Xu Yang, Chunyang Chen
+发布时间:   2025-04-21
+链接:       http://arxiv.org/abs/2504.15474v1
+摘要:       TikTok, a widely-used social media app boasting over a billion monthly active
+users, requires effective app quality assurance for its intricate features.
+Feature testing is crucial in achieving this goal. However, the multi-user
+interactive features within the app, such as live streaming, voice calls, etc.,
+pose significant challenges for developers, who must handle simultaneous device
+management and user interaction coordination. To address this, we introduce a
+novel multi-agent approach, powered by the Large Language Models (LLMs), to
+automate the testing of multi-user interactive app features. In detail, we
+build a virtual device farm that allocates the necessary number of devices for
+a given multi-user interactive task. For each device, we deploy an LLM-based
+agent that simulates a user, thereby mimicking user interactions to
+collaboratively automate the testing process. The evaluations on 24 multi-user
+interactive tasks within the TikTok app, showcase its capability to cover 75%
+of tasks with 85.9% action similarity and offer 87% time savings for
+developers. Additionally, we have also integrated our approach into the
+real-world TikTok testing platform, aiding in the detection of 26 multi-user
+interactive bugs.
+文中引用: feng2025agentusertestingmultiuser
+
+标题:       Are Autonomous Web Agents Good Testers?
+作者:       Antoine Chevrot, Alexandre Vernotte, Jean-Rémy Falleri, Xavier Blanc, Bruno Legeard
+发布时间:   2025-04-02
+链接:       http://arxiv.org/abs/2504.01495v1
+摘要:       Despite advances in automated testing, manual testing remains prevalent due
+to the high maintenance demands associated with test script fragility-scripts
+often break with minor changes in application structure. Recent developments in
+Large Language Models (LLMs) offer a potential alternative by powering
+Autonomous Web Agents (AWAs) that can autonomously interact with applications.
+These agents may serve as Autonomous Test Agents (ATAs), potentially reducing
+the need for maintenance-heavy automated scripts by utilising natural language
+instructions similar to those used by human testers. This paper investigates
+the feasibility of adapting AWAs for natural language test case execution and
+how to evaluate them. We contribute with (1) a benchmark of three offline web
+applications, and a suite of 113 manual test cases, split between passing and
+failing cases, to evaluate and compare ATAs performance, (2) SeeAct-ATA and
+pinATA, two open-source ATA implementations capable of executing test steps,
+verifying assertions and giving verdicts, and (3) comparative experiments using
+our benchmark that quantifies our ATAs effectiveness. Finally we also proceed
+to a qualitative evaluation to identify the limitations of PinATA, our best
+performing implementation. Our findings reveal that our simple implementation,
+SeeAct-ATA, does not perform well compared to our more advanced PinATA
+implementation when executing test cases (50% performance improvement).
+However, while PinATA obtains around 60% of correct verdict and up to a
+promising 94% specificity, we identify several limitations that need to be
+addressed to develop more resilient and reliable ATAs, paving the way for
+robust, low maintenance test automation. CCS Concepts: $\bullet$ Software and
+its engineering $\rightarrow$ Software testing and debugging.
+文中引用: chevrot2025autonomouswebagentsgood
+
+标题:       LogiAgent: Automated Logical Testing for REST Systems with LLM-Based
+  Multi-Agents
+作者:       Ke Zhang, Chenxi Zhang, Chong Wang, Chi Zhang, YaChen Wu, Zhenchang Xing, Yang Liu, Qingshan Li, Xin Peng
+发布时间:   2025-03-19
+链接:       http://arxiv.org/abs/2503.15079v1
+摘要:       Automated testing for REST APIs has become essential for ensuring the
+correctness and reliability of modern web services. While existing approaches
+primarily focus on detecting server crashes and error codes, they often
+overlook logical issues that arise due to evolving business logic and
+domain-specific requirements. To address this limitation, we propose LogiAgent,
+a novel approach for logical testing of REST systems. Built upon a large
+language model (LLM)-driven multi-agent framework, LogiAgent integrates a Test
+Scenario Generator, API Request Executor, and API Response Validator to
+collaboratively generate, execute, and validate API test scenarios. Unlike
+traditional testing methods that focus on status codes like 5xx, LogiAgent
+incorporates logical oracles that assess responses based on business logic,
+ensuring more comprehensive testing. The system is further enhanced by an
+Execution Memory component that stores historical API execution data for
+contextual consistency. We conduct extensive experiments across 12 real-world
+REST systems, demonstrating that LogiAgent effectively identifies 234 logical
+issues with an accuracy of 66.19%. Additionally, it basically excels in
+detecting server crashes and achieves superior test coverage compared to four
+state-of-the-art REST API testing tools. An ablation study confirms the
+significant contribution of LogiAgent's memory components to improving test
+coverage.
+文中引用: zhang2025logiagentautomatedlogicaltesting
+
+标题:       TestForge: Feedback-Driven, Agentic Test Suite Generation
+作者:       Kush Jain, Claire Le Goues
+发布时间:   2025-03-18
+链接:       http://arxiv.org/abs/2503.14713v1
+摘要:       Automated test generation holds great promise for alleviating the burdens of
+manual test creation. However, existing search-based techniques compromise on
+test readability, while LLM-based approaches are prohibitively expensive in
+practice. We present TestForge, an agentic unit testing framework designed to
+cost-effectively generate high-quality test suites for real-world code. Our key
+insight is to reframe LLM-based test generation as an iterative process.
+TestForge thus begins with tests generated via zero-shot prompting, and then
+continuously refines those tests based on feedback from test executions and
+coverage reports. We evaluate TestForge on TestGenEval, a real world unit test
+generation benchmark sourced from 11 large scale open source repositories; we
+show that TestForge achieves a pass@1 rate of 84.3%, 44.4% line coverage and
+33.8% mutation score on average, outperforming prior classical approaches and a
+one-iteration LLM-based baseline. TestForge produces more natural and
+understandable tests compared to state-of-the-art search-based techniques, and
+offers substantial cost savings over LLM-based techniques (at $0.63 per file).
+Finally, we release a version of TestGenEval integrated with the OpenHands
+platform, a popular open-source framework featuring a diverse set of software
+engineering agents and agentic benchmarks, for future extension and
+development.
+文中引用: jain2025testforgefeedbackdrivenagentictest
+
+
+标题:       RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing
+作者:       Jinyao Guo, Chengpeng Wang, Xiangzhe Xu, Zian Su, Xiangyu Zhang
+发布时间:   2025-01-30
+链接:       http://arxiv.org/abs/2501.18160v3
+摘要:       Code auditing is the process of reviewing code with the aim of identifying
+bugs. Large Language Models (LLMs) have demonstrated promising capabilities for
+this task without requiring compilation, while also supporting user-friendly
+customization. However, auditing a code repository with LLMs poses significant
+challenges: limited context windows and hallucinations can degrade the quality
+of bug reports, and analyzing large-scale repositories incurs substantial time
+and token costs, hindering efficiency and scalability.
+  This work introduces an LLM-based agent, RepoAudit, designed to perform
+autonomous repository-level code auditing. Equipped with agent memory,
+RepoAudit explores the codebase on demand by analyzing data-flow facts along
+feasible program paths within individual functions. It further incorporates a
+validator module to mitigate hallucinations by verifying data-flow facts and
+checking the satisfiability of path conditions associated with potential bugs,
+thereby reducing false positives. RepoAudit detects 40 true bugs across 15
+real-world benchmark projects with a precision of 78.43%, requiring on average
+only 0.44 hours and $2.54 per project. Also, it detects 185 new bugs in
+high-profile projects, among which 174 have been confirmed or fixed. We have
+open-sourced RepoAudit at https://github.com/PurCL/RepoAudit.
+文中引用: guo2025repoauditautonomousllmagentrepositorylevel
+
+标题:       You Name It, I Run It: An LLM Agent to Execute Tests of Arbitrary
+  Projects
+作者:       Islem Bouzenia, Michael Pradel
+发布时间:   2024-12-13
+链接:       http://arxiv.org/abs/2412.10133v2
+摘要:       The ability to execute the test suite of a project is essential in many
+scenarios, e.g., to assess code quality and code coverage, to validate code
+changes made by developers or automated tools, and to ensure compatibility with
+dependencies. Despite its importance, executing the test suite of a project can
+be challenging in practice because different projects use different programming
+languages, software ecosystems, build systems, testing frameworks, and other
+tools. These challenges make it difficult to create a reliable, universal test
+execution method that works across different projects. This paper presents
+ExecutionAgent, an automated technique that prepares scripts for building an
+arbitrary project from source code and running its test cases. Inspired by the
+way a human developer would address this task, our approach is a large language
+model (LLM)-based agent that autonomously executes commands and interacts with
+the host system. The agent uses meta-prompting to gather guidelines on the
+latest technologies related to the given project, and it iteratively refines
+its process based on feedback from the previous steps. Our evaluation applies
+ExecutionAgent to 50 open-source projects that use 14 different programming
+languages and many different build and testing tools. The approach successfully
+executes the test suites of 33/50 projects, while matching the test results of
+ground truth test suite executions with a deviation of only 7.5%. These results
+improve over the best previously available technique by 6.6x. The costs imposed
+by the approach are reasonable, with an execution time of 74 minutes and LLM
+costs of USD 0.16, on average per project. We envision ExecutionAgent to serve
+as a valuable tool for developers, automated programming tools, and researchers
+that need to execute tests across a wide variety of projects.
+文中引用: bouzenia2025itirunit
 
     
 标题:       AutoSafeCoder: A Multi-Agent Framework for Securing LLM Code Generation
@@ -922,7 +2954,112 @@ data at https://github.com/DeepSoftwareAnalytics/CoSQA_Plus.
 
 - [5. Debugging, Fault Localization & Automated Repair](#5-debugging-fault-localization--automated-repair)--------------------------------------------------------------------------------------------C5
   - [5.1 Defect Detection](#51-defect-detection)
+
+
+标题:       An LLM Agent for Functional Bug Detection in Network Protocols
+作者:       Mingwei Zheng, Chengpeng Wang, Xuwei Liu, Jinyao Guo, Shiwei Feng, Xiangyu Zhang
+发布时间:   2025-05-31
+链接:       http://arxiv.org/abs/2506.00714v1
+摘要:       Functional correctness is critical for ensuring the reliability and security
+of network protocol implementations. Functional bugs, instances where
+implementations diverge from behaviors specified in RFC documents, can lead to
+severe consequences, including faulty routing, authentication bypasses, and
+service disruptions. Detecting these bugs requires deep semantic analysis
+across specification documents and source code, a task beyond the capabilities
+of traditional static analysis tools. This paper introduces RFCScan, an
+autonomous agent that leverages large language models (LLMs) to detect
+functional bugs by checking conformance between network protocol
+implementations and their RFC specifications. Inspired by the human auditing
+procedure, RFCScan comprises two key components: an indexing agent and a
+detection agent. The former hierarchically summarizes protocol code semantics,
+generating semantic indexes that enable the detection agent to narrow down the
+scanning scope. The latter employs demand-driven retrieval to iteratively
+collect additional relevant data structures and functions, eventually
+identifying potential inconsistencies with the RFC specifications effectively.
+We evaluate RFCScan across six real-world network protocol implementations.
+RFCScan identifies 47 functional bugs with 81.9% precision, of which 20 bugs
+have been confirmed or fixed by developers.
+文中引用: zheng2025llmagentfunctionalbug
+
+标题:       LocAgent: Graph-Guided LLM Agents for Code Localization
+作者:       Zhaoling Chen, Xiangru Tang, Gangda Deng, Fang Wu, Jialong Wu, Zhiwei Jiang, Viktor Prasanna, Arman Cohan, Xingyao Wang
+发布时间:   2025-03-12
+链接:       http://arxiv.org/abs/2503.09089v2
+摘要:       Code localization--identifying precisely where in a codebase changes need to
+be made--is a fundamental yet challenging task in software maintenance.
+Existing approaches struggle to efficiently navigate complex codebases when
+identifying relevant code sections. The challenge lies in bridging natural
+language problem descriptions with the appropriate code elements, often
+requiring reasoning across hierarchical structures and multiple dependencies.
+We introduce LocAgent, a framework that addresses code localization through
+graph-based representation. By parsing codebases into directed heterogeneous
+graphs, LocAgent creates a lightweight representation that captures code
+structures (files, classes, functions) and their dependencies (imports,
+invocations, inheritance), enabling LLM agents to effectively search and locate
+relevant entities through powerful multi-hop reasoning. Experimental results on
+real-world benchmarks demonstrate that our approach significantly enhances
+accuracy in code localization. Notably, our method with the fine-tuned
+Qwen-2.5-Coder-Instruct-32B model achieves comparable results to SOTA
+proprietary models at greatly reduced cost (approximately 86% reduction),
+reaching up to 92.7% accuracy on file-level localization while improving
+downstream GitHub issue resolution success rates by 12% for multiple attempts
+(Pass@10). Our code is available at https://github.com/gersteinlab/LocAgent.
+文中引用: chen2025locagentgraphguidedllmagents
+
+
+标题:       OrcaLoca: An LLM Agent Framework for Software Issue Localization
+作者:       Zhongming Yu, Hejia Zhang, Yujie Zhao, Hanxian Huang, Matrix Yao, Ke Ding, Jishen Zhao
+发布时间:   2025-02-01
+链接:       http://arxiv.org/abs/2502.00350v1
+摘要:       Recent developments in Large Language Model (LLM) agents are revolutionizing
+Autonomous Software Engineering (ASE), enabling automated coding, problem
+fixes, and feature improvements. However, localization -- precisely identifying
+software problems by navigating to relevant code sections -- remains a
+significant challenge. Current approaches often yield suboptimal results due to
+a lack of effective integration between LLM agents and precise code search
+mechanisms. This paper introduces OrcaLoca, an LLM agent framework that
+improves accuracy for software issue localization by integrating priority-based
+scheduling for LLM-guided action, action decomposition with relevance scoring,
+and distance-aware context pruning. Experimental results demonstrate that
+OrcaLoca becomes the new open-source state-of-the-art (SOTA) in function match
+rate (65.33%) on SWE-bench Lite. It also improves the final resolved rate of an
+open-source framework by 6.33 percentage points through its patch generation
+integration.
+文中引用: yu2025orcalocallmagentframework
+
  
+标题:       Defining and Detecting the Defects of the Large Language Model-based
+  Autonomous Agents
+作者:       Kaiwen Ning, Jiachi Chen, Jingwen Zhang, Wei Li, Zexu Wang, Yuming Feng, Weizhe Zhang, Zibin Zheng
+发布时间:   2024-12-24
+链接:       http://arxiv.org/abs/2412.18371v2
+摘要:       AI agents are systems capable of perceiving their environment, autonomously
+planning and executing tasks. Recent advancements in LLM have introduced a
+transformative paradigm for AI agents, enabling them to interact with external
+resources and tools through prompts. In such agents, the workflow integrates
+developer-written code, which manages framework construction and logic control,
+with LLM-generated natural language that enhances dynamic decision-making and
+interaction. However, discrepancies between developer-implemented logic and the
+dynamically generated content of LLMs in terms of behavior and expected
+outcomes can lead to defects, such as tool invocation failures and task
+execution errors. These issues introduce specific risks, leading to various
+defects in LLM-based AI Agents, such as service interruptions. Despite the
+importance of these issues, there is a lack of systematic work that focuses on
+analyzing LLM-based AI Agents to uncover defects in their code. In this paper,
+we present the first study focused on identifying and detecting defects in LLM
+Agents. We collected and analyzed 6,854 relevant posts from StackOverflow to
+define 8 types of agent defects. For each type, we provided detailed
+descriptions with an example. Then, we designed a static analysis tool, named
+Agentable, to detect the defects. Agentable leverages Code Property Graphs and
+LLMs to analyze Agent workflows by efficiently identifying specific code
+patterns and analyzing natural language descriptions. To evaluate Agentable, we
+constructed two datasets: AgentSet, consists of 84 real-world Agents, and
+AgentTest, which contains 78 Agents specifically designed to include various
+types of defects. Our results show that Agentable achieved an overall accuracy
+of 88.79% and a recall rate of 91.03%. Furthermore, our analysis reveals the
+889 defects of the AgentSet, highlighting the prevalence of these defects.
+文中引用: ning2024definingdetectingdefectslarge
+
   - 
 标题:       A Multi-Agent Approach to Fault Localization via Graph-Based Retrieval
   and Reflexion
@@ -957,7 +3094,31 @@ Top-1 accuracy by up to 22\%.
 文中引用: rafi2025multiagentapproachfaultlocalization
 
     - [5.1.1 Static Analysis](#511-static-analysis)
+
    
+标题:       REDO: Execution-Free Runtime Error Detection for COding Agents
+作者:       Shou Li, Andrey Kan, Laurent Callot, Bhavana Bhasker, Muhammad Shihab Rashid, Timothy B Esler
+发布时间:   2024-10-10
+链接:       http://arxiv.org/abs/2410.09117v1
+摘要:       As LLM-based agents exhibit exceptional capabilities in addressing complex
+problems, there is a growing focus on developing coding agents to tackle
+increasingly sophisticated tasks. Despite their promising performance, these
+coding agents often produce programs or modifications that contain runtime
+errors, which can cause code failures and are difficult for static analysis
+tools to detect. Enhancing the ability of coding agents to statically identify
+such errors could significantly improve their overall performance. In this
+work, we introduce Execution-free Runtime Error Detection for COding Agents
+(REDO), a method that integrates LLMs with static analysis tools to detect
+runtime errors for coding agents, without code execution. Additionally, we
+propose a benchmark task, SWE-Bench-Error-Detection (SWEDE), based on SWE-Bench
+(lite), to evaluate error detection in repository-level problems with complex
+external dependencies. Finally, through both quantitative and qualitative
+analyses across various error detection tasks, we demonstrate that REDO
+outperforms current state-of-the-art methods by achieving a 11.0% higher
+accuracy and 9.1% higher weighted F1 score; and provide insights into the
+advantages of incorporating LLMs for error detection.
+文中引用: li2024redoexecutionfreeruntimeerror
+
     - 
 标题:       Static Code Analysis in the AI Era: An In-depth Exploration of the
   Concept, Function, and Potential of Intelligent Code Analysis Agents
@@ -986,8 +3147,205 @@ research and innovation in this field, focusing on refining the ICAA concept
 and exploring ways to mitigate the associated costs.
 文中引用: fan2023staticcodeanalysisai
     - [5.1.2 Dynamic Monitoring](#512-dynamic-monitoring)
+    
   - [5.2 Interactive Debugging Agents](#52-interactive-debugging-agents)
+
+
+标题:       Benchmarking and Enhancing LLM Agents in Localizing Linux Kernel Bugs
+作者:       Zhenhao Zhou, Zhuochen Huang, Yike He, Chong Wang, Jiajun Wang, Yijian Wu, Xin Peng, Yiling Lou
+发布时间:   2025-05-26
+链接:       http://arxiv.org/abs/2505.19489v1
+摘要:       The Linux kernel is a critical system, serving as the foundation for numerous
+systems. Bugs in the Linux kernel can cause serious consequences, affecting
+billions of users. Fault localization (FL), which aims at identifying the buggy
+code elements in software, plays an essential role in software quality
+assurance. While recent LLM agents have achieved promising accuracy in FL on
+recent benchmarks like SWE-bench, it remains unclear how well these methods
+perform in the Linux kernel, where FL is much more challenging due to the
+large-scale code base, limited observability, and diverse impact factors. In
+this paper, we introduce LinuxFLBench, a FL benchmark constructed from
+real-world Linux kernel bugs. We conduct an empirical study to assess the
+performance of state-of-the-art LLM agents on the Linux kernel. Our initial
+results reveal that existing agents struggle with this task, achieving a best
+top-1 accuracy of only 41.6% at file level. To address this challenge, we
+propose LinuxFL$^+$, an enhancement framework designed to improve FL
+effectiveness of LLM agents for the Linux kernel. LinuxFL$^+$ substantially
+improves the FL accuracy of all studied agents (e.g., 7.2% - 11.2% accuracy
+increase) with minimal costs. Data and code are available at
+https://github.com/FudanSELab/LinuxFLBench.
+文中引用: zhou2025benchmarkingenhancingllmagents
+
+标题:       Towards Adaptive Software Agents for Debugging
+作者:       Yacine Majdoub, Eya Ben Charrada, Haifa Touati
+发布时间:   2025-04-25
+链接:       http://arxiv.org/abs/2504.18316v1
+摘要:       Using multiple agents was found to improve the debugging capabilities of
+Large Language Models. However, increasing the number of LLM-agents has several
+drawbacks such as increasing the running costs and rising the risk for the
+agents to lose focus. In this work, we propose an adaptive agentic design,
+where the number of agents and their roles are determined dynamically based on
+the characteristics of the task to be achieved. In this design, the agents
+roles are not predefined, but are generated after analyzing the problem to be
+solved. Our initial evaluation shows that, with the adaptive design, the number
+of agents that are generated depends on the complexity of the buggy code. In
+fact, for simple code with mere syntax issues, the problem was usually fixed
+using one agent only. However, for more complex problems, we noticed the
+creation of a higher number of agents. Regarding the effectiveness of the fix,
+we noticed an average improvement of 11% compared to the one-shot prompting.
+Given these promising results, we outline future research directions to improve
+our design for adaptive software agents that can autonomously plan and conduct
+their software goals.
+文中引用: majdoub2025adaptivesoftwareagentsdebugging
+
+标题:       Timing Analysis Agent: Autonomous Multi-Corner Multi-Mode (MCMM) Timing
+  Debugging with Timing Debug Relation Graph
+作者:       Jatin Nainani, Chia-Tung Ho, Anirudh Dhurka, Haoxing Ren
+发布时间:   2025-04-15
+链接:       http://arxiv.org/abs/2504.11502v1
+摘要:       Timing analysis is an essential and demanding verification method for Very
+Large Scale Integrated (VLSI) circuit design and optimization. In addition, it
+also serves as the cornerstone of the final sign-off, determining whether the
+chip is ready to be sent to the semiconductor foundry for fabrication.
+Recently, as the technology advance relentlessly, smaller metal pitches and the
+increasing number of devices have led to greater challenges and longer
+turn-around-time for experienced human designers to debug timing issues from
+the Multi-Corner Multi-Mode (MCMM) timing reports. As a result, an efficient
+and intelligent methodology is highly necessary and essential for debugging
+timing issues and reduce the turnaround times. Recently, Large Language Models
+(LLMs) have shown great promise across various tasks in language understanding
+and interactive decision-making, incorporating reasoning and actions. In this
+work, we propose a timing analysis agent, that is empowered by multi-LLMs task
+solving, and incorporates a novel hierarchical planning and solving flow to
+automate the analysis of timing reports from commercial tool. In addition, we
+build a Timing Debug Relation Graph (TDRG) that connects the reports with the
+relationships of debug traces from experienced timing engineers. The timing
+analysis agent employs the novel Agentic Retrieval Augmented Generation (RAG)
+approach, that includes agent and coding to retrieve data accurately, on the
+developed TDRG. In our studies, the proposed timing analysis agent achieves an
+average 98% pass-rate on a single-report benchmark and a 90% pass-rate for
+multi-report benchmark from industrial designs, demonstrating its effectiveness
+and adaptability.
+文中引用: nainani2025timinganalysisagentautonomous
+
+标题:       BugCraft: End-to-End Crash Bug Reproduction Using LLM Agents in
+  Minecraft
+作者:       Eray Yapağcı, Yavuz Alp Sencer Öztürk, Eray Tüzün
+发布时间:   2025-03-25
+链接:       http://arxiv.org/abs/2503.20036v1
+摘要:       Reproducing game bugs, in our case crash bugs in continuously evolving games
+like Minecraft, is a notoriously manual, time-consuming, and challenging
+process to automate. Despite the success of LLM-driven bug reproduction in
+other software domains, games, with their complex interactive environments,
+remain largely unaddressed. This paper introduces BugCraft, a novel end-to-end
+framework designed to automate the reproduction of crash bugs in Minecraft
+directly from user-submitted bug reports, addressing the critical gap in
+automated game bug reproduction. BugCraft employs a two-stage approach: first,
+a Step Synthesizer leverages LLMs and Minecraft Wiki knowledge to transform bug
+reports into high-quality, structured steps to reproduce (S2R). Second, an
+Action Model, powered by a vision-based LLM agent (GPT-4o) and a custom macro
+API, executes these S2R steps within Minecraft to trigger the reported crash.
+To facilitate evaluation, we introduce BugCraft-Bench, a curated dataset of
+Minecraft crash bug reports. Evaluated on BugCraft-Bench, our framework
+successfully reproduced 30.23% of crash bugs end-to-end. The Step Synthesizer
+demonstrated a 66.28% accuracy in generating correct bug reproduction plans,
+highlighting its effectiveness in interpreting and structuring bug report
+information. BugCraft demonstrates the feasibility of automated reproduction of
+crash bugs in complex game environments using LLMs, opening promising avenues
+for game testing and development. The framework and the BugCraft-Bench dataset
+pave the way for future research in automated game bug analysis and hold
+potential for generalization to other interactive game platforms. Finally, we
+make our code open at https://bugcraft2025.github.io/
+文中引用: yapağcı2025bugcraftendtoendcrashbug
+
+标题:       Fully Autonomous Programming using Iterative Multi-Agent Debugging with
+  Large Language Models
+作者:       Anastasiia Grishina, Vadim Liventsev, Aki Härmä, Leon Moonen
+发布时间:   2025-03-10
+链接:       http://arxiv.org/abs/2503.07693v1
+摘要:       Program synthesis with Large Language Models (LLMs) suffers from a "near-miss
+syndrome": the generated code closely resembles a correct solution but fails
+unit tests due to minor errors. We address this with a multi-agent framework
+called Synthesize, Execute, Instruct, Debug, and Repair (SEIDR). Effectively
+applying SEIDR to instruction-tuned LLMs requires determining (a) optimal
+prompts for LLMs, (b) what ranking algorithm selects the best programs in
+debugging rounds, and (c) balancing the repair of unsuccessful programs with
+the generation of new ones. We empirically explore these trade-offs by
+comparing replace-focused, repair-focused, and hybrid debug strategies. We also
+evaluate lexicase and tournament selection to rank candidates in each
+generation. On Program Synthesis Benchmark 2 (PSB2), our framework outperforms
+both conventional use of OpenAI Codex without a repair phase and traditional
+genetic programming approaches. SEIDR outperforms the use of an LLM alone,
+solving 18 problems in C++ and 20 in Python on PSB2 at least once across
+experiments. To assess generalizability, we employ GPT-3.5 and Llama 3 on the
+PSB2 and HumanEval-X benchmarks. Although SEIDR with these models does not
+surpass current state-of-the-art methods on the Python benchmarks, the results
+on HumanEval-C++ are promising. SEIDR with Llama 3-8B achieves an average
+pass@100 of 84.2%. Across all SEIDR runs, 163 of 164 problems are solved at
+least once with GPT-3.5 in HumanEval-C++, and 162 of 164 with the smaller Llama
+3-8B. We conclude that SEIDR effectively overcomes the near-miss syndrome in
+program synthesis with LLMs.
+文中引用: grishina2025fullyautonomousprogrammingusing
+
+
+标题:       Watson: A Cognitive Observability Framework for the Reasoning of
+  LLM-Powered Agents
+作者:       Benjamin Rombaut, Sogol Masoumzadeh, Kirill Vasilevski, Dayi Lin, Ahmed E. Hassan
+发布时间:   2024-11-05
+链接:       http://arxiv.org/abs/2411.03455v2
+摘要:       As foundation models (FMs) play an increasingly prominent role in complex
+software systems, such as agentic software, they introduce significant
+observability and debuggability challenges. Although recent Large Reasoning
+Models (LRMs) generate their thought processes as part of the output, in many
+scenarios fast-thinking Large Language Models (LLMs) are still preferred due to
+latency constraints. LLM-powered agents operate autonomously with opaque
+implicit reasoning, making it difficult to debug their unexpected behaviors or
+errors. In this paper, we introduce Watson, a novel framework that provides
+reasoning observability into the implicit reasoning processes of agents driven
+by fast-thinking LLMs, allowing the identification and localization of errors
+and guidance for corrections. We demonstrate the accuracy of the recovered
+implicit reasoning trace by Watson and its usefulness through debugging and
+improving the performance of LLM-powered agents in two scenarios: Massive
+Multitask Language Understanding (MMLU) benchmark and SWE-bench-lite. Using
+Watson, we were able to observe and identify the implicit reasoning errors, and
+automatically provide targeted corrections at runtime that improve the Pass@1
+of agents on MMLU and SWE-bench-lite by 7.58 (13.45% relative improvement) and
+7.76 (12.31% relative improvement) percentage points, respectively, without
+updates to models or the cognitive architecture of the agents.
+文中引用: rombaut2025watsoncognitiveobservabilityframework
+
  
+标题:       RGD: Multi-LLM Based Agent Debugger via Refinement and Generation
+  Guidance
+作者:       Haolin Jin, Zechao Sun, Huaming Chen
+发布时间:   2024-10-02
+链接:       http://arxiv.org/abs/2410.01242v2
+摘要:       Large Language Models (LLMs) have shown incredible potential in code
+generation tasks, and recent research in prompt engineering have enhanced LLMs'
+understanding of textual information. However, ensuring the accuracy of
+generated code often requires extensive testing and validation by programmers.
+While LLMs can typically generate code based on task descriptions, their
+accuracy remains limited, especially for complex tasks that require a deeper
+understanding of both the problem statement and the code generation process.
+This limitation is primarily due to the LLMs' need to simultaneously comprehend
+text and generate syntactically and semantically correct code, without having
+the capability to automatically refine the code. In real-world software
+development, programmers rarely produce flawless code in a single attempt based
+on the task description alone, they rely on iterative feedback and debugging to
+refine their programs. Inspired by this process, we introduce a novel
+architecture of LLM-based agents for code generation and automatic debugging:
+Refinement and Guidance Debugging (RGD). The RGD framework is a multi-LLM-based
+agent debugger that leverages three distinct LLM agents-Guide Agent, Debug
+Agent, and Feedback Agent. RGD decomposes the code generation task into
+multiple steps, ensuring a clearer workflow and enabling iterative code
+refinement based on self-reflection and feedback. Experimental results
+demonstrate that RGD exhibits remarkable code generation capabilities,
+achieving state-of-the-art performance with a 9.8% improvement on the HumanEval
+dataset and a 16.2% improvement on the MBPP dataset compared to the
+state-of-the-art approaches and traditional direct prompting approaches. We
+highlight the effectiveness of the RGD framework in enhancing LLMs' ability to
+generate and refine code autonomously.
+文中引用: jin2024rgdmultillmbasedagent
+
 - 
 标题:       COAST: Enhancing the Code Debugging Ability of LLMs through
   Communicative Agent Based Data Synthesis
@@ -1039,6 +3397,227 @@ https://github.com/AcceptePapier/UniDebugger.
 文中引用: lee2024unifieddebuggingapproachllmbased
   - [5.3 Autonomous Program Repair](#53-autonomous-program-repair)
 
+
+标题:       PAGENT: Learning to Patch Software Engineering Agents
+作者:       Haoran Xue, Gias Uddin, Song Wang
+发布时间:   2025-06-21
+链接:       http://arxiv.org/abs/2506.17772v1
+摘要:       LLM Agents produce patches automatically to resolve an issue. However, they
+can generate inaccurate patches. Little is known about the root causes behind
+those failed patches or how those could be fixed. This paper reports an
+empirical study of the failed patches generated by seven top LLM code agents.
+We collected 114 issues from the SWE-bench Lite dataset that remained
+unresolved across the agents. The seven agents produced a total of 769 failed
+patches for those issues, which we checked with a combination of GPT-4o and
+manual analysis. We present a taxonomy of the failure reasons across the
+patches. The taxonomy contains six categories, with several sub-categories
+under each category. For example, a frequently observed category is the
+inability of an LLM to correctly infer/produce the appropriate variable type in
+the produced patch. As a first step towards addressing such type-related
+errors, we designed PAGENT (Patch Agent). PAGENT utilizes program analysis
+techniques like CFG creation and exploration to infer the type of information
+of a patch. PAGENT does this by applying repository-level static code analysis
+techniques. Then, PAGENT refines the inferred type by further utilizing an
+LLM-based inference technique. We tested PAGENT on all 127 type-related failed
+patches from the top three agents in our study. PAGENT could fix 29 of the 127
+failed patches.
+文中引用: xue2025pagentlearningpatchsoftware**
+**
+标题:       SemAgent: A Semantics Aware Program Repair Agent
+作者:       Anvith Pabba, Alex Mathai, Anindya Chakraborty, Baishakhi Ray
+发布时间:   2025-06-19
+链接:       http://arxiv.org/abs/2506.16650v1
+摘要:       Large Language Models (LLMs) have shown impressive capabilities in downstream
+software engineering tasks such as Automated Program Repair (APR). In
+particular, there has been a lot of research on repository-level
+issue-resolution benchmarks such as SWE-Bench. Although there has been
+significant progress on this topic, we notice that in the process of solving
+such issues, existing agentic systems tend to hyper-localize on immediately
+suspicious lines of code and fix them in isolation, without a deeper
+understanding of the issue semantics, code semantics, or execution semantics.
+Consequently, many existing systems generate patches that overfit to the user
+issue, even when a more general fix is preferable. To address this limitation,
+we introduce SemAgent, a novel workflow-based procedure that leverages issue,
+code, and execution semantics to generate patches that are complete -
+identifying and fixing all lines relevant to the issue. We achieve this through
+a novel pipeline that (a) leverages execution semantics to retrieve relevant
+context, (b) comprehends issue-semantics via generalized abstraction, (c)
+isolates code-semantics within the context of this abstraction, and (d)
+leverages this understanding in a two-stage architecture: a repair stage that
+proposes fine-grained fixes, followed by a reviewer stage that filters relevant
+fixes based on the inferred issue-semantics. Our evaluations show that our
+methodology achieves a solve rate of 44.66% on the SWEBench-Lite benchmark
+beating all other workflow-based approaches, and an absolute improvement of
+7.66% compared to our baseline, which lacks such deep semantic understanding.
+We note that our approach performs particularly well on issues requiring
+multi-line reasoning (and editing) and edge-case handling, suggesting that
+incorporating issue and code semantics into APR pipelines can lead to robust
+and semantically consistent repairs.
+文中引用: pabba2025semagentsemanticsawareprogram
+
+标题:       Code Researcher: Deep Research Agent for Large Systems Code and Commit
+  History
+作者:       Ramneet Singh, Sathvik Joel, Abhav Mehrotra, Nalin Wadhwa, Ramakrishna B Bairi, Aditya Kanade, Nagarajan Natarajan
+发布时间:   2025-05-27
+链接:       http://arxiv.org/abs/2506.11060v1
+摘要:       Large Language Model (LLM)-based coding agents have shown promising results
+on coding benchmarks, but their effectiveness on systems code remains
+underexplored. Due to the size and complexities of systems code, making changes
+to a systems codebase is a daunting task, even for humans. It requires
+researching about many pieces of context, derived from the large codebase and
+its massive commit history, before making changes. Inspired by the recent
+progress on deep research agents, we design the first deep research agent for
+code, called Code Researcher, and apply it to the problem of generating patches
+for mitigating crashes reported in systems code. Code Researcher performs
+multi-step reasoning about semantics, patterns, and commit history of code to
+gather sufficient context. The context is stored in a structured memory which
+is used for synthesizing a patch. We evaluate Code Researcher on kBenchSyz, a
+benchmark of Linux kernel crashes, and show that it significantly outperforms
+strong baselines, achieving a crash-resolution rate of 58%, compared to 37.5%
+by SWE-agent. On an average, Code Researcher explores 10 files in each
+trajectory whereas SWE-agent explores only 1.33 files, highlighting Code
+Researcher's ability to deeply explore the codebase. Through another experiment
+on an open-source multimedia software, we show the generalizability of Code
+Researcher. Our experiments highlight the importance of global context
+gathering and multi-faceted reasoning for large codebases.
+文中引用: singh2025coderesearcherdeepresearch
+
+
+标题:       CrashFixer: A crash resolution agent for the Linux kernel
+作者:       Alex Mathai, Chenxi Huang, Suwei Ma, Jihwan Kim, Hailie Mitchell, Aleksandr Nogikh, Petros Maniatis, Franjo Ivančić, Junfeng Yang, Baishakhi Ray
+发布时间:   2025-04-29
+链接:       http://arxiv.org/abs/2504.20412v2
+摘要:       Code large language models (LLMs) have shown impressive capabilities on a
+multitude of software engineering tasks. In particular, they have demonstrated
+remarkable utility in the task of code repair. However, common benchmarks used
+to evaluate the performance of code LLMs are often limited to small-scale
+settings. In this work, we build upon kGym, which shares a benchmark for
+system-level Linux kernel bugs and a platform to run experiments on the Linux
+kernel.
+  This paper introduces CrashFixer, the first LLM-based software repair agent
+that is applicable to Linux kernel bugs. Inspired by the typical workflow of a
+kernel developer, we identify the key capabilities an expert developer
+leverages to resolve a kernel crash. Using this as our guide, we revisit the
+kGym platform and identify key system improvements needed to practically run
+LLM-based agents at the scale of the Linux kernel (50K files and 20M lines of
+code). We implement these changes by extending kGym to create an improved
+platform - called kGymSuite, which will be open-sourced. Finally, the paper
+presents an evaluation of various repair strategies for such complex kernel
+bugs and showcases the value of explicitly generating a hypothesis before
+attempting to fix bugs in complex systems such as the Linux kernel. We also
+evaluated CrashFixer's capabilities on still open bugs, and found at least two
+patch suggestions considered plausible to resolve the reported bug.
+文中引用: mathai2025crashfixercrashresolutionagent
+
+标题:       Unlocking LLM Repair Capabilities in Low-Resource Programming Languages
+  Through Cross-Language Translation and Multi-Agent Refinement
+作者:       Wenqiang Luo, Jacky Wai Keung, Boyang Yang, Jacques Klein, Tegawende F. Bissyande, Haoye Tian, Bach Le
+发布时间:   2025-03-28
+链接:       http://arxiv.org/abs/2503.22512v3
+摘要:       Recent advances in leveraging LLMs for APR have demonstrated impressive
+capabilities in fixing software defects. However, current LLM-based approaches
+predominantly focus on mainstream programming languages like Java and Python,
+neglecting less prevalent but emerging languages such as Rust due to expensive
+training resources, limited datasets, and insufficient community support. This
+narrow focus creates a significant gap in repair capabilities across the
+programming language spectrum, where the full potential of LLMs for
+comprehensive multilingual program repair remains largely unexplored. To
+address this limitation, we introduce a novel cross-language program repair
+approach LANTERN that leverages LLMs' differential proficiency across languages
+through a multi-agent iterative repair paradigm. Our technique strategically
+translates defective code from languages where LLMs exhibit weaker repair
+capabilities to languages where they demonstrate stronger performance, without
+requiring additional training. A key innovation of our approach is an LLM-based
+decision-making system that dynamically selects optimal target languages based
+on bug characteristics and continuously incorporates feedback from previous
+repair attempts. We evaluate our method on xCodeEval, a comprehensive
+multilingual benchmark comprising 5,068 bugs across 11 programming languages.
+Results demonstrate significant enhancement in repair effectiveness,
+particularly for underrepresented languages, with Rust showing a 22.09%
+improvement in Pass@10 metrics. Our research provides the first empirical
+evidence that cross-language translation significantly expands the repair
+capabilities of LLMs and effectively bridges the performance gap between
+programming languages with different levels of popularity, opening new avenues
+for truly language-agnostic automated program repair.
+文中引用: luo2025unlockingllmrepaircapabilities
+
+标题:       Agentic Bug Reproduction for Effective Automated Program Repair at
+  Google
+作者:       Runxiang Cheng, Michele Tufano, Jürgen Cito, José Cambronero, Pat Rondon, Renyao Wei, Aaron Sun, Satish Chandra
+发布时间:   2025-02-03
+链接:       http://arxiv.org/abs/2502.01821v2
+摘要:       Bug reports often lack sufficient detail for developers to reproduce and fix
+the underlying defects. Bug Reproduction Tests (BRTs), tests that fail when the
+bug is present and pass when it has been resolved, are crucial for debugging,
+but they are rarely included in bug reports, both in open-source and in
+industrial settings. Thus, automatically generating BRTs from bug reports has
+the potential to accelerate the debugging process and lower time to repair.
+This paper investigates automated BRT generation within an industry setting,
+specifically at Google, focusing on the challenges of a large-scale,
+proprietary codebase and considering real-world industry bugs extracted from
+Google's internal issue tracker. We adapt and evaluate a state-of-the-art BRT
+generation technique, LIBRO, and present our agent-based approach, BRT Agent,
+which makes use of a fine-tuned Large Language Model (LLM) for code editing.
+Our BRT Agent significantly outperforms LIBRO, achieving a 28% plausible BRT
+generation rate, compared to 10% by LIBRO, on 80 human-reported bugs from
+Google's internal issue tracker. We further investigate the practical value of
+generated BRTs by integrating them with an Automated Program Repair (APR)
+system at Google. Our results show that providing BRTs to the APR system
+results in 30% more bugs with plausible fixes. Additionally, we introduce
+Ensemble Pass Rate (EPR), a metric which leverages the generated BRTs to select
+the most promising fixes from all fixes generated by APR system. Our evaluation
+on EPR for Top-K and threshold-based fix selections demonstrates promising
+results and trade-offs. For example, EPR correctly selects a plausible fix from
+a pool of 20 candidates in 70% of cases, based on its top-1 ranking.
+文中引用: cheng2025agenticbugreproductioneffective
+
+标题:       Evaluating Agent-based Program Repair at Google
+作者:       Pat Rondon, Renyao Wei, José Cambronero, Jürgen Cito, Aaron Sun, Siddhant Sanyam, Michele Tufano, Satish Chandra
+发布时间:   2025-01-13
+链接:       http://arxiv.org/abs/2501.07531v1
+摘要:       Agent-based program repair offers to automatically resolve complex bugs
+end-to-end by combining the planning, tool use, and code generation abilities
+of modern LLMs. Recent work has explored the use of agent-based repair
+approaches on the popular open-source SWE-Bench, a collection of bugs from
+highly-rated GitHub Python projects. In addition, various agentic approaches
+such as SWE-Agent have been proposed to solve bugs in this benchmark. This
+paper explores the viability of using an agentic approach to address bugs in an
+enterprise context. To investigate this, we curate an evaluation set of 178
+bugs drawn from Google's issue tracking system. This dataset spans both
+human-reported (78) and machine-reported bugs (100).
+  To establish a repair performance baseline on this benchmark, we implement
+Passerine, an agent similar in spirit to SWE-Agent that can work within
+Google's development environment. We show that with 20 trajectory samples and
+Gemini 1.5 Pro, Passerine can produce a patch that passes bug tests (i.e.,
+plausible) for 73% of machine-reported and 25.6% of human-reported bugs in our
+evaluation set. After manual examination, we found that 43% of machine-reported
+bugs and 17.9% of human-reported bugs have at least one patch that is
+semantically equivalent to the ground-truth patch.
+  These results establish a baseline on an industrially relevant benchmark,
+which as we show, contains bugs drawn from a different distribution -- in terms
+of language diversity, size, and spread of changes, etc. -- compared to those
+in the popular SWE-Bench dataset.
+文中引用: rondon2025evaluatingagentbasedprogramrepair
+
+标题:       An Empirical Study on LLM-based Agents for Automated Bug Fixing
+作者:       Xiangxin Meng, Zexiong Ma, Pengfei Gao, Chao Peng
+发布时间:   2024-11-15
+链接:       http://arxiv.org/abs/2411.10213v1
+摘要:       Large language models (LLMs) and LLM-based Agents have been applied to fix
+bugs automatically, demonstrating the capability in addressing software defects
+by engaging in development environment interaction, iterative validation and
+code modification. However, systematic analysis of these agent and non-agent
+systems remain limited, particularly regarding performance variations among
+top-performing ones. In this paper, we examine seven proprietary and
+open-source systems on the SWE-bench Lite benchmark for automated bug fixing.
+We first assess each system's overall performance, noting instances solvable by
+all or none of these sytems, and explore why some instances are uniquely solved
+by specific system types. We also compare fault localization accuracy at file
+and line levels and evaluate bug reproduction capabilities, identifying
+instances solvable only through dynamic reproduction. Through analysis, we
+concluded that further optimization is needed in both the LLM itself and the
+design of Agentic flow to improve the effectiveness of the Agent in bug fixing.
+文中引用: meng2024empiricalstudyllmbasedagents
 
 标题:       HyperAgent: Generalist Software Engineering Agents to Solve Coding Tasks
   at Scale
@@ -1136,7 +3715,116 @@ automation. Our data and code are publicly available
 文中引用: tang2024codeagentautonomouscommunicativeagents
 
   - [6.2 Iterative Improvement & Refactoring Agents](#62-iterative-improvement--refactoring-agents)
+
+
+标题:       LLM-based Multi-Agent System for Intelligent Refactoring of Haskell Code
+作者:       Shahbaz Siddeeq, Muhammad Waseem, Zeeshan Rasheed, Md Mahade Hasan, Jussi Rasku, Mika Saari, Henri Terho, Kalle Makela, Kai-Kristian Kemell, Pekka Abrahamsson
+发布时间:   2025-06-24
+链接:       http://arxiv.org/abs/2506.19481v1
+摘要:       Refactoring is a constant activity in software development and maintenance.
+Scale and maintain software systems are based on code refactoring. However,
+this process is still labor intensive, as it requires programmers to analyze
+the codebases in detail to avoid introducing new defects. In this research, we
+put forward a large language model (LLM)-based multi-agent system to automate
+the refactoring process on Haskell code. The objective of this research is to
+evaluate the effect of LLM-based agents in performing structured and
+semantically accurate refactoring on Haskell code. Our proposed multi-agent
+system based on specialized agents with distinct roles, including code
+analysis, refactoring execution, verification, and debugging. To test the
+effectiveness and practical applicability of the multi-agent system, we
+conducted evaluations using different open-source Haskell codebases. The
+results of the experiments carried out showed that the proposed LLM-based
+multi-agent system could average 11.03% decreased complexity in code, an
+improvement of 22.46% in overall code quality, and increase performance
+efficiency by an average of 13.27%. Furthermore, memory allocation was
+optimized by up to 14.57%. These results highlight the ability of LLM-based
+multi-agent in managing refactoring tasks targeted toward functional
+programming paradigms. Our findings hint that LLM-based multi-agent systems
+integration into the refactoring of functional programming languages can
+enhance maintainability and support automated development workflows.
+文中引用: siddeeq2025llmbasedmultiagentintelligentrefactoring
+
+标题:       MANTRA: Enhancing Automated Method-Level Refactoring with Contextual RAG
+  and Multi-Agent LLM Collaboration
+作者:       Yisen Xu, Feng Lin, Jinqiu Yang, Tse-Hsun, Chen, Nikolaos Tsantalis
+发布时间:   2025-03-18
+链接:       http://arxiv.org/abs/2503.14340v2
+摘要:       Maintaining and scaling software systems relies heavily on effective code
+refactoring, yet this process remains labor-intensive, requiring developers to
+carefully analyze existing codebases and prevent the introduction of new
+defects. Although recent advancements have leveraged Large Language Models
+(LLMs) to automate refactoring tasks, current solutions are constrained in
+scope and lack mechanisms to guarantee code compilability and successful test
+execution. In this work, we introduce MANTRA, a comprehensive LLM agent-based
+framework that automates method-level refactoring. MANTRA integrates
+Context-Aware Retrieval-Augmented Generation, coordinated Multi-Agent
+Collaboration, and Verbal Reinforcement Learning to emulate human
+decision-making during refactoring while preserving code correctness and
+readability. Our empirical study, conducted on 703 instances of "pure
+refactorings" (i.e., code changes exclusively involving structural
+improvements), drawn from 10 representative Java projects, covers the six most
+prevalent refactoring operations. Experimental results demonstrate that MANTRA
+substantially surpasses a baseline LLM model (RawGPT ), achieving an 82.8%
+success rate (582/703) in producing code that compiles and passes all tests,
+compared to just 8.7% (61/703) with RawGPT. Moreover, in comparison to
+IntelliJ's LLM-powered refactoring tool (EM-Assist), MANTRA exhibits a 50%
+improvement in generating Extract Method transformations. A usability study
+involving 37 professional developers further shows that refactorings performed
+by MANTRA are perceived to be as readable and reusable as human-written code,
+and in certain cases, even more favorable. These results highlight the
+practical advantages of MANTRA and emphasize the growing potential of LLM-based
+systems in advancing the automation of software refactoring tasks.
+文中引用: xu2025mantraenhancingautomatedmethodlevel
+
+标题:       Distributed Approach to Haskell Based Applications Refactoring with LLMs
+  Based Multi-Agent Systems
+作者:       Shahbaz Siddeeq, Zeeshan Rasheed, Malik Abdul Sami, Mahade Hasan, Muhammad Waseem, Jussi Rasku, Mika Saari, Kai-Kristian Kemell, Pekka Abrahamsson
+发布时间:   2025-02-11
+链接:       http://arxiv.org/abs/2502.07928v1
+摘要:       We present a large language models (LLMs) based multi-agent system to
+automate the refactoring of Haskell codebases. The multi-agent system consists
+of specialized agents performing tasks such as context analysis, refactoring,
+validation, and testing. Refactoring improvements are using metrics such as
+cyclomatic complexity, run-time, and memory allocation. Experimental
+evaluations conducted on Haskell codebases demonstrate improvements in code
+quality. Cyclomatic complexity was reduced by 13.64% and 47.06% in the
+respective codebases. Memory allocation improved by 4.17% and 41.73%, while
+runtime efficiency increased by up to 50%. These metrics highlight the systems
+ability to optimize Haskells functional paradigms while maintaining correctness
+and scalability. Results show reductions in complexity and performance
+enhancements across codebases. The integration of LLMs based multi-agent system
+enables precise task execution and inter-agent collaboration, addressing the
+challenges of refactoring in functional programming. This approach aims to
+address the challenges of refactoring functional programming languages through
+distributed and modular systems.
+文中引用: siddeeq2025distributedapproachhaskellbased
  
+标题:       Autonomous Legacy Web Application Upgrades Using a Multi-Agent System
+作者:       Valtteri Ala-Salmi, Zeeshan Rasheed, Abdul Malik Sami, Zheying Zhang, Kai-Kristian Kemell, Jussi Rasku, Shahbaz Siddeeq, Mika Saari, Pekka Abrahamsson
+发布时间:   2025-01-31
+链接:       http://arxiv.org/abs/2501.19204v1
+摘要:       The use of Large Language Models (LLMs) for autonomous code generation is
+gaining attention in emerging technologies. As LLM capabilities expand, they
+offer new possibilities such as code refactoring, security enhancements, and
+legacy application upgrades. Many outdated web applications pose security and
+reliability challenges, yet companies continue using them due to the complexity
+and cost of upgrades. To address this, we propose an LLM-based multi-agent
+system that autonomously upgrades legacy web applications to the latest
+versions. The system distributes tasks across multiple phases, updating all
+relevant files. To evaluate its effectiveness, we employed Zero-Shot Learning
+(ZSL) and One-Shot Learning (OSL) prompts, applying identical instructions in
+both cases. The evaluation involved updating view files and measuring the
+number and types of errors in the output. For complex tasks, we counted the
+successfully met requirements. The experiments compared the proposed system
+with standalone LLM execution, repeated multiple times to account for
+stochastic behavior. Results indicate that our system maintains context across
+tasks and agents, improving solution quality over the base model in some cases.
+This study provides a foundation for future model implementations in legacy
+code updates. Additionally, findings highlight LLMs' ability to update small
+outdated files with high precision, even with basic prompts. The source code is
+publicly available on GitHub: https://github.com/alasalm1/Multi-agent-pipeline.
+文中引用: alasalmi2025autonomouslegacywebapplication
+
   - 
 标题:       Agent-Driven Automatic Software Improvement
 作者:       Fernando Vallecillos Ruiz
@@ -1163,7 +3851,39 @@ development.
 
   - [6.3 Dependency Management Agents](#63-dependency-management-agents)
  
-  - 
+
+标题:       CXXCrafter: An LLM-Based Agent for Automated C/C++ Open Source Software
+  Building
+作者:       Zhengmin Yu, Yuan Zhang, Ming Wen, Yinan Nie, Wenhui Zhang, Min Yang
+发布时间:   2025-05-27
+链接:       http://arxiv.org/abs/2505.21069v1
+摘要:       Project building is pivotal to support various program analysis tasks, such
+as generating intermediate rep- resentation code for static analysis and
+preparing binary code for vulnerability reproduction. However, automating the
+building process for C/C++ projects is a highly complex endeavor, involving
+tremendous technical challenges, such as intricate dependency management,
+diverse build systems, varied toolchains, and multifaceted error handling
+mechanisms. Consequently, building C/C++ projects often proves to be difficult
+in practice, hindering the progress of downstream applications. Unfortunately,
+research on facilitating the building of C/C++ projects remains to be
+inadequate. The emergence of Large Language Models (LLMs) offers promising
+solutions to automated software building. Trained on extensive corpora, LLMs
+can help unify diverse build systems through their comprehension capabilities
+and address complex errors by leveraging tacit knowledge storage. Moreover,
+LLM-based agents can be systematically designed to dynamically interact with
+the environment, effectively managing dynamic building issues. Motivated by
+these opportunities, we first conduct an empirical study to systematically
+analyze the current challenges in the C/C++ project building process.
+Particularly, we observe that most popular C/C++ projects encounter an average
+of five errors when relying solely on the default build systems. Based on our
+study, we develop an automated build system called CXXCrafter to specifically
+address the above-mentioned challenges, such as dependency resolution. Our
+evaluation on open-source software demonstrates that CXXCrafter achieves a
+success rate of 78% in project building. Specifically, among the Top100
+dataset, 72 projects are built successfully by both CXXCrafter and manual
+efforts, 3 by CXXCrafter only, and 14 manually only. ...
+文中引用: yu2025cxxcrafterllmbasedagentautomated
+
 标题:       DepsRAG: Towards Agentic Reasoning and Planning for Software Dependency
   Management
 作者:       Mohannad Alhanahnah, Yazan Boshmaf
@@ -1194,6 +3914,82 @@ available: https://github.com/Mohannadcse/DepsRAG.
 文中引用: alhanahnah2024depsragagenticreasoningplanning
 - [7. Deployment, Operations & Monitoring](#7-deployment-operations--monitoring)----------------------------------------------------------------------------------------------------------------------C7
   - [7.1 Root Cause Analysis (RCA) Agents](#71-root-cause-analysis-rca-agents)
+
+
+标题:       AgentFM: Role-Aware Failure Management for Distributed Databases with
+  LLM-Driven Multi-Agents
+作者:       Lingzhe Zhang, Yunpeng Zhai, Tong Jia, Xiaosong Huang, Chiming Duan, Ying Li
+发布时间:   2025-04-09
+链接:       http://arxiv.org/abs/2504.06614v1
+摘要:       Distributed databases are critical infrastructures for today's large-scale
+software systems, making effective failure management essential to ensure
+software availability. However, existing approaches often overlook the role
+distinctions within distributed databases and rely on small-scale models with
+limited generalization capabilities. In this paper, we conduct a preliminary
+empirical study to emphasize the unique significance of different roles.
+Building on this insight, we propose AgentFM, a role-aware failure management
+framework for distributed databases powered by LLM-driven multi-agents. AgentFM
+addresses failure management by considering system roles, data roles, and task
+roles, with a meta-agent orchestrating these components. Preliminary
+evaluations using Apache IoTDB demonstrate the effectiveness of AgentFM and
+open new directions for further research.
+文中引用: zhang2025agentfmroleawarefailuremanagement
+
+标题:       Flow-of-Action: SOP Enhanced LLM-Based Multi-Agent System for Root Cause
+  Analysis
+作者:       Changhua Pei, Zexin Wang, Fengrui Liu, Zeyan Li, Yang Liu, Xiao He, Rong Kang, Tieying Zhang, Jianjun Chen, Jianhui Li, Gaogang Xie, Dan Pei
+发布时间:   2025-02-12
+链接:       http://arxiv.org/abs/2502.08224v1
+摘要:       In the realm of microservices architecture, the occurrence of frequent
+incidents necessitates the employment of Root Cause Analysis (RCA) for swift
+issue resolution. It is common that a serious incident can take several domain
+experts hours to identify the root cause. Consequently, a contemporary trend
+involves harnessing Large Language Models (LLMs) as automated agents for RCA.
+Though the recent ReAct framework aligns well with the Site Reliability
+Engineers (SREs) for its thought-action-observation paradigm, its
+hallucinations often lead to irrelevant actions and directly affect subsequent
+results. Additionally, the complex and variable clues of the incident can
+overwhelm the model one step further. To confront these challenges, we propose
+Flow-of-Action, a pioneering Standard Operation Procedure (SOP) enhanced
+LLM-based multi-agent system. By explicitly summarizing the diagnosis steps of
+SREs, SOP imposes constraints on LLMs at crucial junctures, guiding the RCA
+process towards the correct trajectory. To facilitate the rational and
+effective utilization of SOPs, we design an SOP-centric framework called SOP
+flow. SOP flow contains a series of tools, including one for finding relevant
+SOPs for incidents, another for automatically generating SOPs for incidents
+without relevant ones, and a tool for converting SOPs into code. This
+significantly alleviates the hallucination issues of ReAct in RCA tasks. We
+also design multiple auxiliary agents to assist the main agent by removing
+useless noise, narrowing the search space, and informing the main agent whether
+the RCA procedure can stop. Compared to the ReAct method's 35.50% accuracy, our
+Flow-of-Action method achieves 64.01%, meeting the accuracy requirements for
+RCA in real-world systems.
+文中引用: pei2025flowofactionsopenhancedllmbased
+
+标题:       AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling
+  Autonomous Clouds
+作者:       Yinfang Chen, Manish Shetty, Gagan Somashekar, Minghua Ma, Yogesh Simmhan, Jonathan Mace, Chetan Bansal, Rujia Wang, Saravan Rajmohan
+发布时间:   2025-01-12
+链接:       http://arxiv.org/abs/2501.06706v1
+摘要:       AI for IT Operations (AIOps) aims to automate complex operational tasks, such
+as fault localization and root cause analysis, to reduce human workload and
+minimize customer impact. While traditional DevOps tools and AIOps algorithms
+often focus on addressing isolated operational tasks, recent advances in Large
+Language Models (LLMs) and AI agents are revolutionizing AIOps by enabling
+end-to-end and multitask automation. This paper envisions a future where AI
+agents autonomously manage operational tasks throughout the entire incident
+lifecycle, leading to self-healing cloud systems, a paradigm we term AgentOps.
+Realizing this vision requires a comprehensive framework to guide the design,
+development, and evaluation of these agents. To this end, we present AIOPSLAB,
+a framework that not only deploys microservice cloud environments, injects
+faults, generates workloads, and exports telemetry data but also orchestrates
+these components and provides interfaces for interacting with and evaluating
+agents. We discuss the key requirements for such a holistic framework and
+demonstrate how AIOPSLAB can facilitate the evaluation of next-generation AIOps
+agents. Through evaluations of state-of-the-art LLM agents within the benchmark
+created by AIOPSLAB, we provide insights into their capabilities and
+limitations in handling complex operational tasks in cloud environments.
+文中引用: chen2025aiopslabholisticframeworkevaluate
 
 
 标题:       Building AI Agents for Autonomous Clouds: Challenges and Design
@@ -1277,6 +4073,55 @@ Platform for Apache Flink of Alibaba Cloud.
 文中引用: wang2024rcagentcloudrootcause
   - [7.2 Configuration & Performance Sensitivity Analysis](#72-configuration--performance-sensitivity-analysis)
 
+
+标题:       Enabling Autonomic Microservice Management through Self-Learning Agents
+作者:       Fenglin Yu, Fangkai Yang, Xiaoting Qin, Zhiyang Zhang, Jue Zhang, Qingwei Lin, Hongyu Zhang, Yingnong Dang, Saravan Rajmohan, Dongmei Zhang, Qi Zhang
+发布时间:   2025-01-31
+链接:       http://arxiv.org/abs/2501.19056v1
+摘要:       The increasing complexity of modern software systems necessitates robust
+autonomic self-management capabilities. While Large Language Models (LLMs)
+demonstrate potential in this domain, they often face challenges in adapting
+their general knowledge to specific service contexts. To address this
+limitation, we propose ServiceOdyssey, a self-learning agent system that
+autonomously manages microservices without requiring prior knowledge of
+service-specific configurations. By leveraging curriculum learning principles
+and iterative exploration, ServiceOdyssey progressively develops a deep
+understanding of operational environments, reducing dependence on human input
+or static documentation. A prototype built with the Sock Shop microservice
+demonstrates the potential of this approach for autonomic microservice
+management.
+文中引用: yu2025enablingautonomicmicroservicemanagement
+
+
+标题:       SLA Management in Reconfigurable Multi-Agent RAG: A Systems Approach to
+  Question Answering
+作者:       Michael Iannelli, Sneha Kuchipudi, Vera Dvorak
+发布时间:   2024-12-07
+链接:       http://arxiv.org/abs/2412.06832v2
+摘要:       Retrieval Augmented Generation (RAG) enables Large Language Models (LLMs) to
+generalize to new information by decoupling reasoning capabilities from static
+knowledge bases. Traditional RAG enhancements have explored vertical
+scaling-assigning subtasks to specialized modules-and horizontal
+scaling-replicating tasks across multiple agents-to improve performance.
+However, real-world applications impose diverse Service Level Agreements (SLAs)
+and Quality of Service (QoS) requirements, involving trade-offs among
+objectives such as reducing cost, ensuring answer quality, and adhering to
+specific operational constraints.
+  In this work, we present a systems-oriented approach to multi-agent RAG
+tailored for real-world Question Answering (QA) applications. By integrating
+task-specific non-functional requirements-such as answer quality, cost, and
+latency-into the system, we enable dynamic reconfiguration to meet diverse
+SLAs. Our method maps these Service Level Objectives (SLOs) to system-level
+parameters, allowing the generation of optimal results within specified
+resource constraints.
+  We conduct a case study in the QA domain, demonstrating how dynamic
+re-orchestration of a multi-agent RAG system can effectively manage the
+trade-off between answer quality and cost. By adjusting the system based on
+query intent and operational conditions, we systematically balance performance
+and resource utilization. This approach allows the system to meet SLOs for
+various query types, showcasing its practicality for real-world applications.
+文中引用: iannelli2025slamanagementreconfigurablemultiagent
+
   - 
 标题:       Identifying Performance-Sensitive Configurations in Software Systems
   through Code Analysis with LLM Agents
@@ -1304,6 +4149,52 @@ offers valuable insights for future LLM-based code analysis research.
 文中引用: wang2024identifyingperformancesensitiveconfigurationssoftware
 
   - [7.3 Issue / Incident Resolution Agents](#73-issue--incident-resolution-agents)
+
+
+标题:       Can Agents Fix Agent Issues?
+作者:       Alfin Wijaya Rahardja, Junwei Liu, Weitong Chen, Zhenpeng Chen, Yiling Lou
+发布时间:   2025-05-27
+链接:       http://arxiv.org/abs/2505.20749v1
+摘要:       LLM-based agent systems are emerging as a new software paradigm and have been
+widely adopted across diverse domains such as medicine, robotics, and
+programming. However, maintaining these systems requires substantial effort, as
+they are inevitably prone to bugs and continually evolve to meet changing
+external requirements. Therefore, automatically resolving agent issues (i.e.,
+bug reports or feature requests) is a crucial and challenging task. While
+recent software engineering (SE) agents (e.g., SWE-agent) have shown promise in
+addressing issues in traditional software systems, it remains unclear how
+effectively they can resolve real-world issues in agent systems, which differ
+significantly from traditional software. To fill this gap, we first manually
+analyze 201 real-world agent issues and identify common categories of agent
+issues. We then spend 500 person-hours constructing AGENTISSUE-BENCH, a
+reproducible benchmark comprising 50 agent issue resolution tasks (each with an
+executable environment and failure-triggering tests). We further evaluate
+state-of-the-art SE agents on AGENTISSUE-BENCH and reveal their limited
+effectiveness (i.e., with only 3.33% - 12.67% resolution rates). These results
+underscore the unique challenges of maintaining agent systems compared to
+traditional software, highlighting the need for further research to develop
+advanced SE agents for resolving agent issues. Data and code are available at
+https://alfin06.github.io/AgentIssue-Bench-Leaderboard/#/ .
+文中引用: rahardja2025agentsfixagentissues
+
+标题:       AgentFM: Role-Aware Failure Management for Distributed Databases with
+  LLM-Driven Multi-Agents
+作者:       Lingzhe Zhang, Yunpeng Zhai, Tong Jia, Xiaosong Huang, Chiming Duan, Ying Li
+发布时间:   2025-04-09
+链接:       http://arxiv.org/abs/2504.06614v1
+摘要:       Distributed databases are critical infrastructures for today's large-scale
+software systems, making effective failure management essential to ensure
+software availability. However, existing approaches often overlook the role
+distinctions within distributed databases and rely on small-scale models with
+limited generalization capabilities. In this paper, we conduct a preliminary
+empirical study to emphasize the unique significance of different roles.
+Building on this insight, we propose AgentFM, a role-aware failure management
+framework for distributed databases powered by LLM-driven multi-agents. AgentFM
+addresses failure management by considering system roles, data roles, and task
+roles, with a meta-agent orchestrating these components. Preliminary
+evaluations using Apache IoTDB demonstrate the effectiveness of AgentFM and
+open new directions for further research.
+文中引用: zhang2025agentfmroleawarefailuremanagement
 
 
 标题:       GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining
@@ -1360,9 +4251,69 @@ the advanced LLM.
 文中引用: tao2024magisllmbasedmultiagentframework
 
 - [8. Security, Compliance & Auditing](#8-security-compliance--auditing)
+- 
+标题:       Are AI-Generated Fixes Secure? Analyzing LLM and Agent Patches on
+  SWE-bench
+作者:       Amirali Sajadi, Kostadin Damevski, Preetha Chatterjee
+发布时间:   2025-06-30
+链接:       http://arxiv.org/abs/2507.02976v1
+摘要:       Large Language Models (LLMs) and their agentic frameworks are increasingly
+adopted to automate software development tasks such as issue resolution and
+program repair. While prior work has identified security risks in LLM-generated
+code, most evaluations have focused on synthetic or isolated settings, leaving
+open questions about the security of these systems in real-world development
+contexts. In this study, we present the first large-scale security analysis of
+LLM-generated patches using 20,000+ issues from the SWE-bench dataset. We
+evaluate patches produced by a standalone LLM (Llama 3.3) and compare them to
+developer-written patches. We also assess the security of patches generated by
+three top-performing agentic frameworks (OpenHands, AutoCodeRover, HoneyComb)
+on a subset of our data. Finally, we analyze a wide range of code, issue, and
+project-level factors to understand the conditions under which LLMs and agents
+are most likely to generate insecure code. Our findings reveal that the
+standalone LLM introduces nearly 9x more new vulnerabilities than developers,
+with many of these exhibiting unique patterns not found in developers' code.
+Agentic workflows also generate a significant number of vulnerabilities,
+particularly when granting LLMs more autonomy, potentially increasing the
+likelihood of misinterpreting project context or task requirements. We find
+that vulnerabilities are more likely to occur in LLM patches associated with a
+higher number of files, more lines of generated code, and GitHub issues that
+lack specific code snippets or information about the expected code behavior and
+steps to reproduce. These results suggest that contextual factors play a
+critical role in the security of the generated code and point toward the need
+for proactive risk assessment methods that account for both code and
+issue-level information to complement existing vulnerability detection tools.
+文中引用: sajadi2025aigeneratedfixessecureanalyzing
   - [8.1 Smart Contract Auditing Agents](#81-smart-contract-auditing-agents)
  
-  - 
+
+标题:       A Multi-Agent Framework for Automated Vulnerability Detection and Repair
+  in Solidity and Move Smart Contracts
+作者:       Rabimba Karanjai, Sam Blackshear, Lei Xu, Weidong Shi
+发布时间:   2025-02-22
+链接:       http://arxiv.org/abs/2502.18515v1
+摘要:       The rapid growth of the blockchain ecosystem and the increasing value locked
+in smart contracts necessitate robust security measures. While languages like
+Solidity and Move aim to improve smart contract security, vulnerabilities
+persist. This paper presents Smartify, a novel multi-agent framework leveraging
+Large Language Models (LLMs) to automatically detect and repair vulnerabilities
+in Solidity and Move smart contracts. Unlike traditional methods that rely
+solely on vast pre-training datasets, Smartify employs a team of specialized
+agents working on different specially fine-tuned LLMs to analyze code based on
+underlying programming concepts and language-specific security principles. We
+evaluated Smartify on a dataset for Solidity and a curated dataset for Move,
+demonstrating its effectiveness in fixing a wide range of vulnerabilities. Our
+results show that Smartify (Gemma2+codegemma) achieves state-of-the-art
+performance, surpassing existing LLMs and enhancing general-purpose models'
+capabilities, such as Llama 3.1. Notably, Smartify can incorporate
+language-specific knowledge, such as the nuances of Move, without requiring
+massive language-specific pre-training datasets. This work offers a detailed
+analysis of various LLMs' performance on smart contract repair, highlighting
+the strengths of our multi-agent approach and providing a blueprint for
+developing more secure and reliable decentralized applications in the growing
+blockchain landscape. We also provide a detailed recipe for extending this to
+other similar use cases.
+文中引用: karanjai2025multiagentframeworkautomatedvulnerability
+
 标题:       Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract
   Auditing with Justifications
 作者:       Wei Ma, Daoyuan Wu, Yuqiang Sun, Tianwen Wang, Shangqing Liu, Jian Zhang, Yue Xue, Yang Liu
@@ -1449,10 +4400,157 @@ automated driving system.
 文中引用: geissler2024conceptguidedllmagentshumanai
 
   - [8.3 Compliance Detection Agents](#83-compliance-detection-agents)
+
+
+标题:       AgentDroid: A Multi-Agent Framework for Detecting Fraudulent Android
+  Applications
+作者:       Ruwei Pan, Hongyu Zhang, Zhonghao Jiang, Ran Hou
+发布时间:   2025-03-15
+链接:       http://arxiv.org/abs/2503.12163v1
+摘要:       With the increasing prevalence of fraudulent Android applications such as
+fake and malicious applications, it is crucial to detect them with high
+accuracy and adaptability. This paper introduces AgentDroid, a novel framework
+for Android fraudulent application detection based on multi-modal analysis and
+multi-agent systems. AgentDroid overcomes the limitations of traditional
+detection methods such as the inability to handle multimodal data and high
+false alarm rates. It processes Android applications and extracts a series of
+multi-modal data for analysis. Multiple LLM-based agents with specialized roles
+analyze the relevant data and collaborate to detect complex fraud effectively.
+We constructed a dataset containing various categories of fraudulent
+applications and legitimate applications and validated our framework on this
+dataset. Experimental results indicate that our multi-agent framework based on
+GPT-4o achieves an accuracy of 91.7% and an F1-Score of 91.68%, showing
+improved detection accuracy over the baseline methods.
+文中引用: pan2025agentdroidmultiagentframeworkdetecting
+
+标题:       VulnBot: Autonomous Penetration Testing for A Multi-Agent Collaborative
+  Framework
+作者:       He Kong, Die Hu, Jingguo Ge, Liangxiong Li, Tong Li, Bingzhen Wu
+发布时间:   2025-01-23
+链接:       http://arxiv.org/abs/2501.13411v1
+摘要:       Penetration testing is a vital practice for identifying and mitigating
+vulnerabilities in cybersecurity systems, but its manual execution is
+labor-intensive and time-consuming. Existing large language model
+(LLM)-assisted or automated penetration testing approaches often suffer from
+inefficiencies, such as a lack of contextual understanding and excessive,
+unstructured data generation. This paper presents VulnBot, an automated
+penetration testing framework that leverages LLMs to simulate the collaborative
+workflow of human penetration testing teams through a multi-agent system. To
+address the inefficiencies and reliance on manual intervention in traditional
+penetration testing methods, VulnBot decomposes complex tasks into three
+specialized phases: reconnaissance, scanning, and exploitation. These phases
+are guided by a penetration task graph (PTG) to ensure logical task execution.
+Key design features include role specialization, penetration path planning,
+inter-agent communication, and generative penetration behavior. Experimental
+results demonstrate that VulnBot outperforms baseline models such as GPT-4 and
+Llama3 in automated penetration testing tasks, particularly showcasing its
+potential in fully autonomous testing on real-world machines.
+文中引用: kong2025vulnbotautonomouspenetrationtesting
+
+标题:       LAW: Legal Agentic Workflows for Custody and Fund Services Contracts
+作者:       William Watson, Nicole Cho, Nishan Srishankar, Zhen Zeng, Lucas Cecchi, Daniel Scott, Suchetha Siddagangappa, Rachneet Kaur, Tucker Balch, Manuela Veloso
+发布时间:   2024-12-15
+链接:       http://arxiv.org/abs/2412.11063v1
+摘要:       Legal contracts in the custody and fund services domain govern critical
+aspects such as key provider responsibilities, fee schedules, and
+indemnification rights. However, it is challenging for an off-the-shelf Large
+Language Model (LLM) to ingest these contracts due to the lengthy unstructured
+streams of text, limited LLM context windows, and complex legal jargon. To
+address these challenges, we introduce LAW (Legal Agentic Workflows for Custody
+and Fund Services Contracts). LAW features a modular design that responds to
+user queries by orchestrating a suite of domain-specific tools and text agents.
+Our experiments demonstrate that LAW, by integrating multiple specialized
+agents and tools, significantly outperforms the baseline. LAW excels
+particularly in complex tasks such as calculating a contract's termination
+date, surpassing the baseline by 92.9% points. Furthermore, LAW offers a
+cost-effective alternative to traditional fine-tuned legal LLMs by leveraging
+reusable, domain-specific tools.
+文中引用: watson2024lawlegalagenticworkflows
+
+  - 
+标题:       EvalSVA: Multi-Agent Evaluators for Next-Gen Software Vulnerability
+  Assessment
+作者:       Xin-Cheng Wen, Jiaxin Ye, Cuiyun Gao, Lianwei Wu, Qing Liao
+发布时间:   2024-12-11
+链接:       http://arxiv.org/abs/2501.14737v1
+摘要:       Software Vulnerability (SV) assessment is a crucial process of determining
+different aspects of SVs (e.g., attack vectors and scope) for developers to
+effectively prioritize efforts in vulnerability mitigation. It presents a
+challenging and laborious process due to the complexity of SVs and the scarcity
+of labeled data. To mitigate the above challenges, we introduce EvalSVA, a
+multi-agent evaluators team to autonomously deliberate and evaluate various
+aspects of SV assessment. Specifically, we propose a multi-agent-based
+framework to simulate vulnerability assessment strategies in real-world
+scenarios, which employs multiple Large Language Models (LLMs) into an
+integrated group to enhance the effectiveness of SV assessment in the limited
+data. We also design diverse communication strategies to autonomously discuss
+and assess different aspects of SV. Furthermore, we construct a multi-lingual
+SV assessment dataset based on the new standard of CVSS, comprising 699, 888,
+and 1,310 vulnerability-related commits in C++, Python, and Java, respectively.
+Our experimental results demonstrate that EvalSVA averagely outperforms the
+44.12\% accuracy and 43.29\% F1 for SV assessment compared with the previous
+methods. It shows that EvalSVA offers a human-like process and generates both
+reason and answer for SV assessment. EvalSVA can also aid human experts in SV
+assessment, which provides more explanation and details for SV assessment.
+文中引用: wen2024evalsvamultiagentevaluatorsnextgen
+
 - [9. Education & Learning Agents](#9-education--learning-agents)
   - [9.1 Programming Tutoring & Educational Agents](#91-programming-tutoring--educational-agents)
  
-  
+标题:       Enhancing COBOL Code Explanations: A Multi-Agents Approach Using Large
+  Language Models
+作者:       Fangjian Lei, Jiawen Liu, Shayan Noei, Ying Zou, Derek Truong, William Alexander
+发布时间:   2025-07-02
+链接:       http://arxiv.org/abs/2507.02182v1
+摘要:       Common Business Oriented Language (COBOL) is a programming language used to
+develop business applications that are widely adopted by financial, business,
+and government agencies. Due to its age, complexity, and declining number of
+COBOL developers, maintaining COBOL codebases is becoming increasingly
+challenging. In particular, the lack of documentation makes it difficult for
+new developers to effectively understand and maintain COBOL systems. Existing
+research utilizes large language models (LLMs) to explain the functionality of
+code snippets. However, COBOL presents unique challenges due to its
+architectural and syntactical differences, which often cause its code to exceed
+the token window size of LLMs. In this work, we propose a multi-agent approach
+that leverages two LLM-based agents working collaboratively to generate
+explanations for functions, files, and the overall project. These agents
+incorporate together by utilizing contextual information from the codebase into
+the code explanation prompts. We evaluate the effectiveness of our approach
+using 14 open-source, real-world COBOL projects. Our results indicate that our
+approach performs significantly better than the baseline in function code
+explanation, with improvements of 12.67%, 18.59%, and 0.62% in terms of METEOR,
+chrF, and SentenceBERT scores, respectively. At the file level, our approach
+effectively explains both short and long COBOL files that exceed the token
+window size of LLMs and surpass the baseline by 4.21%, 10.72%, and 14.68% in
+explaining the purpose, functionality, and clarity of the generated
+explanation. At the project level, our approach generates explanations that
+convey the functionality and purpose of 82% of the selected projects.
+文中引用: lei2025enhancingcobolcodeexplanations
+
+
+标题:       VTutor: An Open-Source SDK for Generative AI-Powered Animated
+  Pedagogical Agents with Multi-Media Output
+作者:       Eason Chen, Chenyu Lin, Xinyi Tang, Aprille Xi, Canwen Wang, Jionghao Lin, Kenneth R Koedinger
+发布时间:   2025-02-06
+链接:       http://arxiv.org/abs/2502.04103v2
+摘要:       The rapid evolution of large language models (LLMs) has transformed
+human-computer interaction (HCI), but the interaction with LLMs is currently
+mainly focused on text-based interactions, while other multi-model approaches
+remain under-explored. This paper introduces VTutor, an open-source Software
+Development Kit (SDK) that combines generative AI with advanced animation
+technologies to create engaging, adaptable, and realistic APAs for human-AI
+multi-media interactions. VTutor leverages LLMs for real-time personalized
+feedback, advanced lip synchronization for natural speech alignment, and WebGL
+rendering for seamless web integration. Supporting various 2D and 3D character
+models, VTutor enables researchers and developers to design emotionally
+resonant, contextually adaptive learning agents. This toolkit enhances learner
+engagement, feedback receptivity, and human-AI interaction while promoting
+trustworthy AI principles in education. VTutor sets a new standard for
+next-generation APAs, offering an accessible, scalable solution for fostering
+meaningful and immersive human-AI interaction experiences. The VTutor project
+is open-sourced and welcomes community-driven contributions and showcases.
+文中引用: chen2025vtutoropensourcesdkgenerative
+
 标题:       Co-Learning: Code Learning for Multi-Agent Reinforcement Collaborative
   Framework with Conversational Natural Language Interfaces
 作者:       Jiapeng Yu, Yuqian Wu, Yajing Zhan, Wenhao Guo, Zhou Xu, Raymond Lee
@@ -1494,7 +4592,117 @@ significantly improves student performance on debugging by 12% in the
 pre-to-post test.
 文中引用: ma2024teachprogrammingaiera
   - [9.2 Simulation & Modeling Interface Agents](#92-simulation--modeling-interface-agents)
- 
+
+
+
+标题:       LLM-Agents Driven Automated Simulation Testing and Analysis of small
+  Uncrewed Aerial Systems
+作者:       Venkata Sai Aswath Duvvuru, Bohan Zhang, Michael Vierhauser, Ankit Agrawal
+发布时间:   2025-01-21
+链接:       http://arxiv.org/abs/2501.11864v1
+摘要:       Thorough simulation testing is crucial for validating the correct behavior of
+small Uncrewed Aerial Systems (sUAS) across multiple scenarios, including
+adverse weather conditions (such as wind, and fog), diverse settings (hilly
+terrain, or urban areas), and varying mission profiles (surveillance,
+tracking). While various sUAS simulation tools exist to support developers, the
+entire process of creating, executing, and analyzing simulation tests remains a
+largely manual and cumbersome task. Developers must identify test scenarios,
+set up the simulation environment, integrate the System under Test (SuT) with
+simulation tools, formulate mission plans, and collect and analyze results.
+These labor-intensive tasks limit the ability of developers to conduct
+exhaustive testing across a wide range of scenarios. To alleviate this problem,
+in this paper, we propose AutoSimTest, a Large Language Model (LLM)-driven
+framework, where multiple LLM agents collaborate to support the sUAS simulation
+testing process. This includes: (1) creating test scenarios that subject the
+SuT to unique environmental contexts; (2) preparing the simulation environment
+as per the test scenario; (3) generating diverse sUAS missions for the SuT to
+execute; and (4) analyzing simulation results and providing an interactive
+analytics interface. Further, the design of the framework is flexible for
+creating and testing scenarios for a variety of sUAS use cases, simulation
+tools, and SuT input requirements. We evaluated our approach by (a) conducting
+simulation testing of PX4 and ArduPilot flight-controller-based SuTs, (b)
+analyzing the performance of each agent, and (c) gathering feedback from sUAS
+developers. Our findings indicate that AutoSimTest significantly improves the
+efficiency and scope of the sUAS testing process, allowing for more
+comprehensive and varied scenario evaluations while reducing the manual effort.
+文中引用: duvvuru2025llmagentsdrivenautomatedsimulation
+
+标题:       RTLSquad: Multi-Agent Based Interpretable RTL Design
+作者:       Bowei Wang, Qi Xiong, Zeqing Xiang, Lei Wang, Renzhi Chen
+发布时间:   2025-01-06
+链接:       http://arxiv.org/abs/2501.05470v1
+摘要:       Optimizing Register-Transfer Level (RTL) code is crucial for improving
+hardware PPA performance. Large Language Models (LLMs) offer new approaches for
+automatic RTL code generation and optimization. However, existing methods often
+lack decision interpretability (sufficient, understandable justification for
+decisions), making it difficult for hardware engineers to trust the generated
+results, thus preventing these methods from being integrated into the design
+process. To address this, we propose RTLSquad, a novel LLM-Based Multi-Agent
+system for interpretable RTL code generation. RTLSquad divides the design
+process into exploration, implementation, and verification & evaluation stages
+managed by specialized agent squads, generating optimized RTL code through
+inter-agent collaboration, and providing decision interpretability through the
+communication process. Experiments show that RTLSquad excels in generating
+functionally correct RTL code and optimizing PPA performance, while also having
+the capability to provide decision paths, demonstrating the practical value of
+our system.
+文中引用: wang2025rtlsquadmultiagentbasedinterpretable
+
+标题:       GIS Copilot: Towards an Autonomous GIS Agent for Spatial Analysis
+作者:       Temitope Akinboyewa, Zhenlong Li, Huan Ning, M. Naser Lessani
+发布时间:   2024-11-05
+链接:       http://arxiv.org/abs/2411.03205v4
+摘要:       Recent advancements in Generative AI offer promising capabilities for spatial
+analysis. Despite their potential, the integration of generative AI with
+established GIS platforms remains underexplored. In this study, we propose a
+framework for integrating LLMs directly into existing GIS platforms, using QGIS
+as an example. Our approach leverages the reasoning and programming
+capabilities of LLMs to autonomously generate spatial analysis workflows and
+code through an informed agent that has comprehensive documentation of key GIS
+tools and parameters. The implementation of this framework resulted in the
+development of a "GIS Copilot" that allows GIS users to interact with QGIS
+using natural language commands for spatial analysis. The GIS Copilot was
+evaluated with over 100 spatial analysis tasks with three complexity levels:
+basic tasks that require one GIS tool and typically involve one data layer to
+perform simple operations; intermediate tasks involving multi-step processes
+with multiple tools, guided by user instructions; and advanced tasks which
+involve multi-step processes that require multiple tools but not guided by user
+instructions, necessitating the agent to independently decide on and executes
+the necessary steps. The evaluation reveals that the GIS Copilot demonstrates
+strong potential in automating foundational GIS operations, with a high success
+rate in tool selection and code generation for basic and intermediate tasks,
+while challenges remain in achieving full autonomy for more complex tasks. This
+study contributes to the emerging vision of Autonomous GIS, providing a pathway
+for non-experts to engage with geospatial analysis with minimal prior
+expertise. While full autonomy is yet to be achieved, the GIS Copilot
+demonstrates significant potential for simplifying GIS workflows and enhancing
+decision-making processes.
+文中引用: akinboyewa2024giscopilotautonomousgis
+
+标题:       SceneGenAgent: Precise Industrial Scene Generation with Coding Agent
+作者:       Xiao Xia, Dan Zhang, Zibo Liao, Zhenyu Hou, Tianrui Sun, Jing Li, Ling Fu, Yuxiao Dong
+发布时间:   2024-10-29
+链接:       http://arxiv.org/abs/2410.21909v3
+摘要:       The modeling of industrial scenes is essential for simulations in industrial
+manufacturing. While large language models (LLMs) have shown significant
+progress in generating general 3D scenes from textual descriptions, generating
+industrial scenes with LLMs poses a unique challenge due to their demand for
+precise measurements and positioning, requiring complex planning over spatial
+arrangement. To address this challenge, we introduce SceneGenAgent, an
+LLM-based agent for generating industrial scenes through C# code. SceneGenAgent
+ensures precise layout planning through a structured and calculable format,
+layout verification, and iterative refinement to meet the quantitative
+requirements of industrial scenarios. Experiment results demonstrate that LLMs
+powered by SceneGenAgent exceed their original performance, reaching up to
+81.0% success rate in real-world industrial scene generation tasks and
+effectively meeting most scene generation requirements. To further enhance
+accessibility, we construct SceneInstruct, a dataset designed for fine-tuning
+open-source LLMs to integrate into SceneGenAgent. Experiments show that
+fine-tuning open-source LLMs on SceneInstruct yields significant performance
+improvements, with Llama3.1-70B approaching the capabilities of GPT-4o. Our
+code and data are available at https://github.com/THUDM/SceneGenAgent .
+文中引用: xia2025scenegenagentpreciseindustrialscene
+
   - 
 标题:       Text2BIM: Generating Building Models Using a Large Language Model-based
   Multi-Agent Framework
@@ -1613,6 +4821,807 @@ https://github.com/GPT-Laboratory/SLR-automation.
 
   - [10.2 Performance Benchmarking & Evaluation](#102-performance-benchmarking--evaluation)
 
+
+标题:       SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap
+  Development Environments
+作者:       Avi Arora, Jinu Jang, Roshanak Zilouchian Moghaddam
+发布时间:   2025-07-11
+链接:       http://arxiv.org/abs/2507.09063v1
+摘要:       Modern Large Language Model (LLM) agents promise end to end assistance with
+real-world software tasks, yet existing benchmarks evaluate LLM agents almost
+exclusively in pre-baked environments where every dependency is pre-installed.
+To fill this gap, we introduce SetupBench, a 93 instance benchmark that
+isolates the environment-bootstrap skill: starting from a bare Linux sandbox,
+an agent must install packages, resolve dependency conflicts, initialize
+databases, and configure background services. Our tasks span seven language
+ecosystems, five database engines, and multi-service orchestration scenarios,
+each accompanies by a natural language problem statement and a deterministic
+success command. Through evaluation of OpenHands, a state-of-the-art coding
+agent, we find low success rates across task categories, with particular
+challenges in repository setup (38.9-57.4%) and local database configuration
+(20.0-53.3%). Our analysis reveals systematic failure modes including
+incomplete development tooling installation, hallucinated task constraints, and
+non-persistent environment modifications that break agent-human collaboration
+workflows. We identify substantial inefficiencies in agent exploration
+strategies, with 38-89% of actions being unnecessary compared to optimal human
+behavior. These findings highlight gaps in current agents' practical
+environment-bootstrap capabilities. By targeting this critical yet
+under-evaluated capability, SetupBench provides a rigorous yard-stick for the
+next generation of software developer agents aiming to solve end to end
+real-wold tasks.
+文中引用: arora2025setupbenchassessingsoftwareengineering
+
+标题:       Are AI-Generated Fixes Secure? Analyzing LLM and Agent Patches on
+  SWE-bench
+作者:       Amirali Sajadi, Kostadin Damevski, Preetha Chatterjee
+发布时间:   2025-06-30
+链接:       http://arxiv.org/abs/2507.02976v1
+摘要:       Large Language Models (LLMs) and their agentic frameworks are increasingly
+adopted to automate software development tasks such as issue resolution and
+program repair. While prior work has identified security risks in LLM-generated
+code, most evaluations have focused on synthetic or isolated settings, leaving
+open questions about the security of these systems in real-world development
+contexts. In this study, we present the first large-scale security analysis of
+LLM-generated patches using 20,000+ issues from the SWE-bench dataset. We
+evaluate patches produced by a standalone LLM (Llama 3.3) and compare them to
+developer-written patches. We also assess the security of patches generated by
+three top-performing agentic frameworks (OpenHands, AutoCodeRover, HoneyComb)
+on a subset of our data. Finally, we analyze a wide range of code, issue, and
+project-level factors to understand the conditions under which LLMs and agents
+are most likely to generate insecure code. Our findings reveal that the
+standalone LLM introduces nearly 9x more new vulnerabilities than developers,
+with many of these exhibiting unique patterns not found in developers' code.
+Agentic workflows also generate a significant number of vulnerabilities,
+particularly when granting LLMs more autonomy, potentially increasing the
+likelihood of misinterpreting project context or task requirements. We find
+that vulnerabilities are more likely to occur in LLM patches associated with a
+higher number of files, more lines of generated code, and GitHub issues that
+lack specific code snippets or information about the expected code behavior and
+steps to reproduce. These results suggest that contextual factors play a
+critical role in the security of the generated code and point toward the need
+for proactive risk assessment methods that account for both code and
+issue-level information to complement existing vulnerability detection tools.
+文中引用: sajadi2025aigeneratedfixessecureanalyzing
+
+
+标题:       OS-Harm: A Benchmark for Measuring Safety of Computer Use Agents
+作者:       Thomas Kuntz, Agatha Duzan, Hao Zhao, Francesco Croce, Zico Kolter, Nicolas Flammarion, Maksym Andriushchenko
+发布时间:   2025-06-17
+链接:       http://arxiv.org/abs/2506.14866v1
+摘要:       Computer use agents are LLM-based agents that can directly interact with a
+graphical user interface, by processing screenshots or accessibility trees.
+While these systems are gaining popularity, their safety has been largely
+overlooked, despite the fact that evaluating and understanding their potential
+for harmful behavior is essential for widespread adoption. To address this gap,
+we introduce OS-Harm, a new benchmark for measuring safety of computer use
+agents. OS-Harm is built on top of the OSWorld environment and aims to test
+models across three categories of harm: deliberate user misuse, prompt
+injection attacks, and model misbehavior. To cover these cases, we create 150
+tasks that span several types of safety violations (harassment, copyright
+infringement, disinformation, data exfiltration, etc.) and require the agent to
+interact with a variety of OS applications (email client, code editor, browser,
+etc.). Moreover, we propose an automated judge to evaluate both accuracy and
+safety of agents that achieves high agreement with human annotations (0.76 and
+0.79 F1 score). We evaluate computer use agents based on a range of frontier
+models - such as o4-mini, Claude 3.7 Sonnet, Gemini 2.5 Pro - and provide
+insights into their safety. In particular, all models tend to directly comply
+with many deliberate misuse queries, are relatively vulnerable to static prompt
+injections, and occasionally perform unsafe actions. The OS-Harm benchmark is
+available at https://github.com/tml-epfl/os-harm.
+文中引用: kuntz2025osharmbenchmarkmeasuringsafety
+
+
+标题:       LMR-BENCH: Evaluating LLM Agent's Ability on Reproducing Language
+  Modeling Research
+作者:       Shuo Yan, Ruochen Li, Ziming Luo, Zimu Wang, Daoyang Li, Liqiang Jing, Kaiyu He, Peilin Wu, George Michalopoulos, Yue Zhang, Ziyang Zhang, Mian Zhang, Zhiyu Chen, Xinya Du
+发布时间:   2025-06-19
+链接:       http://arxiv.org/abs/2506.17335v1
+摘要:       Large language model (LLM) agents have demonstrated remarkable potential in
+advancing scientific discovery. However, their capability in the fundamental
+yet crucial task of reproducing code from research papers, especially in the
+NLP domain, remains underexplored. This task includes unique complex reasoning
+challenges in the intellectual synthesis of abstract concepts and the
+comprehension of code repositories with interdependent files. Motivated by this
+gap, we present LMR-BENCH, a benchmark designed to systematically evaluate the
+capability of LLM agents on code reproduction from Language Modeling Research.
+It consists of 28 code reproduction tasks derived from 23 research papers
+published in top-tier NLP venues over the past five years, spanning nine
+fundamental categories. Models are provided with a research paper, a code
+repository containing one or more masked functions, and instructions for
+implementing these functions. We conduct extensive experiments in standard
+prompting and LLM agent settings with state-of-the-art LLMs, evaluating the
+accuracy of unit tests and performing LLM-based evaluation of code correctness.
+Experimental results reveal that even the most advanced models still exhibit
+persistent limitations in scientific reasoning and code synthesis, highlighting
+critical gaps in LLM agents' ability to autonomously reproduce scientific
+research
+文中引用: yan2025lmrbenchevaluatingllmagents
+
+
+标题:       SWE-Bench-CL: Continual Learning for Coding Agents
+作者:       Thomas Joshi, Shayan Chowdhury, Fatih Uysal
+发布时间:   2025-06-13
+链接:       http://arxiv.org/abs/2507.00014v1
+摘要:       Large Language Models (LLMs) have achieved impressive results on static
+code-generation benchmarks, but real-world software development unfolds as a
+continuous stream of evolving issues, fixes, and feature requests. We introduce
+SWE-Bench-CL, a novel continual learning benchmark built on the human-verified
+SWE-Bench Verified dataset introduced by OpenAI and Princeton-NLP in 2024. By
+organizing GitHub issues into chronologically ordered sequences that reflect
+natural repository evolution, SWE-Bench-CL enables direct evaluation of an
+agent's ability to accumulate experience, transfer knowledge across tasks, and
+resist catastrophic forgetting. We complement the dataset with (i) a
+preliminary analysis of inter-task structural similarity and contextual
+sensitivity, (ii) an interactive LangGraph-based evaluation framework augmented
+with a FAISS-backed semantic memory module, and (iii) a suite of specialized
+continual learning metrics -- including average accuracy, forgetting,
+forward/backward transfer, tool-use efficiency, and a generalized Composite
+Continual Learning Score and CL-F-beta score -- to capture the
+stability-plasticity trade-off. We outline a rigorous experimental protocol
+comparing memory-enabled and memory-disabled agents across diverse Python
+repositories. All code and data are publicly available at
+https://github.com/thomasjoshi/agents-never-forget, providing the community
+with a reproducible platform for developing more adaptive and robust AI agents
+in software engineering.
+文中引用: joshi2025swebenchclcontinuallearningcoding
+
+标题:       BugGen: A Self-Correcting Multi-Agent LLM Pipeline for Realistic RTL Bug
+  Synthesis
+作者:       Surya Jasper, Minh Luu, Evan Pan, Aakash Tyagi, Michael Quinn, Jiang Hu, David Kebo Houngninou
+发布时间:   2025-06-12
+链接:       http://arxiv.org/abs/2506.10501v2
+摘要:       Hardware complexity continues to strain verification resources, motivating
+the adoption of machine learning (ML) methods to improve debug efficiency.
+However, ML-assisted debugging critically depends on diverse and scalable bug
+datasets, which existing manual or automated bug insertion methods fail to
+reliably produce. We introduce BugGen, a first of its kind, fully autonomous,
+multi-agent pipeline leveraging Large Language Models (LLMs) to systematically
+generate, insert, and validate realistic functional bugs in RTL. BugGen
+partitions modules, selects mutation targets via a closed-loop agentic
+architecture, and employs iterative refinement and rollback mechanisms to
+ensure syntactic correctness and functional detectability. Evaluated across
+five OpenTitan IP blocks, BugGen produced 500 unique bugs with 94% functional
+accuracy and achieved a throughput of 17.7 validated bugs per hour-over five
+times faster than typical manual expert insertion. Additionally, BugGen
+identified 104 previously undetected bugs in OpenTitan regressions,
+highlighting its utility in exposing verification coverage gaps. Compared
+against Certitude, BugGen demonstrated over twice the syntactic accuracy,
+deeper exposure of testbench blind spots, and more functionally meaningful and
+complex bug scenarios. Furthermore, when these BugGen-generated datasets were
+employed to train ML-based failure triage models, we achieved high
+classification accuracy (88.1%-93.2%) across different IP blocks, confirming
+the practical utility and realism of generated bugs. BugGen thus provides a
+scalable solution for generating high-quality bug datasets, significantly
+enhancing verification efficiency and ML-assisted debugging.
+文中引用: jasper2025buggenselfcorrectingmultiagentllm
+
+
+标题:       UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench
+作者:       Boxi Yu, Yuxuan Zhu, Pinjia He, Daniel Kang
+发布时间:   2025-06-10
+链接:       http://arxiv.org/abs/2506.09289v1
+摘要:       The advent of Large Language Models (LLMs) has spurred the development of
+coding agents for real-world code generation. As a widely used benchmark for
+evaluating the code generation capabilities of these agents, SWE-Bench uses
+real-world problems based on GitHub issues and their corresponding pull
+requests. However, the manually written test cases included in these pull
+requests are often insufficient, allowing generated patches to pass the tests
+without resolving the underlying issue. To address this challenge, we introduce
+UTGenerator, an LLM-driven test case generator that automatically analyzes
+codebases and dependencies to generate test cases for real-world Python
+projects. Building on UTGenerator, we propose UTBoost, a comprehensive
+framework for test case augmentation. In our evaluation, we identified 36 task
+instances with insufficient test cases and uncovered 345 erroneous patches
+incorrectly labeled as passed in the original SWE Bench. These corrections,
+impacting 40.9% of SWE-Bench Lite and 24.4% of SWE-Bench Verified leaderboard
+entries, yield 18 and 11 ranking changes, respectively.
+文中引用: yu2025utboostrigorousevaluationcoding
+
+标题:       SWE-rebench: An Automated Pipeline for Task Collection and
+  Decontaminated Evaluation of Software Engineering Agents
+作者:       Ibragim Badertdinov, Alexander Golubev, Maksim Nekrashevich, Anton Shevtsov, Simon Karasik, Andrei Andriushchenko, Maria Trofimova, Daria Litvintseva, Boris Yangel
+发布时间:   2025-05-26
+链接:       http://arxiv.org/abs/2505.20411v1
+摘要:       LLM-based agents have shown promising capabilities in a growing range of
+software engineering (SWE) tasks. However, advancing this field faces two
+critical challenges. First, high-quality training data is scarce, especially
+data that reflects real-world SWE scenarios, where agents must interact with
+development environments, execute code and adapt behavior based on the outcomes
+of their actions. Existing datasets are either limited to one-shot code
+generation or comprise small, manually curated collections of interactive
+tasks, lacking both scale and diversity. Second, the lack of fresh interactive
+SWE tasks affects evaluation of rapidly improving models, as static benchmarks
+quickly become outdated due to contamination issues. To address these
+limitations, we introduce a novel, automated, and scalable pipeline to
+continuously extract real-world interactive SWE tasks from diverse GitHub
+repositories. Using this pipeline, we construct SWE-rebench, a public dataset
+comprising over 21,000 interactive Python-based SWE tasks, suitable for
+reinforcement learning of SWE agents at scale. Additionally, we use continuous
+supply of fresh tasks collected using SWE-rebench methodology to build a
+contamination-free benchmark for agentic software engineering. We compare
+results of various LLMs on this benchmark to results on SWE-bench Verified and
+show that performance of some language models might be inflated due to
+contamination issues.
+文中引用: badertdinov2025swerebenchautomatedpipelinetask
+
+
+标题:       SWE-rebench: An Automated Pipeline for Task Collection and
+  Decontaminated Evaluation of Software Engineering Agents
+作者:       Ibragim Badertdinov, Alexander Golubev, Maksim Nekrashevich, Anton Shevtsov, Simon Karasik, Andrei Andriushchenko, Maria Trofimova, Daria Litvintseva, Boris Yangel
+发布时间:   2025-05-26
+链接:       http://arxiv.org/abs/2505.20411v1
+摘要:       LLM-based agents have shown promising capabilities in a growing range of
+software engineering (SWE) tasks. However, advancing this field faces two
+critical challenges. First, high-quality training data is scarce, especially
+data that reflects real-world SWE scenarios, where agents must interact with
+development environments, execute code and adapt behavior based on the outcomes
+of their actions. Existing datasets are either limited to one-shot code
+generation or comprise small, manually curated collections of interactive
+tasks, lacking both scale and diversity. Second, the lack of fresh interactive
+SWE tasks affects evaluation of rapidly improving models, as static benchmarks
+quickly become outdated due to contamination issues. To address these
+limitations, we introduce a novel, automated, and scalable pipeline to
+continuously extract real-world interactive SWE tasks from diverse GitHub
+repositories. Using this pipeline, we construct SWE-rebench, a public dataset
+comprising over 21,000 interactive Python-based SWE tasks, suitable for
+reinforcement learning of SWE agents at scale. Additionally, we use continuous
+supply of fresh tasks collected using SWE-rebench methodology to build a
+contamination-free benchmark for agentic software engineering. We compare
+results of various LLMs on this benchmark to results on SWE-bench Verified and
+show that performance of some language models might be inflated due to
+contamination issues.
+文中引用: badertdinov2025swerebenchautomatedpipelinetask
+
+标题:       Guided Search Strategies in Non-Serializable Environments with
+  Applications to Software Engineering Agents
+作者:       Karina Zainullina, Alexander Golubev, Maria Trofimova, Sergei Polezhaev, Ibragim Badertdinov, Daria Litvintseva, Simon Karasik, Filipp Fisin, Sergei Skvortsov, Maksim Nekrashevich, Anton Shevtsov, Boris Yangel
+发布时间:   2025-05-19
+链接:       http://arxiv.org/abs/2505.13652v1
+摘要:       Large language models (LLMs) have recently achieved remarkable results in
+complex multi-step tasks, such as mathematical reasoning and agentic software
+engineering. However, they often struggle to maintain consistent performance
+across multiple solution attempts. One effective approach to narrow the gap
+between average-case and best-case performance is guided test-time search,
+which explores multiple solution paths to identify the most promising one.
+Unfortunately, effective search techniques (e.g. MCTS) are often unsuitable for
+non-serializable RL environments, such as Docker containers, where intermediate
+environment states cannot be easily saved and restored. We investigate two
+complementary search strategies applicable to such environments: 1-step
+lookahead and trajectory selection, both guided by a learned action-value
+function estimator. On the SWE-bench Verified benchmark, a key testbed for
+agentic software engineering, we find these methods to double the average
+success rate of a fine-tuned Qwen-72B model, achieving 40.8%, the new
+state-of-the-art for open-weights models. Additionally, we show that these
+techniques are transferable to more advanced closed models, yielding similar
+improvements with GPT-4o.
+文中引用: zainullina2025guidedsearchstrategiesnonserializable
+
+
+标题:       Enhancing Software Development with Context-Aware Conversational Agents:
+  A User Study on Developer Interactions with Chatbots
+作者:       Glaucia Melo, Paulo Alencar, Donald Cowan
+发布时间:   2025-05-13
+链接:       http://arxiv.org/abs/2505.08648v1
+摘要:       Software development is a cognitively intensive process requiring
+multitasking, adherence to evolving workflows, and continuous learning. With
+the rise of large language model (LLM)-based tools, such as conversational
+agents (CAs), there is growing interest in supporting developers through
+natural language interaction. However, little is known about the specific
+features developers seek in these systems. We conducted a user study with 29
+developers using a prototype text-based chatbot to investigate preferred
+functionalities. Our findings reveal strong interest in task automation,
+version control support, and contextual adaptability, especially the need to
+tailor assistance for both novice and experienced users. We highlight the
+importance of deep contextual understanding, historical interaction awareness,
+and personalized support in CA design. This study contributes to the
+development of context-aware chatbots that enhance productivity and
+satisfaction, and it outlines opportunities for future research on human-AI
+collaboration in software engineering.
+文中引用: melo2025enhancingsoftwaredevelopmentcontextaware
+
+标题:       MARCO: Multi-Agent Code Optimization with Real-Time Knowledge
+  Integration for High-Performance Computing
+作者:       Asif Rahman, Veljko Cvetkovic, Kathleen Reece, Aidan Walters, Yasir Hassan, Aneesh Tummeti, Bryan Torres, Denise Cooney, Margaret Ellis, Dimitrios S. Nikolopoulos
+发布时间:   2025-05-06
+链接:       http://arxiv.org/abs/2505.03906v3
+摘要:       Large language models (LLMs) have transformed software development through
+code generation capabilities, yet their effectiveness for high-performance
+computing (HPC) remains limited. HPC code requires specialized optimizations
+for parallelism, memory efficiency, and architecture-specific considerations
+that general-purpose LLMs often overlook. We present MARCO (Multi-Agent
+Reactive Code Optimizer), a novel framework that enhances LLM-generated code
+for HPC through a specialized multi-agent architecture. MARCO employs separate
+agents for code generation and performance evaluation, connected by a feedback
+loop that progressively refines optimizations. A key innovation is MARCO's
+web-search component that retrieves real-time optimization techniques from
+recent conference proceedings and research publications, bridging the knowledge
+gap in pre-trained LLMs. Our extensive evaluation on the LeetCode 75 problem
+set demonstrates that MARCO achieves a 14.6\% average runtime reduction
+compared to Claude 3.5 Sonnet alone, while the integration of the web-search
+component yields a 30.9\% performance improvement over the base MARCO system.
+These results highlight the potential of multi-agent systems to address the
+specialized requirements of high-performance code generation, offering a
+cost-effective alternative to domain-specific model fine-tuning.
+文中引用: rahman2025marcomultiagentcodeoptimization
+
+标题:       Assessing and Enhancing the Robustness of LLM-based Multi-Agent Systems
+  Through Chaos Engineering
+作者:       Joshua Owotogbe
+发布时间:   2025-05-06
+链接:       http://arxiv.org/abs/2505.03096v1
+摘要:       This study explores the application of chaos engineering to enhance the
+robustness of Large Language Model-Based Multi-Agent Systems (LLM-MAS) in
+production-like environments under real-world conditions. LLM-MAS can
+potentially improve a wide range of tasks, from answering questions and
+generating content to automating customer support and improving decision-making
+processes. However, LLM-MAS in production or preproduction environments can be
+vulnerable to emergent errors or disruptions, such as hallucinations, agent
+failures, and agent communication failures. This study proposes a chaos
+engineering framework to proactively identify such vulnerabilities in LLM-MAS,
+assess and build resilience against them, and ensure reliable performance in
+critical applications.
+文中引用: owotogbe2025assessingenhancingrobustnessllmbased
+
+
+标题:       Enhancing LLM Code Generation: A Systematic Evaluation of Multi-Agent
+  Collaboration and Runtime Debugging for Improved Accuracy, Reliability, and
+  Latency
+作者:       Nazmus Ashrafi, Salah Bouktif, Mohammed Mediani
+发布时间:   2025-05-04
+链接:       http://arxiv.org/abs/2505.02133v1
+摘要:       The use of large language models (LLMs) for automated code generation has
+emerged as a significant focus within AI research. As these pretrained models
+continue to evolve, their ability to understand and generate complex code
+structures has opened new possibilities for automating intricate programming
+tasks for the sake of accurate code generation. Although contemporary
+foundational models demonstrate promoting results, researchers continue to
+explore optimal post-training strategies to enhance code quality. These include
+supervised fine-tuning, retrieval-augmented generation (RAG), debugging, and
+many others. In this paper, we combine two widely used approaches namely
+multi-agent collaboration and runtime execution information-based debugging,
+for improving code generation functionality, reliability, and practical
+applicability. We perform an empirical study in order to extend the evaluation
+of the individual strategies as well as the proposed composition of the
+activities of both strategies. Our study use 19 LLMs to examines the
+performance of individual and the proposed strategies, offering comprehensive
+insights into how different programming activities compositions and training
+paradigms influence code generation effectiveness. In particular, we implement
+a chained system that combines both strategies to assess their combined impact
+on functional accuracy, code reliability, and generation latency using two
+benchmark datasets commonly used for code generation. Our findings provide
+valuable insights for organizations seeking robust AI-driven coding solutions
+by guiding them in selecting models that can better adapt to complex
+post-training strategies, ultimately fostering the adoption of more effective
+and reliable code generation technologies.
+文中引用: ashrafi2025enhancingllmcodegeneration
+
+标题:       CodeVisionary: An Agent-based Framework for Evaluating Large Language
+  Models in Code Generation
+作者:       Xinchen Wang, Pengfei Gao, Chao Peng, Ruida Hu, Cuiyun Gao
+发布时间:   2025-04-18
+链接:       http://arxiv.org/abs/2504.13472v1
+摘要:       Large language models (LLMs) have demonstrated strong capabilities in code
+generation, underscoring the critical need for rigorous and comprehensive
+evaluation. Existing evaluation approaches fall into three categories,
+including human-centered, metric-based, and LLM-based. Considering that
+human-centered approaches are labour-intensive and metric-based ones overly
+rely on reference answers, LLM-based approaches are gaining increasing
+attention due to their stronger contextual understanding capabilities and
+superior efficiency. However, the performance of LLM-based approaches remains
+limited due to: (1) lack of multisource domain knowledge, and (2) insufficient
+comprehension of complex code.
+  To mitigate the limitations, we propose CodeVisionary, the first LLM-based
+agent framework for evaluating LLMs in code generation. CodeVisionary consists
+of two stages: (1) Multiscore knowledge analysis stage, which aims to gather
+multisource and comprehensive domain knowledge by formulating and executing a
+stepwise evaluation plan. (2) Negotiation-based scoring stage, which involves
+multiple judges engaging in discussions to better comprehend the complex code
+and reach a consensus on the evaluation score. Extensive experiments
+demonstrate that CodeVisionary achieves the best performance for evaluating
+LLMs in code generation, outperforming the best baseline methods with average
+improvements of 0.202, 0.139, and 0.117 in Pearson, Spearman, and Kendall-Tau
+coefficients, respectively. Besides, CodeVisionary provides detailed evaluation
+reports, which assist developers in identifying shortcomings and making
+improvements. The resources of CodeVisionary are available at
+https://anonymous.4open.science/r/CodeVisionary.
+文中引用: wang2025codevisionaryagentbasedframeworkevaluating
+
+
+标题:       Are Autonomous Web Agents Good Testers?
+作者:       Antoine Chevrot, Alexandre Vernotte, Jean-Rémy Falleri, Xavier Blanc, Bruno Legeard
+发布时间:   2025-04-02
+链接:       http://arxiv.org/abs/2504.01495v1
+摘要:       Despite advances in automated testing, manual testing remains prevalent due
+to the high maintenance demands associated with test script fragility-scripts
+often break with minor changes in application structure. Recent developments in
+Large Language Models (LLMs) offer a potential alternative by powering
+Autonomous Web Agents (AWAs) that can autonomously interact with applications.
+These agents may serve as Autonomous Test Agents (ATAs), potentially reducing
+the need for maintenance-heavy automated scripts by utilising natural language
+instructions similar to those used by human testers. This paper investigates
+the feasibility of adapting AWAs for natural language test case execution and
+how to evaluate them. We contribute with (1) a benchmark of three offline web
+applications, and a suite of 113 manual test cases, split between passing and
+failing cases, to evaluate and compare ATAs performance, (2) SeeAct-ATA and
+pinATA, two open-source ATA implementations capable of executing test steps,
+verifying assertions and giving verdicts, and (3) comparative experiments using
+our benchmark that quantifies our ATAs effectiveness. Finally we also proceed
+to a qualitative evaluation to identify the limitations of PinATA, our best
+performing implementation. Our findings reveal that our simple implementation,
+SeeAct-ATA, does not perform well compared to our more advanced PinATA
+implementation when executing test cases (50% performance improvement).
+However, while PinATA obtains around 60% of correct verdict and up to a
+promising 94% specificity, we identify several limitations that need to be
+addressed to develop more resilient and reliable ATAs, paving the way for
+robust, low maintenance test automation. CCS Concepts: $\bullet$ Software and
+its engineering $\rightarrow$ Software testing and debugging.
+文中引用: chevrot2025autonomouswebagentsgood
+
+
+标题:       Thinking Longer, Not Larger: Enhancing Software Engineering Agents via
+  Scaling Test-Time Compute
+作者:       Yingwei Ma, Yongbin Li, Yihong Dong, Xue Jiang, Rongyu Cao, Jue Chen, Fei Huang, Binhua Li
+发布时间:   2025-03-31
+链接:       http://arxiv.org/abs/2503.23803v2
+摘要:       Recent advancements in software engineering agents have demonstrated
+promising capabilities in automating program improvements. However, their
+reliance on closed-source or resource-intensive models introduces significant
+deployment challenges in private environments, prompting a critical question:
+\textit{How can personally deployable open-source LLMs achieve comparable code
+reasoning performance?}
+  To this end, we propose a unified Test-Time Compute scaling framework that
+leverages increased inference-time computation instead of larger models. Our
+framework incorporates two complementary strategies: internal TTC and external
+TTC. Internally, we introduce a \textit{development-contextualized trajectory
+synthesis} method leveraging real-world software repositories to bootstrap
+multi-stage reasoning processes, such as fault localization and patch
+generation. We further enhance trajectory quality through rejection sampling,
+rigorously evaluating trajectories along accuracy and complexity. Externally,
+we propose a novel \textit{development-process-based search} strategy guided by
+reward models and execution verification. This approach enables targeted
+computational allocation at critical development decision points, overcoming
+limitations of existing "end-point only" verification methods.
+  Evaluations on SWE-bench Verified demonstrate our \textbf{32B model achieves
+a 46\% issue resolution rate}, surpassing significantly larger models such as
+DeepSeek R1 671B and OpenAI o1. Additionally, we provide the empirical
+validation of the test-time scaling phenomenon within SWE agents, revealing
+that \textbf{models dynamically allocate more tokens to increasingly
+challenging problems}, effectively enhancing reasoning capabilities. We
+publicly release all training data, models, and code to facilitate future
+research. https://github.com/yingweima2022/SWE-Reasoner
+文中引用: ma2025thinkinglongerlargerenhancing
+
+
+标题:       SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic
+  Reproduction from Research Papers
+作者:       Yanzheng Xiang, Hanqi Yan, Shuyin Ouyang, Lin Gui, Yulan He
+发布时间:   2025-03-31
+链接:       http://arxiv.org/abs/2504.00255v1
+摘要:       This study evaluates large language models (LLMs) in generating code from
+algorithm descriptions from recent NLP papers. The task requires two key
+competencies: (1) algorithm comprehension: synthesizing information from papers
+and academic literature to understand implementation logic, and (2) coding
+expertise: identifying dependencies and correctly implementing necessary APIs.
+To facilitate rigorous evaluation, we introduce SciReplicate-Bench, a benchmark
+of 100 tasks from 36 NLP papers published in 2024, featuring detailed
+annotations and comprehensive test cases. Building on SciReplicate-Bench, we
+propose Sci-Reproducer, a multi-agent framework consisting of a Paper Agent
+that interprets algorithmic concepts from literature and a Code Agent that
+retrieves dependencies from repositories and implement solutions. To assess
+algorithm understanding, we introduce reasoning graph accuracy, which
+quantifies similarity between generated and reference reasoning graphs derived
+from code comments and structure. For evaluating implementation quality, we
+employ execution accuracy, CodeBLEU, and repository dependency/API recall
+metrics. In our experiments, we evaluate various powerful Non-Reasoning LLMs
+and Reasoning LLMs as foundational models. The best-performing LLM using
+Sci-Reproducer achieves only 39% execution accuracy, highlighting the
+benchmark's difficulty.Our analysis identifies missing or inconsistent
+algorithm descriptions as key barriers to successful reproduction. We will
+open-source our benchmark, and code at
+https://github.com/xyzCS/SciReplicate-Bench.
+文中引用: xiang2025scireplicatebenchbenchmarkingllmsagentdriven
+
+
+标题:       Unveiling Pitfalls: Understanding Why AI-driven Code Agents Fail at
+  GitHub Issue Resolution
+作者:       Zhi Chen, Wei Ma, Lingxiao Jiang
+发布时间:   2025-03-16
+链接:       http://arxiv.org/abs/2503.12374v2
+摘要:       AI-driven software development has rapidly advanced with the emergence of
+software development agents that leverage large language models (LLMs) to
+tackle complex, repository-level software engineering tasks. These agents go
+beyond just generation of final code; they engage in multi-step reasoning,
+utilize various tools for code modification and debugging, and interact with
+execution environments to diagnose and iteratively resolve issues. However,
+most existing evaluations focus primarily on static analyses of final code
+outputs, yielding limited insights into the agents' dynamic problem-solving
+processes. To fill this gap, we conduct an in-depth empirical study on 3,977
+solving-phase trajectories and 3,931 testing-phase logs from 8 top-ranked
+agents evaluated on 500 GitHub issues in the SWE-Bench benchmark. Our
+exploratory analysis shows that Python execution errors during the issue
+resolution phase correlate with lower resolution rates and increased reasoning
+overheads. We have identified the most prevalent errors -- such as
+ModuleNotFoundError and TypeError -- and highlighted particularly challenging
+errors like OSError and database-related issues (e.g., IntegrityError) that
+demand significantly more debugging effort. Furthermore, we have discovered 3
+bugs in the SWE-Bench platform that affect benchmark fairness and accuracy;
+these issues have been reported to and confirmed by the maintainers. To promote
+transparency and foster future research, we publicly share our datasets and
+analysis scripts.
+文中引用: chen2025unveilingpitfallsunderstandingaidriven
+
+
+标题:       Teamwork makes the dream work: LLMs-Based Agents for GitHub README.MD
+  Summarization
+作者:       Duc S. H. Nguyen, Bach G. Truong, Phuong T. Nguyen, Juri Di Rocco, Davide Di Ruscio
+发布时间:   2025-03-13
+链接:       http://arxiv.org/abs/2503.10876v1
+摘要:       The proliferation of Large Language Models (LLMs) in recent years has
+realized many applications in various domains. Being trained with a huge of
+amount of data coming from various sources, LLMs can be deployed to solve
+different tasks, including those in Software Engineering (SE). Though they have
+been widely adopted, the potential of using LLMs cooperatively has not been
+thoroughly investigated. In this paper, we proposed Metagente as a novel
+approach to amplify the synergy of various LLMs. Metagente is a Multi-Agent
+framework based on a series of LLMs to self-optimize the system through
+evaluation, feedback, and cooperation among specialized agents. Such a
+framework creates an environment where multiple agents iteratively refine and
+optimize prompts from various perspectives. The results of these explorations
+are then reviewed and aggregated by a teacher agent. To study its performance,
+we evaluated Metagente with an SE task, i.e., summarization of README.MD files,
+and compared it with three well-established baselines, i.e., GitSum, LLaMA-2,
+and GPT-4o. The results show that our proposed approach works efficiently and
+effectively, consuming a small amount of data for fine-tuning but still getting
+a high accuracy, thus substantially outperforming the baselines. The
+performance gain compared to GitSum, the most relevant benchmark, ranges from
+27.63% to 60.43%. More importantly, compared to using only one LLM, Metagente
+boots up the accuracy to multiple folds.
+文中引用: nguyen2025teamworkmakesdreamwork
+
+
+标题:       ProjectEval: A Benchmark for Programming Agents Automated Evaluation on
+  Project-Level Code Generation
+作者:       Kaiyuan Liu, Youcheng Pan, Yang Xiang, Daojing He, Jing Li, Yexing Du, Tianrun Gao
+发布时间:   2025-03-10
+链接:       http://arxiv.org/abs/2503.07010v2
+摘要:       Recently, LLM agents have made rapid progress in improving their programming
+capabilities. However, existing benchmarks lack the ability to automatically
+evaluate from users' perspective, and also lack the explainability of the
+results of LLM agents' code generation capabilities. Thus, we introduce
+ProjectEval, a new benchmark for LLM agents project-level code generation's
+automated evaluation by simulating user interaction. ProjectEval is constructed
+by LLM with human reviewing. It has three different level inputs of natural
+languages or code skeletons. ProjectEval can evaluate the generated projects by
+user interaction simulation for execution, and by code similarity through
+existing objective indicators. Through ProjectEval, we find that systematic
+engineering project code, overall understanding of the project and
+comprehensive analysis capability are the keys for LLM agents to achieve
+practical projects. Our findings and benchmark provide valuable insights for
+developing more effective programming agents that can be deployed in future
+real-world production.
+文中引用: liu2025projectevalbenchmarkprogrammingagents
+
+标题:       CSR-Bench: Benchmarking LLM Agents in Deployment of Computer Science
+  Research Repositories
+作者:       Yijia Xiao, Runhui Wang, Luyang Kong, Davor Golac, Wei Wang
+发布时间:   2025-02-10
+链接:       http://arxiv.org/abs/2502.06111v2
+摘要:       The increasing complexity of computer science research projects demands more
+effective tools for deploying code repositories. Large Language Models (LLMs),
+such as Anthropic Claude and Meta Llama, have demonstrated significant
+advancements across various fields of computer science research, including the
+automation of diverse software engineering tasks. To evaluate the effectiveness
+of LLMs in handling complex code development tasks of research projects,
+particularly for NLP/CV/AI/ML/DM topics, we introduce CSR-Bench, a benchmark
+for Computer Science Research projects. This benchmark assesses LLMs from
+various aspects including accuracy, efficiency, and deployment script quality,
+aiming to explore their potential in conducting computer science research
+autonomously. We also introduce a novel framework, CSR-Agents, that utilizes
+multiple LLM agents to automate the deployment of GitHub code repositories of
+computer science research projects. Specifically, by checking instructions from
+markdown files and interpreting repository structures, the model generates and
+iteratively improves bash commands that set up the experimental environments
+and deploy the code to conduct research tasks. Preliminary results from
+CSR-Bench indicate that LLM agents can significantly enhance the workflow of
+repository deployment, thereby boosting developer productivity and improving
+the management of developmental workflows.
+文中引用: xiao2025csrbenchbenchmarkingllmagents
+
+
+标题:       SyncMind: Measuring Agent Out-of-Sync Recovery in Collaborative Software
+  Engineering
+作者:       Xuehang Guo, Xingyao Wang, Yangyi Chen, Sha Li, Chi Han, Manling Li, Heng Ji
+发布时间:   2025-02-10
+链接:       http://arxiv.org/abs/2502.06994v2
+摘要:       Software engineering (SE) is increasingly collaborative, with developers
+working together on shared complex codebases. Effective collaboration in shared
+environments requires participants -- whether humans or AI agents -- to stay on
+the same page as their environment evolves. When a collaborator's understanding
+diverges from the current state -- what we term the out-of-sync challenge --
+the collaborator's actions may fail, leading to integration issues. In this
+work, we introduce SyncMind, a framework that systematically defines the
+out-of-sync problem faced by large language model (LLM) agents in collaborative
+software engineering (CSE). Based on SyncMind, we create SyncBench, a benchmark
+featuring 24,332 instances of agent out-of-sync scenarios in real-world CSE
+derived from 21 popular GitHub repositories with executable verification tests.
+Experiments on SyncBench uncover critical insights into existing LLM agents'
+capabilities and limitations. Besides substantial performance gaps among agents
+(from Llama-3.1 agent <= 3.33% to Claude-3.5-Sonnet >= 28.18%), their
+consistently low collaboration willingness (<= 4.86%) suggests fundamental
+limitations of existing LLM in CSE. However, when collaboration occurs, it
+positively correlates with out-of-sync recovery success. Minimal performance
+differences in agents' resource-aware out-of-sync recoveries further reveal
+their significant lack of resource awareness and adaptability, shedding light
+on future resource-efficient collaborative systems. Code and data are openly
+available on our project website: https://xhguo7.github.io/SyncMind/.
+文中引用: guo2025syncmindmeasuringagentoutofsync
+
+
+标题:       Beyond pip install: Evaluating LLM Agents for the Automated Installation
+  of Python Projects
+作者:       Louis Milliken, Sungmin Kang, Shin Yoo
+发布时间:   2024-12-09
+链接:       http://arxiv.org/abs/2412.06294v1
+摘要:       Many works have recently proposed the use of Large Language Model (LLM) based
+agents for performing `repository level' tasks, loosely defined as a set of
+tasks whose scopes are greater than a single file. This has led to speculation
+that the orchestration of these repository-level tasks could lead to software
+engineering agents capable of performing almost independently of human
+intervention. However, of the suite of tasks that would need to be performed by
+this autonomous software engineering agent, we argue that one important task is
+missing, which is to fulfil project level dependency by installing other
+repositories. To investigate the feasibility of this repository level
+installation task, we introduce a benchmark of of repository installation tasks
+curated from 40 open source Python projects, which includes a ground truth
+installation process for each target repository. Further, we propose
+Installamatic, an agent which aims to perform and verify the installation of a
+given repository by searching for relevant instructions from documentation in
+the repository. Empirical experiments reveal that that 55% of the studied
+repositories can be automatically installed by our agent at least one out of
+ten times. Through further analysis, we identify the common causes for our
+agent's inability to install a repository, discuss the challenges faced in the
+design and implementation of such an agent and consider the implications that
+such an agent could have for developers.
+文中引用: milliken2024pipinstallevaluatingllm
+
+标题:       The BrowserGym Ecosystem for Web Agent Research
+作者:       Thibault Le Sellier De Chezelles, Maxime Gasse, Alexandre Drouin, Massimo Caccia, Léo Boisvert, Megh Thakkar, Tom Marty, Rim Assouel, Sahar Omidi Shayegan, Lawrence Keunho Jang, Xing Han Lù, Ori Yoran, Dehan Kong, Frank F. Xu, Siva Reddy, Quentin Cappart, Graham Neubig, Ruslan Salakhutdinov, Nicolas Chapados, Alexandre Lacoste
+发布时间:   2024-12-06
+链接:       http://arxiv.org/abs/2412.05467v4
+摘要:       The BrowserGym ecosystem addresses the growing need for efficient evaluation
+and benchmarking of web agents, particularly those leveraging automation and
+Large Language Models (LLMs). Many existing benchmarks suffer from
+fragmentation and inconsistent evaluation methodologies, making it challenging
+to achieve reliable comparisons and reproducible results. In an earlier work,
+Drouin et al. (2024) introduced BrowserGym which aims to solve this by
+providing a unified, gym-like environment with well-defined observation and
+action spaces, facilitating standardized evaluation across diverse benchmarks.
+We propose an extended BrowserGym-based ecosystem for web agent research, which
+unifies existing benchmarks from the literature and includes AgentLab, a
+complementary framework that aids in agent creation, testing, and analysis. Our
+proposed ecosystem offers flexibility for integrating new benchmarks while
+ensuring consistent evaluation and comprehensive experiment management. As a
+supporting evidence, we conduct the first large-scale, multi-benchmark web
+agent experiment and compare the performance of 6 state-of-the-art LLMs across
+6 popular web agent benchmarks made available in BrowserGym. Among other
+findings, our results highlight a large discrepancy between OpenAI and
+Anthropic's latests models, with Claude-3.5-Sonnet leading the way on almost
+all benchmarks, except on vision-related tasks where GPT-4o is superior.
+Despite these advancements, our results emphasize that building robust and
+efficient web agents remains a significant challenge, due to the inherent
+complexity of real-world web environments and the limitations of current
+models.
+文中引用: dechezelles2025browsergymecosystemwebagent
+
+
+标题:       RedCode: Risky Code Execution and Generation Benchmark for Code Agents
+作者:       Chengquan Guo, Xun Liu, Chulin Xie, Andy Zhou, Yi Zeng, Zinan Lin, Dawn Song, Bo Li
+发布时间:   2024-11-12
+链接:       http://arxiv.org/abs/2411.07781v1
+摘要:       With the rapidly increasing capabilities and adoption of code agents for
+AI-assisted coding, safety concerns, such as generating or executing risky
+code, have become significant barriers to the real-world deployment of these
+agents. To provide comprehensive and practical evaluations on the safety of
+code agents, we propose RedCode, a benchmark for risky code execution and
+generation: (1) RedCode-Exec provides challenging prompts that could lead to
+risky code execution, aiming to evaluate code agents' ability to recognize and
+handle unsafe code. We provide a total of 4,050 risky test cases in Python and
+Bash tasks with diverse input formats including code snippets and natural text.
+They covers 25 types of critical vulnerabilities spanning 8 domains (e.g.,
+websites, file systems). We provide Docker environments and design
+corresponding evaluation metrics to assess their execution results. (2)
+RedCode-Gen provides 160 prompts with function signatures and docstrings as
+input to assess whether code agents will follow instructions to generate
+harmful code or software. Our empirical findings, derived from evaluating three
+agent frameworks based on 19 LLMs, provide insights into code agents'
+vulnerabilities. For instance, evaluations on RedCode-Exec show that agents are
+more likely to reject executing risky operations on the operating system, but
+are less likely to reject executing technically buggy code, indicating high
+risks. Risky operations described in natural text lead to a lower rejection
+rate than those in code format. Additionally, evaluations on RedCode-Gen show
+that more capable base models and agents with stronger overall coding
+abilities, such as GPT4, tend to produce more sophisticated and effective
+harmful software. Our findings highlight the need for stringent safety
+evaluations for diverse code agents. Our dataset and code are available at
+https://github.com/AI-secure/RedCode.
+文中引用: guo2024redcoderiskycodeexecution
+
+
+标题:       Improving Performance of Commercially Available AI Products in a
+  Multi-Agent Configuration
+作者:       Cory Hymel, Sida Peng, Kevin Xu, Charath Ranganathan
+发布时间:   2024-10-29
+链接:       http://arxiv.org/abs/2410.22129v1
+摘要:       In recent years, with the rapid advancement of large language models (LLMs),
+multi-agent systems have become increasingly more capable of practical
+application. At the same time, the software development industry has had a
+number of new AI-powered tools developed that improve the software development
+lifecycle (SDLC). Academically, much attention has been paid to the role of
+multi-agent systems to the SDLC. And, while single-agent systems have
+frequently been examined in real-world applications, we have seen comparatively
+few real-world examples of publicly available commercial tools working together
+in a multi-agent system with measurable improvements. In this experiment we
+test context sharing between Crowdbotics PRD AI, a tool for generating software
+requirements using AI, and GitHub Copilot, an AI pair-programming tool. By
+sharing business requirements from PRD AI, we improve the code suggestion
+capabilities of GitHub Copilot by 13.8% and developer task success rate by
+24.5% -- demonstrating a real-world example of commercially-available AI
+systems working together with improved outcomes.
+文中引用: hymel2024improvingperformancecommerciallyavailable
+
+
+标题:       SELA: Tree-Search Enhanced LLM Agents for Automated Machine Learning
+作者:       Yizhou Chi, Yizhang Lin, Sirui Hong, Duyi Pan, Yaying Fei, Guanghao Mei, Bangbang Liu, Tianqi Pang, Jacky Kwok, Ceyao Zhang, Bang Liu, Chenglin Wu
+发布时间:   2024-10-22
+链接:       http://arxiv.org/abs/2410.17238v1
+摘要:       Automated Machine Learning (AutoML) approaches encompass traditional methods
+that optimize fixed pipelines for model selection and ensembling, as well as
+newer LLM-based frameworks that autonomously build pipelines. While LLM-based
+agents have shown promise in automating machine learning tasks, they often
+generate low-diversity and suboptimal code, even after multiple iterations. To
+overcome these limitations, we introduce Tree-Search Enhanced LLM Agents
+(SELA), an innovative agent-based system that leverages Monte Carlo Tree Search
+(MCTS) to optimize the AutoML process. By representing pipeline configurations
+as trees, our framework enables agents to conduct experiments intelligently and
+iteratively refine their strategies, facilitating a more effective exploration
+of the machine learning solution space. This novel approach allows SELA to
+discover optimal pathways based on experimental feedback, improving the overall
+quality of the solutions. In an extensive evaluation across 20 machine learning
+datasets, we compare the performance of traditional and agent-based AutoML
+methods, demonstrating that SELA achieves a win rate of 65% to 80% against each
+baseline across all datasets. These results underscore the significant
+potential of agent-based strategies in AutoML, offering a fresh perspective on
+tackling complex machine learning challenges.
+文中引用: chi2024selatreesearchenhancedllm
+
+
+标题:       Evaluating Software Development Agents: Patch Patterns, Code Quality,
+  and Issue Complexity in Real-World GitHub Scenarios
+作者:       Zhi Chen, Lingxiao Jiang
+发布时间:   2024-10-16
+链接:       http://arxiv.org/abs/2410.12468v2
+摘要:       In recent years, AI-based software engineering has progressed from
+pre-trained models to advanced agentic workflows, with Software Development
+Agents representing the next major leap. These agents, capable of reasoning,
+planning, and interacting with external environments, offer promising solutions
+to complex software engineering tasks. However, while much research has
+evaluated code generated by large language models (LLMs), comprehensive studies
+on agent-generated patches, particularly in real-world settings, are lacking.
+This study addresses that gap by evaluating 4,892 patches from 10 top-ranked
+agents on 500 real-world GitHub issues from SWE-Bench Verified, focusing on
+their impact on code quality. Our analysis shows no single agent dominated,
+with 170 issues unresolved, indicating room for improvement. Even for patches
+that passed unit tests and resolved issues, agents made different file and
+function modifications compared to the gold patches from repository developers,
+revealing limitations in the benchmark's test case coverage. Most agents
+maintained code reliability and security, avoiding new bugs or vulnerabilities;
+while some agents increased code complexity, many reduced code duplication and
+minimized code smells. Finally, agents performed better on simpler codebases,
+suggesting that breaking complex tasks into smaller sub-tasks could improve
+effectiveness. This study provides the first comprehensive evaluation of
+agent-generated patches on real-world GitHub issues, offering insights to
+advance AI-driven software development.
+文中引用: chen2024evaluatingsoftwaredevelopmentagents
 
 标题:       AppWorld: A Controllable World of Apps and People for Benchmarking
   Interactive Coding Agents
@@ -1816,6 +5825,145 @@ https://github.com/AndroidArenaAgent/AndroidArena.
 
   - [10.3 Domain Surveys & Future Vision](#103-domain-surveys--future-vision)
 
+
+标题:       Dissecting the SWE-Bench Leaderboards: Profiling Submitters and
+  Architectures of LLM- and Agent-Based Repair Systems
+作者:       Matias Martinez, Xavier Franch
+发布时间:   2025-06-20
+链接:       http://arxiv.org/abs/2506.17208v1
+摘要:       The rapid progress in Automated Program Repair (APR) has been driven by
+advances in AI, particularly large language models (LLMs) and agent-based
+systems. SWE-Bench is a recent benchmark designed to evaluate LLM-based repair
+systems using real issues and pull requests mined from 12 popular open-source
+Python repositories. Its public leaderboards, SWE-Bench Lite and SWE-Bench
+Verified, have become central platforms for tracking progress and comparing
+solutions. However, because the submission process does not require detailed
+documentation, the architectural design and origin of many solutions remain
+unclear. In this paper, we present the first comprehensive study of all
+submissions to the SWE-Bench Lite (68 entries) and Verified (79 entries)
+leaderboards, analyzing 67 unique approaches across dimensions such as
+submitter type, product availability, LLM usage, and system architecture. Our
+findings reveal the dominance of proprietary LLMs (especially Claude 3.5/3.7),
+the presence of both agentic and non-agentic designs, and a contributor base
+spanning from individual developers to large tech companies.
+文中引用: martinez2025dissectingswebenchleaderboardsprofiling
+
+标题:       Understanding Software Engineering Agents Through the Lens of
+  Traceability: An Empirical Study
+作者:       Ira Ceka, Saurabh Pujar, Shyam Ramji, Luca Buratti, Gail Kaiser, Baishakhi Ray
+发布时间:   2025-06-10
+链接:       http://arxiv.org/abs/2506.08311v1
+摘要:       With the advent of large language models (LLMs), software engineering agents
+(SWE agents) have emerged as a powerful paradigm for automating a range of
+software tasks -- from code generation and repair to test case synthesis. These
+agents operate autonomously by interpreting user input and responding to
+environmental feedback. While various agent architectures have demonstrated
+strong empirical performance, the internal decision-making worfklows that drive
+their behavior remain poorly understood. Deeper insight into these workflows
+hold promise for improving both agent reliability and efficiency. In this work,
+we present the first systematic study of SWE agent behavior through the lens of
+execution traces. Our contributions are as follows: (1) we propose the first
+taxonomy of decision-making pathways across five representative agents; (2)
+using this taxonomy, we identify three core components essential to agent
+success -- bug localization, patch generation, and reproduction test generation
+-- and study each in depth; (3) we study the impact of test generation on
+successful patch production; and analyze strategies that can lead to successful
+test generation; (4) we further conduct the first large-scale code clone
+analysis comparing agent-generated and developer-written patches and provide a
+qualitative study revealing structural and stylistic differences in patch
+content. Together, these findings offer novel insights into agent design and
+open avenues for building agents that are both more effective and more aligned
+with human development practices.
+文中引用: ceka2025understandingsoftwareengineeringagents
+
+
+标题:       Vibe Coding vs. Agentic Coding: Fundamentals and Practical Implications
+  of Agentic AI
+作者:       Ranjan Sapkota, Konstantinos I. Roumeliotis, Manoj Karkee
+发布时间:   2025-05-26
+链接:       http://arxiv.org/abs/2505.19443v1
+摘要:       This review presents a comprehensive analysis of two emerging paradigms in
+AI-assisted software development: vibe coding and agentic coding. While both
+leverage large language models (LLMs), they differ fundamentally in autonomy,
+architectural design, and the role of the developer. Vibe coding emphasizes
+intuitive, human-in-the-loop interaction through prompt-based, conversational
+workflows that support ideation, experimentation, and creative exploration. In
+contrast, agentic coding enables autonomous software development through
+goal-driven agents capable of planning, executing, testing, and iterating tasks
+with minimal human intervention. We propose a detailed taxonomy spanning
+conceptual foundations, execution models, feedback loops, safety mechanisms,
+debugging strategies, and real-world tool ecosystems. Through comparative
+workflow analysis and 20 detailed use cases, we illustrate how vibe systems
+thrive in early-stage prototyping and education, while agentic systems excel in
+enterprise-grade automation, codebase refactoring, and CI/CD integration. We
+further examine emerging trends in hybrid architectures, where natural language
+interfaces are coupled with autonomous execution pipelines. Finally, we
+articulate a future roadmap for agentic AI, outlining the infrastructure needed
+for trustworthy, explainable, and collaborative systems. Our findings suggest
+that successful AI software engineering will rely not on choosing one paradigm,
+but on harmonizing their strengths within a unified, human-centered development
+lifecycle.
+文中引用: sapkota2025vibecodingvsagentic
+
+
+标题:       A Survey on the Safety and Security Threats of Computer-Using Agents:
+  JARVIS or Ultron?
+作者:       Ada Chen, Yongjiang Wu, Junyuan Zhang, Jingyu Xiao, Shu Yang, Jen-tse Huang, Kun Wang, Wenxuan Wang, Shuai Wang
+发布时间:   2025-05-16
+链接:       http://arxiv.org/abs/2505.10924v2
+摘要:       Recently, AI-driven interactions with computing devices have advanced from
+basic prototype tools to sophisticated, LLM-based systems that emulate
+human-like operations in graphical user interfaces. We are now witnessing the
+emergence of \emph{Computer-Using Agents} (CUAs), capable of autonomously
+performing tasks such as navigating desktop applications, web pages, and mobile
+apps. However, as these agents grow in capability, they also introduce novel
+safety and security risks. Vulnerabilities in LLM-driven reasoning, with the
+added complexity of integrating multiple software components and multimodal
+inputs, further complicate the security landscape. In this paper, we present a
+systematization of knowledge on the safety and security threats of CUAs. We
+conduct a comprehensive literature review and distill our findings along four
+research objectives: \textit{\textbf{(i)}} define the CUA that suits safety
+analysis; \textit{\textbf{(ii)} } categorize current safety threats among CUAs;
+\textit{\textbf{(iii)}} propose a comprehensive taxonomy of existing defensive
+strategies; \textit{\textbf{(iv)}} summarize prevailing benchmarks, datasets,
+and evaluation metrics used to assess the safety and performance of CUAs.
+Building on these insights, our work provides future researchers with a
+structured foundation for exploring unexplored vulnerabilities and offers
+practitioners actionable guidance in designing and deploying secure
+Computer-Using Agents.
+文中引用: chen2025surveysafetysecuritythreats
+
+
+标题:       Human-In-The-Loop Software Development Agents: Challenges and Future
+  Directions
+作者:       Jirat Pasuksmit, Wannita Takerngsaksiri, Patanamon Thongtanunam, Chakkrit Tantithamthavorn, Ruixiong Zhang, Shiyan Wang, Fan Jiang, Jing Li, Evan Cook, Kun Chen, Ming Wu
+发布时间:   2025-04-25
+链接:       http://arxiv.org/abs/2506.11009v1
+摘要:       Multi-agent LLM-driven systems for software development are rapidly gaining
+traction, offering new opportunities to enhance productivity. At Atlassian, we
+deployed Human-in-the-Loop Software Development Agents to resolve Jira work
+items and evaluated the generated code quality using functional correctness
+testing and GPT-based similarity scoring. This paper highlights two major
+challenges: the high computational costs of unit testing and the variability in
+LLM-based evaluations. We also propose future research directions to improve
+evaluation frameworks for Human-In-The-Loop software development tools.
+文中引用: pasuksmit2025humanintheloopsoftwaredevelopmentagents
+
+标题:       Agentic AI Software Engineers: Programming with Trust
+作者:       Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
+发布时间:   2025-02-19
+链接:       http://arxiv.org/abs/2502.13767v3
+摘要:       Large Language Models (LLMs) have shown surprising proficiency in generating
+code snippets, promising to automate large parts of software engineering via
+artificial intelligence (AI). We argue that successfully deploying AI software
+engineers requires a level of trust equal to or even greater than the trust
+established by human-driven software engineering practices. The recent trend
+toward LLM agents offers a path toward integrating the power of LLMs to create
+new code with the power of analysis tools to increase trust in the code. This
+opinion piece comments on whether LLM agents could dominate software
+engineering workflows in the future and whether the focus of programming will
+shift from programming at scale to programming with trust.
+文中引用: roychoudhury2025agenticaisoftwareengineers
 
 标题:       Agents in Software Engineering: Survey, Landscape, and Vision
 作者:       Yanlin Wang, Wanjun Zhong, Yanxian Huang, Ensheng Shi, Min Yang, Jiachi Chen, Hui Li, Yuchi Ma, Qianxiang Wang, Zibin Zheng
