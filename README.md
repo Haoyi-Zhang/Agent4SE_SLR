@@ -1,3 +1,40 @@
+#Intelligent Agents for Software Engineering: A Systematic Literature Review
+
+## 1. Introduction
+
+## 2. Research Approach
+### 2.1 Search Strategy
+### 2.2 Study Selection Process
+### 2.3 Data Extraction and Synthesis
+### 2.4 Research Questions
+
+## 3. Classification Framework
+### 3.1 Overview of Categories
+### 3.2 Literature Classification Statistics
+
+## 4. RQ1: What are Intelligent Agents? In what software engineering tasks are they currently used?
+
+## 5. RQ2: Which Intelligent Agents–based technologies are used in each task category?
+
+## 6. RQ3: What are the main challenges and future research directions in applying Intelligent Agents to SE?
+
+## 7. Discussion
+### 7.1 Cross-Cutting Themes
+### 7.2 Practical Implications for Practitioners
+### 7.3 Limitations of Existing Studies
+
+## 8. Threats to Validity
+
+## 9. Conclusion
+
+
+
+
+
+
+
+
+
 ## Table of Contents
 
 - [Software Development Lifecycle Management](#software-development-lifecycle-management)  
