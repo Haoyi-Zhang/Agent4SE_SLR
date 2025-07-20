@@ -10,7 +10,7 @@
 
 ## 3. Classification Framework
 ### 3.1 Overview of Categories
-### 3.2 Literature Classification Statistics
+### 3.2 Literature Classification Analysis
 
 ## 4. RQ1: What are Intelligent Agents, and which of these agents are currently applied to specific tasks in software engineering?
 
