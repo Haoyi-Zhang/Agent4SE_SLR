@@ -24,22 +24,7 @@ We address three core questions:
 
 ---
 
-## 🗂 Classification Framework
-
-Our taxonomy covers **10 major SE activity families**, including:  
-- SDLC Management  
-- Multi-Agent Collaboration  
-- Code Analysis & Quality Assurance  
-- Automated Testing  
-- Domain-Specific Applications  
-- Human–AI Interaction  
-- Legacy Modernization  
-
-(Figures and detailed classification results will be released upon publication.)
-
-
-
-## Table of Contents
+## 🗂Table of Contents
 
 - [Software Development Lifecycle Management](#software-development-lifecycle-management)  
   - [Requirements Engineering and Analysis](#requirements-engineering-and-analysis)  
