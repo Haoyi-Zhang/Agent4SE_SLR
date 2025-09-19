@@ -1,4 +1,4 @@
-# Agent4SE: Systematic Literature Review on Intelligent Agents for Software Engineering
+# Intelligent Agents for Software Engineering: A Systematic Literature Review
 
 ## 📖 Overview
 
@@ -26,6 +26,7 @@ We address three research questions:
 3. **RQ3: What are the primary barriers to Intelligent Agent adoption in software engineering, and what opportunities exist for future development and research?**  
    This forward-looking research question systematically analyzes current limitations, deployment challenges, and evolutionary opportunities that will shape the future development of Intelligent Agents in software engineering. The investigation encompasses systematic analysis of current barriers, emerging opportunities, evaluation challenges, and future research directions, providing strategic insights for both researchers and practitioners.
 
+---
 
 ## 🗂Table of Contents
 
@@ -90,6 +91,7 @@ We address three research questions:
   - [System Migration and Transformation](#system-migration-and-transformation)  
   - [Knowledge Extraction and Preservation](#knowledge-extraction-and-preservation)  
 
+---
 
 ## Software Development Lifecycle Management
 ### Requirements Engineering and Analysis
