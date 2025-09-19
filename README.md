@@ -1,31 +1,57 @@
-#Intelligent Agents for Software Engineering: A Systematic Literature Review
+# Agent4SE: Systematic Literature Review on Intelligent Agents for Software Engineering
 
-## 1. Introduction
+[![Paper Status](https://img.shields.io/badge/Paper-Submitted-orange)]()  
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## 2. Research Approach
-### 2.1 Search Strategy
-### 2.2 Study Selection Process
-### 2.3 Data Extraction and Synthesis
-### 2.4 Research Questions
+This repository contains the research artifacts for our paper:  
+**“Intelligent Agents for Software Engineering: A Systematic Literature Review” (submitted to ACM TOSEM, 2025).**
 
-## 3. Classification Framework
-### 3.1 Overview of Categories
-### 3.2 Literature Classification Analysis
+---
 
-## 4. RQ1: What are Intelligent Agents, and which of these agents are currently applied to specific tasks in software engineering?
+## 📖 Overview
 
-## 5. RQ2: Which Intelligent Agents–based technologies are used in each task category?
+With the rapid progress of large language models (LLMs), **Intelligent Agents** have emerged as powerful enablers of software engineering (SE) tasks. Yet, definitions, architectures, and evaluation practices remain fragmented.
 
-## 6. RQ3: What are the main challenges and future research directions in applying Intelligent Agents to SE?
+To address this, we conducted a **Systematic Literature Review (SLR)** of **215 peer-reviewed studies** published between April 2023 and July 2025.  
 
-## 7. Discussion
-### 7.1 Cross-Cutting Themes
-### 7.2 Practical Implications for Practitioners
-### 7.3 Limitations of Existing Studies
+Our study contributes:  
+- A **classification framework** mapping agent typologies and task-specific deployments across the software development lifecycle (SDLC).  
+- A synthesis of **technological pillars**: orchestration, retrieval-augmented grounding, transparent planning, and tool integration.  
+- A **consolidated evidence base** on benefits and limitations.  
+- A **research agenda** for robust and accountable adoption of agents in SE.  
 
-## 8. Threats to Validity
+---
 
-## 9. Conclusion
+## 🔍 Research Questions
+
+We address three core questions:  
+
+1. **Concept & Scope** – How are Intelligent Agents conceptualized in SE, and where are they applied?  
+2. **Technologies & Patterns** – What architectures, coordination strategies, and tool integrations underpin them?  
+3. **Challenges & Directions** – What barriers limit effectiveness, scalability, and trustworthiness, and what agenda can address them?  
+
+---
+
+## 🗂 Classification Framework
+
+Our taxonomy covers **10 major SE activity families**, including:  
+- SDLC Management  
+- Multi-Agent Collaboration  
+- Code Analysis & Quality Assurance  
+- Automated Testing  
+- Domain-Specific Applications  
+- Human–AI Interaction  
+- Legacy Modernization  
+
+(Figures and detailed classification results will be released upon publication.)
+
+---
+
+## 📊 Key Findings
+
+- **Universal building blocks**: orchestration engines, retrieval-augmented grounding, transparent planners (CoT/ToT), tool integration.  
+- **Observed benefits**: productivity improvements and advances in QA automation.  
+- **Persistent gaps**: evaluation fidelity, scalability, safety, governance, and integration challenges.  
 
 
 
