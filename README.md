@@ -2,27 +2,30 @@
 
 ## 📖 Overview
 
-With the rapid progress of large language models (LLMs), **Intelligent Agents** have emerged as powerful enablers of software engineering (SE) tasks. Yet, definitions, architectures, and evaluation practices remain fragmented.
+Intelligent Agents have rapidly moved from concept to practice in software engineering (SE), catalyzed by advances in large language models (LLMs), multi-agent coordination, and tool-augmented automation. Beyond single-turn assistance, contemporary agents can perceive heterogeneous SE artifacts, reason over long horizons, act on development environments, and refine their behavior from feedback. This paradigm promises end-to-end support across the software development lifecycle (SDLC)—from requirements and design to coding, testing, deployment, and evolution—while also raising urgent questions of definition, architecture, evaluation fidelity, safety, and integration at scale.
 
-To address this, we conducted a **Systematic Literature Review (SLR)** of **215 peer-reviewed studies** published between April 2023 and July 2025.  
+Despite the intense activity, the landscape remains fragmented along three dimensions:  
+- **Conceptually**, the notion of “agent” spans from chat-style copilots to autonomous, tool-operating systems, with implicit or inconsistent boundaries.  
+- **Technically**, implementations reuse similar building blocks (planning/orchestration, knowledge grounding, deep tool integration), yet descriptions and interfaces remain heterogeneous, hindering replication and transfer.  
+- **Empirically**, reported results are short-horizon and task-specific, with limited attention to multi-agent coordination, repository-scale validation, human–AI interaction quality, and transparent cost/latency reporting.  
 
-Our study contributes:  
-- A **classification framework** mapping agent typologies and task-specific deployments across the software development lifecycle (SDLC).  
-- A synthesis of **technological pillars**: orchestration, retrieval-augmented grounding, transparent planning, and tool integration.  
-- A **consolidated evidence base** on benefits and limitations.  
-- A **research agenda** for robust and accountable adoption of agents in SE.  
+To address these gaps, we conducted a **Systematic Literature Review (SLR)** of **215 peer-reviewed studies** published between April 2023 and July 2025. Our SLR introduces a comprehensive classification framework, synthesizes conceptual and technological landscapes, and develops a challenges-to-directions roadmap for advancing Intelligent Agents in SE.
 
 ---
 
 ## 🔍 Research Questions
 
-We address three core questions:  
+We address three research questions:
 
-1. **Concept & Scope** – How are Intelligent Agents conceptualized in SE, and where are they applied?  
-2. **Technologies & Patterns** – What architectures, coordination strategies, and tool integrations underpin them?  
-3. **Challenges & Directions** – What barriers limit effectiveness, scalability, and trustworthiness, and what agenda can address them?  
+1. **RQ1: How are Intelligent Agents conceptualized and what is the scope of their current applications in software engineering contexts?**  
+   This foundational research question systematically addresses the conceptual landscape of Intelligent Agents within software engineering domains, examining both theoretical frameworks and practical implementation patterns. The investigation encompasses systematic analysis of definitional approaches, taxonomic classifications, and architectural paradigms employed across the literature, including agent taxonomy development, application domain mapping across software engineering lifecycle phases, and capability boundary analysis examining human–AI collaboration patterns.
 
----
+2. **RQ2: What technological architectures and implementation approaches enable Intelligent Agent deployment in software engineering applications?**  
+   This technically focused research question systematically examines the technological substrates, architectural patterns, and implementation methodologies that enable Intelligent Agent capabilities in software engineering contexts. The investigation encompasses comprehensive analysis of AI/ML foundations, system architectural approaches, learning mechanisms, and development tool ecosystems, including foundation technologies, system architecture patterns, learning mechanism analysis, and development tool examination.
+
+3. **RQ3: What are the primary barriers to Intelligent Agent adoption in software engineering, and what opportunities exist for future development and research?**  
+   This forward-looking research question systematically analyzes current limitations, deployment challenges, and evolutionary opportunities that will shape the future development of Intelligent Agents in software engineering. The investigation encompasses systematic analysis of current barriers, emerging opportunities, evaluation challenges, and future research directions, providing strategic insights for both researchers and practitioners.
+
 
 ## 🗂Table of Contents
 
