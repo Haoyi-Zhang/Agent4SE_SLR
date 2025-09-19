@@ -1,13 +1,5 @@
 # Agent4SE: Systematic Literature Review on Intelligent Agents for Software Engineering
 
-[![Paper Status](https://img.shields.io/badge/Paper-Submitted-orange)]()  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-This repository contains the research artifacts for our paper:  
-**“Intelligent Agents for Software Engineering: A Systematic Literature Review” (submitted to ACM TOSEM, 2025).**
-
----
-
 ## 📖 Overview
 
 With the rapid progress of large language models (LLMs), **Intelligent Agents** have emerged as powerful enablers of software engineering (SE) tasks. Yet, definitions, architectures, and evaluation practices remain fragmented.
@@ -44,20 +36,6 @@ Our taxonomy covers **10 major SE activity families**, including:
 - Legacy Modernization  
 
 (Figures and detailed classification results will be released upon publication.)
-
----
-
-## 📊 Key Findings
-
-- **Universal building blocks**: orchestration engines, retrieval-augmented grounding, transparent planners (CoT/ToT), tool integration.  
-- **Observed benefits**: productivity improvements and advances in QA automation.  
-- **Persistent gaps**: evaluation fidelity, scalability, safety, governance, and integration challenges.  
-
-
-
-
-
-
 
 
 
